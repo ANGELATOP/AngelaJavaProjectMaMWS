@@ -1,0 +1,86 @@
+{
+  "ContextInformation": {
+    "Messages": null,
+    "Organization": "LUF",
+    "UserId": "system-msg-user@LUF",
+    "UserLocale": "UTC",
+    "Location": "LUF"
+  },
+  "CurrentPage": 1,
+  "ExportDocuments": [
+
+
+    {
+      "Messages": null,
+      "PIXSpecification": "ITEM_Level",
+      "Description": "Item Level Variance",
+      "SourceTransactionType": "Receiving",
+      "SourceEventName": "Verify_ASN",
+      "ItemDefinition": {
+        "Company": "LUF",
+        "Season": "",
+        "SeasonYear": "",
+        "Style": "",
+        "StyleSuffix": "",
+        "Color": "",
+        "ColorSuffix": "",
+        "SecondDimension": "",
+        "SizeCode": "",
+        "SizeDescription": "10.58",
+        "ItemId": "794586",
+        "Description": "LFF COBBLER MIX"
+      },
+      "SubItemFields": {
+        "CountryOfOrigin": "",
+        "InventoryTypeId": "",
+        "ProductStatusId": "",
+        "ItemBatchNumberId": "",
+        "InventoryAttribute1": "",
+        "InventoryAttribute2": "",
+        "InventoryAttribute3": "",
+        "InventoryAttribute4": "",
+        "InventoryAttribute5": "",
+        "ExpirationDate": "",
+        "ManufactureDate": ""
+      },
+      "PIXFields": {
+        "BusinessUnitId": "",
+        "ExternalOrganizationId": "",
+        "RrnId": "",
+        "AsnLevelId": "ITEM",
+        "CreatedBy": "lynch_c",
+        "OriginalOrderId": "",
+        "OriginalOrderLineId": "",
+        "AsnSequenceNumber": "000003",
+        "AsnLineId": "000003",
+        "PurchaseOrderId": "",
+        "AlternatePurchaseOrderId": "",
+        "PurchaseOrderLineId": "",
+        "AsnId": "320105",
+        "AlternateAsnId": "",
+        "AsnStatus": "8000",
+        "AsnOriginTypeId": "P",
+        "ReceiptVariance": "Y",
+        "ReceiptsCompleted": "Y",
+        "iLPNsShipped": "1",
+        "iLPNsReceived": "1",
+        "UnitsShipped": "84.0",
+        "UnitsReceived": "56.0",
+        "CreatedTimestamp": "2025-10-27T21:17:06.006",
+        "UpdatedTimestamp": "2025-10-27T21:20:00.507",
+        "UpdatedBy": "system-msg-user@LUF",
+        "TransactionDateTime": "2025-10-27T21:17:05.892"
+      },
+      "TransactionNumber": "7615998259277841078444",
+      "SequenceNumber": 2,
+      "TransactionDateTime": "2025-10-27T21:17:05.892",
+      "Organization": "LUF",
+      "Facility": "LUF"
+    }
+
+  
+  
+    ],
+  "UniqueJobId": "aa213f05-2480-4378-9379-91ec0f2dc70e",
+  "TotalPages": 1
+}

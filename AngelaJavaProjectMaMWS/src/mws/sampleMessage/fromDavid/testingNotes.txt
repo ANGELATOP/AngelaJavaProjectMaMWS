@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------
+-- Build sample manhattan message.
+--------------------------------------------------------------------------
+
+Build a sample manhattan message by doing the following.
+
+sampleManhattanMsg.json
+--contains the CommonManhattanHldrInfo.json
+--copied the "Ship confirm pix 20251031 fromDavid.json"
+
+
+--------------------------------------------------------------------------
+-- Build sample google message ===> sampleGoogleMessage.json
+--------------------------------------------------------------------------
+
+Build a sample google message by doing the following.
+
+--Using a sample google message that I was able to pull from google pub sub topic.
+  sampleGoogleMessagePulled.json 
+  
+--I decoded the "sampleManhattanMsg.json" above using this website.
+  https://www.asciitohex.com/#google_vignette
+  
+--Copied the results in the "sampleGoogleMessage.json" to use for testing the common subflow.    
+

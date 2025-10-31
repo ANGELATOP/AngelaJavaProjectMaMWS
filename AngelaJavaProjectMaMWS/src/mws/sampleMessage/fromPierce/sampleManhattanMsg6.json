@@ -1,0 +1,52 @@
+{
+  "ContextInformation": {
+    "Messages": null,
+    "Organization": "LUF",
+    "UserId": "system-msg-user@LUF",
+    "UserLocale": "UTC",
+    "Location": "LUF"
+  },
+  "CurrentPage": 1,
+  "ExportDocuments": [
+
+
+    {
+      "Messages": null,
+      "PIXSpecification": "ASN_Level",
+      "Description": "ASN Level Variance",
+      "SourceTransactionType": "Receiving",
+      "SourceEventName": "Verify_ASN",
+      "PIXFields": {
+        "BusinessUnitId": "",
+        "ExternalOrganizationId": "",
+        "RrnId": "",
+        "AsnLevelId": "ITEM",
+        "CreatedBy": "lynch_c",
+        "AsnId": "320105",
+        "AlternateAsnId": "",
+        "AsnStatus": "8000",
+        "AsnOriginTypeId": "P",
+        "ReceiptVariance": "Y",
+        "ReceiptsCompleted": "Y",
+        "iLPNsShipped": "0",
+        "iLPNsReceived": "3",
+        "UnitsShipped": "212.0000",
+        "UnitsReceived": "134.0000",
+        "CreatedTimestamp": "2025-10-27T21:17:06.016",
+        "UpdatedTimestamp": "2025-10-27T21:20:00.507",
+        "UpdatedBy": "system-msg-user@LUF",
+        "TransactionDateTime": "2025-10-27T21:17:05.892"
+      },
+      "TransactionNumber": "7615998259277841078666",
+      "SequenceNumber": 3,
+      "TransactionDateTime": "2025-10-27T21:17:05.892",
+      "Organization": "LUF",
+      "Facility": "LUF"
+    }
+
+  
+  
+    ],
+  "UniqueJobId": "aa213f05-2480-4378-9379-91ec0f2dc70e",
+  "TotalPages": 1
+}

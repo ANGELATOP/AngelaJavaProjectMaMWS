@@ -1,0 +1,12 @@
+sampleVerifyASN_googleMsg.json
+- There are 4 base64 encoded manhattan messages in this file
+- Each of the manhattan messages have 4 message occurrences.
+- Total of 24 messages would be dropped on the final queue.
+
+
+
+sampleVerifyASNmsg1.json
+sampleVerifyASNmsg2.json
+sampleVerifyASNmsg3.json
+sampleVerifyASNms41.json
+- These are the decoded version of the Manhattan messages.
