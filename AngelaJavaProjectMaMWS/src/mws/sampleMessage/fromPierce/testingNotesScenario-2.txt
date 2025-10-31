@@ -1,0 +1,29 @@
+
+--------------------------------------------------------------------------
+-- Build sample manhattan message.
+--------------------------------------------------------------------------
+
+I build a sample manhattan message by doing the following.
+
+sampleManhattanMsg.json
+--contains the CommonManhattanHldrInfo.json
+--copied one of the 4 messages from "ASNverify_sampleManhattanMsg20251028fromPierece.json".
+
+--------------------------------------------------------------------------
+-- Build sample google message ===> sampleGoogleMessageScenario2.json
+-- (scenario 2: 6 google messages within single manhattan message)
+--------------------------------------------------------------------------
+
+Build a sample google message by doing the following.
+
+--Using a sample google message that I was able to pull from google pub sub topic.
+  sampleGoogleMessagePulled.json 
+  
+--I base64 decoded the following manhattan messages using this website.
+  https://www.asciitohex.com/#google_vignette
+  
+  ManhattanMessageWith6occur.json (copied from ASNverify_sampleManhattanMsg20251028fromPierece.json)
+  I modified the attribute "TransactionNumber" so it'll be unique values and not error in the common flow.
+  
+--I modified google message attribute "MSG_ID_PK" so it'll be unique and not error in the common flow. 
+  
