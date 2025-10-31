@@ -11,6 +11,7 @@ sampleManhattanMsg.json
 
 --------------------------------------------------------------------------
 -- Build sample google message ===> sampleGoogleMessage.json
+-- (scenario 1: 1 google message with a single manhattan message)
 --------------------------------------------------------------------------
 
 Build a sample google message by doing the following.
