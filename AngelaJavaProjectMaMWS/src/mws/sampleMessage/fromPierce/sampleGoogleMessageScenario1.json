@@ -24,7 +24,7 @@
           "OUTBOUND_MSG_TYPE": "XNT_HST_InventoryAdjustment",
           "msg_submission_time_utc": "2025-10-10T12:38:47.129Z",
           "Organization": "AWG",
-          "MSG_ID_PK": "111111",
+          "MSG_ID_PK": "1111111111",
           "msg_submission_time": "2025-10-10T12:38:47.128",
           "User": "rpanneerselvam@manh.com",
           "direction": "Outbound",
@@ -56,7 +56,7 @@
           "OUTBOUND_MSG_TYPE": "XNT_HST_InventoryAdjustment",
           "Organization": "AWG",
           "User": "rpanneerselvam@manh.com",
-          "MSG_ID_PK": "2222",
+          "MSG_ID_PK": "2222222222",
           "TRANSACTIONAL": "true",
           "msg_submission_time": "2025-10-10T12:45:23.141",
           "AllBusinessUnitsAccessible": "false",
@@ -81,7 +81,7 @@
           "fromInboundServiceId": "PayloadMsgProcessor",
           "APP_ID_TRACE": "com-manh-cp-xint-all-com-manh-cp-xint-5975b4c79c-lrh4q",
           "QueueName": "XNT_HST_InventoryAdjustment_GCPQ",
-          "MSG_ID_PK": "3333",
+          "MSG_ID_PK": "3333333333",
           "TRANSACTIONAL": "true",
           "UserLocale": "en",
           "BROKER_TYPE": "googlepubsub",
@@ -134,7 +134,7 @@
           "UserLocale": "en",
           "OUTBOUND_MSG_TYPE": "XNT_HST_InventoryAdjustment",
           "AllBusinessUnitsAccessible": "false",
-          "MSG_ID_PK": "5555"
+          "MSG_ID_PK": "5555555555"
         },
         "messageId": "16546035508369735",
         "publishTime": "2025-10-10T12:40:41.444Z"
@@ -169,7 +169,7 @@
           "UserLocale": "en",
           "OUTBOUND_MSG_TYPE": "XNT_HST_InventoryAdjustment",
           "AllBusinessUnitsAccessible": "false",
-          "MSG_ID_PK": "6666"
+          "MSG_ID_PK": "6666666666"
         },
         "messageId": "16546035508369735",
         "publishTime": "2025-10-10T12:40:41.444Z"

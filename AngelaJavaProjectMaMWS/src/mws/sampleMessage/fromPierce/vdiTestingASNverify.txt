@@ -1,0 +1,41 @@
+**********************************************************************************
+** Test Common SubFlows
+**********************************************************************************
+MaWMS_CommonLIB_tester
+- Call api to put message on queue "ATOPPIN.TEMP.WMS.SAMPLE.MSG".
+  PutMsgOnQueue.msgflow
+  
+  Use SoapUI to put sample message onto the queue.
+  "sampleGoogleMessageScenario1.json"
+  
+
+- PullAckMsgTrigger.msgflow
+  Set Parameters for subflow.
+  awgTempQueue:      ATOPPIN.TEMP.WMS.TEMP.INVADJUST
+  googleTopic:       XNT_HST_InventoryAdjustment_GCPQ
+  maxMessagesToPull: 50
+  
+  Put empty message on queue to trigger common subflow.
+  ATOPPIN.TEMP.WMS.TRIGGER  
+  
+   
+- SplitMessage.msgflow
+  input queue:      ATOPPIN.TEMP.WMS.TEMP.INVADJUST
+  Set Parameters for subflow.
+  awgQueue: ATOPPIN.TEMP.WMS.FINAL.INVADJUST 
+  
+**********************************************************************************
+** You can use any of the sample messages to test your ASN translation process. 
+**********************************************************************************
+  
+  sampleManhattanMsg1.json
+  sampleManhattanMsg2.json
+  sampleManhattanMsg3.json
+  sampleManhattanMsg4.json
+  sampleManhattanMsg5.json
+  sampleManhattanMsg6.json
+
+  /test/SampleAsnQueueMsg
+  input queue:  ATOPPIN.TEMP.WMS.ASN.INPUT
+  output queue: ATOPPIN.TEMP.WMS.ASN.OUTPUT
+      
