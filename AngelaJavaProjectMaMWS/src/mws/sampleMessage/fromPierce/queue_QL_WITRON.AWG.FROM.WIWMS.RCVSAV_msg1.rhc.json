@@ -1,0 +1,26 @@
+{
+	"header": {
+		"messageId": "202509140451520000000068484090",
+		"messageTimestamp": "20250914045152",
+		"FCLTY_CD": "14"
+	},
+	"RHC": {
+		"Owner": "AWG",
+		"PoIdent": "140116693",
+		"DeliveryDate": "20250911072023",
+		"RLC": [
+			{
+				"Owner": "AWG",
+				"PoIdent": "140116693",
+				"PoLineIdent": "001",
+				"ProdIdent": "0401500",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 17,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			}
+		]
+	}
+}

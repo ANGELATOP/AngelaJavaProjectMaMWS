@@ -1,0 +1,24 @@
+{
+	"header": {
+		"messageId": "Not Used",
+		"messageTimestamp": "Not Used",
+		"FCLTY_CD": "14"
+	},
+	"RHC": {
+		"PoIdent": "140116693",
+		"RLC": [
+			{
+				"Owner": "AWG",
+				"PoIdent": "140116693",
+				"PoLineIdent": "001",
+				"ProdIdent": "0401500",
+				"UM": "TBD-which MaWMS field ?",
+				"Orderkey": "Not Used",
+				"QtyHost": "56",
+				"Qstate": "Not Used",
+				"BatchNo": "Not Used",
+				"zzTotalCatchWeight": "0"
+			}
+		]
+	}
+}

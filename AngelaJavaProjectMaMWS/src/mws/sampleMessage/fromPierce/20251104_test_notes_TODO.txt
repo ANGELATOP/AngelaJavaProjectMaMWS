@@ -1,0 +1,16 @@
+
+Scenario: multiple items for a PO
+          Read the PO views to get all items.
+          Replace qty for any items that match the Manhattan variance line items.
+
+Input Manhattan Message
+I dummied up the values to match real POs in AWG.
+"20251103_testInputMaWMSmsg.json"
+
+Output Message
+"20251103_testOutputRhcRclMsg_goodTestResults.json"
+
+Final Output Message (Inventory Adjustment Message)
+"20251103_testOutputZfinalMsg_goodTestResults.xml"
+
+

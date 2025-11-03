@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------------------------
+-- Generate input schema for Manhattan message.
+------------------------------------------------------------------------------------------------------------
+
+Use this online tool to generate a json schema using a json data file.
+https://nextjson.com/json-schema-generator
+
+
+Use this json file to generate the json schema for ACE mapping node.
+I removed the attributes that had anything related to "CondtionCodes". 
+Just didn't need all that in the schema and not need it.
+"ASNverify_sampleManhattanMsg20251028fromPierece-UseThisOne.json"
+
+
+This is the generated json schema used for the ACE Application "MaWMS_INB_PIX_ASN_VerifyFromMAWN.
+"PIX_ASN_verify.schema.json"
+
+------------------------------------------------------------------------------------------------------------
+-- Generate input schema for existing AWG message.
+------------------------------------------------------------------------------------------------------------
+Example of AWG json message.
+"queue_QL_WITRON.AWG.FROM.WIWMS.RCVSAV_msg1.rhc.json"
+"queue_QL_WITRON.AWG.FROM.WIWMS.RCVSAV_msg2.json"       This example has multiple items.
+
+This is the generated json schema used for the ACE Application "MaWMS_INB_PIX_ASN_VerifyFromMAWN.
+"RHC_RLC_message.schema.json"
+
+------------------------------------------------------------------------------------------------------------
+-- New ACE application
+------------------------------------------------------------------------------------------------------------
+   Mapping logic to map from Manhattan message to the existing AWG message.
+   Iterate through the POL view to get all the PO lines.
+   
+   Iterate through the Manhattan message to see if there are any variance for any of the PO lines.
+   Use the manahattan qty if one exist, otherwise, use the AWG PO line qty.
+   
+------------------------------------------------------------------------------------------------------------
+-- Ouptut will be the input to an existing esql code.  No need to re-invent the wheel.
+------------------------------------------------------------------------------------------------------------
+   Copied from another flow to the new ACE application.
+   "AIO_RHC_RLC_FromWiWMS.esql"
+   
+   
+   
+   
+   

@@ -1,0 +1,14 @@
+
+Use this online tool to generate a json schema using a json data file.
+https://nextjson.com/json-schema-generator
+
+
+Use this json file to generate the json schema for ACE mapping node.
+I removed the attributes that had anything related to "CondtionCodes". 
+Just didn't need all that in the schema and not need it.
+"ASNverify_sampleManhattanMsg20251028fromPierece-UseThisOne.json"
+
+
+This is the generated json schema used for the ACE Application "MaWMS_INB_PIX_ASN_VerifyFromMAWN.
+"PIX_ASN_verify.schema.json"
+
