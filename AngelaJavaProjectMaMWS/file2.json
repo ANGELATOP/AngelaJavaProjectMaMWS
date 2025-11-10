@@ -1,0 +1,21 @@
+{
+	"header": {
+		"FCLTY_CD": "14-test"
+	},
+	"RHC": {
+		"Owner": "AWG",
+		"PoIdent": "140116693",
+		"DeliveryDate": "20250911072023",
+		"RLC": [
+			{
+				"Owner": "AWG  ",
+				"PoIdent": "140116693",
+				"PoLineIdent": "001",
+				"ProdIdent": "0401500",
+				"UM": "TBD",
+				"QtyHost": "17",
+				"zzTotalCatchWeight": "0"
+			}
+		]
+	}
+}

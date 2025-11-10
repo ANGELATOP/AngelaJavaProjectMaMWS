@@ -209,100 +209,6 @@
               "IlpnId": {
                 "type": "string"
               },
-              "ConditionCodes": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "ConditionCodes": {
-                      "type": "string"
-                    }
-                  },
-                  "required": [
-                    "ConditionCodes"
-                  ]
-                }
-              },
-              "ConditionCodeList": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "Actions": {
-                      "type": "object",
-                      "properties": {},
-                      "required": []
-                    },
-                    "PK": {
-                      "type": "object"
-                    },
-                    "CreatedBy": {
-                      "type": "string"
-                    },
-                    "CreatedTimestamp": {
-                      "type": "string"
-                    },
-                    "UpdatedBy": {
-                      "type": "string"
-                    },
-                    "UpdatedTimestamp": {
-                      "type": "string"
-                    },
-                    "Messages": {
-                      "type": "object"
-                    },
-                    "ConditionCodeId": {
-                      "type": "string"
-                    },
-                    "Description": {
-                      "type": "string"
-                    },
-                    "InventoryUnavailable": {
-                      "type": "boolean"
-                    },
-                    "HostPriority": {
-                      "type": "object"
-                    },
-                    "RemoveOnPutaway": {
-                      "type": "boolean"
-                    },
-                    "RemoveOnCount": {
-                      "type": "boolean"
-                    },
-                    "LocalizedData": {
-                      "type": "array",
-                      "items": {}
-                    },
-                    "LocalizedDataKVStore": {
-                      "type": "array",
-                      "items": {}
-                    },
-                    "Extended": {
-                      "type": "object",
-                      "properties": {},
-                      "required": []
-                    }
-                  },
-                  "required": [
-                    "Actions",
-                    "PK",
-                    "CreatedBy",
-                    "CreatedTimestamp",
-                    "UpdatedBy",
-                    "UpdatedTimestamp",
-                    "Messages",
-                    "ConditionCodeId",
-                    "Description",
-                    "InventoryUnavailable",
-                    "HostPriority",
-                    "RemoveOnPutaway",
-                    "RemoveOnCount",
-                    "LocalizedData",
-                    "LocalizedDataKVStore",
-                    "Extended"
-                  ]
-                }
-              },
               "ReceiptVariance": {
                 "type": "string"
               },
@@ -351,8 +257,6 @@
               "AsnStatus",
               "AsnOriginTypeId",
               "IlpnId",
-              "ConditionCodes",
-              "ConditionCodeList",
               "ReceiptVariance",
               "ReceiptsCompleted",
               "iLPNsShipped",
@@ -363,25 +267,6 @@
               "UpdatedTimestamp",
               "UpdatedBy",
               "TransactionDateTime"
-            ]
-          },
-          "InventoryAttributes": {
-            "type": "object",
-            "properties": {
-              "AttributeName": {
-                "type": "string"
-              },
-              "AttributeValue": {
-                "type": "string"
-              },
-              "AttributeUom": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "AttributeName",
-              "AttributeValue",
-              "AttributeUom"
             ]
           },
           "TransactionNumber": {
@@ -409,7 +294,6 @@
           "ItemDefinition",
           "SubItemFields",
           "PIXFields",
-          "InventoryAttributes",
           "TransactionNumber",
           "SequenceNumber",
           "TransactionDateTime",
