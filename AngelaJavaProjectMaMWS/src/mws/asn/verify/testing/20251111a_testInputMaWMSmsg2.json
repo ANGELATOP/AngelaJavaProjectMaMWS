@@ -1,0 +1,80 @@
+{
+	"ContextInformation": {
+		"Location": "LUF"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"PIXSpecification": "ITEM_Level",
+			"ItemDefinition": {
+				"ItemId": "0526475",
+				"Description": "LA GUMBO ORIGINAL MIX"
+			},
+			"PIXFields": {
+				"AsnSequenceNumber": "003",
+				"AsnId": "14055954820251104",
+				"UnitsReceived": "50.0",
+				"TransactionDateTime": "2025-10-27T21:17:05.892"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "588718",
+					"AttributeUom": "LB"
+				}
+			],			
+			"Facility": "LUF"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"ItemDefinition": {
+				"ItemId": "0526673",
+				"Description": "LA GUMBO ORIGINAL MIX"
+			},
+			"PIXFields": {
+				"AsnSequenceNumber": "007",
+				"AsnId": "14055954820251104",
+				"UnitsReceived": "35.0",
+				"TransactionDateTime": "2025-10-27T21:17:05.892"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "123456",
+					"AttributeUom": "LB"
+				}
+			],			
+			"Facility": "LUF"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"ItemDefinition": {
+				"ItemId": "0710549",
+				"Description": "LA GUMBO ORIGINAL MIX"
+			},
+			"PIXFields": {
+				"AsnSequenceNumber": "013",
+				"AsnId": "14055954820251104",
+				"UnitsReceived": "20.0",
+				"TransactionDateTime": "2025-10-27T21:17:05.892"
+			},
+			"Facility": "LUF"
+		},
+		{
+			"PIXSpecification": "ASN_Level",
+			"PIXFields": {
+				"AsnId": "320105",
+				"UnitsShipped": "212.0000",
+				"UnitsReceived": "134.0000",
+				"TransactionDateTime": "2025-10-27T21:17:05.892"
+			},
+			"TransactionNumber": "76159982592778410787",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2025-10-27T21:17:05.892",
+			"Organization": "LUF",
+			"Facility": "LUF"
+		}
+	],
+	"UniqueJobId": "aa213f05-2480-4378-9379-91ec0f2dc70e",
+	"TotalPages": 1
+}
