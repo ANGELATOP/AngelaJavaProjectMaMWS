@@ -14,7 +14,6 @@ Step 3: Output Message in RHC RLC format (input to ESQL to create inventory mess
 Step 4: Final Output Message (Inventory Adjustment Message)
         "20251111a_testResultsInventoryMsg.xml"
 
-See test results at "E:\Employer - AWG - 2025\Projects\WMS Project\ASN verify test results\
-                     2025-11-11 ASN Verify Test Results-SUCCESSFUL.xlsx"
+See test results at "20251111a ASN Verify Test Results-SUCCESSFUL.xlsx"
 
                      
