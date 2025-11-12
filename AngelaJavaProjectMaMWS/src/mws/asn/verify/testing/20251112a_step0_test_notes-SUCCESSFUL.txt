@@ -1,0 +1,22 @@
+
+Scenario: 7 items for PO 
+          Manhattan message will have 3 items.  
+          - 2 no qty and catch weight
+          - 1 no qty and no catch weight
+
+Step 1: Input Manhattan Message
+        "20251111a_testInputMaWMSmsg.json"
+
+Step 2: Output Message (from the db2dba.SCPV_POL view)
+        There are 7 items for this PO.
+        "20251111a_testOutputRhcRclMsgFromAWG.json"
+
+Step 3: Output Message in RHC RLC format (input to ESQL to create inventory message)
+        "20251111a_testInputRhcRlcMsgInputToInventoryEsql.json"
+
+Step 4: Final Output Message (Inventory Adjustment Message)
+        "20251111a_testResultsInventoryMsg.xml"
+
+See test results at "20251111a ASN Verify Test Results-SUCCESSFUL.xlsx"
+
+                     
