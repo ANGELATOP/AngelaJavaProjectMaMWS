@@ -1,5 +1,12 @@
 
-Scenario: 7 items for PO
+Scenario: 7 items for PO 
+          Manhattan message will have 3 items.  
+          - 2 catch weight
+          - 1 no catch weight
+          
+          Expected results: The 3 items will get qty from Manhattan message.  
+                            The remaining 7 items will get qty from the AWG POL table.
+
 
 Step 1: Input Manhattan Message
         "20251111a_step1_testInputMaWMSmsg.json"
