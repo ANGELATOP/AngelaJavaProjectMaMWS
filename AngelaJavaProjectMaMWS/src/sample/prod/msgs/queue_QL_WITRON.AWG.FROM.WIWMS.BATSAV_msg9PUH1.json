@@ -1,0 +1,22 @@
+{
+	"header": {
+		"messageId": "202509160927470000000068664226",
+		"messageTimestamp": "20250916092747",
+		"FCLTY_CD": "14"
+	},
+	"PUH": {
+		"Owner": "AWG",
+		"ProdIdent": "0802572",
+		"UM": "CS",
+		"UmDescr": "Content: 1CS",
+		"UmFactor": 1,
+		"Length": 6.9E+2,
+		"Width": 6.15E+2,
+		"Height": 2.7407E+2,
+		"Weight": 2.9029888E+5,
+		"Ti": 2,
+		"Hi": 1,
+		"VendorTUType": "WHI",
+		"zzProfiledWarehouseArea": "CPS"
+	}
+}

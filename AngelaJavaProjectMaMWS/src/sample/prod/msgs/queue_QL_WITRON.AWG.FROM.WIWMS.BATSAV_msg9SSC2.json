@@ -1,0 +1,22 @@
+{
+	"header": {
+		"messageId": "202509160814080000000068657476",
+		"messageTimestamp": "20250916081408",
+		"FCLTY_CD": "14"
+	},
+	"SSC": {
+		"Owner": "AWG",
+		"ProdIdent": "0435396",
+		"UM": "CS",
+		"BatchNo": " ",
+		"ExpiryDate": "20250927",
+		"QState": 16,
+		"ExpiryDateNew": "20250927",
+		"QStateNew": 32768,
+		"Qty": 1,
+		"ReasonCode": "BA",
+		"ReasonText": "Buyer Adjustment",
+		"UserId": "31793",
+		"RecSSCC": "100009001428570104"
+	}
+}

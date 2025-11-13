@@ -1,0 +1,25 @@
+{
+	"header": {
+		"messageId": "202509160100080000000068630022",
+		"messageTimestamp": "20250916010008",
+		"FCLTY_CD": "14"
+	},
+	"SQC": {
+		"Owner": "AWG",
+		"ProdIdent": "0153932",
+		"UM": "CS",
+		"BatchNo": " ",
+		"ExpiryDate": "20251213",
+		"QState": 0,
+		"ChangeSign": "+",
+		"Qty": 1,
+		"Weight": 9320,
+		"ReasonCode": "CPS_ZEROCR",
+		"ReasonText": "CPS_ZEROCR",
+		"StoreID": " ",
+		"SupplierID": "0008704050",
+		"PoIdent": "140112531",
+		"UserId": "69478",
+		"RecSSCC": "100009001427794044"
+	}
+}

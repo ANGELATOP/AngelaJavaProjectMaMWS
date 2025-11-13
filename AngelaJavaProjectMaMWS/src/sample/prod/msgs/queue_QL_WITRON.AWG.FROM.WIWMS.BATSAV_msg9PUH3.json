@@ -1,0 +1,22 @@
+{
+	"header": {
+		"messageId": "202509160908330000000068661984",
+		"messageTimestamp": "20250916090833",
+		"FCLTY_CD": "14"
+	},
+	"PUH": {
+		"Owner": "AWG",
+		"ProdIdent": "0420338",
+		"UM": "CS",
+		"UmDescr": "Content: 32IN",
+		"UmFactor": 32,
+		"Length": 5.7E+2,
+		"Width": 2.6E+2,
+		"Height": 3.8E+2,
+		"Weight": 5.4431E+3,
+		"Ti": 256,
+		"Hi": 1,
+		"VendorTUType": "WHI",
+		"zzProfiledWarehouseArea": "NOPICK"
+	}
+}

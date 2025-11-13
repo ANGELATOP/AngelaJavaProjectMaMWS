@@ -1,0 +1,182 @@
+{
+	"header": {
+		"messageId": "202509141808010000000068525510",
+		"messageTimestamp": "20250914180801",
+		"FCLTY_CD": "14"
+	},
+	"RHC": {
+		"Owner": "AWG",
+		"PoIdent": "140561050",
+		"DeliveryDate": "20250914163951",
+		"RLC": [
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "001",
+				"ProdIdent": "0015342",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 10,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 81102
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "003",
+				"ProdIdent": "0015343",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 5,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 51029
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "005",
+				"ProdIdent": "0015354",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 2,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 26353
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "007",
+				"ProdIdent": "0340237",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 10,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "009",
+				"ProdIdent": "0506200",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 15,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "011",
+				"ProdIdent": "0530242",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 50,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "013",
+				"ProdIdent": "0584930",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 2,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "015",
+				"ProdIdent": "0603926",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 10,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "017",
+				"ProdIdent": "0618823",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 6,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "019",
+				"ProdIdent": "0618826",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 25,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "021",
+				"ProdIdent": "0652144",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 10,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 74933
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "023",
+				"ProdIdent": "0703924",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 8,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "025",
+				"ProdIdent": "0718294",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 1,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 7393
+			},
+			{
+				"Owner": "AWG",
+				"PoIdent": "140561050",
+				"PoLineIdent": "027",
+				"ProdIdent": "0843218",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": 10,
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			}
+		]
+	}
+}

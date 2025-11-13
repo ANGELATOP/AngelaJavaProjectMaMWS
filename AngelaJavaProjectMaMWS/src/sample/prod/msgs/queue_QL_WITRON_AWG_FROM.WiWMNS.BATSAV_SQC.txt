@@ -1,0 +1,8 @@
+SQC messages
+
+{"header":{"messageId":"202509160100080000000068630022","messageTimestamp":"20250916010008","FCLTY_CD":"14"},"SQC":{"Owner":"AWG","ProdIdent":"0153932","UM":"CS","BatchNo":" ","ExpiryDate":"20251213","QState":0,"ChangeSign":"+","Qty":1,"Weight":9320,"ReasonCode":"CPS_ZEROCR","ReasonText":"CPS_ZEROCR","StoreID":" ","SupplierID":"0008704050","PoIdent":"140112531","UserId":"69478","RecSSCC":"100009001427794044"}}
+
+{"header":{"messageId":"202509160100150000000068630024","messageTimestamp":"20250916010015","FCLTY_CD":"14"},"SQC":{"Owner":"AWG","ProdIdent":"0444220","UM":"CS","BatchNo":" ","ExpiryDate":"20260331","QState":0,"ChangeSign":"+","Qty":1,"Weight":7740,"ReasonCode":"MA","ReasonText":"Machine Adjustment","StoreID":" ","SupplierID":" ","PoIdent":"UI1220200","UserId":"WITRON-MFC","RecSSCC":"100009001416960191"}}
+
+{"header":{"messageId":"202509160100330000000068630034","messageTimestamp":"20250916010033","FCLTY_CD":"14"},"SQC":{"Owner":"AWG","ProdIdent":"0754537","UM":"CS","BatchNo":" ","ExpiryDate":"20260817","QState":0,"ChangeSign":"+","Qty":1,"Weight":4537,"ReasonCode":"MA","ReasonText":"Machine Adjustment","StoreID":" ","SupplierID":"0005402001","PoIdent":"140985170","UserId":"WITRON-MFC","RecSSCC":"100009001428042359"}}
+

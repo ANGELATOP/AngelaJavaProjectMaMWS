@@ -1,0 +1,25 @@
+{
+	"header": {
+		"messageId": "202509161027250000000068669866",
+		"messageTimestamp": "20250916102725",
+		"FCLTY_CD": "14"
+	},
+	"SQC": {
+		"Owner": "AWG",
+		"ProdIdent": "0681001",
+		"UM": "CS",
+		"BatchNo": " ",
+		"ExpiryDate": "19700102",
+		"QState": 0,
+		"ChangeSign": "-",
+		"Qty": 12,
+		"Weight": 2760,
+		"ReasonCode": "BREAKDOWN",
+		"ReasonText": "BREAKDOWN",
+		"StoreID": "0",
+		"SupplierID": "0004155001",
+		"PoIdent": " ",
+		"UserId": "76234",
+		"RecSSCC": "100009001428709382"
+	}
+}

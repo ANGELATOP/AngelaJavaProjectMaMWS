@@ -1,0 +1,25 @@
+{
+	"header": {
+		"messageId": "202509160334590000000068638012",
+		"messageTimestamp": "20250916033459",
+		"FCLTY_CD": "14"
+	},
+	"SQC": {
+		"Owner": "AWG",
+		"ProdIdent": "0777334",
+		"UM": "IN",
+		"BatchNo": " ",
+		"ExpiryDate": "19700102",
+		"QState": 0,
+		"ChangeSign": "+",
+		"Qty": 1,
+		"Weight": 329,
+		"ReasonCode": "PA",
+		"ReasonText": "Physical Count",
+		"StoreID": " ",
+		"SupplierID": " ",
+		"PoIdent": " ",
+		"UserId": "74770",
+		"RecSSCC": "801405983240"
+	}
+}

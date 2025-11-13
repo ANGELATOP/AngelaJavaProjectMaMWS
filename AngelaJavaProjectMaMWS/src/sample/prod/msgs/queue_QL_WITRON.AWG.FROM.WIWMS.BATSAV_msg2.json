@@ -1,0 +1,25 @@
+{
+	"header": {
+		"messageId": "202509160100270000000068630027",
+		"messageTimestamp": "20250916010027",
+		"FCLTY_CD": "14"
+	},
+	"SQC": {
+		"Owner": "AWG",
+		"ProdIdent": "0754537",
+		"UM": "CS",
+		"BatchNo": " ",
+		"ExpiryDate": "20260817",
+		"QState": 0,
+		"ChangeSign": "+",
+		"Qty": 1,
+		"Weight": 4537,
+		"ReasonCode": "MA",
+		"ReasonText": "Machine Adjustment",
+		"StoreID": " ",
+		"SupplierID": "0005402001",
+		"PoIdent": "140985170",
+		"UserId": "WITRON-MFC",
+		"RecSSCC": "100009001428042359"
+	}
+}
