@@ -1,0 +1,28 @@
+
+Scenario: Get sample inventory adjustment from existing ACE flow AIO-SQC-fromWiWMS-tester.
+          
+
+--------------------
+-- Input Message
+--------------------
+I pulled this off the prod AWG queue.
+"20251113a_step1_QL_WITRON.AWG.FROM.WIWMS.BATSAV_SQC.json"     Use this to create json message model.
+
+Use this onlin tool to generate the json schema.
+https://nextjson.com/json-schema-generator
+"SQCmsg.schema.json"
+
+--------------------
+-- Output Message
+--------------------
+"20251113a_step2_inventoryAdjust.xml"                          Use this to create XML message model.
+
+Generate schema via toolkit.
+inventoryAdjustment.xsd
+
+
+
+
+
+
+
