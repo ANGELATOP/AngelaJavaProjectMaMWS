@@ -1,0 +1,13 @@
+{
+	"AdjustmentMessage": {
+		"FaciltyCode": "14",
+		"ItemCode": "0530121",
+		"UM": "LB",
+		"AdjustmentQty": "-10",
+		"CatchWeight": "123456",
+		"ReasonCode": "N",
+		"InventoryAttributeAdjustment1": "sample string",
+		"InventoryAttributeAdjustment2": "sample string",
+		"TransactionDate": "20251118160639"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"AdjustmentMessages": [
+		{
+			"Message": {
+				"FaciltyCode": "14",
+				"ItemCode": "0754537",
+				"UM": "CS",
+				"InventoryStatus": "A",
+				"AdjustmentQty": -1,
+				"CatchWeight": "4537",
+				"ReasonCode": "MA",
+				"InventoryAttributeAdjustment1": "abc",
+				"InventoryAttributeAdjustment2": "abc",
+				"TransactionDate": "20251118130511"
+			}
+		}
+	]
+}

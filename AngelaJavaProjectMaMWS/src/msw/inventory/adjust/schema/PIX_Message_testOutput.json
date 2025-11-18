@@ -1,0 +1,28 @@
+{
+	"AdjustmentMessages": [
+		{
+			"Message": {
+				"FaciltyCode": "14",
+				"ItemCode": "0530121",
+				"InventoryStatus": "-10",
+				"CatchWeight": "testing",
+				"ReasonCode": "reasonCode-aa",
+				"InventoryAttributeAdjustment1": "adjRef1-123",
+				"InventoryAttributeAdjustment2": "adjRef2-456",
+				"TransactionDate": "20251118173929"
+			}
+		},
+		{
+			"Message": {
+				"FaciltyCode": "00",
+				"ItemCode": "itemId123",
+				"InventoryStatus": "25",
+				"CatchWeight": "testing",
+				"ReasonCode": "reasonCode-zz",
+				"InventoryAttributeAdjustment1": "adj_ref1-777",
+				"InventoryAttributeAdjustment2": "adj_ref2-999",
+				"TransactionDate": "20251118173930"
+			}
+		}
+	]
+}
