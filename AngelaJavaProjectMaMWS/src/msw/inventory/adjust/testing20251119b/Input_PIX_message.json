@@ -47,7 +47,7 @@
 				"ReasonCodeId": "reasonCode-aa",
 				"InventoryAdjustmentType": "SUBTRACT",
 				"InventoryAdjustmentQty": "10.0",
-				"FromInventoryBucket": "sample string",
+				"FromInventoryBucket": "AVAILABLE",
 				"BusinessUnitId": "sample string",
 				"ExternalOrganizationId": "sample string",
 				"RrnId": "sample string",
@@ -112,7 +112,7 @@
 				"SecondDimension": "sample string",
 				"SizeCode": "sample string",
 				"SizeDescription": "sample string",
-				"ItemId": "itemId123",
+				"ItemId": "0102034",
 				"Description": "sample string"
 			},
 			"SubItemFields": {
@@ -163,14 +163,10 @@
 			},
 			"InventoryAttributes": [
 				{
-					"AttributeName": "CATCH_WEIGHT",
-					"AttributeValue": "777777",
-					"AttributeUom": "LB11"
+					"AttributeName": "CATCH_WEIGHT"
 				},
 				{
-					"AttributeName": "CATCH_WEIGHT",
-					"AttributeValue": "888888",
-					"AttributeUom": "LB22"
+					"AttributeName": "CATCH_WEIGHT"
 				}
 			],
 			"TransactionNumber": "sample string",

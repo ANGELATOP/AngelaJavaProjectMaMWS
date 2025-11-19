@@ -23,7 +23,7 @@
                 "type": "string"
               },
               "AdjustmentQty": {
-                "type": "STRING"
+                "type": "string"
               },
               "CatchWeight": {
                 "type": "string"
@@ -39,6 +39,18 @@
               },
               "TransactionDate": {
                 "type": "string"
+              },
+              "CatchWeightArray": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "UomArray": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
               }
             },
             "required": [
@@ -51,7 +63,9 @@
               "ReasonCode",
               "InventoryAttributeAdjustment1",
               "InventoryAttributeAdjustment2",
-              "TransactionDate"
+              "TransactionDate",
+              "CatchWeightArray",
+              "UomArray"
             ]
           }
         },

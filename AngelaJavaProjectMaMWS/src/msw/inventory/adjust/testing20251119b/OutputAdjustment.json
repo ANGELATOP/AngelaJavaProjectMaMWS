@@ -4,24 +4,36 @@
 			"Message": {
 				"FaciltyCode": "14",
 				"ItemCode": "0530121",
-				"InventoryStatus": "-10",
-				"CatchWeight": "testing",
+				"InventoryStatus": "A",
+				"AdjustmentQty": "-10",
 				"ReasonCode": "reasonCode-aa",
 				"InventoryAttributeAdjustment1": "adjRef1-123",
 				"InventoryAttributeAdjustment2": "adjRef2-456",
-				"TransactionDate": "20251118173929"
+				"TransactionDate": "20251119110034",
+				"CatchWeightArray": [
+					"123456",
+					"121212"
+				],
+				"UomArray": [
+					"LB",
+					"LB2"
+				]
 			}
 		},
 		{
 			"Message": {
 				"FaciltyCode": "00",
-				"ItemCode": "itemId123",
-				"InventoryStatus": "25",
-				"CatchWeight": "testing",
+				"ItemCode": "0102034",
+				"InventoryStatus": "U",
+				"AdjustmentQty": "25",
 				"ReasonCode": "reasonCode-zz",
 				"InventoryAttributeAdjustment1": "adj_ref1-777",
 				"InventoryAttributeAdjustment2": "adj_ref2-999",
-				"TransactionDate": "20251118173930"
+				"TransactionDate": "20251119110034",
+				"CatchWeightArray": [
+				],
+				"UomArray": [
+				]
 			}
 		}
 	]

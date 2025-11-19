@@ -1,8 +1,0 @@
-
-
-input message: 1 occurr of item 
-               1 occur of inventory attributes 
-               
-
-
-                     
