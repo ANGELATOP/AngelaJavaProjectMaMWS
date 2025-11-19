@@ -1,0 +1,8 @@
+
+
+Test on VDI.
+
+Results look good.
+
+Used same input test file "Input_PIX_message.json" from package "msw.inventory.adjust.testing20251119c".
+
