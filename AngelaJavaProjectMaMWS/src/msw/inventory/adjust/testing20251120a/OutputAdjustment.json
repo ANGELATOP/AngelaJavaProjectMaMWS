@@ -9,10 +9,10 @@
 				"ReasonCode": "reasonCode-aa",
 				"InventoryAttributeAdjustment1": "adjRef1-123",
 				"InventoryAttributeAdjustment2": "adjRef2-456",
-				"TransactionDate": "20251120112156",
+				"TransactionDate": "20251120120453",
 				"CatchWeightArray": [
-					"0000272.17",
-					"0000267.23"
+					"272.17",
+					"267.23"
 				],
 				"UomArray": [
 					"LB",
@@ -29,10 +29,10 @@
 				"ReasonCode": "reasonCode-zz",
 				"InventoryAttributeAdjustment1": "adj_ref1-777",
 				"InventoryAttributeAdjustment2": "adj_ref2-999",
-				"TransactionDate": "20251120112156",
+				"TransactionDate": "20251120120453",
 				"CatchWeightArray": [
-					"0000271.44",
-					"0000979.83"
+					"271.44",
+					"979.83"
 				],
 				"UomArray": [
 					"LB",
@@ -49,7 +49,7 @@
 				"ReasonCode": "reasonCode-zz",
 				"InventoryAttributeAdjustment1": "adj_ref1-777",
 				"InventoryAttributeAdjustment2": "adj_ref2-999",
-				"TransactionDate": "20251120112156",
+				"TransactionDate": "20251120120453",
 				"CatchWeightArray": [
 				],
 				"UomArray": [
