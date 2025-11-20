@@ -8,10 +8,15 @@ Scenario: Get sample inventory adjustment from existing ACE flow AIO-SQC-fromWiW
 I pulled this off the prod AWG queue.
 "20251113a_step1_QL_WITRON.AWG.FROM.WIWMS.BATSAV_SQC.json"     Use this to create json message model.
 
-Use this onlin tool to generate the json schema.
+Use this online tool to generate the json schema.
 https://nextjson.com/json-schema-generator
 "SQCmsg.schema.json"
 
+11-19-2025 I ended up not needing to format to this message and not using the existing ESQL logic.  
+           I mapped Manhattan message "PIX_Message.schema.json" to 
+           temp message object "AdjustmentMessage.schema.json" and then to
+           inventory message "inventoryAdjustment.xsd".
+           
 --------------------
 -- Output Message
 --------------------
