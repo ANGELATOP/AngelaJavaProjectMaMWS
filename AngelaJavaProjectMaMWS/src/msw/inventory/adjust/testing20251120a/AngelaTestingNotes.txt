@@ -1,0 +1,17 @@
+
+
+Test on VDI.
+
+Put message on queue by calling my test API.
+Project: MaWMS_CommonLIB_tester
+API: PutMsgOnQueue.msgflow
+
+
+Results look good.
+
+Modified "Input_PIX_message.json".  The catch weight value needs to be a decimal value, not integer.
+
+Successful test.  Catch weight is now in the correct format.
+'0000000.00'
+
+

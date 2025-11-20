@@ -1,0 +1,60 @@
+{
+	"AdjustmentMessages": [
+		{
+			"Message": {
+				"FaciltyCode": "14",
+				"ItemCode": "0530121",
+				"InventoryStatus": "A",
+				"AdjustmentQty": "-10",
+				"ReasonCode": "reasonCode-aa",
+				"InventoryAttributeAdjustment1": "adjRef1-123",
+				"InventoryAttributeAdjustment2": "adjRef2-456",
+				"TransactionDate": "20251120112156",
+				"CatchWeightArray": [
+					"0000272.17",
+					"0000267.23"
+				],
+				"UomArray": [
+					"LB",
+					"LB2"
+				]
+			}
+		},
+		{
+			"Message": {
+				"FaciltyCode": "00",
+				"ItemCode": "0102034",
+				"InventoryStatus": "U",
+				"AdjustmentQty": "25",
+				"ReasonCode": "reasonCode-zz",
+				"InventoryAttributeAdjustment1": "adj_ref1-777",
+				"InventoryAttributeAdjustment2": "adj_ref2-999",
+				"TransactionDate": "20251120112156",
+				"CatchWeightArray": [
+					"0000271.44",
+					"0000979.83"
+				],
+				"UomArray": [
+					"LB",
+					"LB2"
+				]
+			}
+		},
+		{
+			"Message": {
+				"FaciltyCode": "00",
+				"ItemCode": "0773458",
+				"InventoryStatus": "U",
+				"AdjustmentQty": "25",
+				"ReasonCode": "reasonCode-zz",
+				"InventoryAttributeAdjustment1": "adj_ref1-777",
+				"InventoryAttributeAdjustment2": "adj_ref2-999",
+				"TransactionDate": "20251120112156",
+				"CatchWeightArray": [
+				],
+				"UomArray": [
+				]
+			}
+		}
+	]
+}
