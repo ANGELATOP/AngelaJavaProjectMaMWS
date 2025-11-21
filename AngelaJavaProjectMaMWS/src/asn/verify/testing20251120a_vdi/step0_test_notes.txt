@@ -1,0 +1,29 @@
+
+Retest ACE flow on vdi.
+
+--input file contains 7 item occurrences 
+  "step1_testInputMaWMSmsg_7ItemOccurs.json"
+
+  Ran successfully on the vdi.
+  
+  
+--output message
+  Unable to view the entire message on the queue.  I was able to before, not sure why.
+  Below is my work around.
+  
+----------------------------------------------------------------------------------------------
+
+Created a Test ACE flow that is essentially the code. 
+"MaWMS_INB_PIX_ASN_VerifyFromMAWN_tester".
+
+I can see the results in the API response.  I saved the results to these files.
+"step2_inventoryReceipt_1.xml" 
+
+
+
+
+ 
+  
+
+
+                     
