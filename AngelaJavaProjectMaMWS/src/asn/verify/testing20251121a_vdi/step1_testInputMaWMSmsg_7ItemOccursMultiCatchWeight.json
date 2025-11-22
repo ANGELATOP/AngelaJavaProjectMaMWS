@@ -361,11 +361,6 @@
 					"AttributeName": "CATCH_WEIGHT",
 					"AttributeValue": "588718",
 					"AttributeUom": "LB"
-				},
-				{
-					"AttributeName": "CATCH_WEIGHT",
-					"AttributeValue": "121212",
-					"AttributeUom": "LB2"
 				}
 			],
 			"TransactionNumber": "76159982592778410784",
@@ -438,12 +433,7 @@
 				{
 					"AttributeName": "CATCH_WEIGHT",
 					"AttributeValue": "123456",
-					"AttributeUom": "LB3"
-				},
-				{
-					"AttributeName": "CATCH_WEIGHT",
-					"AttributeValue": "343434",
-					"AttributeUom": "LB4"
+					"AttributeUom": "LB"
 				}
 			],
 			"TransactionNumber": "76159982592778410785",

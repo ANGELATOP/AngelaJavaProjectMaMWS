@@ -1,14 +1,21 @@
 
+Modify the message to create new JSON schema for ACE.
+"RHC_RLC_GeneratedMsg_modified.json"  sample message
+"RHC_RLC_message.schema.json" NEW GENERATED JSON SCHEMA AOF 11-21-2025
+----------------------------------------------------------------------------------------------
+
+
+
 Retest ACE flow on vdi.
 
 ----------------------------------------------------------------------------------------------
--- Scenario: Single inventory attributes for catch weight
+-- Scenario: Multiple inventory attributes for catch weight
 ----------------------------------------------------------------------------------------------
---input file contains 7 item occurrences 
-  "step1_testInputMaWMSmsg_7ItemOccurs.json"
 
-  Ran successfully on the vdi.
-  
+input file contains 7 item occurrences 
+input file: "step1_testInputMaWMSmsg_7ItemOccursMultiCatchWeight.json:
+
+Ran successfully on the vdi.
   
 --output message
   Unable to view the entire message on the queue.  I was able to before, not sure why.
@@ -21,7 +28,6 @@ Created a Test ACE flow that is essentially the code.
 
 I can see the results in the API response.  I saved the results to these files.
 "step2_inventoryReceipt_1.xml" 
-
 
 
  

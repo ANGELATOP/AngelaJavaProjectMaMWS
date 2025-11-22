@@ -1,0 +1,38 @@
+{
+	"header": {
+		"messageId": "Hello, have a wonderful day!",
+		"messageTimestamp": "Hello, have a wonderful day!",
+		"FCLTY_CD": "sample string"
+	},
+	"RHC": {
+		"Owner": "sample string",
+		"PoIdent": "sample string",
+		"DeliveryDate": "sample string",
+		"RLC": [
+			{
+				"Owner": "sample string",
+				"PoIdent": "sample string",
+				"PoLineIdent": "sample string",
+				"ProdIdent": "sample string",
+				"UM": "sample string",
+				"Orderkey": "sample string",
+				"QtyHost": "sample string",
+				"Qstate": 11,
+				"BatchNo": "sample string",
+				"zzTotalCatchWeight": 11
+			},
+			{
+				"Owner": "sample string",
+				"PoIdent": "sample string",
+				"PoLineIdent": "sample string",
+				"ProdIdent": "sample string",
+				"UM": "sample string",
+				"Orderkey": "sample string",
+				"QtyHost": "sample string",
+				"Qstate": 11,
+				"BatchNo": "sample string",
+				"zzTotalCatchWeight": 11
+			}
+		]
+	}
+}
