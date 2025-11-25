@@ -1,0 +1,123 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"googleMsgID": {
+			"type": "string"
+		},
+		"ContextInformation": {
+			"type": "object",
+			"properties": {
+				"Messages": {
+					"type": "object",
+					"properties": {
+					},
+					"required": [
+					]
+				},
+				"Organization": {
+					"type": "string"
+				},
+				"UserId": {
+					"type": "string"
+				},
+				"UserLocale": {
+					"type": "string"
+				},
+				"Location": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"Messages",
+				"Organization",
+				"UserId",
+				"UserLocale",
+				"Location"
+			]
+		},
+		"CurrentPage": {
+			"type": "number"
+		},
+		"ExportDocuments": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"Messages": {
+						"type": "object",
+						"properties": {
+						},
+						"required": [
+						]
+					},
+					"PIXSpecification": {
+						"type": "string"
+					},
+					"Description": {
+						"type": "string"
+					},
+					"SourceTransactionType": {
+						"type": "string"
+					},
+					"SourceEventName": {
+						"type": "string"
+					},
+					"ItemDefinition": {
+						"type": "object",
+						"properties": {
+							"ItemId": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"ItemId"
+						]
+					},
+					"TransactionNumber": {
+						"type": "string"
+					},
+					"SequenceNumber": {
+						"type": "number"
+					},
+					"TransactionDateTime": {
+						"type": "string"
+					},
+					"Organization": {
+						"type": "string"
+					},
+					"Facility": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"Messages",
+					"PIXSpecification",
+					"Description",
+					"SourceTransactionType",
+					"SourceEventName",
+					"ItemDefinition",
+					"TransactionNumber",
+					"SequenceNumber",
+					"TransactionDateTime",
+					"Organization",
+					"Facility"
+				]
+			}
+		},
+		"UniqueJobId": {
+			"type": "string"
+		},
+		"TotalPages": {
+			"type": "number"
+		}
+	},
+	"required": [
+		"googleMsgID",
+		"ContextInformation",
+		"CurrentPage",
+		"ExportDocuments",
+		"UniqueJobId",
+		"TotalPages"
+	]
+}

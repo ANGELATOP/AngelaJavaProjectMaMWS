@@ -1,0 +1,23 @@
+
+
+
+Add itemId attribute.
+
+Call API "/test/SplitMessageTester" drop message onto queue "ATOPPIN.TEMP.WMS.TEMP.SPLIT.IN".
+
+
+Test Common "SplitMaWMSmessage flow".
+sampleVerifyASN_googleMsg.json
+- There are 4 base64 encoded manhattan messages in this file
+- Each of the manhattan messages have 4 message occurrences.
+- Total of 24 messages would be dropped on the final queue.
+
+
+It will insert into the Archive tables.
+Put message to my temp queue.  "ATOPPIN.TEMP.WMS.TEMP.SPLIT.OUT"
+
+
+
+
+
+
