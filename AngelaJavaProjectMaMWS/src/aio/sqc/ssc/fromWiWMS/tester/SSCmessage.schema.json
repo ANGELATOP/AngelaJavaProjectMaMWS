@@ -1,0 +1,88 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"header": {
+			"type": "object",
+			"properties": {
+				"messageId": {
+					"type": "string"
+				},
+				"messageTimestamp": {
+					"type": "string"
+				},
+				"FCLTY_CD": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"messageId",
+				"messageTimestamp",
+				"FCLTY_CD"
+			]
+		},
+		"SSC": {
+			"type": "object",
+			"properties": {
+				"Owner": {
+					"type": "string"
+				},
+				"ProdIdent": {
+					"type": "string"
+				},
+				"UM": {
+					"type": "string"
+				},
+				"BatchNo": {
+					"type": "string"
+				},
+				"ExpiryDate": {
+					"type": "string"
+				},
+				"QState": {
+					"type": "number"
+				},
+				"ExpiryDateNew": {
+					"type": "string"
+				},
+				"QStateNew": {
+					"type": "number"
+				},
+				"Qty": {
+					"type": "number"
+				},
+				"ReasonCode": {
+					"type": "string"
+				},
+				"ReasonText": {
+					"type": "string"
+				},
+				"UserId": {
+					"type": "string"
+				},
+				"RecSSCC": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"Owner",
+				"ProdIdent",
+				"UM",
+				"BatchNo",
+				"ExpiryDate",
+				"QState",
+				"ExpiryDateNew",
+				"QStateNew",
+				"Qty",
+				"ReasonCode",
+				"ReasonText",
+				"UserId",
+				"RecSSCC"
+			]
+		}
+	},
+	"required": [
+		"header",
+		"SSC"
+	]
+}

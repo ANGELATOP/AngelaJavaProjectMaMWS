@@ -1,0 +1,100 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"header": {
+			"type": "object",
+			"properties": {
+				"messageId": {
+					"type": "string"
+				},
+				"messageTimestamp": {
+					"type": "string"
+				},
+				"FCLTY_CD": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"messageId",
+				"messageTimestamp",
+				"FCLTY_CD"
+			]
+		},
+		"SQC": {
+			"type": "object",
+			"properties": {
+				"Owner": {
+					"type": "string"
+				},
+				"ProdIdent": {
+					"type": "string"
+				},
+				"UM": {
+					"type": "string"
+				},
+				"BatchNo": {
+					"type": "string"
+				},
+				"ExpiryDate": {
+					"type": "string"
+				},
+				"QState": {
+					"type": "number"
+				},
+				"ChangeSign": {
+					"type": "string"
+				},
+				"Qty": {
+					"type": "number"
+				},
+				"Weight": {
+					"type": "number"
+				},
+				"ReasonCode": {
+					"type": "string"
+				},
+				"ReasonText": {
+					"type": "string"
+				},
+				"StoreID": {
+					"type": "string"
+				},
+				"SupplierID": {
+					"type": "string"
+				},
+				"PoIdent": {
+					"type": "string"
+				},
+				"UserId": {
+					"type": "string"
+				},
+				"RecSSCC": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"Owner",
+				"ProdIdent",
+				"UM",
+				"BatchNo",
+				"ExpiryDate",
+				"QState",
+				"ChangeSign",
+				"Qty",
+				"Weight",
+				"ReasonCode",
+				"ReasonText",
+				"StoreID",
+				"SupplierID",
+				"PoIdent",
+				"UserId",
+				"RecSSCC"
+			]
+		}
+	},
+	"required": [
+		"header",
+		"SQC"
+	]
+}

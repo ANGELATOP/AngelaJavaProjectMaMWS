@@ -1,0 +1,52 @@
+{
+	"AdjustmentMessages": [
+		{
+			"Message": {
+				"FaciltyCode": "sample string",
+				"ItemCode": "sample string",
+				"UM": "sample string",
+				"InventoryStatus": "sample string",
+				"AdjustmentQty": "sample string",
+				"CatchWeight": "sample string",
+				"ReasonCode": "sample string",
+				"InventoryAttributeAdjustment1": "sample string",
+				"InventoryAttributeAdjustment2": "sample string",
+				"TransactionDate": "sample string",
+				"QState":"abc",
+				"QStateNew":"abc",
+				"CatchWeightArray": [
+					"sample string",
+					"sample string"
+				],
+				"UomArray": [
+					"sample string",
+					"sample string"
+				]
+			}
+		},
+		{
+			"Message": {
+				"FaciltyCode": "sample string",
+				"ItemCode": "sample string",
+				"UM": "sample string",
+				"InventoryStatus": "sample string",
+				"AdjustmentQty": "sample string",
+				"CatchWeight": "sample string",
+				"ReasonCode": "sample string",
+				"InventoryAttributeAdjustment1": "sample string",
+				"InventoryAttributeAdjustment2": "sample string",
+				"TransactionDate": "sample string",
+				"QState":"abc",
+				"QStateNew":"abc",
+				"CatchWeightArray": [
+					"sample string",
+					"sample string"
+				],
+				"UomArray": [
+					"sample string",
+					"sample string"
+				]
+			}
+		}
+	]
+}

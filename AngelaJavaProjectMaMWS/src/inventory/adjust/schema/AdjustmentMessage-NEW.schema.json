@@ -1,0 +1,89 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"AdjustmentMessages": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"Message": {
+						"type": "object",
+						"properties": {
+							"FaciltyCode": {
+								"type": "string"
+							},
+							"ItemCode": {
+								"type": "string"
+							},
+							"UM": {
+								"type": "string"
+							},
+							"InventoryStatus": {
+								"type": "string"
+							},
+							"AdjustmentQty": {
+								"type": "string"
+							},
+							"CatchWeight": {
+								"type": "string"
+							},
+							"ReasonCode": {
+								"type": "string"
+							},
+							"InventoryAttributeAdjustment1": {
+								"type": "string"
+							},
+							"InventoryAttributeAdjustment2": {
+								"type": "string"
+							},
+							"TransactionDate": {
+								"type": "string"
+							},
+							"QState": {
+								"type": "string"
+							},
+							"QStateNew": {
+								"type": "string"
+							},
+							"CatchWeightArray": {
+								"type": "array",
+								"items": {
+									"type": "string"
+								}
+							},
+							"UomArray": {
+								"type": "array",
+								"items": {
+									"type": "string"
+								}
+							}
+						},
+						"required": [
+							"FaciltyCode",
+							"ItemCode",
+							"UM",
+							"InventoryStatus",
+							"AdjustmentQty",
+							"CatchWeight",
+							"ReasonCode",
+							"InventoryAttributeAdjustment1",
+							"InventoryAttributeAdjustment2",
+							"TransactionDate",
+							"QState",
+							"QStateNew",
+							"CatchWeightArray",
+							"UomArray"
+						]
+					}
+				},
+				"required": [
+					"Message"
+				]
+			}
+		}
+	},
+	"required": [
+		"AdjustmentMessages"
+	]
+}

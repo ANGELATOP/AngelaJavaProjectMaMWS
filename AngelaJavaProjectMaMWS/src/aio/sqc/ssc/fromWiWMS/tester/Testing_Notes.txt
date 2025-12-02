@@ -1,0 +1,18 @@
+
+Created ACE Tester to get sample output inventory xml so I can create a schema for it.
+
+ACE Application: AIO-SQC-SSC-fromWiWMS-tester
+
+----------------------------------------------------------------------------------------------------------
+API: http://dais01.awg.local:7080/test/SQCMsg
+Input Queue: ATOPPIN.TEMP.SQC.INPUT
+Output Queue: ATOPPIN.TEMP.SQC.OUTPUT
+
+----------------------------------------------------------------------------------------------------------
+
+API: http://dais01.awg.local:7080/test/SSCMsg 
+Input Queue: ATOPPIN.TEMP.SSC.INPUT
+Output Queue: ATOPPIN.TEMP.SSC.OUTPUT 
+
+
+
