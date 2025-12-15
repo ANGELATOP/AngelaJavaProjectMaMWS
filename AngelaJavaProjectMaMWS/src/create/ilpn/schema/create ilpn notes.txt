@@ -1,0 +1,13 @@
+
+
+Copybook layout from Mike Conrad.
+"FSM300_cobol_fmt.cpy"
+
+The ACE flow will translate the Manhattan message to this cobol layout.
+
+The new message will be put to a queue to be retrieved by Mike Conrad's cobol process.
+
+Sample Data.
+"FSM300_cobol_fmt with data.txt" 
+
+

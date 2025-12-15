@@ -1,0 +1,84 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------           
+--sample data from Test ACE 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------           
+       01  PLTIN-REC.
+           05 FSM300-INS-UPD-IND                  PIC XXX.		xxx
+           05 FSM300-PLT-ID                       PIC X(48).            111111111111111111111111111111111111111111111111
+           05 FSM300-FSMA-REF-ID                  PIC X(20).            22222222222222222222
+           05 FSM300-TRUCK-ID                     PIC X(20).            33333333333333333333
+           05 FSM300-ITEM-CD                      PIC X(7).             4444444
+           05 FSM300-PO-WRTN-FCLTY                PIC XX.               55
+           05 FSM300-VNDR-CD                      PIC X(7).             6666666
+           05 FSM300-PO-CD                        PIC X(5).             77777
+           05 FSM300-TRCBLTY-LOT-CD               PIC X(20).            88888888888888888888
+           05 FSM300-ITEM-UPC-PLU-CD              PIC X(15).            999999999999999
+           05 FSM300-RCVD-QT                      PIC S9(9) COMP-3.     23
+           05 FSM300-RCVD-UOM                     PIC X(5).             aaaaa
+           05 FSM300-IMDT-ORGN-LCTN-NM            PIC X(45).            bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+           05 FSM300-IMDT-ORGN-LCTN-AD            PIC X(220).           cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+           05 FSM300-RCPNT-LCTN-NM                PIC X(45).            ddddddddddddddddddddddddddddddddddddddddddddd
+           05 FSM300-RCPNT-LCTN-AD                PIC X(220).           eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+           05 FSM300-TRCBLTY-LOT-CD-SRC-NM        PIC X(45).            fffffffffffffffffffffffffffffffffffffffffffff
+           05 FSM300-TRCBLTY-LOT-CD-SRC-AD        PIC X(220).           gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+           05 FSM300-RFRNC-DCMNT-TYPE-CD          PIC X(3).             hhh
+           05 FSM300-RFRNC-DCMNT-CD               PIC X(30).            iiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+           05 FSM300-ACTUAL-ADJUST                PIC X(10).            jjjjjjjjjj
+           05 FILL-1                              PIC X(105).           kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------           
+--sample data from Mike Conrad           
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------           
+       01  PLTIN-REC.
+           05 FSM300-INS-UPD-IND                  PIC XXX.		INS
+           05 FSM300-PLT-ID                       PIC X(48).            PALLET ID000000000000000000000000000000000111111
+           05 FSM300-FSMA-REF-ID                  PIC X(20).            TEST REF ID 34534501
+           05 FSM300-TRUCK-ID                     PIC X(20).            TEST TRUCK ID 000001
+           05 FSM300-ITEM-CD                      PIC X(7).             0044283
+           05 FSM300-PO-WRTN-FCLTY                PIC XX.               00
+           05 FSM300-VNDR-CD                      PIC X(7).             0004155
+           05 FSM300-PO-CD                        PIC X(5).             14574
+           05 FSM300-TRCBLTY-LOT-CD               PIC X(20).            TEST LOT CODE 567893
+           05 FSM300-ITEM-UPC-PLU-CD              PIC X(15).            001122334455770
+           05 FSM300-RCVD-QT                      PIC S9(9) COMP-3.     
+           05 FSM300-RCVD-UOM                     PIC X(5).             EACH 
+           05 FSM300-IMDT-ORGN-LCTN-NM            PIC X(45).            IMDT ORIGIN LOCATION NAMA 0001JJJJJJJJJJJJJJJ
+           05 FSM300-IMDT-ORGN-LCTN-AD            PIC X(220).           IMDT ORIGIN LOCATION ADDRESA 0000000000000001111111111111112222222222222223333333333333334444444444444445555555555555556666666666666667777777777777778JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+           05 FSM300-RCPNT-LCTN-NM                PIC X(45).            RECIPIENT LOCATION NAME 000001JJJJJJJJJJJJJJJ
+           05 FSM300-RCPNT-LCTN-AD                PIC X(220).           RECIPIENT LOCATION ADDRESS011111111112222222222333333333344444444445555555555666666666677777777778888888888999999990000000000111111111122222222223333CJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+           05 FSM300-TRCBLTY-LOT-CD-SRC-NM        PIC X(45).            LOT CODE SOURCE NAME 000000001JJJJJJJJJJJJJJJ
+           05 FSM300-TRCBLTY-LOT-CD-SRC-AD        PIC X(220).           LOT CODE SOURCE ADDRESS 000000000011111111112222222222333333333344444444445555555555666666666677777777778888888888999999999912121212123434343434565656JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+           05 FSM300-RFRNC-DCMNT-TYPE-CD          PIC X(3).             BOL
+           05 FSM300-RFRNC-DCMNT-CD               PIC X(30).            TEST REF DOCUMENT ID0000000111
+           05 FSM300-ACTUAL-ADJUST                PIC X(10).            
+           05 FILL-1                              PIC X(105).           
+           
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------           
+--ACE TESTING
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------           
+sample file from Test ACE======> xxx111111111111111111111111111111111111111111111111222222222222222222223333333333333333333344444445566666667777788888888888888888888999999999999999     aaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccdddddddddddddddddddddddddddddddddddddddddddddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefffffffffffffffffffffffffffffffffffffffffffffgggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggghhhiiiiiiiiiiiiiiiiiiiiiiiiiiiiiijjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+sample file from Test ACE======> x  1                                               2                   3                   4      5 6      7    8                   9                   a    b                                            c                                                                                                                                                                                                                           d                                            e                                                                                                                                                                                                                           f                                            g                                                                                                                                                                                                                           h  i                                                                                                                                                
+sample file from Test ACE======> x  1                                               2                   3                   4      5 6      7    8                   9                   a    b                                            c                                                                                                                                                                                                                           d                                            e                                                                                                                                                                                                                           f                                            g                                                                                                                                                                                                                           h  i                             j         k                                                                                                                                                        
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------           
+--SAMPLE FROM MIKE
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------           
+sample file from Mike Conrad===> INSPALLET ID000000000000000000000000000000000111111TEST REF ID 34534501TEST TRUCK ID 000001004428300000415514574TEST LOT CODE 567893001122334455770     EACH IMDT ORIGIN LOCATION NAMA 0001JJJJJJJJJJJJJJJIMDT ORIGIN LOCATION ADDRESA 0000000000000001111111111111112222222222222223333333333333334444444444444445555555555555556666666666666667777777777777778JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJRECIPIENT LOCATION NAME 000001JJJJJJJJJJJJJJJRECIPIENT LOCATION ADDRESS011111111112222222222333333333344444444445555555555666666666677777777778888888888999999990000000000111111111122222222223333CJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJLOT CODE SOURCE NAME 000000001JJJJJJJJJJJJJJJLOT CODE SOURCE ADDRESS 000000000011111111112222222222333333333344444444445555555555666666666677777777778888888888999999999912121212123434343434565656JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJBOLTEST REF DOCUMENT ID0000000111
+
+
+INS
+PALLET ID000000000000000000000000000000000111111
+TEST REF ID 34534501
+TEST TRUCK ID 000001004428300000415514574
+TEST LOT CODE 567893
+001122334455770     
+
+EACH 
+IMDT ORIGIN LOCATION NAMA 0001JJJJJJJJJJJJJJJ
+IMDT ORIGIN LOCATION ADDRESA 0000000000000001111111111111112222222222222223333333333333334444444444444445555555555555556666666666666667777777777777778JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+RECIPIENT LOCATION NAME 000001JJJJJJJJJJJJJJJ
+RECIPIENT LOCATION ADDRESS011111111112222222222333333333344444444445555555555666666666677777777778888888888999999990000000000111111111122222222223333CJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+LOT CODE SOURCE NAME 000000001JJJJJJJJJJJJJJJ
+LOT CODE SOURCE ADDRESS 000000000011111111112222222222333333333344444444445555555555666666666677777777778888888888999999999912121212123434343434565656JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJ
+BOL
+TEST REF DOCUMENT ID0000000111
+
+           
