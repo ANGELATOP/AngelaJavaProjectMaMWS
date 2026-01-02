@@ -20,7 +20,7 @@
    "17329958109437261",
    "17329958109437262",
    "17329958109437263"  (this one had 2 Manhattan messages after decoded)
-]}
+   ]}
 
 4. Pull google message from google topic via ACE common subflow.
    2_googleMsg.json
