@@ -1,0 +1,8 @@
+Sample inventory xml from Erick Fauscette\David Strickland.
+
+David ran through SCM.  Results of the inventory message.
+
+
+12-31-2025 per Erick Fauscette in meeting, make the inventory output look like the example rather than what the current ACE is doing.
+
+

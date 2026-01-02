@@ -1,0 +1,8 @@
+
+1. Encode base64 sample Manhattan message via online tool "https://www.asciitohex.com/".
+   "2025-12-30 dummiedManhattanMsg.json"
+
+2. Use this sample message to put on google topic.
+   "2025-12-30 dummiedSoapUI_googlemsg.json"
+   
+   

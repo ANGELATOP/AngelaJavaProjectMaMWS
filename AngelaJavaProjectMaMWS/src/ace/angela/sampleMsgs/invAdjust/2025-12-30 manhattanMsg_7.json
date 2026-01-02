@@ -1,0 +1,112 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "Inventory Adjustment",
+			"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+			"SourceTransactionType": "APPLIED_CONDITION_CODE",
+			"SourceEventName": "CONDITION_CODE_CHANGES",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "T11000",
+				"Description": "T11000"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "2026-12-16",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "jim.bartelli@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "UNAVAILABLE",
+				"InventoryAdjustmentQty": "1.0",
+				"Quantity": "1.0",
+				"AdjustedWeight": "0.101",
+				"AsnId": "ASN000000000087",
+				"AsnStatus": "8000",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "LPN000000000252",
+				"LocationId": "SL017S1",
+				"ReasonCodeId": "",
+				"ReferenceText": "",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "gcoleman@awginc.com",
+								"CreatedTimestamp": "2025-12-04T19:24:16.086",
+								"UpdatedBy": "gcoleman@awginc.com",
+								"UpdatedTimestamp": "2025-12-04T19:24:16.086",
+								"Messages": null,
+								"ConditionCodeId": "E",
+								"Description": "Expired Product",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					},
+					{
+						"FromConditionCodes": [
+						]
+					}
+				],
+				"InventoryAdjustmentType": "MOVE",
+				"AdjustedType": "MOVE",
+				"AdjustedWeightType": "MOVE",
+				"CreatedTimestamp": "2025-12-30T15:39:03.309",
+				"UpdatedTimestamp": "2025-12-30T15:42:18.077",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2025-12-30T15:39:03.192"
+			},
+			"TransactionNumber": "7671091433087025236",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2025-12-30T15:39:03.192",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "3ce4e2c6-7849-4ade-ad13-febafb4e1efe",
+	"TotalPages": 1
+}
