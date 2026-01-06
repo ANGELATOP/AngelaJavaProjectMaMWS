@@ -1,0 +1,29 @@
+
+I noticed this message sitting in the queue.
+2026-01-06 googleMsg_1.json
+
+Maybe useful for testing.
+
+------------------------------------------------------------------
+
+1. Use the messages that were sent from Manhattan on 12-31-2025.
+   Refer to package "ace.angela.sampleMsgs.invAdjust".
+   2025-12-30 googleMsg_1.json
+   2025-12-30 googleMsg_5.json
+   2025-12-30 googleMsg_6.json
+   2025-12-30 googleMsg_7.json
+   2026-01-06 googleMsg_1.json
+
+2. Using SoapUI, I put these message on the queue separately so that I could easily tell which inventory XML
+   tied to the specific googleMsg.
+   
+3. Test Results
+   2026-01-06 inventoryStatusChg_1a.xml
+   2026-01-06 inventoryStatusChg_1b.xml
+
+   2026-01-06 inventoryStatusChg_5.xml
+   2026-01-06 inventoryStatusChg_6.xml
+   2026-01-06 inventoryStatusChg_7.xml
+
+   
+   
