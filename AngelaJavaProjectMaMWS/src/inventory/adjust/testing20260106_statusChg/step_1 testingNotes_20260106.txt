@@ -6,16 +6,17 @@ Maybe useful for testing.
 
 ------------------------------------------------------------------
 
-1. Use the messages that were sent from Manhattan on 12-31-2025.
-   Refer to package "ace.angela.sampleMsgs.invAdjust".
-   step2025-12-30 googleMsg_1.json (fyi soapUI "PutMsgOnGoogle_20260106_1")
-   2025-12-30 googleMsg_5.json (fyi soapUI "PutMsgOnGoogle_20260106_5")
-   2025-12-30 googleMsg_6.json (fyi soapUI "PutMsgOnGoogle_20260106_6")
-   2025-12-30 googleMsg_7.json (fyi soapUI "PutMsgOnGoogle_20260106_7")
+1. Messages sent from Manhattan on 12-31-2025.  Refer to package "ace.angela.sampleMsgs.invAdjust".
 
-   2026-01-06 1 googleMsg_1.json (3 google msgs)  (fyi soapUI "PutMsgOnGoogle_20260106_8a") 
-                                                  (fyi soapUI "PutMsgOnGoogle_20260106_8b") 
-                                                  (fyi soapUI "PutMsgOnGoogle_20260106_8c") 
+   step_1 googleMsg_20251230_fourMsgs.json (fyi contains above 4 msgs) 
+   --separate google messages
+   step_2 googleMsg_20251230_1.json (fyi soapUI "PutMsgOnGoogle_20260106_1")
+   step_2 googleMsg_20251230_5.json (fyi soapUI "PutMsgOnGoogle_20260106_5")
+   step_2 googleMsg_20251230_6.json (fyi soapUI "PutMsgOnGoogle_20260106_6")
+   step_2 googleMsg_20251230_7.json (fyi soapUI "PutMsgOnGoogle_20260106_7")
+
+  
+   step_1 googleMsg_20260106_threeMsgs.json (fyi contains 3 new msgs)
 
 
 2. Using SoapUI, I put these message on the queue separately so that I could easily tell which inventory XML
