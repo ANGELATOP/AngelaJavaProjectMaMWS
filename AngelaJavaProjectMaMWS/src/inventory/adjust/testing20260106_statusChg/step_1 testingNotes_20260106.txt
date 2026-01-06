@@ -8,7 +8,7 @@ Maybe useful for testing.
 
 1. Use the messages that were sent from Manhattan on 12-31-2025.
    Refer to package "ace.angela.sampleMsgs.invAdjust".
-   2025-12-30 googleMsg_1.json (fyi soapUI "PutMsgOnGoogle_20260106_1")
+   step2025-12-30 googleMsg_1.json (fyi soapUI "PutMsgOnGoogle_20260106_1")
    2025-12-30 googleMsg_5.json (fyi soapUI "PutMsgOnGoogle_20260106_5")
    2025-12-30 googleMsg_6.json (fyi soapUI "PutMsgOnGoogle_20260106_6")
    2025-12-30 googleMsg_7.json (fyi soapUI "PutMsgOnGoogle_20260106_7")

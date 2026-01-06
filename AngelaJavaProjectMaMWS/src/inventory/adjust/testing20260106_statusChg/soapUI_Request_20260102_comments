@@ -1,0 +1,10 @@
+
+soapUI_Request_20260102_fourMsgs.json
+
+Contains the following google messages in for one request.
+Useful for submitting 4 at one time.
+
+step_1 googleMsg_20251230_1.json
+step_1 googleMsg_20251230_5.json
+step_1 googleMsg_20251230_6.json
+step_1 googleMsg_20251230_7.json
