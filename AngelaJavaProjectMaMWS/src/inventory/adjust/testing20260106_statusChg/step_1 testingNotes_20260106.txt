@@ -4,20 +4,24 @@ I noticed this message sitting in the queue.
 
 Maybe useful for testing.
 
-------------------------------------------------------------------
-
-1. Messages sent from Manhattan on 12-31-2025.  Refer to package "ace.angela.sampleMsgs.invAdjust".
-
+--------------------------------------------------------------------------------------------------
+-- contains multiple google messages.  I splitted them out for testing purpose.
+--------------------------------------------------------------------------------------------------
    step_1 googleMsg_20251230_fourMsgs.json (fyi contains above 4 msgs) 
-   --separate google messages
-   step_2 googleMsg_20251230_1.json (fyi soapUI "PutMsgOnGoogle_20260106_1")
-   step_2 googleMsg_20251230_5.json (fyi soapUI "PutMsgOnGoogle_20260106_5")
-   step_2 googleMsg_20251230_6.json (fyi soapUI "PutMsgOnGoogle_20260106_6")
-   step_2 googleMsg_20251230_7.json (fyi soapUI "PutMsgOnGoogle_20260106_7")
-
-  
    step_1 googleMsg_20260106_threeMsgs.json (fyi contains 3 new msgs)
 
+--------------------------------------------------------------------------------------------------
+
+1. Messages sent from Manhattan on 12-30-2025.  Refer to package "ace.angela.sampleMsgs.invAdjust".
+
+   step_2 googleMsg_20251230_1.json (fyi soapUI "PutMsgOnGoogle_20251230_1")
+   step_2 googleMsg_20251230_5.json (fyi soapUI "PutMsgOnGoogle_20251230_5")
+   step_2 googleMsg_20251230_6.json (fyi soapUI "PutMsgOnGoogle_20251230_6")
+   step_2 googleMsg_20251230_7.json (fyi soapUI "PutMsgOnGoogle_20251230_7")
+
+   step_2 googleMsg_20260106_8a.json (fyi soapUI "PutMsgOnGoogle_20260106_8a")
+   step_2 googleMsg_20260106_8b.json (fyi soapUI "PutMsgOnGoogle_20260106_8b")
+   step_2 googleMsg_20260106_8c.json (fyi soapUI "PutMsgOnGoogle_20260106_8c")
 
 2. Using SoapUI, I put these message on the queue separately so that I could easily tell which inventory XML
    tied to the specific googleMsg.
