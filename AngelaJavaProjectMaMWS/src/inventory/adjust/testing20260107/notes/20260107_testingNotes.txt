@@ -40,7 +40,7 @@ output: "20260107_SSC_outputMsg.xml"
  
 This is the Soap API to generate sample messages.
 refer to "jpg file - SoapUI current SQC-SSC format.jpg"
-
+          
 
 
  
