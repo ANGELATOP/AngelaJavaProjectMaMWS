@@ -1,7 +1,45 @@
+-------------------------------------------------------------------------------------------------------------------------------
+--Test inventory adjustments
+-------------------------------------------------------------------------------------------------------------------------------
 
-
-
-
-3. Put message to google topic.  Call api.
+1. Put message to google topic.  Call api.
    http://dpdev01-api-dev.awg.local:8022/v1/projects/awgr-masc-stg-01-ops/topics/XNT_HST_InventoryAdjustment_GCPQ:publish
    
+   refer to "2026-01-07 SoapUI requests for inventoryAdj.jpg" for the soapUI requests
+   
+2. Refer to each of the packages for test results.
+
+   "inventory.adjust.testing20260107.test1.statusChg"   
+   "inventory.adjust.testing20260107.test5.statusChg"   
+   "inventory.adjust.testing20260107.test6.statusChg"   
+   "inventory.adjust.testing20260107.test7.statusChg"   
+   "inventory.adjust.testing20260107.test8.qtyChg" 
+   
+   Each of the package contains the actual google messages that I was able to capture from Manhattan.
+   Each of the package contains the soapUI request message.
+   Each of the package contains the decoded Manhatta messages.
+   Each of the package contains the inventory adjustment messages.
+
+-------------------------------------------------------------------------------------------------------------------------------
+--Additional Information
+-------------------------------------------------------------------------------------------------------------------------------
+These inventory are examples from the current ACE appplications. This is the basic of what I used to generate the 
+XML message model.
+
+"20260107_sampleSQCmsg.xml"
+"20260107_sampleSSCmsg.xml"
+
+This is my test version of the current ESQL logic to generate a sample messages.
+Refer to "2026-01-07 AIO-SQC-SSC-fromWiWMS-tester.jpg" for my ACE tester. 
+ 
+ 
+ 
+
+
+
+
+
+      
+   
+   
+                 
