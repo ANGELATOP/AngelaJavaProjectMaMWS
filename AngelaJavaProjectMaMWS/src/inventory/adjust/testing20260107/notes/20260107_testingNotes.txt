@@ -21,17 +21,28 @@
    Each of the package contains the inventory adjustment messages.
 
 -------------------------------------------------------------------------------------------------------------------------------
---Additional Information
+--ACE Tester
 -------------------------------------------------------------------------------------------------------------------------------
-These inventory are examples from the current ACE appplications. This is the basic of what I used to generate the 
-XML message model.
 
-"20260107_sampleSQCmsg.xml"
-"20260107_sampleSSCmsg.xml"
-
-This is my test version of the current ESQL logic to generate a sample messages.
+This is my test ACE API with the current ESQL logic to generate a sample messages.
 Refer to "2026-01-07 AIO-SQC-SSC-fromWiWMS-tester.jpg" for my ACE tester. 
+The output message is what I used to generate my xml message schema.
+
+input:  "20260107_SQC_inputMsg.json"
+output: "20260107_SQC_outputMsg.xml"
+
+input:  "20260107_SSC_inputMsg.json"
+output: "20260107_SSC_outputMsg.xml"
+
+-------------------------------------------------------------------------------------------------------------------------------
+--Soap API
+-------------------------------------------------------------------------------------------------------------------------------
  
+This is the Soap API to generate sample messages.
+refer to "2026-01-07 SoapUI current SQC-SSC format.jpg"
+
+
+
  
  
 
