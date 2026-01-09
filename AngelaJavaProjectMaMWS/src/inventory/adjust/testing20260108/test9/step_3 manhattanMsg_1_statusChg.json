@@ -1,0 +1,112 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "Inventory Adjustment",
+			"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+			"SourceTransactionType": "APPLIED_CONDITION_CODE",
+			"SourceEventName": "CONDITION_CODE_CHANGES",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "T000013",
+				"Description": "TestMilk"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "2026-02-24",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "richard.melton@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "UNAVAILABLE",
+				"InventoryAdjustmentQty": "4.0",
+				"Quantity": "4.0",
+				"AdjustedWeight": "4.0",
+				"AsnId": "",
+				"AsnStatus": "",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "",
+				"LocationId": "D45002",
+				"ReasonCodeId": "",
+				"ReferenceText": "",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "gcoleman@awginc.com",
+								"CreatedTimestamp": "2025-12-04T19:24:16.252",
+								"UpdatedBy": "gcoleman@awginc.com",
+								"UpdatedTimestamp": "2025-12-04T19:24:16.252",
+								"Messages": null,
+								"ConditionCodeId": "H",
+								"Description": "Hold Product",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					},
+					{
+						"FromConditionCodes": [
+						]
+					}
+				],
+				"InventoryAdjustmentType": "MOVE",
+				"AdjustedType": "MOVE",
+				"AdjustedWeightType": "MOVE",
+				"CreatedTimestamp": "2026-01-07T17:19:36.400",
+				"UpdatedTimestamp": "2026-01-07T17:22:47.557",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-01-07T17:17:17.779"
+			},
+			"TransactionNumber": "7678063763906102908",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-01-07T17:17:17.779",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "3f7c48e0-77c9-4057-ba6e-d208e5936d72",
+	"TotalPages": 1
+}

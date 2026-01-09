@@ -1,0 +1,500 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"ContextInformation": {
+			"type": "object",
+			"properties": {
+				"Messages": {
+					"type": "object"
+				},
+				"Organization": {
+					"type": "string"
+				},
+				"UserId": {
+					"type": "string"
+				},
+				"UserLocale": {
+					"type": "string"
+				},
+				"Location": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"Messages",
+				"Organization",
+				"UserId",
+				"UserLocale",
+				"Location"
+			]
+		},
+		"CurrentPage": {
+			"type": "number"
+		},
+		"ExportDocuments": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"Messages": {
+						"type": "object"
+					},
+					"PIXSpecification": {
+						"type": "string"
+					},
+					"Description": {
+						"type": "string"
+					},
+					"SourceTransactionType": {
+						"type": "string"
+					},
+					"SourceEventName": {
+						"type": "string"
+					},
+					"ItemDefinition": {
+						"type": "object",
+						"properties": {
+							"Company": {
+								"type": "string"
+							},
+							"Season": {
+								"type": "string"
+							},
+							"SeasonYear": {
+								"type": "string"
+							},
+							"Style": {
+								"type": "string"
+							},
+							"StyleSuffix": {
+								"type": "string"
+							},
+							"Color": {
+								"type": "string"
+							},
+							"ColorSuffix": {
+								"type": "string"
+							},
+							"SecondDimension": {
+								"type": "string"
+							},
+							"SizeCode": {
+								"type": "string"
+							},
+							"SizeDescription": {
+								"type": "string"
+							},
+							"ItemId": {
+								"type": "string"
+							},
+							"Description": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"Company",
+							"Season",
+							"SeasonYear",
+							"Style",
+							"StyleSuffix",
+							"Color",
+							"ColorSuffix",
+							"SecondDimension",
+							"SizeCode",
+							"SizeDescription",
+							"ItemId",
+							"Description"
+						]
+					},
+					"SubItemFields": {
+						"type": "object",
+						"properties": {
+							"InventoryTypeId": {
+								"type": "string"
+							},
+							"ProductStatusId": {
+								"type": "string"
+							},
+							"ItemBatchNumberId": {
+								"type": "string"
+							},
+							"InventoryAttribute1": {
+								"type": "string"
+							},
+							"InventoryAttribute2": {
+								"type": "string"
+							},
+							"InventoryAttribute3": {
+								"type": "string"
+							},
+							"InventoryAttribute4": {
+								"type": "string"
+							},
+							"InventoryAttribute5": {
+								"type": "string"
+							},
+							"CountryOfOrigin": {
+								"type": "string"
+							},
+							"ExpirationDate": {
+								"type": "string"
+							},
+							"ManufactureDate": {
+								"type": "string"
+							},
+							"PackUomQuantity": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"InventoryTypeId",
+							"ProductStatusId",
+							"ItemBatchNumberId",
+							"InventoryAttribute1",
+							"InventoryAttribute2",
+							"InventoryAttribute3",
+							"InventoryAttribute4",
+							"InventoryAttribute5",
+							"CountryOfOrigin",
+							"ExpirationDate",
+							"ManufactureDate",
+							"PackUomQuantity"
+						]
+					},
+					"PIXFields": {
+						"type": "object",
+						"properties": {
+							"BusinessUnitId": {
+								"type": "string"
+							},
+							"ExternalOrganizationId": {
+								"type": "string"
+							},
+							"CreatedBy": {
+								"type": "string"
+							},
+							"FromInventoryBucket": {
+								"type": "string"
+							},
+							"ToInventoryBucket": {
+								"type": "string"
+							},
+							"InventoryAdjustmentQty": {
+								"type": "string"
+							},
+							"Quantity": {
+								"type": "string"
+							},
+							"AdjustedWeight": {
+								"type": "string"
+							},
+							"AsnId": {
+								"type": "string"
+							},
+							"AsnStatus": {
+								"type": "string"
+							},
+							"PurchaseOrderId": {
+								"type": "string"
+							},
+							"AlternateAsnId": {
+								"type": "string"
+							},
+							"AlternatePurchaseOrderId": {
+								"type": "string"
+							},
+							"IlpnId": {
+								"type": "string"
+							},
+							"LocationId": {
+								"type": "string"
+							},
+							"ReasonCodeId": {
+								"type": "string"
+							},
+							"ReferenceText": {
+								"type": "string"
+							},
+							"SecondaryReferenceText": {
+								"type": "string"
+							},
+							"ConditionCodeChange": {
+								"type": "string"
+							},
+							"ConditionCodes": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"ToConditionCodes": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"Actions": {
+														"type": "object",
+														"properties": {
+														},
+														"required": [
+														]
+													},
+													"PK": {
+														"type": "object"
+													},
+													"CreatedBy": {
+														"type": "string"
+													},
+													"CreatedTimestamp": {
+														"type": "string"
+													},
+													"UpdatedBy": {
+														"type": "string"
+													},
+													"UpdatedTimestamp": {
+														"type": "string"
+													},
+													"Messages": {
+														"type": "object"
+													},
+													"ConditionCodeId": {
+														"type": "string"
+													},
+													"Description": {
+														"type": "string"
+													},
+													"InventoryUnavailable": {
+														"type": "boolean"
+													},
+													"HostPriority": {
+														"type": "object"
+													},
+													"RemoveOnPutaway": {
+														"type": "boolean"
+													},
+													"RemoveOnCount": {
+														"type": "boolean"
+													},
+													"LocalizedData": {
+														"type": "object"
+													},
+													"LocalizedDataKVStore": {
+														"type": "object"
+													},
+													"Extended": {
+														"type": "object",
+														"properties": {
+														},
+														"required": [
+														]
+													}
+												},
+												"required": [
+													"Actions",
+													"PK",
+													"CreatedBy",
+													"CreatedTimestamp",
+													"UpdatedBy",
+													"UpdatedTimestamp",
+													"Messages",
+													"ConditionCodeId",
+													"Description",
+													"InventoryUnavailable",
+													"HostPriority",
+													"RemoveOnPutaway",
+													"RemoveOnCount",
+													"LocalizedData",
+													"LocalizedDataKVStore",
+													"Extended"
+												]
+											}
+										},
+										"FromConditionCodes": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"Actions": {
+														"type": "object",
+														"properties": {
+														},
+														"required": [
+														]
+													},
+													"PK": {
+														"type": "object"
+													},
+													"CreatedBy": {
+														"type": "string"
+													},
+													"CreatedTimestamp": {
+														"type": "string"
+													},
+													"UpdatedBy": {
+														"type": "string"
+													},
+													"UpdatedTimestamp": {
+														"type": "string"
+													},
+													"Messages": {
+														"type": "object"
+													},
+													"ConditionCodeId": {
+														"type": "string"
+													},
+													"Description": {
+														"type": "string"
+													},
+													"InventoryUnavailable": {
+														"type": "boolean"
+													},
+													"HostPriority": {
+														"type": "object"
+													},
+													"RemoveOnPutaway": {
+														"type": "boolean"
+													},
+													"RemoveOnCount": {
+														"type": "boolean"
+													},
+													"LocalizedData": {
+														"type": "object"
+													},
+													"LocalizedDataKVStore": {
+														"type": "object"
+													},
+													"Extended": {
+														"type": "object",
+														"properties": {
+														},
+														"required": [
+														]
+													}
+												},
+												"required": [
+													"Actions",
+													"PK",
+													"CreatedBy",
+													"CreatedTimestamp",
+													"UpdatedBy",
+													"UpdatedTimestamp",
+													"Messages",
+													"ConditionCodeId",
+													"Description",
+													"InventoryUnavailable",
+													"HostPriority",
+													"RemoveOnPutaway",
+													"RemoveOnCount",
+													"LocalizedData",
+													"LocalizedDataKVStore",
+													"Extended"
+												]
+											}
+										}
+									},
+									"required": [
+										"ToConditionCodes", 
+										"FromConditionCodes"
+									]
+								}
+							},
+							"InventoryAdjustmentType": {
+								"type": "string"
+							},
+							"AdjustedType": {
+								"type": "string"
+							},
+							"AdjustedWeightType": {
+								"type": "string"
+							},
+							"CreatedTimestamp": {
+								"type": "string"
+							},
+							"UpdatedTimestamp": {
+								"type": "string"
+							},
+							"UpdatedBy": {
+								"type": "string"
+							},
+							"TransactionDateTime": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"BusinessUnitId",
+							"ExternalOrganizationId",
+							"CreatedBy",
+							"FromInventoryBucket",
+							"ToInventoryBucket",
+							"InventoryAdjustmentQty",
+							"Quantity",
+							"AdjustedWeight",
+							"AsnId",
+							"AsnStatus",
+							"PurchaseOrderId",
+							"AlternateAsnId",
+							"AlternatePurchaseOrderId",
+							"IlpnId",
+							"LocationId",
+							"ReasonCodeId",
+							"ReferenceText",
+							"SecondaryReferenceText",
+							"ConditionCodeChange",
+							"ConditionCodes",
+							"InventoryAdjustmentType",
+							"AdjustedType",
+							"AdjustedWeightType",
+							"CreatedTimestamp",
+							"UpdatedTimestamp",
+							"UpdatedBy",
+							"TransactionDateTime"
+						]
+					},
+					"TransactionNumber": {
+						"type": "string"
+					},
+					"SequenceNumber": {
+						"type": "number"
+					},
+					"TransactionDateTime": {
+						"type": "string"
+					},
+					"Organization": {
+						"type": "string"
+					},
+					"Facility": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"Messages",
+					"PIXSpecification",
+					"Description",
+					"SourceTransactionType",
+					"SourceEventName",
+					"ItemDefinition",
+					"SubItemFields",
+					"PIXFields",
+					"TransactionNumber",
+					"SequenceNumber",
+					"TransactionDateTime",
+					"Organization",
+					"Facility"
+				]
+			}
+		},
+		"UniqueJobId": {
+			"type": "string"
+		},
+		"TotalPages": {
+			"type": "number"
+		}
+	},
+	"required": [
+		"ContextInformation",
+		"CurrentPage",
+		"ExportDocuments",
+		"UniqueJobId",
+		"TotalPages"
+	]
+}

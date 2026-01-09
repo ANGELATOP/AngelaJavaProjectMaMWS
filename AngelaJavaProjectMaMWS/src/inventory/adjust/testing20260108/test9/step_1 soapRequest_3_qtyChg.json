@@ -1,0 +1,45 @@
+{
+	"messages": [
+		{
+
+		
+				"data": "eyJDb250ZXh0SW5mb3JtYXRpb24iOnsiTWVzc2FnZXMiOm51bGwsIk9yZ2FuaXphdGlvbiI6IktDIiwiVXNlcklkIjoic3lzdGVtLW1zZy11c2VyQEtDIiwiVXNlckxvY2FsZSI6IlVUQyIsIkxvY2F0aW9uIjoiS0MifSwiQ3VycmVudFBhZ2UiOjEsIkV4cG9ydERvY3VtZW50cyI6W3siTWVzc2FnZXMiOm51bGwsIlBJWFNwZWNpZmljYXRpb24iOiJJbnZlbnRvcnkgQWRqdXN0bWVudCIsIkRlc2NyaXB0aW9uIjoiU2luZ2xlIEludmVudG9yeSBBZGp1c3RtZW50IFBJWCBmb3IgSG9zdCBJbnZlbnRvcnkgY2hhbmdlcyIsIlNvdXJjZVRyYW5zYWN0aW9uVHlwZSI6IkFESlVTVF9VSSIsIlNvdXJjZUV2ZW50TmFtZSI6IklOVkVOVE9SWV9BREpVU1RNRU5UIiwiSXRlbURlZmluaXRpb24iOnsiQ29tcGFueSI6IktDIiwiU2Vhc29uIjoiIiwiU2Vhc29uWWVhciI6IiIsIlN0eWxlIjoiIiwiU3R5bGVTdWZmaXgiOiIiLCJDb2xvciI6IiIsIkNvbG9yU3VmZml4IjoiIiwiU2Vjb25kRGltZW5zaW9uIjoiIiwiU2l6ZUNvZGUiOiIiLCJTaXplRGVzY3JpcHRpb24iOiIiLCJJdGVtSWQiOiIwMDQzODQ4IiwiRGVzY3JpcHRpb24iOiJCU1QgQ0ggVkVHIFFUUlMgNTMgMTYgT1oifSwiU3ViSXRlbUZpZWxkcyI6eyJJbnZlbnRvcnlUeXBlSWQiOiIiLCJQcm9kdWN0U3RhdHVzSWQiOiIiLCJJdGVtQmF0Y2hOdW1iZXJJZCI6IiIsIkludmVudG9yeUF0dHJpYnV0ZTEiOiIiLCJJbnZlbnRvcnlBdHRyaWJ1dGUyIjoiIiwiSW52ZW50b3J5QXR0cmlidXRlMyI6IiIsIkludmVudG9yeUF0dHJpYnV0ZTQiOiIiLCJJbnZlbnRvcnlBdHRyaWJ1dGU1IjoiIiwiQ291bnRyeU9mT3JpZ2luIjoiIiwiRXhwaXJhdGlvbkRhdGUiOiIyMDI1LTEyLTE3IiwiTWFudWZhY3R1cmVEYXRlIjoiIiwiUGFja1VvbVF1YW50aXR5IjoiIn0sIlBJWEZpZWxkcyI6eyJCdXNpbmVzc1VuaXRJZCI6IiIsIkV4dGVybmFsT3JnYW5pemF0aW9uSWQiOiIiLCJDcmVhdGVkQnkiOiJqZXJlbXkuam9obnNvbkBhd2dpbmMuY29tIiwiRnJvbUludmVudG9yeUJ1Y2tldCI6IkFWQUlMQUJMRSIsIlRvSW52ZW50b3J5QnVja2V0IjoiQVZBSUxBQkxFIiwiSW52ZW50b3J5QWRqdXN0bWVudFF0eSI6IjEwIiwiUXVhbnRpdHkiOiIxMCIsIkFkanVzdGVkV2VpZ2h0IjoiMTg4LjgiLCJBc25JZCI6IiIsIkFzblN0YXR1cyI6IiIsIlB1cmNoYXNlT3JkZXJJZCI6IiIsIkFsdGVybmF0ZUFzbklkIjoiIiwiQWx0ZXJuYXRlUHVyY2hhc2VPcmRlcklkIjoiIiwiSWxwbklkIjoiIiwiTG9jYXRpb25JZCI6IkcxMjA0OFAiLCJSZWFzb25Db2RlSWQiOiJQIiwiUmVmZXJlbmNlVGV4dCI6IiIsIlNlY29uZGFyeVJlZmVyZW5jZVRleHQiOiIiLCJDb25kaXRpb25Db2RlQ2hhbmdlIjoiTiIsIkNvbmRpdGlvbkNvZGVzIjpbeyJUb0NvbmRpdGlvbkNvZGVzIjpbXX0seyJGcm9tQ29uZGl0aW9uQ29kZXMiOltdfV0sIkludmVudG9yeUFkanVzdG1lbnRUeXBlIjoiU1VCVFJBQ1QiLCJBZGp1c3RlZFR5cGUiOiJTVUJUUkFDVCIsIkFkanVzdGVkV2VpZ2h0VHlwZSI6IlNVQlRSQUNUIiwiQ3JlYXRlZFRpbWVzdGFtcCI6IjIwMjYtMDEtMDdUMTg6NDA6MzIuNDI2IiwiVXBkYXRlZFRpbWVzdGFtcCI6IjIwMjYtMDEtMDdUMTg6NDE6NTcuOTgzIiwiVXBkYXRlZEJ5Ijoic3lzdGVtLW1zZy11c2VyQEtDIiwiVHJhbnNhY3Rpb25EYXRlVGltZSI6IjIwMjYtMDEtMDdUMTg6NDA6MzEuOTE4In0sIlRyYW5zYWN0aW9uTnVtYmVyIjoiNzY3ODExMjMxOTExNDQ5MzA3OCIsIlNlcXVlbmNlTnVtYmVyIjoxLCJUcmFuc2FjdGlvbkRhdGVUaW1lIjoiMjAyNi0wMS0wN1QxODo0MDozMS45MTgiLCJPcmdhbml6YXRpb24iOiJLQyIsIkZhY2lsaXR5IjoiS0MifV0sIlVuaXF1ZUpvYklkIjoiNTRhYjgzOTctZjA3Mi00MjhmLWE0ZDktNmJlMDZkNTJkZGQwIiwiVG90YWxQYWdlcyI6MX0=",
+				"attributes": {
+					"msg_submission_time_utc": "2026-01-07T18:41:58.124Z",
+					"SelectedLocation": "KC",
+					"PayloadQueueName": "awpf-payload-queue-xin",
+					"SPAN_ID": "b9cb1b662642c0ba",
+					"SelectedOrganization": "KC",
+					"fromExtensionPointMessageType": "PIX_XIN_InventoryAdjustment",
+					"OUTBOUND_MSG_TYPE": "XNT_HST_InventoryAdjustment",
+					"BROKER_TYPE": "googlepubsub",
+					"APP_ID_TRACE": "com-manh-cp-xint-queue-proc-q-xint-94b77f658-nbt54",
+					"QueueName": "XNT_HST_InventoryAdjustment_GCPQ",
+					"User": "system-msg-user@KC",
+					"PrimaryOrganization": "System",
+					"fromInboundQueueName": "awpf-payload-queue-xin",
+					"IsRetransmitMsg": "true",
+					"MSG_ID_PK": "182203270182013007928353777455936524",
+					"Location": "KC",
+					"direction": "Outbound",
+					"TenantId": "awgrssf11o",
+					"MSG_TYPE": "XNT_HST_InventoryAdjustment",
+					"AllBusinessUnitsAccessible": "true",
+					"fromInboundServiceId": "PayloadMsgProcessor",
+					"TRACE_ID": "7372560a17ab6191",
+					"msg_submission_time": "2026-01-07T18:41:58.124",
+					"BROKER_ADDRESS": "",
+					"fromInboundMessageType": "awpf-payload",
+					"Organization": "System",
+					"TRANSACTIONAL": "true",
+					"UserLocale": "en",
+					"app-id": "com-manh-cp-xint-queue-proc-q-xint-94b77f658-nbt54",
+					"fromExtensionPointId": "Inventory_Adjustment",
+					"ComponentName": "xint"
+				},
+				"messageId": "17681276408681673",
+				"publishTime": "2026-01-07T18:41:58.421Z"		
+		
+		}
+	]
+}

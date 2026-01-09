@@ -1,0 +1,33 @@
+For testing results details, 
+refer to "E:\Employer - AWG - 2026\Projects\WMS project\9999-99-99 Inventory Adjustment-ACE Flow Designs(aof 2026)-Testing20260108.xlsx";
+
+-------------------------------------------------------------------------------------------------------------------------------
+--Test inventory adjustments
+-------------------------------------------------------------------------------------------------------------------------------
+0. Need to re-test "Inventory Status Message" after code change.
+
+0. Delete all my test update from yesterday on the archive tables.
+
+   DELETE from DB2PDBA.MAWMS_MSG_DTL_ARCH WHERE msg_header_key in 
+          (Select msg_header_key from DB2PDBA.MAWMS_MSG_ARCH 
+           WHERE MSG_DIRECTION = 'INBOUND' 
+           and   msg_topic = 'XNT_HST_InventoryAdjustment_GCPQ'); 
+
+   DELETE from DB2PDBA.MAWMS_MSG_ARCH 
+          WHERE MSG_DIRECTION = 'INBOUND' 
+          and msg_topic = 'XNT_HST_InventoryAdjustment_GCPQ';
+
+
+1. Put message to google topic.  Call api.
+   http://dpdev01-api-dev.awg.local:8022/v1/projects/awgr-masc-stg-01-ops/topics/XNT_HST_InventoryAdjustment_GCPQ:publish
+   
+2. Refer to each of the packages for test results.
+
+   "inventory.adjust.testing20260108.test1.statusChg"   
+   "inventory.adjust.testing20260108.test9"   
+   
+   Each of the package contains the actual google messages that I was able to capture from Manhattan.
+   Each of the package contains the soapUI request message.
+   Each of the package contains the decoded Manhatta messages.
+   Each of the package contains the inventory adjustment messages.
+
