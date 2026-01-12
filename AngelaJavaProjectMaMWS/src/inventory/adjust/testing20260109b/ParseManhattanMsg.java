@@ -132,24 +132,19 @@ public class ParseManhattanMsg {
 						    			  System.out.println(appendSpaces("FromConditionCodeId"+":") + jsonObj5.getString("ConditionCodeId"));
 						    			  noFromConditionCodes=true;
 						    		  }
-						    		  
-						    		  
-						    		  //System.out.println("stop here - FromConditionCodes");
-						    				  
 				    			  }
 				    		  }
-				    		}
+				    	}//eof for(int z=0;z<jsonArray1.length();z++)
 			    		  
-			    		  if(noToConditionCodes==false) {
-			    			  System.out.println(appendSpaces("ToConditionCodeId"+":") + "emptyList");
-			    		  }
-			    		  if(noFromConditionCodes==false) {
-			    			  System.out.println(appendSpaces("FromConditionCodeId"+":") + "emptyList");
-			    		  }
-
-			    	  
-			    	  }
+			    		if(noToConditionCodes==false) {
+			    			   System.out.println(appendSpaces("ToConditionCodeId"+":") + "emptyList");
 			    		}
+			    		if(noFromConditionCodes==false) {
+			    		  System.out.println(appendSpaces("FromConditionCodeId"+":") + "emptyList");
+			    		}
+			    	  }//eof if("PIXFields".equals(elementName))
+			    	  
+			    	}
 			    	  
 
 			      }
