@@ -1,0 +1,198 @@
+ 
+-----------------------------------------------------------
+-- step_3 manhattanMsg_1_2msgs_T11000.json
+-----------------------------------------------------------
+ 
+"SourceTransactionType": "REMOVED_CONDITION_CODE",
+"SourceEventName": "CONDITION_CODE_CHANGES",
+"ItemId": "T11000",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"ConditionCodeId": "C",
+"TransactionNumber": "7671062379086016080",
+"SequenceNumber": 1,
+ 
+"SourceTransactionType": "APPLIED_CONDITION_CODE",
+"SourceEventName": "CONDITION_CODE_CHANGES",
+"ItemId": "T11000",
+"ToConditionCodes": [
+"ConditionCodeId": "D",
+"FromConditionCodes": [
+"TransactionNumber": "7671062499856112872",
+"SequenceNumber": 1,
+ 
+-----------------------------------------------------------
+-- step_3 manhattanMsg_2_2msgs_T000013.json
+-----------------------------------------------------------
+ 
+"SourceTransactionType": "ADJUST_UI",
+"SourceEventName": "INVENTORY_ADJUSTMENT",
+"ItemId": "T000013",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"TransactionNumber": "7679903525763342547",
+"SequenceNumber": 1,
+ 
+"SourceTransactionType": "ADJUST_UI",
+"SourceEventName": "INVENTORY_ADJUSTMENT",
+"ItemId": "T000013",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"TransactionNumber": "7679904339443426532",
+"SequenceNumber": 1,
+ 
+-----------------------------------------------------------
+-- step_3 manhattanMsg_3_1msgs_0043848.json
+-----------------------------------------------------------
+ 
+"SourceTransactionType": "APPLIED_CONDITION_CODE",
+"SourceEventName": "CONDITION_CODE_CHANGES",
+"ItemId": "0043848",
+"ToConditionCodes": [
+"ConditionCodeId": "C",
+"FromConditionCodes": [
+"TransactionNumber": "7679948858781106588",
+"SequenceNumber": 1,
+ 
+-----------------------------------------------------------
+-- step_3 manhattanMsg_4_6msgs_0043848-T11000.json
+-----------------------------------------------------------
+ 
+"SourceTransactionType": "ADJUST_UI",
+"SourceEventName": "INVENTORY_ADJUSTMENT",
+"ItemId": "0043848",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"TransactionNumber": "7679702530771461040",
+"SequenceNumber": 2,
+ 
+"SourceTransactionType": "ADJUST_UI",
+"SourceEventName": "INVENTORY_ADJUSTMENT",
+"ItemId": "T11000",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"TransactionNumber": "7679702530771461040",
+"SequenceNumber": 1,
+ 
+"SourceTransactionType": "ADJUST_UI",
+"SourceEventName": "INVENTORY_ADJUSTMENT",
+"ItemId": "T11000",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"TransactionNumber": "7679702530771461040",
+"SequenceNumber": 5,
+ 
+"SourceTransactionType": "ADJUST_UI",
+"SourceEventName": "INVENTORY_ADJUSTMENT",
+"ItemId": "T11000",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"TransactionNumber": "7679702530771461040",
+"SequenceNumber": 3,
+ 
+"SourceTransactionType": "ADJUST_UI",
+"SourceEventName": "INVENTORY_ADJUSTMENT",
+"ItemId": "0043848",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"TransactionNumber": "7679702530771461040",
+"SequenceNumber": 4,
+ 
+"SourceTransactionType": "ADJUST_UI",
+"SourceEventName": "INVENTORY_ADJUSTMENT",
+"ItemId": "0043848",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"TransactionNumber": "7679702530771461040",
+"SequenceNumber": 6,
+ 
+-----------------------------------------------------------
+-- step_3 manhattanMsg_5_1msgs_T000013.json
+-----------------------------------------------------------
+ 
+"SourceTransactionType": "REMOVED_CONDITION_CODE",
+"SourceEventName": "CONDITION_CODE_CHANGES",
+"ItemId": "T000013",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"ConditionCodeId": "H",
+"TransactionNumber": "7679810268957681617",
+"SequenceNumber": 1,
+ 
+-----------------------------------------------------------
+-- step_3 manhattanMsg_6_6msgs_0205336_20260109.json
+-----------------------------------------------------------
+ 
+"SourceTransactionType": "APPLIED_CONDITION_CODE",
+"SourceEventName": "CONDITION_CODE_CHANGES",
+"ItemId": "0205336",
+"ToConditionCodes": [
+"ConditionCodeId": "C",
+"FromConditionCodes": [
+"TransactionNumber": "7679871726558368864",
+"SequenceNumber": 1,
+ 
+"SourceTransactionType": "APPLIED_CONDITION_CODE",
+"SourceEventName": "CONDITION_CODE_CHANGES",
+"ItemId": "0205336",
+"ToConditionCodes": [
+"ConditionCodeId": "C",
+"FromConditionCodes": [
+"TransactionNumber": "7679871727078416011",
+"SequenceNumber": 1,
+ 
+"SourceTransactionType": "APPLIED_CONDITION_CODE",
+"SourceEventName": "CONDITION_CODE_CHANGES",
+"ItemId": "0205336",
+"ToConditionCodes": [
+"ConditionCodeId": "C",
+"FromConditionCodes": [
+"TransactionNumber": "7679871727408466898",
+"SequenceNumber": 1,
+ 
+"SourceTransactionType": "APPLIED_CONDITION_CODE",
+"SourceEventName": "CONDITION_CODE_CHANGES",
+"ItemId": "0205336",
+"ToConditionCodes": [
+"ConditionCodeId": "C",
+"FromConditionCodes": [
+"TransactionNumber": "7679871727738514556",
+"SequenceNumber": 1,
+ 
+"SourceTransactionType": "APPLIED_CONDITION_CODE",
+"SourceEventName": "CONDITION_CODE_CHANGES",
+"ItemId": "0205336",
+"ToConditionCodes": [
+"ConditionCodeId": "C",
+"FromConditionCodes": [
+"TransactionNumber": "7679871728158583632",
+"SequenceNumber": 1,
+ 
+"SourceTransactionType": "APPLIED_CONDITION_CODE",
+"SourceEventName": "CONDITION_CODE_CHANGES",
+"ItemId": "0205336",
+"ToConditionCodes": [
+"ConditionCodeId": "C",
+"FromConditionCodes": [
+"TransactionNumber": "7679871728578656691",
+"SequenceNumber": 1,
+ 
+-----------------------------------------------------------
+-- step_3 manhattanMsg_7_2msgs_T10111-T000013.json
+-----------------------------------------------------------
+ 
+"SourceTransactionType": "ADJUST_UI",
+"SourceEventName": "INVENTORY_ADJUSTMENT",
+"ItemId": "T10111",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"TransactionNumber": "7679901183833097377",
+"SequenceNumber": 1,
+ 
+"SourceTransactionType": "ADJUST_UI",
+"SourceEventName": "INVENTORY_ADJUSTMENT",
+"ItemId": "T000013",
+"ToConditionCodes": [
+"FromConditionCodes": [
+"TransactionNumber": "7679903043583245013",
+"SequenceNumber": 1,
