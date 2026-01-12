@@ -13,19 +13,17 @@ import aa.common.code.ListFileNames;
 import aa.common.code.RetrieveTextFile;
 
 
-public class SearchFileContent_20260109 {
+public class ParseGoogleMsg2 {
 
-	final static String whichFiles = "step_3";//review which files?
-	final static String directory      ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing20260109b\\";
-	final static String outputdirectory="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing20260109b\\";
 	
 	public static void main(String[] args) {
 		
-		System.out.println("SearchFileContent_20260109: start ");
+		System.out.println("ParseGoogleMsg: start ");
 
+		String directory      ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing20260109b\\";
 
 		//step 1 - parse google message
-		parseGoogleMsgs();
+		parseGoogleMsgs(directory);
 		
 		//step 2 - manually format each manhattan messages
 		
@@ -33,13 +31,10 @@ public class SearchFileContent_20260109 {
 //		parseManhattanMsgs();
 		
 		
-		System.out.println("SearchFileContent_20260109: end");
+		System.out.println("ParseGoogleMsg: end");
 	}
-	private static void getKeyAndValues(JSONObject obj) {
-	      JSONObject objectInArray = obj;
-	      String[] elementNames = JSONObject.getNames(objectInArray);
-	}
-	public static void parseGoogleMsgs() {
+
+	public static void parseGoogleMsgs(String directory) {
 		List<String> files = ListFileNames.getFileNames(directory);
 		List<String> records;
 		StringBuilder jsonData = new StringBuilder();
@@ -88,7 +83,7 @@ public class SearchFileContent_20260109 {
 			    		  output.add(decode);
 			    		  fileCnter=fileCnter+1;
 			    		  outputFileNm = "step_3 decodedManhattanMsg_"+fileCnter+".json";
-			  			  CreateOutputFile.createOutputFile(outputdirectory+outputFileNm, output);
+			  			  CreateOutputFile.createOutputFile(directory+outputFileNm, output);
 
 
 			    		  JSONObject attribList = msgs.getJSONObject("attributes");
@@ -111,7 +106,7 @@ public class SearchFileContent_20260109 {
 					      output.add("	]   ");
 					      output.add("}   ");			    	  
 					      outputFileNm = "step_1 soapRequest_"+fileCnter+".json";
-			  			  CreateOutputFile.createOutputFile(outputdirectory+outputFileNm, output);
+			  			  CreateOutputFile.createOutputFile(directory+outputFileNm, output);
 			  			  
 			    	  };
 			      }
@@ -140,59 +135,5 @@ public class SearchFileContent_20260109 {
 		String removeLastBracket = removeFirstBracket.substring(1,removeFirstBracket.length()-1);
 
 		return test5;
-	}
-	public static void parseManhattanMsgs() {
-
-
-		List<String> records;
-		
-		List<String> output = new ArrayList<String>();
-		List<String> files = ListFileNames.getFileNames(directory);
-		for(String fileNm:files) {
-			if(fileNm.contains("decodedManhattanMsg")) {
-				records = RetrieveTextFile.retrieveTextFileTrim(directory+fileNm);
-	
-				output.add(" "); //add blank line
-				output.add("-----------------------------------------------------------"); //add line
-				output.add("-- "+fileNm);
-				output.add("-----------------------------------------------------------"); //add line
-				
-				for(String recs:records) {
-					if(recs.contains("SourceTransactionType")) {
-						output.add(" "); //add blank line
-						output.add(recs);
-					}
-					if(recs.contains("SourceEventName")) {
-						output.add(recs);
-					}
-					if(recs.contains("ToConditionCodes")) {
-						output.add(recs);
-					}
-					if(recs.contains("ConditionCodeId")) {
-						output.add(recs);
-					}
-					if(recs.contains("FromConditionCodes")) {
-						output.add(recs);
-					}
-					if(recs.contains("ItemId")) {
-						output.add(recs);
-					}
-					if(recs.contains("SequenceNumber")) {
-						output.add(recs);
-					}
-					if(recs.contains("TransactionNumber")) {
-						output.add(recs);
-					}
-	//				if(recs.contains("")) {
-	//					output.add(recs);
-	//				}
-	
-				
-				}
-			}
-		}
-		if(output.size()>0)
-			CreateOutputFile.createOutputFile(outputdirectory+"Inventory Adj Inputs.txt", output);
-		
 	}
 }

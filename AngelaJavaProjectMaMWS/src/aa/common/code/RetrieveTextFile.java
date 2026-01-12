@@ -53,6 +53,15 @@ public class RetrieveTextFile
 		
 		return list;
 	}
+	public static String concatenateRecs(String fileNm) {
+		List<String> list = RetrieveTextFile.retrieveTextFileTrim(fileNm);
+		
+		StringBuilder data = new StringBuilder();
+		for(String recs:list) {
+			data.append(recs);
+		}
+		return data.toString();
+	}
 	public static List<String> retrieveTextFileTrim(String fileName)
 	{
 		List<String> list                = new ArrayList<String>();

@@ -13,7 +13,7 @@ import aa.common.code.ListFileNames;
 import aa.common.code.RetrieveTextFile;
 
 
-public class SearchFileContent_20260109 {
+public class SearchFileContent_20260109a {
 
 	final static String whichFiles = "step_3";//review which files?
 	final static String directory      ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing20260109b\\";
@@ -35,9 +35,8 @@ public class SearchFileContent_20260109 {
 		
 		System.out.println("SearchFileContent_20260109: end");
 	}
-	private static void getKeyAndValues(JSONObject obj) {
-	      JSONObject objectInArray = obj;
-	      String[] elementNames = JSONObject.getNames(objectInArray);
+	public static void getAttributeValues() {
+		
 	}
 	public static void parseGoogleMsgs() {
 		List<String> files = ListFileNames.getFileNames(directory);
