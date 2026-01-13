@@ -56,6 +56,7 @@ public class ParseManhattanMsg {
 		
 		JSONArray jsonArray1;
 		JSONArray jsonArray2;
+		JSONArray jsonArray3;
 		
 		for(String fileNm:files) {
 			
@@ -105,43 +106,9 @@ public class ParseManhattanMsg {
 	    				  System.out.println(appendSpaces("itemId"+":") + jsonObj2.getString("ItemId"));
 			    	  }else
 			    	  if("PIXFields".equals(elementName)) { //jsonObject element
-			    		  jsonObj2 = jsonObj1.getJSONObject("PIXFields");
-			    		  jsonArray1 = jsonObj2.getJSONArray("ConditionCodes");
-			    		  boolean noToConditionCodes=false;
-			    		  boolean noFromConditionCodes=false;
-			    		  for(int z=0;z<jsonArray1.length();z++) { 
-			    			  jsonObj4 = jsonArray1.getJSONObject(z);
-				    		  String[] ele = JSONObject.getNames(jsonObj4);
-				    		  for(int e=0;e<ele.length;e++) {
-				    			  String eleNm = ele[e];
-				    			  
-				    			  if("ToConditionCodes".equals(eleNm)) { //attribute element
-						    		  jsonObj3 = jsonArray1.getJSONObject(z);
-						    		  jsonArray2 = jsonObj3.getJSONArray("ToConditionCodes");
-						    		  for(int j=0;j<jsonArray2.length();j++) {
-						    			  jsonObj5 = jsonArray2.getJSONObject(j);
-						    			  System.out.println(appendSpaces("ToConditionCodeId"+":") + jsonObj5.getString("ConditionCodeId"));
-						    			  noToConditionCodes=true;
-						    		  }
-				    			  }
-				    			  if("FromConditionCodes".equals(eleNm)) { //attribute element
-						    		  jsonObj3 = jsonArray1.getJSONObject(z);
-						    		  jsonArray2 = jsonObj3.getJSONArray("FromConditionCodes");
-						    		  for(int j=0;j<jsonArray2.length();j++) {
-						    			  jsonObj5 = jsonArray2.getJSONObject(j);
-						    			  System.out.println(appendSpaces("FromConditionCodeId"+":") + jsonObj5.getString("ConditionCodeId"));
-						    			  noFromConditionCodes=true;
-						    		  }
-				    			  }
-				    		  }
-				    	}//eof for(int z=0;z<jsonArray1.length();z++)
-			    		  
-			    		if(noToConditionCodes==false) {
-			    			   System.out.println(appendSpaces("ToConditionCodeId"+":") + "emptyList");
-			    		}
-			    		if(noFromConditionCodes==false) {
-			    		  System.out.println(appendSpaces("FromConditionCodeId"+":") + "emptyList");
-			    		}
+			    		  //jsonObj2 = jsonObj1.getJSONObject("PIXFields");
+			    		  PixElement(jsonObj1.getJSONObject("PIXFields"));
+
 			    	  }//eof if("PIXFields".equals(elementName))
 			    	  
 			    	}
@@ -151,6 +118,56 @@ public class ParseManhattanMsg {
 			    }
 			}
 		
+	}
+	public static void PixElement(JSONObject jsonObj1) {
+		
+		
+		JSONObject jsonObj2;
+		JSONObject jsonObj3;
+		JSONObject jsonObj4;
+		JSONObject jsonObj5;
+		
+		JSONArray jsonArray0;
+		JSONArray jsonArray1;
+		JSONArray jsonArray2;
+
+		  jsonArray0 = jsonObj1.getJSONArray("ConditionCodes");
+		  boolean noToConditionCodes=false;
+		  boolean noFromConditionCodes=false;
+		  for(int z=0;z<jsonArray0.length();z++) { 
+			  jsonObj3 = jsonArray0.getJSONObject(z);
+    		  String[] ele = JSONObject.getNames(jsonObj3);
+    		  for(int e=0;e<ele.length;e++) {
+    			  String eleNm = ele[e];
+    			  
+    			  if("ToConditionCodes".equals(eleNm)) { //attribute element
+		    		  jsonObj2 = jsonArray0.getJSONObject(z);
+		    		  jsonArray1 = jsonObj2.getJSONArray("ToConditionCodes");
+		    		  for(int j=0;j<jsonArray1.length();j++) {
+		    			  jsonObj4 = jsonArray1.getJSONObject(j);
+		    			  System.out.println(appendSpaces("ToConditionCodeId"+":") + jsonObj4.getString("ConditionCodeId"));
+		    			  noToConditionCodes=true;
+		    		  }
+    			  }
+    			  if("FromConditionCodes".equals(eleNm)) { //attribute element
+		    		  jsonObj2 = jsonArray0.getJSONObject(z);
+		    		  jsonArray2 = jsonObj2.getJSONArray("FromConditionCodes");
+		    		  for(int j=0;j<jsonArray2.length();j++) {
+		    			  jsonObj5 = jsonArray2.getJSONObject(j);
+		    			  System.out.println(appendSpaces("FromConditionCodeId"+":") + jsonObj5.getString("ConditionCodeId"));
+		    			  noFromConditionCodes=true;
+		    		  }
+    			  }
+    		  }
+    	}//eof for(int z=0;z<jsonArray1.length();z++)
+		  
+		if(noToConditionCodes==false) {
+			   System.out.println(appendSpaces("ToConditionCodeId"+":") + "emptyList");
+		}
+		if(noFromConditionCodes==false) {
+		  System.out.println(appendSpaces("FromConditionCodeId"+":") + "emptyList");
+		}
+		System.out.println(" ");
 	}
 	public static String appendSpaces(String data) {
 		int size = data.length();
