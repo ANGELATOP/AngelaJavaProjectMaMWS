@@ -1,4 +1,4 @@
-package inventory.adjust.testing20260109b;
+package inventory.adjust.testing.utilities;
 
 import java.util.ArrayList;
 import java.util.Base64;
@@ -11,7 +11,6 @@ import org.json.JSONObject;
 import aa.common.code.CreateOutputFile;
 import aa.common.code.ListFileNames;
 import aa.common.code.RetrieveTextFile;
-
 
 public class ParseManhattanMsg {
 
@@ -35,28 +34,11 @@ public class ParseManhattanMsg {
 		int fileCnter = 0;
 		String outputFileNm;
 		
-		//these are the attributes that I want to get the values for
-		List<String> attributes = new ArrayList<String>();	
-		attributes.add("SourceTransactionType");
-		attributes.add("SourceEventName");
-		attributes.add("ToConditionCodes");
-		attributes.add("ConditionCodeId");
-		attributes.add("FromConditionCodes");
-		attributes.add("ItemId");
-		attributes.add("SequenceNumber");
-		attributes.add("TransactionNumber");
-		
-		
 		JSONObject jsonObj0;
 		JSONObject jsonObj1;
 		JSONObject jsonObj2;
-		JSONObject jsonObj3;
-		JSONObject jsonObj4;
-		JSONObject jsonObj5;
 		
 		JSONArray jsonArray1;
-		JSONArray jsonArray2;
-		JSONArray jsonArray3;
 		
 		for(String fileNm:files) {
 			
@@ -69,17 +51,13 @@ public class ParseManhattanMsg {
 				//build the JSON multiple records into one string
 				String jsonString = RetrieveTextFile.concatenateRecs(directory+fileNm);
 				
-				
-				
-				
-				
 			    jsonObj0 = new JSONObject(jsonString);
 			    jsonArray1 = jsonObj0.getJSONArray("ExportDocuments");
 			    
 			    int size = jsonArray1.length();
 		    	 
-			    for (int i = 0; i < size; i++)
-			    {
+			    for (int i = 0; i < size; i++){
+			    	
 			      jsonObj1 = jsonArray1.getJSONObject(i);
 			      String[] elementNames = JSONObject.getNames(jsonObj1);
 			      
@@ -106,21 +84,14 @@ public class ParseManhattanMsg {
 	    				  System.out.println(appendSpaces("itemId"+":") + jsonObj2.getString("ItemId"));
 			    	  }else
 			    	  if("PIXFields".equals(elementName)) { //jsonObject element
-			    		  //jsonObj2 = jsonObj1.getJSONObject("PIXFields");
 			    		  PixElement(jsonObj1.getJSONObject("PIXFields"));
-
-			    	  }//eof if("PIXFields".equals(elementName))
-			    	  
+			    	  }
 			    	}
-			    	  
-
-			      }
 			    }
-			}
-		
+		    }
+		}
 	}
 	public static void PixElement(JSONObject jsonObj1) {
-		
 		
 		JSONObject jsonObj2;
 		JSONObject jsonObj3;
@@ -136,7 +107,8 @@ public class ParseManhattanMsg {
 		  boolean noFromConditionCodes=false;
 		  for(int z=0;z<jsonArray0.length();z++) { 
 			  jsonObj3 = jsonArray0.getJSONObject(z);
-    		  String[] ele = JSONObject.getNames(jsonObj3);
+    		  String[] ele = JSONObject.getNames(jsonObj3); //get list of element names
+    		  
     		  for(int e=0;e<ele.length;e++) {
     			  String eleNm = ele[e];
     			  
@@ -159,7 +131,7 @@ public class ParseManhattanMsg {
 		    		  }
     			  }
     		  }
-    	}//eof for(int z=0;z<jsonArray1.length();z++)
+    	}
 		  
 		if(noToConditionCodes==false) {
 			   System.out.println(appendSpaces("ToConditionCodeId"+":") + "emptyList");

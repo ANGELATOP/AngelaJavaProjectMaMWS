@@ -1,4 +1,4 @@
-package inventory.adjust.testing20260109b;
+package inventory.adjust.testing.utilities;
 
 import java.io.IOException;
 
