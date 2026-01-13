@@ -46,85 +46,107 @@ public class ParseGoogleAndManhattanMsgs {
 		
 		for(String fileNm:files) {
 			googleMsgCnter = 0;
+			
 			if(fileNm.contains("googleMsg")) {
-				
-				
-				System.out.println(" "); //add blank line
-				System.out.println("============================================================"); //add line
-				System.out.println("-- "+fileNm);
-				System.out.println("============================================================"); //add line
-
-				//build the JSON multiple records into one string
-				String jsonString = RetrieveTextFile.concatenateRecs(directory+fileNm);
-				
-				
-				
-				
-				
-			    jsonObj0 = new JSONObject(jsonString);
-			    jsonArray1 = jsonObj0.getJSONArray("receivedMessages");
-			    
-			    int size = jsonArray1.length();
-		    	 
-			    for (int i = 0; i < size; i++)
-			    {
-			    	googleMsgCnter=googleMsgCnter+1;
-			    	
-			      jsonObj1 = jsonArray1.getJSONObject(i);
-			      String[] elementNames = JSONObject.getNames(jsonObj1);
-			      
-			      for(int x=0;x<elementNames.length;x++) {
-			    	  String elementName = elementNames[x];
-			    	  
-			    	  
-			    	  if("message".equals(elementName)) { //Object Element
-			    	  
-					      //---------------------------------------------------------------------------------
-					      //display specific google information 
-					      //---------------------------------------------------------------------------------
-			    		  jsonObj2 = jsonObj1.getJSONObject("message");
-//			    		  System.out.println("data:      " + msgs.getString("data")); //no need to display the coded Manhattan data
-
-			    		  String decode = convertBase64ToString(jsonObj2.getString("data"));
-			    		  output = new ArrayList<String>();
-			    		  output.add(decode);
-			    		  fileCnter=fileCnter+1;
-			    		  
-//			    		  outputFileNm_manhattan = "step_2 ManhattanMsg_"+fileCnter+" from_"+fileNm+".json";
-			    		  outputFileNm_manhattan = fileCnter+"_2_ManhattanMsg.json";
-			  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm_manhattan, output);
-			  			  
-			    		  jsonObj3 = jsonObj2.getJSONObject("attributes");
-			    		  String msgIdPk = jsonObj3.getString("MSG_ID_PK");
-			    		  String queueName = jsonObj3.getString("QueueName");
-//		    			  System.out.println(appendSpaces("MSG_ID_PK:") + msgIdPk);
-
-					      //---------------------------------------------------------------------------------
-					      //Log decoded Manhattan Message File info 
-					      //---------------------------------------------------------------------------------
-//			    		  System.out.println(appendSpaces("ManhattanMsg:") + outputFileNm_manhattan);
-//					      System.out.println();
-
-					      //---------------------------------------------------------------------------------
-					      //create soap request for each message so I don't have to manually do it
-					      //---------------------------------------------------------------------------------
-					      output = new ArrayList<String>();
-					      output.add("{   ");
-					      output.add("	\"messages\": [   ");
-					      output.add(jsonObj2.toString());	
-					      output.add("	]   ");
-					      output.add("}   ");			    	  
-					      outputFileNm_soapRequest = fileCnter+"_1_soapRequest.json";
-			  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm_soapRequest, output);
-
-			  			  //Parse Manhattan message to get some key info
-			  			  parseMsgs(decode, outputFileNm_manhattan, outputFileNm_soapRequest, msgIdPk, googleMsgCnter, queueName);
-
-			    	  };
-			      }
-			    }
+				processInventoryGoogleMessages(fileNm, directory, outputDir);
 			}
+
 		}
+	}
+	public static void processInventoryGoogleMessages(String fileNm, String directory, String outputDir) {
+		
+		List<String> output = new ArrayList<String>();
+		
+		int fileCnter = 10;
+		int googleMsgCnter = 0;
+		String outputFileNm_manhattan;
+		String outputFileNm_soapRequest;
+		
+		JSONObject jsonObj0;
+		JSONObject jsonObj1;
+		JSONObject jsonObj2;
+		JSONObject jsonObj3;
+		
+		JSONArray jsonArray1;
+		
+		if(fileNm.contains("googleMsg")) {
+			
+			
+			System.out.println(" "); //add blank line
+			System.out.println("==========================================================================="); //add line
+			System.out.println("-- "+fileNm);
+			System.out.println("==========================================================================="); //add line
+
+			//build the JSON multiple records into one string
+			String jsonString = RetrieveTextFile.concatenateRecs(directory+fileNm);
+			
+			
+			
+			
+			
+		    jsonObj0 = new JSONObject(jsonString);
+		    jsonArray1 = jsonObj0.getJSONArray("receivedMessages");
+		    
+		    int size = jsonArray1.length();
+	    	 
+		    for (int i = 0; i < size; i++)
+		    {
+		    	googleMsgCnter=googleMsgCnter+1;
+		    	
+		      jsonObj1 = jsonArray1.getJSONObject(i);
+		      String[] elementNames = JSONObject.getNames(jsonObj1);
+		      
+		      for(int x=0;x<elementNames.length;x++) {
+		    	  String elementName = elementNames[x];
+		    	  
+		    	  
+		    	  if("message".equals(elementName)) { //Object Element
+		    	  
+				      //---------------------------------------------------------------------------------
+				      //display specific google information 
+				      //---------------------------------------------------------------------------------
+		    		  jsonObj2 = jsonObj1.getJSONObject("message");
+//		    		  System.out.println("data:      " + msgs.getString("data")); //no need to display the coded Manhattan data
+
+		    		  String decode = convertBase64ToString(jsonObj2.getString("data"));
+		    		  output = new ArrayList<String>();
+		    		  output.add(decode);
+		    		  fileCnter=fileCnter+1;
+		    		  
+//		    		  outputFileNm_manhattan = "step_2 ManhattanMsg_"+fileCnter+" from_"+fileNm+".json";
+		    		  outputFileNm_manhattan = fileCnter+"_2_ManhattanMsg.json";
+		  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm_manhattan, output);
+		  			  
+		    		  jsonObj3 = jsonObj2.getJSONObject("attributes");
+		    		  String msgIdPk = jsonObj3.getString("MSG_ID_PK");
+		    		  String queueName = jsonObj3.getString("QueueName");
+//	    			  System.out.println(appendSpaces("MSG_ID_PK:") + msgIdPk);
+
+				      //---------------------------------------------------------------------------------
+				      //Log decoded Manhattan Message File info 
+				      //---------------------------------------------------------------------------------
+//		    		  System.out.println(appendSpaces("ManhattanMsg:") + outputFileNm_manhattan);
+//				      System.out.println();
+
+				      //---------------------------------------------------------------------------------
+				      //create soap request for each message so I don't have to manually do it
+				      //---------------------------------------------------------------------------------
+				      output = new ArrayList<String>();
+				      output.add("{   ");
+				      output.add("	\"messages\": [   ");
+				      output.add(jsonObj2.toString());	
+				      output.add("	]   ");
+				      output.add("}   ");			    	  
+				      outputFileNm_soapRequest = fileCnter+"_1_soapRequest.json";
+		  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm_soapRequest, output);
+
+		  			  //Parse Manhattan message to get some key info
+		  			  parseMsgs(decode, outputFileNm_manhattan, outputFileNm_soapRequest, msgIdPk, googleMsgCnter, queueName);
+
+		    	  };
+		      }
+		    }
+		}		
 	}
 	public static String convertBase64ToString(String inputValue) {
 		
