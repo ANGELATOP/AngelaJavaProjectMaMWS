@@ -96,6 +96,7 @@ public class ParseGoogleAndManhattanMsgs {
 			  			  
 			    		  jsonObj3 = jsonObj2.getJSONObject("attributes");
 			    		  String msgIdPk = jsonObj3.getString("MSG_ID_PK");
+			    		  String queueName = jsonObj3.getString("QueueName");
 //		    			  System.out.println(appendSpaces("MSG_ID_PK:") + msgIdPk);
 
 					      //---------------------------------------------------------------------------------
@@ -117,7 +118,7 @@ public class ParseGoogleAndManhattanMsgs {
 			  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm_soapRequest, output);
 
 			  			  //Parse Manhattan message to get some key info
-			  			  parseMsgs(decode, outputFileNm_manhattan, outputFileNm_soapRequest, msgIdPk, googleMsgCnter);
+			  			  parseMsgs(decode, outputFileNm_manhattan, outputFileNm_soapRequest, msgIdPk, googleMsgCnter, queueName);
 
 			    	  };
 			      }
@@ -147,7 +148,7 @@ public class ParseGoogleAndManhattanMsgs {
 
 		return test5;
 	}
-	public static void parseMsgs(String jsonString, String manhattanOuputFileNm, String soapReqOutputFileNm, String msgIdPk, int googleMsgCnter) {
+	public static void parseMsgs(String jsonString, String manhattanOuputFileNm, String soapReqOutputFileNm, String msgIdPk, int googleMsgCnter, String queueName) {
 		List<String> output = new ArrayList<String>();
 		
 		int msgCnter = 0;
@@ -163,6 +164,7 @@ public class ParseGoogleAndManhattanMsgs {
 		
 		  System.out.println("************************GoogleMsg "+googleMsgCnter); //add line
 		  System.out.println(appendSpaces("MSG_ID_PK:") + msgIdPk);
+		  System.out.println(appendSpaces("QueueName:") + queueName);
 		  System.out.println(appendSpaces("SoapGoogleRequestFile:")+soapReqOutputFileNm);
 	      System.out.println(appendSpaces("ManhattanMsgFile:")+manhattanOuputFileNm);
 		  System.out.println(" "); //add line

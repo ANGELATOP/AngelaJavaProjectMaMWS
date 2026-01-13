@@ -108,6 +108,10 @@ public class ParseManhattanMsg {
     	else
 		if(sourceTransactionType.contains("CREATE_ILPN")) 
             System.out.println(appendSpacesForManhattanMsg("Output XML:")+ "Output will be Inventory Status XML Message, maybe Inventory Status XML Message if any condition codes");
+		else
+            System.out.println(appendSpacesForManhattanMsg("Output XML:")+ "ERROR - Unknown Output XML Message");
+			
+	
 	}
 	public static void PixElement(JSONObject jsonObj1) {
 		
