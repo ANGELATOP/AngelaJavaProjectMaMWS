@@ -1,0 +1,46 @@
+{
+	"receivedMessages": [
+		{
+			"ackId": "BhYsXUZIUTcZCGhRDk9eIz81IChFFwIGTwIoXXkwVDpBX3QGPg0Zcn1hdGMIQQIKRAd7Cg4RDWJcTkQHSf6o14ZXV0tbFAYBTFJ5XF0cCWxfXnMHUSWg6vWgzJeQMhs-faDP-qAtLeC495c2ZiI9XhJLLD5-LzlFQV5AEkwkDERJUytDCypYEU4EISE-MD5FU0RQ",
+			"message": {
+				"data": "eyJDb250ZXh0SW5mb3JtYXRpb24iOnsiTWVzc2FnZXMiOm51bGwsIk9yZ2FuaXphdGlvbiI6IktDIiwiVXNlcklkIjoic3lzdGVtLW1zZy11c2VyQEtDIiwiVXNlckxvY2FsZSI6IlVUQyIsIkxvY2F0aW9uIjoiS0MifSwiQ3VycmVudFBhZ2UiOjEsIkV4cG9ydERvY3VtZW50cyI6W3siTWVzc2FnZXMiOm51bGwsIlBJWFNwZWNpZmljYXRpb24iOiJJbnZlbnRvcnkgQWRqdXN0bWVudCIsIkRlc2NyaXB0aW9uIjoiU2luZ2xlIEludmVudG9yeSBBZGp1c3RtZW50IFBJWCBmb3IgSG9zdCBJbnZlbnRvcnkgY2hhbmdlcyIsIlNvdXJjZVRyYW5zYWN0aW9uVHlwZSI6IkNZQ0xFX0NPVU5UIiwiU291cmNlRXZlbnROYW1lIjoiSU5WRU5UT1JZX0FESlVTVE1FTlQiLCJJdGVtRGVmaW5pdGlvbiI6eyJDb21wYW55IjoiS0MiLCJTZWFzb24iOiIiLCJTZWFzb25ZZWFyIjoiIiwiU3R5bGUiOiIiLCJTdHlsZVN1ZmZpeCI6IiIsIkNvbG9yIjoiIiwiQ29sb3JTdWZmaXgiOiIiLCJTZWNvbmREaW1lbnNpb24iOiIiLCJTaXplQ29kZSI6IiIsIlNpemVEZXNjcmlwdGlvbiI6IiIsIkl0ZW1JZCI6IjA3NTQwNzAiLCJEZXNjcmlwdGlvbiI6IktGIDZDVCBCT0lMRUQgRUdHUyA5LjNPWiJ9LCJTdWJJdGVtRmllbGRzIjp7IkludmVudG9yeVR5cGVJZCI6IiIsIlByb2R1Y3RTdGF0dXNJZCI6IiIsIkl0ZW1CYXRjaE51bWJlcklkIjoiIiwiSW52ZW50b3J5QXR0cmlidXRlMSI6IiIsIkludmVudG9yeUF0dHJpYnV0ZTIiOiIiLCJJbnZlbnRvcnlBdHRyaWJ1dGUzIjoiIiwiSW52ZW50b3J5QXR0cmlidXRlNCI6IiIsIkludmVudG9yeUF0dHJpYnV0ZTUiOiIiLCJDb3VudHJ5T2ZPcmlnaW4iOiIiLCJFeHBpcmF0aW9uRGF0ZSI6IjIwMjYtMDEtMDEiLCJNYW51ZmFjdHVyZURhdGUiOiIiLCJQYWNrVW9tUXVhbnRpdHkiOiIifSwiUElYRmllbGRzIjp7IkJ1c2luZXNzVW5pdElkIjoiIiwiRXh0ZXJuYWxPcmdhbml6YXRpb25JZCI6IiIsIkNyZWF0ZWRCeSI6ImplcmVteS5qb2huc29uQGF3Z2luYy5jb20iLCJGcm9tSW52ZW50b3J5QnVja2V0IjoiQVZBSUxBQkxFIiwiVG9JbnZlbnRvcnlCdWNrZXQiOiJBVkFJTEFCTEUiLCJJbnZlbnRvcnlBZGp1c3RtZW50UXR5IjoiMjAuMCIsIlF1YW50aXR5IjoiMjAuMCIsIkFkanVzdGVkV2VpZ2h0IjoiMTYyLjAiLCJBc25JZCI6IiIsIkFzblN0YXR1cyI6IiIsIlB1cmNoYXNlT3JkZXJJZCI6IiIsIkFsdGVybmF0ZUFzbklkIjoiIiwiQWx0ZXJuYXRlUHVyY2hhc2VPcmRlcklkIjoiIiwiSWxwbklkIjoiIiwiTG9jYXRpb25JZCI6IkQ2MTE1OSIsIlJlYXNvbkNvZGVJZCI6IklBIiwiUmVmZXJlbmNlVGV4dCI6IiIsIlNlY29uZGFyeVJlZmVyZW5jZVRleHQiOiIiLCJDb25kaXRpb25Db2RlQ2hhbmdlIjoiTiIsIkNvbmRpdGlvbkNvZGVzIjpbeyJUb0NvbmRpdGlvbkNvZGVzIjpbXX0seyJGcm9tQ29uZGl0aW9uQ29kZXMiOltdfV0sIkludmVudG9yeUFkanVzdG1lbnRUeXBlIjoiU1VCVFJBQ1QiLCJBZGp1c3RlZFR5cGUiOiJTVUJUUkFDVCIsIkFkanVzdGVkV2VpZ2h0VHlwZSI6IlNVQlRSQUNUIiwiQ3JlYXRlZFRpbWVzdGFtcCI6IjIwMjYtMDEtMTJUMTg6MzY6MjguMDYwIiwiVXBkYXRlZFRpbWVzdGFtcCI6IjIwMjYtMDEtMTJUMTg6Mzk6NDcuODg1IiwiVXBkYXRlZEJ5Ijoic3lzdGVtLW1zZy11c2VyQEtDIiwiVHJhbnNhY3Rpb25EYXRlVGltZSI6IjIwMjYtMDEtMTJUMTg6MzY6MjcuMTkyIn0sIlRyYW5zYWN0aW9uTnVtYmVyIjoiNzY4MjQyOTg4MDUxMzQzNzI4NiIsIlNlcXVlbmNlTnVtYmVyIjoxLCJUcmFuc2FjdGlvbkRhdGVUaW1lIjoiMjAyNi0wMS0xMlQxODozNjoyNy4xOTIiLCJPcmdhbml6YXRpb24iOiJLQyIsIkZhY2lsaXR5IjoiS0MifV0sIlVuaXF1ZUpvYklkIjoiMjdjYjI5NTEtMDRlMC00MGQ4LTkwZTAtOTBkNGQyYThhOGQxIiwiVG90YWxQYWdlcyI6MX0=",
+				"attributes": {
+					"fromInboundMessageType": "awpf-payload",
+					"Location": "KC",
+					"fromExtensionPointId": "Inventory_Adjustment",
+					"TenantId": "awgrssf11o",
+					"MSG_ID_PK": "6297033332296690840643978010285192",
+					"PrimaryOrganization": "AWG-L1",
+					"TRANSACTIONAL": "true",
+					"direction": "Outbound",
+					"ValidatedAllErrorCodes": "true",
+					"AllBusinessUnitsAccessible": "true",
+					"PayloadQueueName": "awpf-payload-queue-xin",
+					"QueueName": "XNT_HST_InventoryAdjustment_GCPQ",
+					"BROKER_TYPE": "googlepubsub",
+					"SelectedOrganization": "KC",
+					"IsRetransmitMsg": "true",
+					"TRACE_ID": "9a54095db41645a1",
+					"fromInboundServiceId": "PayloadMsgProcessor",
+					"BROKER_ADDRESS": "",
+					"APP_ID_TRACE": "com-manh-cp-xint-all-com-manh-cp-xint-7c7ffcdbf5-k526q",
+					"ComponentName": "xint",
+					"OUTBOUND_MSG_TYPE": "XNT_HST_InventoryAdjustment",
+					"fromExtensionPointMessageType": "PIX_XIN_InventoryAdjustment",
+					"Organization": "AWG-L1",
+					"MSG_TYPE": "XNT_HST_InventoryAdjustment",
+					"msg_submission_time_utc": "2026-01-12T18:39:48.282Z",
+					"fromInboundQueueName": "awpf-payload-queue-xin",
+					"msg_submission_time": "2026-01-12T18:39:48.281",
+					"UserLocale": "en",
+					"User": "system-msg-user@KC",
+					"SelectedLocation": "KC",
+					"app-id": "com-manh-cp-xint-all-com-manh-cp-xint-7c7ffcdbf5-k526q",
+					"SPAN_ID": "6730aad101a2"
+				},
+				"messageId": "17739173674432600",
+				"publishTime": "2026-01-12T18:39:49.239Z"
+			}
+		}
+	]
+}

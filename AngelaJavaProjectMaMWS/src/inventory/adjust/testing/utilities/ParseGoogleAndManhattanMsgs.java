@@ -91,7 +91,7 @@ public class ParseGoogleAndManhattanMsgs {
 			    		  fileCnter=fileCnter+1;
 			    		  
 //			    		  outputFileNm_manhattan = "step_2 ManhattanMsg_"+fileCnter+" from_"+fileNm+".json";
-			    		  outputFileNm_manhattan = fileCnter+"_ManhattanMsg.json";
+			    		  outputFileNm_manhattan = fileCnter+"_2_ManhattanMsg.json";
 			  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm_manhattan, output);
 			  			  
 			    		  jsonObj3 = jsonObj2.getJSONObject("attributes");
@@ -113,7 +113,7 @@ public class ParseGoogleAndManhattanMsgs {
 					      output.add(jsonObj2.toString());	
 					      output.add("	]   ");
 					      output.add("}   ");			    	  
-					      outputFileNm_soapRequest = fileCnter+"_soapRequest.json";
+					      outputFileNm_soapRequest = fileCnter+"_1_soapRequest.json";
 			  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm_soapRequest, output);
 
 			  			  //Parse Manhattan message to get some key info

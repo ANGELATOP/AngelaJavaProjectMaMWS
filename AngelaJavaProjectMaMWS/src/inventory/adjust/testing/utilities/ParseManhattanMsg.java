@@ -119,10 +119,12 @@ public class ParseManhattanMsg {
 		JSONArray jsonArray0;
 		JSONArray jsonArray1;
 		JSONArray jsonArray2;
-
-		  jsonArray0 = jsonObj1.getJSONArray("ConditionCodes");
+		
 		  boolean noToConditionCodes=false;
 		  boolean noFromConditionCodes=false;
+
+		if(jsonObj1.has("ConditionCodes")) {
+		  jsonArray0 = jsonObj1.getJSONArray("ConditionCodes");
 		  for(int z=0;z<jsonArray0.length();z++) { 
 			  jsonObj3 = jsonArray0.getJSONObject(z);
     		  String[] ele = JSONObject.getNames(jsonObj3); //get list of element names
@@ -150,12 +152,16 @@ public class ParseManhattanMsg {
     			  }
     		  }
     	}
-		  
-		if(noToConditionCodes==false) {
-			   System.out.println(appendSpacesForManhattanMsg("ToConditionCodeId"+":") + "emptyList");
-		}
-		if(noFromConditionCodes==false) {
-		  System.out.println(appendSpacesForManhattanMsg("FromConditionCodeId"+":") + "emptyList");
+		
+			if(noToConditionCodes==false) {
+				   System.out.println(appendSpacesForManhattanMsg("ToConditionCodeId"+":") + "emptyList");
+			}
+			if(noFromConditionCodes==false) {
+			  System.out.println(appendSpacesForManhattanMsg("FromConditionCodeId"+":") + "emptyList");
+			}
+		}else
+		{
+		   System.out.println(appendSpacesForManhattanMsg("ConditionCodes"+":") + "element does not exist");
 		}
 		System.out.println(" ");
 	}
