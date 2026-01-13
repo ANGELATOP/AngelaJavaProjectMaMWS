@@ -87,7 +87,7 @@ public class ParseGoogleMsg {
 			    		  output = new ArrayList<String>();
 			    		  output.add(decode);
 			    		  fileCnter=fileCnter+1;
-			    		  outputFileNm = "step_2  ManhattanMsg_"+fileCnter+".json";
+			    		  outputFileNm = "step_2  ManhattanMsg_"+fileCnter+" from_"+fileNm+".json";
 			  			  CreateOutputFile.createOutputFile(directory+outputFileNm, output);
 
 
@@ -113,7 +113,7 @@ public class ParseGoogleMsg {
 					      output.add(jsonObj2.toString());	
 					      output.add("	]   ");
 					      output.add("}   ");			    	  
-					      outputFileNm = "step_1 soapRequest_"+fileCnter+".json";
+					      outputFileNm = "step_1 soapRequest_"+fileCnter+" from_"+fileNm+".json";
 			  			  CreateOutputFile.createOutputFile(directory+outputFileNm, output);
 			  			  
 			    	  };
