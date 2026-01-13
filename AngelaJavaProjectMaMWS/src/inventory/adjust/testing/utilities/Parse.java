@@ -1,18 +1,25 @@
 package inventory.adjust.testing.utilities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.json.JSONObject;
+
+import aa.common.code.ListFileNames;
 
 public class Parse {
 
-	final static String directory      ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing20260109b\\";
-	final static String outputdirectory="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing20260109b\\";
-
+	
 	public static void main(String[] args) {
-
+		String directory = "C:\\Users\\atopp\\Downloads\\invAdjTest\\";
+		displayFileNames(directory);
 	}
-	public static void getJsonObj(JSONObject obj) {
-	      JSONObject objectInArray = obj;
-	      String[] elementNames = JSONObject.getNames(objectInArray);
+
+	public static void displayFileNames(String directory) {
+		List<String> files = ListFileNames.getFileNames(directory);
+		for(String fileNm:files) {
+			System.out.println(fileNm);
+		}
 	}
 	public static String appendSpaces(String data) {
 		int size = data.length();

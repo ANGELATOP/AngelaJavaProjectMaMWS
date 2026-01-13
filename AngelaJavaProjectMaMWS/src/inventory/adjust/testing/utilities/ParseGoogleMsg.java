@@ -21,13 +21,14 @@ public class ParseGoogleMsg {
 		System.out.println("ParseGoogleMsg: start ");
 
 		String directory      ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing\\utilities\\";
-
-		parseGoogleMsgs(directory);
+		String outputDir = "C:\\Users\\atopp\\Downloads\\invAdjTest\\";
+		
+		parseGoogleMsgs(directory, outputDir);
 		
 		System.out.println("ParseGoogleMsg: end");
 	}
 
-	public static void parseGoogleMsgs(String directory) {
+	public static void parseGoogleMsgs(String directory, String outputDir) {
 		List<String> files = ListFileNames.getFileNames(directory);
 		List<String> output = new ArrayList<String>();
 		
@@ -88,7 +89,7 @@ public class ParseGoogleMsg {
 			    		  output.add(decode);
 			    		  fileCnter=fileCnter+1;
 			    		  outputFileNm = "step_2  ManhattanMsg_"+fileCnter+" from_"+fileNm+".json";
-			  			  CreateOutputFile.createOutputFile(directory+outputFileNm, output);
+			  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm, output);
 
 
 			    		  jsonObj3 = jsonObj2.getJSONObject("attributes");
@@ -114,7 +115,7 @@ public class ParseGoogleMsg {
 					      output.add("	]   ");
 					      output.add("}   ");			    	  
 					      outputFileNm = "step_1 soapRequest_"+fileCnter+" from_"+fileNm+".json";
-			  			  CreateOutputFile.createOutputFile(directory+outputFileNm, output);
+			  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm, output);
 			  			  
 			    	  };
 			      }

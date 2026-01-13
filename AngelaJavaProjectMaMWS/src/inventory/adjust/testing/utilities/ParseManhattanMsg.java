@@ -20,7 +20,8 @@ public class ParseManhattanMsg {
 		
 		System.out.println("ParseManhattanMsg: start ");
 
-		String directory      ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing\\utilities\\";
+//		String directory      ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing\\utilities\\";
+		String directory = "C:\\Users\\atopp\\Downloads\\invAdjTest\\";
 
 		parseMsgs(directory);
 		
@@ -43,10 +44,10 @@ public class ParseManhattanMsg {
 		for(String fileNm:files) {
 			
 			if(fileNm.contains("ManhattanMsg_")) {
-				System.out.println(" "); //add blank line
-				System.out.println("----------------------------------------------------------------------"); //add line
-				System.out.println("-- "+fileNm);
-				System.out.println("----------------------------------------------------------------------"); //add line
+//				System.out.println(" "); //add blank line
+//				System.out.println("----------------------------------------------------------------------"); //add line
+//				System.out.println("-- "+fileNm);
+//				System.out.println("----------------------------------------------------------------------"); //add line
 
 				//build the JSON multiple records into one string
 				String jsonString = RetrieveTextFile.concatenateRecs(directory+fileNm);
@@ -57,6 +58,8 @@ public class ParseManhattanMsg {
 			    int size = jsonArray1.length();
 		    	 
 			    for (int i = 0; i < size; i++){
+			    
+			      System.out.println(appendSpaces("ManhattanTestFile:")+fileNm);
 			    	
 			      jsonObj1 = jsonArray1.getJSONObject(i);
 			      String[] elementNames = JSONObject.getNames(jsonObj1);
