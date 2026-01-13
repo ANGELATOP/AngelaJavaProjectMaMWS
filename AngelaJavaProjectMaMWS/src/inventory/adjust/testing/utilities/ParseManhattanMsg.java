@@ -20,7 +20,7 @@ public class ParseManhattanMsg {
 		
 		System.out.println("ParseManhattanMsg: start ");
 
-		String directory      ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing20260109b\\";
+		String directory      ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing\\utilities\\";
 
 		parseMsgs(directory);
 		
@@ -44,9 +44,9 @@ public class ParseManhattanMsg {
 			
 			if(fileNm.contains("ManhattanMsg_")) {
 				System.out.println(" "); //add blank line
-				System.out.println("-----------------------------------------------------------"); //add line
+				System.out.println("----------------------------------------------------------------------"); //add line
 				System.out.println("-- "+fileNm);
-				System.out.println("-----------------------------------------------------------"); //add line
+				System.out.println("----------------------------------------------------------------------"); //add line
 
 				//build the JSON multiple records into one string
 				String jsonString = RetrieveTextFile.concatenateRecs(directory+fileNm);
@@ -66,6 +66,7 @@ public class ParseManhattanMsg {
 
 			    	  if("SourceTransactionType".equals(elementName)) { //attribute element
 			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
+			    		  outputXmlMessageType(jsonObj1.getString(elementName));
 			    	  }else
 			    	  if("SourceEventName".equals(elementName)) { //attribute element
 			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
@@ -90,6 +91,20 @@ public class ParseManhattanMsg {
 			    }
 		    }
 		}
+	}
+	public static void outputXmlMessageType(String sourceTransactionType) {
+		if(sourceTransactionType.contains("CYCLE_COUNT") || 
+				sourceTransactionType.contains("MODIFY_ILPN") || 
+				sourceTransactionType.contains("ADJUST_UI"))
+		        System.out.println(appendSpaces("Output XML:")+ "Output will be Inventory Quantity XML Message");
+
+		else
+    	if(sourceTransactionType.contains("APPLIED_CONDITION_CODE") || 
+    		sourceTransactionType.contains("REMOVED_CONDITION_CODE"))
+            System.out.println(appendSpaces("Output XML:")+ "Output will be Inventory Status XML Message");
+    	else
+		if(sourceTransactionType.contains("CREATE_ILPN")) 
+            System.out.println(appendSpaces("Output XML:")+ "Output will be Inventory Status XML Message, maybe Inventory Status XML Message if any condition codes");
 	}
 	public static void PixElement(JSONObject jsonObj1) {
 		

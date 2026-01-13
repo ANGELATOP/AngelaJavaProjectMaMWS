@@ -20,7 +20,7 @@ public class ParseGoogleMsg {
 		
 		System.out.println("ParseGoogleMsg: start ");
 
-		String directory      ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing20260109b\\";
+		String directory      ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing\\utilities\\";
 
 		parseGoogleMsgs(directory);
 		
