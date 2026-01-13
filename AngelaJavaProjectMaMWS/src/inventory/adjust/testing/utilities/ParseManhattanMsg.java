@@ -59,7 +59,7 @@ public class ParseManhattanMsg {
 		    	 
 			    for (int i = 0; i < size; i++){
 			    
-			      System.out.println(appendSpaces("ManhattanTestFile:")+fileNm);
+			      System.out.println(appendSpacesForManhattanMsg("ManhattanTestFile:")+fileNm);
 			    	
 			      jsonObj1 = jsonArray1.getJSONObject(i);
 			      String[] elementNames = JSONObject.getNames(jsonObj1);
@@ -68,24 +68,24 @@ public class ParseManhattanMsg {
 			    	  String elementName = elementNames[x];
 
 			    	  if("SourceTransactionType".equals(elementName)) { //attribute element
-			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
+			    		  System.out.println(appendSpacesForManhattanMsg(elementName+":") + jsonObj1.getString(elementName));
 			    		  outputXmlMessageType(jsonObj1.getString(elementName));
 			    	  }else
 			    	  if("SourceEventName".equals(elementName)) { //attribute element
-			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
+			    		  System.out.println(appendSpacesForManhattanMsg(elementName+":") + jsonObj1.getString(elementName));
 			    	  }else
 			    	  if("SequenceNumber".equals(elementName)) { //attribute element
-			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getInt(elementName));
+			    		  System.out.println(appendSpacesForManhattanMsg(elementName+":") + jsonObj1.getInt(elementName));
 			    	  }else
 			    	  if("TransactionNumber".equals(elementName)) { //attribute element
-			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
+			    		  System.out.println(appendSpacesForManhattanMsg(elementName+":") + jsonObj1.getString(elementName));
 			    	  }else
 			    	  if("Facility".equals(elementName)) { //attribute element
-			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
+			    		  System.out.println(appendSpacesForManhattanMsg(elementName+":") + jsonObj1.getString(elementName));
 			    	  }else
 			    	  if("ItemDefinition".equals(elementName)) { //jsonObject element
 			    		  jsonObj2 = jsonObj1.getJSONObject("ItemDefinition");
-	    				  System.out.println(appendSpaces("itemId"+":") + jsonObj2.getString("ItemId"));
+	    				  System.out.println(appendSpacesForManhattanMsg("itemId"+":") + jsonObj2.getString("ItemId"));
 			    	  }else
 			    	  if("PIXFields".equals(elementName)) { //jsonObject element
 			    		  PixElement(jsonObj1.getJSONObject("PIXFields"));
@@ -99,15 +99,15 @@ public class ParseManhattanMsg {
 		if(sourceTransactionType.contains("CYCLE_COUNT") || 
 				sourceTransactionType.contains("MODIFY_ILPN") || 
 				sourceTransactionType.contains("ADJUST_UI"))
-		        System.out.println(appendSpaces("Output XML:")+ "Output will be Inventory Quantity XML Message");
+		        System.out.println(appendSpacesForManhattanMsg("Output XML:")+ "Output will be Inventory Quantity XML Message");
 
 		else
     	if(sourceTransactionType.contains("APPLIED_CONDITION_CODE") || 
     		sourceTransactionType.contains("REMOVED_CONDITION_CODE"))
-            System.out.println(appendSpaces("Output XML:")+ "Output will be Inventory Status XML Message");
+            System.out.println(appendSpacesForManhattanMsg("Output XML:")+ "Output will be Inventory Status XML Message");
     	else
 		if(sourceTransactionType.contains("CREATE_ILPN")) 
-            System.out.println(appendSpaces("Output XML:")+ "Output will be Inventory Status XML Message, maybe Inventory Status XML Message if any condition codes");
+            System.out.println(appendSpacesForManhattanMsg("Output XML:")+ "Output will be Inventory Status XML Message, maybe Inventory Status XML Message if any condition codes");
 	}
 	public static void PixElement(JSONObject jsonObj1) {
 		
@@ -135,7 +135,7 @@ public class ParseManhattanMsg {
 		    		  jsonArray1 = jsonObj2.getJSONArray("ToConditionCodes");
 		    		  for(int j=0;j<jsonArray1.length();j++) {
 		    			  jsonObj4 = jsonArray1.getJSONObject(j);
-		    			  System.out.println(appendSpaces("ToConditionCodeId"+":") + jsonObj4.getString("ConditionCodeId"));
+		    			  System.out.println(appendSpacesForManhattanMsg("ToConditionCodeId"+":") + jsonObj4.getString("ConditionCodeId"));
 		    			  noToConditionCodes=true;
 		    		  }
     			  }
@@ -144,7 +144,7 @@ public class ParseManhattanMsg {
 		    		  jsonArray2 = jsonObj2.getJSONArray("FromConditionCodes");
 		    		  for(int j=0;j<jsonArray2.length();j++) {
 		    			  jsonObj5 = jsonArray2.getJSONObject(j);
-		    			  System.out.println(appendSpaces("FromConditionCodeId"+":") + jsonObj5.getString("ConditionCodeId"));
+		    			  System.out.println(appendSpacesForManhattanMsg("FromConditionCodeId"+":") + jsonObj5.getString("ConditionCodeId"));
 		    			  noFromConditionCodes=true;
 		    		  }
     			  }
@@ -152,14 +152,14 @@ public class ParseManhattanMsg {
     	}
 		  
 		if(noToConditionCodes==false) {
-			   System.out.println(appendSpaces("ToConditionCodeId"+":") + "emptyList");
+			   System.out.println(appendSpacesForManhattanMsg("ToConditionCodeId"+":") + "emptyList");
 		}
 		if(noFromConditionCodes==false) {
-		  System.out.println(appendSpaces("FromConditionCodeId"+":") + "emptyList");
+		  System.out.println(appendSpacesForManhattanMsg("FromConditionCodeId"+":") + "emptyList");
 		}
 		System.out.println(" ");
 	}
-	public static String appendSpaces(String data) {
+	public static String appendSpacesForManhattanMsg(String data) {
 		int size = data.length();
 		
 		int diff = 24-size;
