@@ -32,15 +32,10 @@ public class ParseGoogleAndManhattanMsgs {
 		List<String> files = ListFileNames.getFileNames(directory);
 		List<String> output = new ArrayList<String>();
 		
-		int fileCnter = 0;
+		int fileCnter = 10;
+		int googleMsgCnter = 0;
 		String outputFileNm_manhattan;
 		String outputFileNm_soapRequest;
-		
-		//these are the attributes that I want to get the values for
-		List<String> attributes = new ArrayList<String>();	
-		attributes.add("MSG_ID_PK");
-		attributes.add("QueueName");
-
 		
 		JSONObject jsonObj0;
 		JSONObject jsonObj1;
@@ -50,12 +45,14 @@ public class ParseGoogleAndManhattanMsgs {
 		JSONArray jsonArray1;
 		
 		for(String fileNm:files) {
-			
+			googleMsgCnter = 0;
 			if(fileNm.contains("googleMsg")) {
+				
+				
 				System.out.println(" "); //add blank line
-				System.out.println("-----------------------------------------------------------"); //add line
+				System.out.println("============================================================"); //add line
 				System.out.println("-- "+fileNm);
-				System.out.println("-----------------------------------------------------------"); //add line
+				System.out.println("============================================================"); //add line
 
 				//build the JSON multiple records into one string
 				String jsonString = RetrieveTextFile.concatenateRecs(directory+fileNm);
@@ -71,11 +68,14 @@ public class ParseGoogleAndManhattanMsgs {
 		    	 
 			    for (int i = 0; i < size; i++)
 			    {
+			    	googleMsgCnter=googleMsgCnter+1;
+			    	
 			      jsonObj1 = jsonArray1.getJSONObject(i);
 			      String[] elementNames = JSONObject.getNames(jsonObj1);
 			      
 			      for(int x=0;x<elementNames.length;x++) {
 			    	  String elementName = elementNames[x];
+			    	  
 			    	  
 			    	  if("message".equals(elementName)) { //Object Element
 			    	  
@@ -89,22 +89,20 @@ public class ParseGoogleAndManhattanMsgs {
 			    		  output = new ArrayList<String>();
 			    		  output.add(decode);
 			    		  fileCnter=fileCnter+1;
-			    		  outputFileNm_manhattan = "step_2 ManhattanMsg_"+fileCnter+" from_"+fileNm+".json";
+			    		  
+//			    		  outputFileNm_manhattan = "step_2 ManhattanMsg_"+fileCnter+" from_"+fileNm+".json";
+			    		  outputFileNm_manhattan = fileCnter+"_ManhattanMsg.json";
 			  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm_manhattan, output);
 			  			  
-
 			    		  jsonObj3 = jsonObj2.getJSONObject("attributes");
-			    		  for(String a:attributes) {
-			    			  if(jsonObj3.has(a)) {
-			    				  System.out.println(appendSpaces(a+":") + jsonObj3.getString(a));
-			    			  }
-			    		  }
+			    		  String msgIdPk = jsonObj3.getString("MSG_ID_PK");
+//		    			  System.out.println(appendSpaces("MSG_ID_PK:") + msgIdPk);
 
 					      //---------------------------------------------------------------------------------
 					      //Log decoded Manhattan Message File info 
 					      //---------------------------------------------------------------------------------
-			    		  System.out.println(appendSpaces("ManhattanMsg:") + outputFileNm_manhattan);
-					      System.out.println();
+//			    		  System.out.println(appendSpaces("ManhattanMsg:") + outputFileNm_manhattan);
+//					      System.out.println();
 
 					      //---------------------------------------------------------------------------------
 					      //create soap request for each message so I don't have to manually do it
@@ -115,11 +113,11 @@ public class ParseGoogleAndManhattanMsgs {
 					      output.add(jsonObj2.toString());	
 					      output.add("	]   ");
 					      output.add("}   ");			    	  
-					      outputFileNm_soapRequest = "step_1 soapRequest_"+fileCnter+" from_"+fileNm+".json";
+					      outputFileNm_soapRequest = fileCnter+"_soapRequest.json";
 			  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm_soapRequest, output);
 
 			  			  //Parse Manhattan message to get some key info
-			  			  parseMsgs(decode, outputFileNm_manhattan, outputFileNm_soapRequest);
+			  			  parseMsgs(decode, outputFileNm_manhattan, outputFileNm_soapRequest, msgIdPk, googleMsgCnter);
 
 			    	  };
 			      }
@@ -149,10 +147,10 @@ public class ParseGoogleAndManhattanMsgs {
 
 		return test5;
 	}
-	public static void parseMsgs(String jsonString, String manhattanOuputFileNm, String soapReqOutputFileNm) {
+	public static void parseMsgs(String jsonString, String manhattanOuputFileNm, String soapReqOutputFileNm, String msgIdPk, int googleMsgCnter) {
 		List<String> output = new ArrayList<String>();
 		
-		int fileCnter = 0;
+		int msgCnter = 0;
 		String outputFileNm;
 		
 		JSONObject jsonObj0;
@@ -160,6 +158,15 @@ public class ParseGoogleAndManhattanMsgs {
 		JSONObject jsonObj2;
 		
 		JSONArray jsonArray1;
+
+          //common info for each Manhattan message
+		
+		  System.out.println("************************GoogleMsg "+googleMsgCnter); //add line
+		  System.out.println(appendSpaces("MSG_ID_PK:") + msgIdPk);
+		  System.out.println(appendSpaces("SoapGoogleRequestFile:")+soapReqOutputFileNm);
+	      System.out.println(appendSpaces("ManhattanMsgFile:")+manhattanOuputFileNm);
+		  System.out.println(" "); //add line
+
 		
 			    jsonObj0 = new JSONObject(jsonString);
 			    jsonArray1 = jsonObj0.getJSONArray("ExportDocuments");
@@ -168,11 +175,12 @@ public class ParseGoogleAndManhattanMsgs {
 		    	 
 			    for (int i = 0; i < size; i++){
 			    
-				  System.out.println(appendSpaces("SoapGoogleRequest:")+soapReqOutputFileNm);
-			      System.out.println(appendSpaces("ManhattanMsg:")+manhattanOuputFileNm);
+			    	msgCnter=msgCnter+1;
 			    	
 			      jsonObj1 = jsonArray1.getJSONObject(i);
 			      String[] elementNames = JSONObject.getNames(jsonObj1);
+			      
+			      System.out.println("------------------------ManhattanMsg "+msgCnter);
 			      
 			      for(int x=0;x<elementNames.length;x++) {
 			    	  String elementName = elementNames[x];
