@@ -88,7 +88,7 @@ public class ParseManhattanMsg {
 	    				  System.out.println(appendSpacesForManhattanMsg("itemId"+":") + jsonObj2.getString("ItemId"));
 			    	  }else
 			    	  if("PIXFields".equals(elementName)) { //jsonObject element
-			    		  PixElement(jsonObj1.getJSONObject("PIXFields"));
+			    		  ParsePixElement.PixElement(jsonObj1.getJSONObject("PIXFields"));
 			    	  }
 			    	}
 			    }
@@ -113,66 +113,11 @@ public class ParseManhattanMsg {
 			
 	
 	}
-	public static void PixElement(JSONObject jsonObj1) {
-		
-		JSONObject jsonObj2;
-		JSONObject jsonObj3;
-		JSONObject jsonObj4;
-		JSONObject jsonObj5;
-		
-		JSONArray jsonArray0;
-		JSONArray jsonArray1;
-		JSONArray jsonArray2;
-		
-		  boolean noToConditionCodes=false;
-		  boolean noFromConditionCodes=false;
 
-		if(jsonObj1.has("ConditionCodes")) {
-		  jsonArray0 = jsonObj1.getJSONArray("ConditionCodes");
-		  for(int z=0;z<jsonArray0.length();z++) { 
-			  jsonObj3 = jsonArray0.getJSONObject(z);
-    		  String[] ele = JSONObject.getNames(jsonObj3); //get list of element names
-    		  
-    		  for(int e=0;e<ele.length;e++) {
-    			  String eleNm = ele[e];
-    			  
-    			  if("ToConditionCodes".equals(eleNm)) { //attribute element
-		    		  jsonObj2 = jsonArray0.getJSONObject(z);
-		    		  jsonArray1 = jsonObj2.getJSONArray("ToConditionCodes");
-		    		  for(int j=0;j<jsonArray1.length();j++) {
-		    			  jsonObj4 = jsonArray1.getJSONObject(j);
-		    			  System.out.println(appendSpacesForManhattanMsg("ToConditionCodeId"+":") + jsonObj4.getString("ConditionCodeId"));
-		    			  noToConditionCodes=true;
-		    		  }
-    			  }
-    			  if("FromConditionCodes".equals(eleNm)) { //attribute element
-		    		  jsonObj2 = jsonArray0.getJSONObject(z);
-		    		  jsonArray2 = jsonObj2.getJSONArray("FromConditionCodes");
-		    		  for(int j=0;j<jsonArray2.length();j++) {
-		    			  jsonObj5 = jsonArray2.getJSONObject(j);
-		    			  System.out.println(appendSpacesForManhattanMsg("FromConditionCodeId"+":") + jsonObj5.getString("ConditionCodeId"));
-		    			  noFromConditionCodes=true;
-		    		  }
-    			  }
-    		  }
-    	}
-		
-			if(noToConditionCodes==false) {
-				   System.out.println(appendSpacesForManhattanMsg("ToConditionCodeId"+":") + "emptyList");
-			}
-			if(noFromConditionCodes==false) {
-			  System.out.println(appendSpacesForManhattanMsg("FromConditionCodeId"+":") + "emptyList");
-			}
-		}else
-		{
-		   System.out.println(appendSpacesForManhattanMsg("ConditionCodes"+":") + "element does not exist");
-		}
-		System.out.println(" ");
-	}
 	public static String appendSpacesForManhattanMsg(String data) {
 		int size = data.length();
 		
-		int diff = 24-size;
+		int diff = 27-size;
 		StringBuilder spaces = new StringBuilder();
 		for(int i=0;i<diff;i++) {
 			spaces.append(" ");

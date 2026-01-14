@@ -24,7 +24,7 @@ public class Parse {
 	public static String appendSpaces(String data) {
 		int size = data.length();
 		
-		int diff = 14-size;
+		int diff = 27-size;
 		StringBuilder spaces = new StringBuilder();
 		for(int i=0;i<diff;i++) {
 			spaces.append(" ");

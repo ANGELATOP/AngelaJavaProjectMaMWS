@@ -230,7 +230,7 @@ public class ParseGoogleAndManhattanMsgs {
 	    				  System.out.println(appendSpaces("itemId"+":") + jsonObj2.getString("ItemId"));
 			    	  }else
 			    	  if("PIXFields".equals(elementName)) { //jsonObject element
-			    		  ParseManhattanMsg.PixElement(jsonObj1.getJSONObject("PIXFields"));
+			    		  ParsePixElement.PixElement(jsonObj1.getJSONObject("PIXFields"));
 			    	  }
 			    	}
 			    }
@@ -240,7 +240,7 @@ public class ParseGoogleAndManhattanMsgs {
 	public static String appendSpaces(String data) {
 		int size = data.length();
 		
-		int diff = 24-size;
+		int diff = 27-size;
 		StringBuilder spaces = new StringBuilder();
 		for(int i=0;i<diff;i++) {
 			spaces.append(" ");
