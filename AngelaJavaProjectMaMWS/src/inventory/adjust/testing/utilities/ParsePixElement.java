@@ -5,7 +5,9 @@ import org.json.JSONObject;
 
 public class ParsePixElement {
 
-	public static void PixElement(JSONObject jsonObj1) {
+	public static ParsePixElementObj PixElement(JSONObject jsonObj1) {
+		
+		ParsePixElementObj obj = new ParsePixElementObj();
 		
 		JSONObject jsonObj2;
 		JSONObject jsonObj3;
@@ -23,11 +25,13 @@ public class ParsePixElement {
 	    if(jsonObj1.has("InventoryAdjustmentType")) {
 			  System.out.println(Parse.appendSpaces("InventoryAdjustmentType"+":") + jsonObj1.getString("InventoryAdjustmentType"));
 			  invAdjType=jsonObj1.getString("InventoryAdjustmentType");
+			  obj.setInventoryAdjustmentType(invAdjType);
 	    }  
 	    if(jsonObj1.has("InventoryAdjustmentQty")) {
 	    	  String qty = jsonObj1.getString("InventoryAdjustmentQty");
 	    	  String qtyFmt = Convert.formatAdjQty(invAdjType, qty);
 			  System.out.println(Parse.appendSpaces("InventoryAdjustmentQty"+":") + qty +"  (format will be: "+qtyFmt+")");
+			  obj.setInventoryAdjustmentQty(qty);
 		}  
 	    if(jsonObj1.has("FromInventoryBucket")) {
 			  System.out.println(Parse.appendSpaces("FromInventoryBucket"+":") + jsonObj1.getString("FromInventoryBucket")+"   (inventory status for qty msg)");
@@ -77,5 +81,8 @@ public class ParsePixElement {
 		   System.out.println(Parse.appendSpaces("ConditionCodes"+":") + "element does not exist");
 		}
 		System.out.println(" ");
+
+		return obj;
+
 	}
 }

@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import aa.common.code.CreateOutputFile;
@@ -16,8 +17,9 @@ import aa.common.code.RetrieveTextFile;
 public class ParseGoogleAndManhattanMsgs_useThis {
 
 	static int fileCnter = 10;
+	static int archiveCnter = 1000;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws JSONException, Exception {
 		
 		System.out.println("ParseGoogleMsg: start ");
 
@@ -29,7 +31,7 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		System.out.println("ParseGoogleMsg: end");
 	}
 
-	public static void parseGoogleMsgs(String directory, String outputDir) {
+	public static void parseGoogleMsgs(String directory, String outputDir) throws JSONException, Exception {
 		List<String> files = ListFileNames.getFileNames(directory);
 		List<String> output = new ArrayList<String>();
 		
@@ -48,13 +50,13 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		for(String fileNm:files) {
 			googleMsgCnter = 0;
 			
-			if(fileNm.contains("googleMsg")) {
+			if(fileNm.contains("googleMsg") || fileNm.contains("google_Msg")) {
 				processInventoryGoogleMessages(fileNm, directory, outputDir);
 			}
 
 		}
 	}
-	public static void processInventoryGoogleMessages(String fileNm, String directory, String outputDir) {
+	public static void processInventoryGoogleMessages(String googleFileNm, String directory, String outputDir) throws JSONException, Exception {
 		
 		List<String> output = new ArrayList<String>();
 		
@@ -69,16 +71,17 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		
 		JSONArray jsonArray1;
 		
-		if(fileNm.contains("googleMsg") || fileNm.contains("google_Msg")) {
+//		if(googleFileNm.contains("googleMsg") || googleFileNm.contains("google_Msg")) {
+		if(googleFileNm.contains("googleMsg")) {
 			
 			
 			System.out.println(" "); //add blank line
 			System.out.println("==========================================================================="); //add line
-			System.out.println("-- "+fileNm);
+			System.out.println("-- "+googleFileNm);
 			System.out.println("==========================================================================="); //add line
 
 			//build the JSON multiple records into one string
-			String jsonString = RetrieveTextFile.concatenateRecs(directory+fileNm);
+			String jsonString = RetrieveTextFile.concatenateRecs(directory+googleFileNm);
 			
 			
 			
@@ -141,7 +144,7 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		  			  CreateOutputFile.createOutputFile(outputDir+outputFileNm_soapRequest, output);
 
 		  			  //Parse Manhattan message to get some key info
-		  			  parseMsgs(decode, outputFileNm_manhattan, outputFileNm_soapRequest, msgIdPk, googleMsgCnter, queueName);
+		  			parseManhattanMsgs(decode, outputFileNm_manhattan, outputFileNm_soapRequest, msgIdPk, googleMsgCnter, queueName, googleFileNm);
 
 		    	  };
 		      }
@@ -170,7 +173,7 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 
 		return test5;
 	}
-	public static void parseMsgs(String jsonString, String manhattanOuputFileNm, String soapReqOutputFileNm, String msgIdPk, int googleMsgCnter, String queueName) {
+	public static void parseManhattanMsgs(String jsonString, String manhattanOuputFileNm, String soapReqOutputFileNm, String msgIdPk, int googleMsgCnter, String queueName, String googleFileNm) throws JSONException, Exception {
 		List<String> output = new ArrayList<String>();
 		
 		int msgCnter = 0;
@@ -182,9 +185,16 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		
 		JSONArray jsonArray1;
 
+		String saveItemId="";
+		String saveFclty="";
+		String saveSourceTransactionType="";
+		int saveSeqNbr=0;
+		String saveTransactionDateTime="";
+		String saveTransactionNumber="";
+		
           //common info for each Manhattan message
 		
-		  System.out.println(appendSpaces("","*")+"GoogleMsg "+googleMsgCnter); //add line
+		  System.out.println(appendSpaces("","*")+"GoogleMsg-"+googleMsgCnter+"  googleFileName:"+googleFileNm); //add line
 		  System.out.println(appendSpaces("MSG_ID_PK:") + msgIdPk);
 		  System.out.println(appendSpaces("QueueName:") + queueName);
 		  System.out.println(appendSpaces("SoapGoogleRequestFile:")+soapReqOutputFileNm);
@@ -196,54 +206,76 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 			    jsonArray1 = jsonObj0.getJSONArray("ExportDocuments");
 			    
 			    int size = jsonArray1.length();
-		    	 
-			    for (int i = 0; i < size; i++){
+		    	
+			    ParsePixElementObj obj = new ParsePixElementObj();
 			    
+			    for (int i = 0; i < size; i++){ //loop through each manhattan message
+			    	obj = new ParsePixElementObj();
 			    	msgCnter=msgCnter+1;
 			    	
 			      jsonObj1 = jsonArray1.getJSONObject(i);
 			      String[] elementNames = JSONObject.getNames(jsonObj1);
 			      
-			      System.out.println(appendSpaces("","-")+"ManhattanMsg "+msgCnter);
+			      System.out.println(appendSpaces("","-")+"ManhattanMsg-"+msgCnter+"  ===>googleFileName:"+googleFileNm);
 			      
 			      boolean anyInventoryAttributes=false;
 			      
-			      for(int x=0;x<elementNames.length;x++) {
+			      for(int x=0;x<elementNames.length;x++) { //loop through each element
 			    	  String elementName = elementNames[x];
 
 			    	  if("SourceTransactionType".equals(elementName)) { //attribute element
 			    		  String test = Convert.getInvAdjustMsgType(jsonObj1.getString(elementName));
 			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName)+"  ("+test+")");
 			    		  ParseManhattanMsg.outputXmlMessageType(jsonObj1.getString(elementName));
+			    		  saveSourceTransactionType=jsonObj1.getString(elementName);
 			    	  }else
 			    	  if("SourceEventName".equals(elementName)) { //attribute element
 			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
 			    	  }else
 			    	  if("SequenceNumber".equals(elementName)) { //attribute element
 			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getInt(elementName));
+			    		  saveSeqNbr=jsonObj1.getInt(elementName);
 			    	  }else
 			    	  if("TransactionNumber".equals(elementName)) { //attribute element
 			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
+			    		  saveTransactionNumber=jsonObj1.getString(elementName);
+			    	  }else
+			    	  if("TransactionDateTime".equals(elementName)) { //attribute element
+			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
+			    		  saveTransactionDateTime=Parse.reformatDate(jsonObj1.getString(elementName));
 			    	  }else
 			    	  if("Facility".equals(elementName)) { //attribute element
 			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
+			    		  saveFclty=jsonObj1.getString(elementName);
 			    	  }else
 			    	  if("ItemDefinition".equals(elementName)) { //jsonObject element
 			    		  jsonObj2 = jsonObj1.getJSONObject("ItemDefinition");
 	    				  System.out.println(appendSpaces("itemId"+":") + jsonObj2.getString("ItemId"));
+	    				  saveItemId=jsonObj2.getString("ItemId");
 			    	  }else
 			    	  if("PIXFields".equals(elementName)) { //jsonObject element
-			    		  ParsePixElement.PixElement(jsonObj1.getJSONObject("PIXFields"));
+			    		  obj  = ParsePixElement.PixElement(jsonObj1.getJSONObject("PIXFields"));
 			    	  }else
 			    	  if("InventoryAttributes".equals(elementName)) { //jsonObject element
 			    		  ParseInventoryAttributes.InventoryAttributeElements(jsonObj1);
 			    		  anyInventoryAttributes=true;
 			    	  }
 			    	}
+//				  String keyString = "itemId:"+saveItemId+" fclty:"+saveFclty+" InventoryAdj:"+saveSourceTransactionType+ " "+obj.getInventoryAdjustmentType()+" "+obj.getInventoryAdjustmentQty()+" seqNbr:"+saveSeqNbr+" "+saveTransactionDateTime;
+//				  String keyString = "itemId:"+saveItemId+" fclty:"+saveFclty+" InvAdj:"+saveSourceTransactionType+ " "+obj.getInventoryAdjustmentType()+" "+obj.getInventoryAdjustmentQty()+" seqNbr:"+saveSeqNbr+" "+saveTransactionDateTime;
+//				  String keyString = "itemId:"+saveItemId+" fclty:"+saveFclty+" InvAdj:"+saveSourceTransactionType+ " "+obj.getInventoryAdjustmentType()+" "+obj.getInventoryAdjustmentQty()+" "+saveTransactionDateTime;
+//				  String keyString = "itemIdFclty:"+saveItemId+"/"+saveFclty+" InvAdj:"+saveSourceTransactionType+ " "+obj.getInventoryAdjustmentType()+" "+obj.getInventoryAdjustmentQty()+" "+saveTransactionDateTime;
+				  String keyString = "itemFclty:"+saveItemId+"-"+saveFclty+" InvAdj:"+saveSourceTransactionType ;
+				  String addtlInfo = "   |===>additional data to validate test results   |msgIdPk:"+appendSpaces(msgIdPk," ",40)+"  |adjType:"+appendSpaces(obj.getInventoryAdjustmentType()," ",10)+
+						                " |transDateTime:"+saveTransactionDateTime+" |adjQty:"+appendSpaces(obj.getInventoryAdjustmentQty()," ",8)+" |transNbr:"+appendSpaces(saveTransactionNumber," ",22)+"  |seqNbr:"+appendSpaces(String.valueOf(saveSeqNbr)," ",6)+" |googleMsgFile:"+googleFileNm;
+				  archiveCnter=archiveCnter+1;
+				  System.out.println(appendSpaces(archiveCnter+"| ArchiveKeyString:") + appendSpaces(keyString," ", 50) +addtlInfo); 
+		    	  
 			      if(anyInventoryAttributes==false) {
 			    	  System.out.println(appendSpaces("InventoryAttributes:") + "FYI - No InventoryAttributes elements. Needed for UOM and CatchWeight Calc for qtyMsg."); 
 			    	  System.out.println(" ");
 			      }
+
 			    }
 			    
 		    
@@ -270,5 +302,20 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		}
 		
 		return data+spaces.toString();
+	}	
+	public static String appendSpaces(String data,String test, int inputSize) {
+		//System.out.println("appendSpaces(String data,String test, int inputSize)"+data);
+		if(data!=null) {
+		int size = data.length();
+		
+		int diff = inputSize-size;
+		StringBuilder spaces = new StringBuilder();
+		for(int i=0;i<diff;i++) {
+			spaces.append(test);
+		}
+		
+		return data+spaces.toString();
+		}
+	return " ";
 	}	
 }
