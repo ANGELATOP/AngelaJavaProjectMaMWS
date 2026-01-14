@@ -193,6 +193,8 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		String saveTransactionDateTime="";
 		String saveTransactionNumber="";
 		
+		StringBuilder saveTransactionNumberAll = new StringBuilder();
+		
           //common info for each Manhattan message
 		
 //		  System.out.println(appendSpaces("","*")+"GoogleMsg-"+googleMsgCnter+"  googleFileName:"+googleFileNm); 
@@ -249,6 +251,7 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 			    	  if("TransactionNumber".equals(elementName)) { //attribute element
 			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
 			    		  saveTransactionNumber=jsonObj1.getString(elementName);
+			    		  saveTransactionNumberAll.append("'").append(saveTransactionNumber).append("',");
 			    	  }else
 			    	  if("TransactionDateTime".equals(elementName)) { //attribute element
 			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
@@ -285,6 +288,8 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 			    	  System.out.println(appendSpaces("InventoryAttributes:") + "FYI - No InventoryAttributes elements. Needed for UOM and CatchWeight Calc for qtyMsg."); 
 			    	  System.out.println(" ");
 			      }
+//			      System.out.println(appendSpaces("All Transaction Numbers:")+saveTransactionNumberAll.toString());
+//		    	  System.out.println(" ");
 			    }
 	}	
 	public static String appendSpaces(String data) {
