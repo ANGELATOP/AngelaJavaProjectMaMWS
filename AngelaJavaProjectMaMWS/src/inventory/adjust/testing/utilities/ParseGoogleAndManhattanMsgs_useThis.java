@@ -72,7 +72,7 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		JSONArray jsonArray1;
 		
 //		if(googleFileNm.contains("googleMsg") || googleFileNm.contains("google_Msg")) {
-		if(googleFileNm.contains("2026-01-14 googleMsg_9b")) {
+		if(googleFileNm.contains("googleMsg")) {
 			
 			
 			System.out.println(" "); //add blank line
@@ -99,7 +99,7 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		      jsonObj1 = jsonArray1.getJSONObject(i);
 		      String[] elementNames = JSONObject.getNames(jsonObj1);
 		      
-		      System.out.println("TESTING elementNames.length="+elementNames.length);//NBR OF GOOGLE MESSAGES
+		      //System.out.println("TESTING elementNames.length="+elementNames.length);//NBR OF GOOGLE MESSAGES
 		      for(int x=0;x<elementNames.length;x++) {
 		    	  String elementName = elementNames[x];
 		    	  
@@ -200,11 +200,10 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		  System.out.println(appendSpaces("MSG_ID_PK:") + msgIdPk);
 		  System.out.println(appendSpaces("QueueName:") + queueName);
 		  System.out.println(appendSpaces("SoapGoogleRequestFile:")+soapReqOutputFileNm);
-	      System.out.println(appendSpaces("ManhattanMsgFile:")+manhattanOuputFileNm+ "(nbr of msgs:"+")");
+	      System.out.println(appendSpaces("ManhattanMsgFile:")+manhattanOuputFileNm);
 
 	      int nbrOfManhattanMsgsCnter=0;
 	      
-	      List<String> manhattanLines = new ArrayList<String>();
 		  System.out.println(" "); //add line
 
 		
@@ -215,7 +214,7 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		    	
 			    ParsePixElementObj obj = new ParsePixElementObj();
 			    
-			    for (int i = 0; i < size; i++){ //loop through each manhattan element
+			    for (int i = 0; i < size; i++){ //loop through each Manhattan message
 			    	
 			    	nbrOfManhattanMsgsCnter=nbrOfManhattanMsgsCnter+1;
 
@@ -287,9 +286,6 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 			    	  System.out.println(" ");
 			      }
 			    }
-			   System.out.println("nbrOfManhattanMsgsCnter="+nbrOfManhattanMsgsCnter); 
-		    
-		
 	}	
 	public static String appendSpaces(String data) {
 		int size = data.length();

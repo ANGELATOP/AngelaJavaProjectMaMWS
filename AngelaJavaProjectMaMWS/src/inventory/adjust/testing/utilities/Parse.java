@@ -28,7 +28,7 @@ public class Parse {
 		        String outputFormat = "yyyyMMddHHmmssSSS";
 		        
 		        test = new SimpleDateFormat(outputFormat).format(new SimpleDateFormat(inputFormat).parse(inputDate));
-		        System.out.println("test===>"+test);
+		        //System.out.println("test===>"+test);
 			    
 
 		    } catch (ParseException e) {
