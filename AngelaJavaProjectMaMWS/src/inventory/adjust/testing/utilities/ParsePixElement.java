@@ -71,14 +71,14 @@ public class ParsePixElement {
     	}
 		
 			if(noToConditionCodes==false) {
-				   System.out.println(Parse.appendSpaces("ToConditionCodeId"+":") + "emptyList");
+				   System.out.println(Parse.appendSpaces("ToConditionCodeId"+":") + "emptyList-only used for Inventory Status Message");
 			}
 			if(noFromConditionCodes==false) {
-			  System.out.println(Parse.appendSpaces("FromConditionCodeId"+":") + "emptyList");
+			  System.out.println(Parse.appendSpaces("FromConditionCodeId"+":") + "emptyList-only used for Inventory Status Message");
 			}
 		}else
 		{
-		   System.out.println(Parse.appendSpaces("ConditionCodes"+":") + "element does not exist");
+		   System.out.println(Parse.appendSpaces("ConditionCodes"+":") + "element does not exist-only used for Inventory Status Message");
 		}
 		System.out.println(" ");
 

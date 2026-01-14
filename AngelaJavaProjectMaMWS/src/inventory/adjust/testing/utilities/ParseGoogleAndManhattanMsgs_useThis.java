@@ -72,7 +72,7 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		JSONArray jsonArray1;
 		
 //		if(googleFileNm.contains("googleMsg") || googleFileNm.contains("google_Msg")) {
-		if(googleFileNm.contains("googleMsg")) {
+		if(googleFileNm.contains("2026-01-14 googleMsg_9b")) {
 			
 			
 			System.out.println(" "); //add blank line
@@ -99,6 +99,7 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		      jsonObj1 = jsonArray1.getJSONObject(i);
 		      String[] elementNames = JSONObject.getNames(jsonObj1);
 		      
+		      System.out.println("TESTING elementNames.length="+elementNames.length);//NBR OF GOOGLE MESSAGES
 		      for(int x=0;x<elementNames.length;x++) {
 		    	  String elementName = elementNames[x];
 		    	  
@@ -194,11 +195,16 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		
           //common info for each Manhattan message
 		
-		  System.out.println(appendSpaces("","*")+"GoogleMsg-"+googleMsgCnter+"  googleFileName:"+googleFileNm); //add line
+//		  System.out.println(appendSpaces("","*")+"GoogleMsg-"+googleMsgCnter+"  googleFileName:"+googleFileNm); 
+		  System.out.println(appendSpaces("","*")+"GoogleMsg-"+googleMsgCnter); 
 		  System.out.println(appendSpaces("MSG_ID_PK:") + msgIdPk);
 		  System.out.println(appendSpaces("QueueName:") + queueName);
 		  System.out.println(appendSpaces("SoapGoogleRequestFile:")+soapReqOutputFileNm);
-	      System.out.println(appendSpaces("ManhattanMsgFile:")+manhattanOuputFileNm);
+	      System.out.println(appendSpaces("ManhattanMsgFile:")+manhattanOuputFileNm+ "(nbr of msgs:"+")");
+
+	      int nbrOfManhattanMsgsCnter=0;
+	      
+	      List<String> manhattanLines = new ArrayList<String>();
 		  System.out.println(" "); //add line
 
 		
@@ -209,16 +215,21 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		    	
 			    ParsePixElementObj obj = new ParsePixElementObj();
 			    
-			    for (int i = 0; i < size; i++){ //loop through each manhattan message
+			    for (int i = 0; i < size; i++){ //loop through each manhattan element
+			    	
+			    	nbrOfManhattanMsgsCnter=nbrOfManhattanMsgsCnter+1;
+
 			    	obj = new ParsePixElementObj();
 			    	msgCnter=msgCnter+1;
-			    	
+
+
 			      jsonObj1 = jsonArray1.getJSONObject(i);
 			      String[] elementNames = JSONObject.getNames(jsonObj1);
 			      
 			      System.out.println(appendSpaces("","-")+"ManhattanMsg-"+msgCnter+"  ===>googleFileName:"+googleFileNm);
 			      
 			      boolean anyInventoryAttributes=false;
+			      
 			      
 			      for(int x=0;x<elementNames.length;x++) { //loop through each element
 			    	  String elementName = elementNames[x];
@@ -275,9 +286,8 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 			    	  System.out.println(appendSpaces("InventoryAttributes:") + "FYI - No InventoryAttributes elements. Needed for UOM and CatchWeight Calc for qtyMsg."); 
 			    	  System.out.println(" ");
 			      }
-
 			    }
-			    
+			   System.out.println("nbrOfManhattanMsgsCnter="+nbrOfManhattanMsgsCnter); 
 		    
 		
 	}	
