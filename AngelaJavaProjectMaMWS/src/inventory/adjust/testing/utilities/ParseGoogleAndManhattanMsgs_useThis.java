@@ -13,7 +13,7 @@ import aa.common.code.ListFileNames;
 import aa.common.code.RetrieveTextFile;
 
 
-public class ParseGoogleAndManhattanMsgs {
+public class ParseGoogleAndManhattanMsgs_useThis {
 
 	static int fileCnter = 10;
 
