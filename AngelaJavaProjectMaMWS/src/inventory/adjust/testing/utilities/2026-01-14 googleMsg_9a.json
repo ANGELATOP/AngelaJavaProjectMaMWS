@@ -1,0 +1,45 @@
+{
+	"receivedMessages": [
+		{
+			"ackId": "FixdRkhRNxkIaFEOT14jPzUgKEUXAgZPAihdeTdUOkFddg5UYhlyfWF1a1NBU1dBW38MXRMHaFZcZzZRFZLG7ZpDSHsSBgVDUXZZUx0FaVlZcQVUDTHL5em006fZIBh5a_Xry-A7SOuSl6VjZi09XhJLLD5-LzlFQV5AEkwkDERJUytDCypYEU4EISE-MD5FU0RQBg",
+			"message": {
+				"data": "eyJDb250ZXh0SW5mb3JtYXRpb24iOnsiTWVzc2FnZXMiOm51bGwsIk9yZ2FuaXphdGlvbiI6IktDIiwiVXNlcklkIjoic3lzdGVtLW1zZy11c2VyQEtDIiwiVXNlckxvY2FsZSI6IlVUQyIsIkxvY2F0aW9uIjoiS0MifSwiQ3VycmVudFBhZ2UiOjEsIkV4cG9ydERvY3VtZW50cyI6W3siTWVzc2FnZXMiOm51bGwsIlBJWFNwZWNpZmljYXRpb24iOiJJbnZlbnRvcnkgQWRqdXN0bWVudCIsIkRlc2NyaXB0aW9uIjoiU2luZ2xlIEludmVudG9yeSBBZGp1c3RtZW50IFBJWCBmb3IgSG9zdCBJbnZlbnRvcnkgY2hhbmdlcyIsIlNvdXJjZVRyYW5zYWN0aW9uVHlwZSI6Ik1PRElGWV9JTFBOIiwiU291cmNlRXZlbnROYW1lIjoiSU5WRU5UT1JZX0FESlVTVE1FTlQiLCJJdGVtRGVmaW5pdGlvbiI6eyJDb21wYW55IjoiS0MiLCJTZWFzb24iOiIiLCJTZWFzb25ZZWFyIjoiIiwiU3R5bGUiOiIiLCJTdHlsZVN1ZmZpeCI6IiIsIkNvbG9yIjoiIiwiQ29sb3JTdWZmaXgiOiIiLCJTZWNvbmREaW1lbnNpb24iOiIiLCJTaXplQ29kZSI6IiIsIlNpemVEZXNjcmlwdGlvbiI6IiIsIkl0ZW1JZCI6IjAwNDM4NDgiLCJEZXNjcmlwdGlvbiI6IkJTVCBDSCBWRUcgUVRSUyA1MyAxNiBPWiJ9LCJTdWJJdGVtRmllbGRzIjp7IkludmVudG9yeVR5cGVJZCI6IiIsIlByb2R1Y3RTdGF0dXNJZCI6IiIsIkl0ZW1CYXRjaE51bWJlcklkIjoiIiwiSW52ZW50b3J5QXR0cmlidXRlMSI6IiIsIkludmVudG9yeUF0dHJpYnV0ZTIiOiIiLCJJbnZlbnRvcnlBdHRyaWJ1dGUzIjoiIiwiSW52ZW50b3J5QXR0cmlidXRlNCI6IiIsIkludmVudG9yeUF0dHJpYnV0ZTUiOiIiLCJDb3VudHJ5T2ZPcmlnaW4iOiIiLCJFeHBpcmF0aW9uRGF0ZSI6IjIwMjYtMTItMTYiLCJNYW51ZmFjdHVyZURhdGUiOiIiLCJQYWNrVW9tUXVhbnRpdHkiOiIifSwiUElYRmllbGRzIjp7IkJ1c2luZXNzVW5pdElkIjoiIiwiRXh0ZXJuYWxPcmdhbml6YXRpb25JZCI6IiIsIkNyZWF0ZWRCeSI6IndhbGxhY2Uuc3F1aWJiQGF3Z2luYy5jb20iLCJGcm9tSW52ZW50b3J5QnVja2V0IjoiQVZBSUxBQkxFIiwiVG9JbnZlbnRvcnlCdWNrZXQiOiJBVkFJTEFCTEUiLCJJbnZlbnRvcnlBZGp1c3RtZW50UXR5IjoiMS4wIiwiUXVhbnRpdHkiOiIxLjAiLCJBZGp1c3RlZFdlaWdodCI6IjE4Ljg4IiwiQXNuSWQiOiJBU04wMDAwMDAwMDAwODEiLCJBc25TdGF0dXMiOiI4MDAwIiwiUHVyY2hhc2VPcmRlcklkIjoiIiwiQWx0ZXJuYXRlQXNuSWQiOiIiLCJBbHRlcm5hdGVQdXJjaGFzZU9yZGVySWQiOiIiLCJJbHBuSWQiOiJMUE4wMDAwMDAwMDAyMTgiLCJMb2NhdGlvbklkIjoiUFJPQkdSTyIsIlJlYXNvbkNvZGVJZCI6IloiLCJSZWZlcmVuY2VUZXh0IjoiWiIsIlNlY29uZGFyeVJlZmVyZW5jZVRleHQiOiJaIiwiQ29uZGl0aW9uQ29kZUNoYW5nZSI6Ik4iLCJDb25kaXRpb25Db2RlcyI6W3siVG9Db25kaXRpb25Db2RlcyI6W119LHsiRnJvbUNvbmRpdGlvbkNvZGVzIjpbXX1dLCJJbnZlbnRvcnlBZGp1c3RtZW50VHlwZSI6IlNVQlRSQUNUIiwiQWRqdXN0ZWRUeXBlIjoiU1VCVFJBQ1QiLCJBZGp1c3RlZFdlaWdodFR5cGUiOiJTVUJUUkFDVCIsIkNyZWF0ZWRUaW1lc3RhbXAiOiIyMDI2LTAxLTE0VDIwOjQ5OjIyLjA0NCIsIlVwZGF0ZWRUaW1lc3RhbXAiOiIyMDI2LTAxLTE0VDIwOjUyOjM1LjM0MyIsIlVwZGF0ZWRCeSI6InN5c3RlbS1tc2ctdXNlckBLQyIsIlRyYW5zYWN0aW9uRGF0ZVRpbWUiOiIyMDI2LTAxLTE0VDIwOjQ5OjIxLjYzNyJ9LCJUcmFuc2FjdGlvbk51bWJlciI6Ijc2ODQyMzc2MTYyNTUyODM1MDUiLCJTZXF1ZW5jZU51bWJlciI6MSwiVHJhbnNhY3Rpb25EYXRlVGltZSI6IjIwMjYtMDEtMTRUMjA6NDk6MjEuNjM3IiwiT3JnYW5pemF0aW9uIjoiS0MiLCJGYWNpbGl0eSI6IktDIn1dLCJVbmlxdWVKb2JJZCI6IjEzNWI1YzZkLWViZjUtNDE5Ni04NmU1LWE1YzgxYWNlZGM4YSIsIlRvdGFsUGFnZXMiOjF9",
+				"attributes": {
+					"AllBusinessUnitsAccessible": "true",
+					"direction": "Outbound",
+					"MSG_ID_PK": "63919784639795904655868991355637005",
+					"MSG_TYPE": "XNT_HST_InventoryAdjustment",
+					"Organization": "AWG-L1",
+					"SelectedLocation": "KC",
+					"IsRetransmitMsg": "true",
+					"fromInboundQueueName": "awpf-payload-queue-xin",
+					"BROKER_TYPE": "googlepubsub",
+					"APP_ID_TRACE": "com-manh-cp-xint-queue-proc-q-xint-94b77f658-c6wqf",
+					"fromExtensionPointMessageType": "PIX_XIN_InventoryAdjustment",
+					"TRANSACTIONAL": "true",
+					"fromInboundMessageType": "awpf-payload",
+					"msg_submission_time": "2026-01-14T20:52:35.434",
+					"msg_submission_time_utc": "2026-01-14T20:52:35.434Z",
+					"TRACE_ID": "e8bc2e6a11a05c77",
+					"BROKER_ADDRESS": "",
+					"UserLocale": "en",
+					"PayloadQueueName": "awpf-payload-queue-xin",
+					"SPAN_ID": "a1bf55c46594cd0e",
+					"QueueName": "XNT_HST_InventoryAdjustment_GCPQ",
+					"app-id": "com-manh-cp-xint-queue-proc-q-xint-94b77f658-c6wqf",
+					"SelectedOrganization": "KC",
+					"PrimaryOrganization": "AWG-L1",
+					"fromExtensionPointId": "Inventory_Adjustment",
+					"TenantId": "awgrssf11o",
+					"User": "system-msg-user@KC",
+					"ComponentName": "xint",
+					"OUTBOUND_MSG_TYPE": "XNT_HST_InventoryAdjustment",
+					"fromInboundServiceId": "PayloadMsgProcessor",
+					"Location": "KC"
+				},
+				"messageId": "17762868681554250",
+				"publishTime": "2026-01-14T20:52:35.568Z"
+			}
+		}
+	]
+}
