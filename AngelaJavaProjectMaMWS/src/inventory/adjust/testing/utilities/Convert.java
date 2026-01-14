@@ -31,7 +31,7 @@ public class Convert {
 		if(sourceTransactionType.contains("CREATE_ILPN")) 
 				return "createILPN";
 		
-		return "typeOfOutputMessageNotDefined:error";
+		return "Error - typeOfOutputMessageNotDefined:error";
 	}
 	public static String formatCatchWght(String value) {
 		

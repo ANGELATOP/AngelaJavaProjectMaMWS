@@ -43,7 +43,7 @@ public class ParseManhattanMsg {
 		
 		for(String fileNm:files) {
 			
-			if(fileNm.contains("ManhattanMsg_")) {
+			if(fileNm.contains("45_2_ManhattanMsg")) {
 //				System.out.println(" "); //add blank line
 //				System.out.println("----------------------------------------------------------------------"); //add line
 //				System.out.println("-- "+fileNm);
@@ -89,6 +89,9 @@ public class ParseManhattanMsg {
 			    	  }else
 			    	  if("PIXFields".equals(elementName)) { //jsonObject element
 			    		  ParsePixElement.PixElement(jsonObj1.getJSONObject("PIXFields"));
+			    	  }else
+			    	  if("InventoryAttributes".equals(elementName)) { //jsonObject element
+			    		  ParseInventoryAttributes.InventoryAttributeElements(jsonObj1);
 			    	  }
 			    	}
 			    }

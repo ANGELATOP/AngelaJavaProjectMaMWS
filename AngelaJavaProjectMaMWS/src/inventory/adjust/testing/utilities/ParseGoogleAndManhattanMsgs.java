@@ -15,7 +15,8 @@ import aa.common.code.RetrieveTextFile;
 
 public class ParseGoogleAndManhattanMsgs {
 
-	
+	static int fileCnter = 10;
+
 	public static void main(String[] args) {
 		
 		System.out.println("ParseGoogleMsg: start ");
@@ -57,7 +58,6 @@ public class ParseGoogleAndManhattanMsgs {
 		
 		List<String> output = new ArrayList<String>();
 		
-		int fileCnter = 10;
 		int googleMsgCnter = 0;
 		String outputFileNm_manhattan;
 		String outputFileNm_soapRequest;
@@ -69,7 +69,7 @@ public class ParseGoogleAndManhattanMsgs {
 		
 		JSONArray jsonArray1;
 		
-		if(fileNm.contains("googleMsg")) {
+		if(fileNm.contains("googleMsg") || fileNm.contains("google_Msg")) {
 			
 			
 			System.out.println(" "); //add blank line
@@ -184,7 +184,7 @@ public class ParseGoogleAndManhattanMsgs {
 
           //common info for each Manhattan message
 		
-		  System.out.println("************************GoogleMsg "+googleMsgCnter); //add line
+		  System.out.println(appendSpaces("","*")+"GoogleMsg "+googleMsgCnter); //add line
 		  System.out.println(appendSpaces("MSG_ID_PK:") + msgIdPk);
 		  System.out.println(appendSpaces("QueueName:") + queueName);
 		  System.out.println(appendSpaces("SoapGoogleRequestFile:")+soapReqOutputFileNm);
@@ -204,13 +204,16 @@ public class ParseGoogleAndManhattanMsgs {
 			      jsonObj1 = jsonArray1.getJSONObject(i);
 			      String[] elementNames = JSONObject.getNames(jsonObj1);
 			      
-			      System.out.println("------------------------ManhattanMsg "+msgCnter);
+			      System.out.println(appendSpaces("","-")+"ManhattanMsg "+msgCnter);
+			      
+			      boolean anyInventoryAttributes=false;
 			      
 			      for(int x=0;x<elementNames.length;x++) {
 			    	  String elementName = elementNames[x];
 
 			    	  if("SourceTransactionType".equals(elementName)) { //attribute element
-			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
+			    		  String test = Convert.getInvAdjustMsgType(jsonObj1.getString(elementName));
+			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName)+"  ("+test+")");
 			    		  ParseManhattanMsg.outputXmlMessageType(jsonObj1.getString(elementName));
 			    	  }else
 			    	  if("SourceEventName".equals(elementName)) { //attribute element
@@ -231,9 +234,18 @@ public class ParseGoogleAndManhattanMsgs {
 			    	  }else
 			    	  if("PIXFields".equals(elementName)) { //jsonObject element
 			    		  ParsePixElement.PixElement(jsonObj1.getJSONObject("PIXFields"));
+			    	  }else
+			    	  if("InventoryAttributes".equals(elementName)) { //jsonObject element
+			    		  ParseInventoryAttributes.InventoryAttributeElements(jsonObj1);
+			    		  anyInventoryAttributes=true;
 			    	  }
 			    	}
+			      if(anyInventoryAttributes==false) {
+			    	  System.out.println(appendSpaces("InventoryAttributes:") + "FYI - No InventoryAttributes elements. Needed for UOM and CatchWeight Calc for qtyMsg."); 
+			    	  System.out.println(" ");
+			      }
 			    }
+			    
 		    
 		
 	}	
@@ -244,6 +256,17 @@ public class ParseGoogleAndManhattanMsgs {
 		StringBuilder spaces = new StringBuilder();
 		for(int i=0;i<diff;i++) {
 			spaces.append(" ");
+		}
+		
+		return data+spaces.toString();
+	}	
+	public static String appendSpaces(String data,String test) {
+		int size = data.length();
+		
+		int diff = 27-size;
+		StringBuilder spaces = new StringBuilder();
+		for(int i=0;i<diff;i++) {
+			spaces.append(test);
 		}
 		
 		return data+spaces.toString();
