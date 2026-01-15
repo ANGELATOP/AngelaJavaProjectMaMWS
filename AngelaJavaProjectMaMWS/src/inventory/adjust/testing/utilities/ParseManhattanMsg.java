@@ -110,7 +110,7 @@ public class ParseManhattanMsg {
             System.out.println(appendSpacesForManhattanMsg("Output XML:")+ "Output will be Inventory Status XML Message");
     	else
 		if(sourceTransactionType.contains("CREATE_ILPN")) 
-            System.out.println(appendSpacesForManhattanMsg("Output XML:")+ "Output will be Inventory Status XML Message, maybe Inventory Status XML Message if any condition codes");
+            System.out.println(appendSpacesForManhattanMsg("Output XML:")+ "Output will be Inventory Quantity XML Message, maybe Inventory Status XML Message if any condition codes");
 		else
             System.out.println(appendSpacesForManhattanMsg("Output XML:")+ "ERROR - Unknown Output XML Message");
 			
@@ -126,7 +126,7 @@ public class ParseManhattanMsg {
 			spaces.append(" ");
 		}
 		
-		return data+spaces.toString();
+		return data+spaces.toString()+"|";
 	}
 	public static void parseManhattanMsgs(String directory) {
 

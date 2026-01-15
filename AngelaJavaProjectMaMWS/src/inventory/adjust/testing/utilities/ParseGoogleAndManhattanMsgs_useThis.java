@@ -71,10 +71,10 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 		
 		JSONArray jsonArray1;
 		
-//		if(googleFileNm.contains("googleMsg") || googleFileNm.contains("google_Msg")) {
+		if(googleFileNm.contains("googleMsg") || googleFileNm.contains("google_Msg")) {
 //		if(googleFileNm.contains("PIX_XIN_AppointmentYard")) {
 //		if(googleFileNm.contains("XNT_HST_AppointmentYard")) {
-		if(googleFileNm.contains(" googleMsg")) {
+//		if(googleFileNm.contains("googleMsg")) {
 			
 			
 			System.out.println(" "); //add blank line
@@ -262,6 +262,9 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 			    	  if("Facility".equals(elementName)) { //attribute element
 			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
 			    		  saveFclty=jsonObj1.getString(elementName);
+			    	  }else
+			    	  if("PIXSpecification".equals(elementName)) { //attribute element
+			    		  System.out.println(appendSpaces(elementName+":") + jsonObj1.getString(elementName));
 			    	  }else
 			    	  if("ItemDefinition".equals(elementName)) { //jsonObject element
 			    		  jsonObj2 = jsonObj1.getJSONObject("ItemDefinition");
