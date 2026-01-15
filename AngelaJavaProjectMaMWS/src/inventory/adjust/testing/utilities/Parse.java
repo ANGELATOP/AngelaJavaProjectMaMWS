@@ -51,6 +51,6 @@ public class Parse {
 			spaces.append(" ");
 		}
 		
-		return data+spaces.toString();
+		return data+spaces.toString()+"|";
 	}
 }
