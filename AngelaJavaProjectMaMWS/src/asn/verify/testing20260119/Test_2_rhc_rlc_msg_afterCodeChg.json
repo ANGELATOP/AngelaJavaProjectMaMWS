@@ -1,0 +1,28 @@
+{
+	"header": {
+		"FCLTY_CD": "05",
+		"WHSE_CD": "05",
+		"PO_NBR": "3334"
+	},
+	"RHC": {
+		"Owner": "AWG",
+		"PoIdent": "050503334",
+		"DeliveryDate": "20260119070000",
+		"RLC": [
+			{
+				"Owner": "AWG",
+				"PoIdent": "050503334",
+				"PoLineIdent": null,
+				"ProdIdent": "763805",
+				"SupNum": null,
+				"HstaccInvsts": "O3  ",
+				"UM": "CS",
+				"Orderkey": "",
+				"QtyHost": null,
+				"Qstate": 0,
+				"BatchNo": "",
+				"zzTotalCatchWeight": 0
+			}
+		]
+	}
+}

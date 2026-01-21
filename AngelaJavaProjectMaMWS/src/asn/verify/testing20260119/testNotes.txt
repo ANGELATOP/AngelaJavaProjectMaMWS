@@ -1,0 +1,2 @@
+http://dpdev01-api-dev.awg.local:8022/v1/projects/awgr-masc-stg-01-ops/topics/XNT_HST_InventoryAdjustment_GCPQ:publish
+http://dpdev01-api-dev.awg.local:8022/v1/projects/awgr-masc-stg-01-ops/topics/XNT_HST_VerifyASN_GCPQ:publish

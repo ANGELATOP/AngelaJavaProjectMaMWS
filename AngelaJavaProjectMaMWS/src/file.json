@@ -1,0 +1,45 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "Appointment_Scheduled",
+			"Description": "Appointmentisscheduled",
+			"SourceTransactionType": "APPOINTMENT_UI",
+			"SourceEventName": "APPOINTMENT_SCHEDULED",
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"CreatedBy": "jeff.smith@awginc.com",
+				"AppointmentId": "Apt-00000000000000035",
+				"AppointmentType": "DROP_UNLOAD",
+				"ArrivalDateTime": "2026-01-17T06:00:00",
+				"CarrierId": "AWGFleet",
+				"VendorId": "",
+				"TrailerId": "",
+				"CheckedInTrailerId": "",
+				"TractorId": "",
+				"Shipment": "",
+				"StopSequence": "",
+				"Asn": "",
+				"PurchaseOrder": "",
+				"BillofLadingNumber": "",
+				"CreatedTimestamp": "2026-01-16T19:32:22.807",
+				"UpdatedTimestamp": "2026-01-16T19:35:45.928",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-01-16T19:32:22.141"
+			},
+			"TransactionNumber": "7685919426406825967",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-01-16T19:32:22.141",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "3c4e6d04-8d10-4b76-aa12-063ea71f3d8b"
+}

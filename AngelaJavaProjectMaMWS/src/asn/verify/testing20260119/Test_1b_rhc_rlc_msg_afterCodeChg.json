@@ -1,0 +1,105 @@
+{
+	"header": {
+		"messageId": "AWG VIEW",
+		"FCLTY_CD": "14",
+		"WHSE_CD": "05"
+	},
+	"RHC": {
+		"Owner": "AWG",
+		"PoIdent": "140559548",
+		"DeliveryDate": null,
+		"RLC": [
+			{
+				"Owner": "AWG  ",
+				"PoIdent": "140559548",
+				"PoLineIdent": "013",
+				"ProdIdent": "0710549",
+				"SupNum": "14053990003",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": "25",
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG  ",
+				"PoIdent": "140559548",
+				"PoLineIdent": "007",
+				"ProdIdent": "0526673",
+				"SupNum": "14053990002",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": "25",
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG  ",
+				"PoIdent": "140559548",
+				"PoLineIdent": "003",
+				"ProdIdent": "0526475",
+				"SupNum": "14053990002",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": "10",
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG  ",
+				"PoIdent": "140559548",
+				"PoLineIdent": "005",
+				"ProdIdent": "0526558",
+				"SupNum": "14053990002",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": "40",
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG  ",
+				"PoIdent": "140559548",
+				"PoLineIdent": "001",
+				"ProdIdent": "0526137",
+				"SupNum": "14053990002",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": "15",
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG  ",
+				"PoIdent": "140559548",
+				"PoLineIdent": "009",
+				"ProdIdent": "0527119",
+				"SupNum": "14053990002",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": "38",
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			},
+			{
+				"Owner": "AWG  ",
+				"PoIdent": "140559548",
+				"PoLineIdent": "011",
+				"ProdIdent": "0527200",
+				"SupNum": "14053394001",
+				"UM": "CS",
+				"Orderkey": " ",
+				"QtyHost": "30",
+				"Qstate": 0,
+				"BatchNo": " ",
+				"zzTotalCatchWeight": 0
+			}
+		]
+	}
+}
