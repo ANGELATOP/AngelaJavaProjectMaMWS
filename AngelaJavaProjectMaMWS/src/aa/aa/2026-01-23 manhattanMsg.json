@@ -1,0 +1,89 @@
+{
+	"googleMsgID": "5061998456166505033878256448055474",
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "LPN_Level",
+			"Description": "LPNLevelVariance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0562066",
+				"Description": "HERFBFCLOD75LB"
+			},
+			"SubItemFields": {
+				"CountryOfOrigin": "",
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"ExpirationDate": "",
+				"ManufactureDate": "2026-01-17"
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "wesley.morberg@awginc.com",
+				"OriginalOrderId": "",
+				"AsnLineId": "",
+				"PurchaseOrderId": "",
+				"AlternatePurchaseOrderId": "",
+				"PurchaseOrderLineId": "",
+				"LpnDetailId": "987f0ec9-e862-4909-8ef3-a220d527dd0f",
+				"AsnId": "ASN000000000109",
+				"AlternateAsnId": "",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"IlpnId": "LPN000000000900",
+				"ConditionCodes": [
+					{
+						"ConditionCodes": "[]"
+					}
+				],
+				"ConditionCodeList": [
+				],
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "0",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0.0",
+				"UnitsReceived": "10.0",
+				"CreatedTimestamp": "2026-01-23T14:21:24.833",
+				"UpdatedTimestamp": "2026-01-23T14:23:26.824",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-01-23T14:21:24.787"
+			},
+			"TransactionNumber": "7691780848318993759",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-01-23T14:21:24.787",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "10989a4e-013a-4379-b163-f40a1684cf1e",
+	"TotalPages": 1
+}

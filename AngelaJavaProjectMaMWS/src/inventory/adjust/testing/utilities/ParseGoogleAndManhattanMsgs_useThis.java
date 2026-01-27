@@ -22,15 +22,32 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 	public static void main(String[] args) throws JSONException, Exception {
 		
 		System.out.println("ParseGoogleMsg: start ");
-
-		String directory ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing\\utilities\\";
-		String outputDir = "C:\\Users\\atopp\\Downloads\\invAdjTest\\";
-		
-		parseGoogleMsgs(directory, outputDir);
-		
+//		sample1();
+		sample2asnVerify();
 		System.out.println("ParseGoogleMsg: end");
 	}
+    public static void sample2asnVerify() throws JSONException, Exception {
+//		String directory ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing\\utilities\\";
+//		String outputDir = "C:\\Users\\atopp\\Downloads\\invAdjTest\\";
+		
+		//these are messages that I grabbed off the t1 google save queue
+		String directory = "C:\\Users\\atopp\\Downloads\\googleMsgs\\outputAsnVerify\\";
+		String outputDir = "C:\\Users\\atopp\\Downloads\\googleMsgs\\outputAsnVerifyManhattan\\";
 
+		parseGoogleMsgs(directory, outputDir);
+    	
+    }
+    public static void sample1() throws JSONException, Exception {
+//		String directory ="C:\\Users\\atopp\\Documents\\eclipseWorkspace-git\\AngelaJavaProjectMaMWS\\AngelaJavaProjectMaMWS\\src\\inventory\\adjust\\testing\\utilities\\";
+//		String outputDir = "C:\\Users\\atopp\\Downloads\\invAdjTest\\";
+		
+		//these are messages that I grabbed off the t1 google save queue
+		String directory = "C:\\Users\\atopp\\Downloads\\googleMsgs\\output\\";
+		String outputDir = "C:\\Users\\atopp\\Downloads\\googleMsgs\\invAdjTest\\";
+
+		parseGoogleMsgs(directory, outputDir);
+    	
+    }
 	public static void parseGoogleMsgs(String directory, String outputDir) throws JSONException, Exception {
 		List<String> files = ListFileNames.getFileNames(directory);
 		List<String> output = new ArrayList<String>();
@@ -75,7 +92,7 @@ public class ParseGoogleAndManhattanMsgs_useThis {
 //		if(googleFileNm.contains("PIX_XIN_AppointmentYard")) {
 //		if(googleFileNm.contains("XNT_HST_AppointmentYard")) {
 //		if(googleFileNm.contains("googleMsg")) {
-		if(googleFileNm.contains("2026-01-16 googleMsg")) {
+		if(googleFileNm.contains("googleMsg")) {
 			
 			
 			System.out.println(" "); //add blank line

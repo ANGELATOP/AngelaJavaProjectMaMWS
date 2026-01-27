@@ -1,0 +1,110 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "InventoryAdjustment",
+			"Description": "SingleInventoryAdjustmentPIXforHostInventorychanges",
+			"SourceTransactionType": "APPLIED_CONDITION_CODE",
+			"SourceEventName": "CONDITION_CODE_CHANGES",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0010353",
+				"Description": "MCKLSAUJUSGRAVY1OZ"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "2027-01-22",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "bart.cuffe@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "UNAVAILABLE",
+				"InventoryAdjustmentQty": "40.0",
+				"Quantity": "40.0",
+				"AdjustedWeight": "39.16",
+				"AsnId": "",
+				"AsnStatus": "",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "LPN000000000830",
+				"LocationId": "G67001H",
+				"ReasonCodeId": "",
+				"ReferenceText": "",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "gcoleman@awginc.com",
+								"CreatedTimestamp": "2025-12-04T19:24:16.35",
+								"UpdatedBy": "gcoleman@awginc.com",
+								"UpdatedTimestamp": "2025-12-04T19:24:16.35",
+								"Messages": null,
+								"ConditionCodeId": "L",
+								"Description": "LostInventory",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					},
+					{
+						"FromConditionCodes": [
+						]
+					}
+				],
+				"InventoryAdjustmentType": "MOVE",
+				"AdjustedType": "MOVE",
+				"AdjustedWeightType": "MOVE",
+				"CreatedTimestamp": "2026-01-22T20:18:00.205",
+				"UpdatedTimestamp": "2026-01-22T20:18:27.756",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-01-22T20:17:59.993"
+			},
+			"TransactionNumber": "7691130802038031629",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-01-22T20:17:59.993",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "ce280a5b-e307-41e6-b0ec-2df80f3a0abf"
+}

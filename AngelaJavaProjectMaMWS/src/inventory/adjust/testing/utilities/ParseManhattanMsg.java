@@ -99,6 +99,10 @@ public class ParseManhattanMsg {
 		}
 	}
 	public static void outputXmlMessageType(String sourceTransactionType) {
+
+		if(sourceTransactionType.contains("Receiving")) { //asnVerify
+	        System.out.println(appendSpacesForManhattanMsg("Output XML:")+ "Output will be Inventory Quantity XML Message (asnVerify message)");
+		} else
 		if(sourceTransactionType.contains("CYCLE_COUNT") || 
 				sourceTransactionType.contains("MODIFY_ILPN") || 
 				sourceTransactionType.contains("ADJUST_UI"))
