@@ -1,0 +1,49 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"TransactionType": "EX02LIAPIX",
+			"CreatedBy": "tyler.yencho@awginc.com",
+			"Description": "EX02LIAPIX",
+			"BusinessUnitId": null,
+			"StrategyId": "EX02LIAPIX",
+			"PIXSpecification": "EX02LIAPIX",
+			"TransactionDateTime": "2026-01-30T22:15:03.749",
+			"EventName": "EX02LIAPIX",
+			"BatchSequenceNumber": 1,
+			"SyncBatchId": "7698113037515211822",
+			"PreEnrichmentStrategyId": null,
+			"SummaryLevelId": null,
+			"VarianceLevelId": null,
+			"ConsolidateDataForExtension": false,
+			"ExportAllPixesTogether": false,
+			"PIXFields": {
+				"ItemId": "0010123",
+				"LocationList": [
+					"D60101",
+					"D60131",
+					"D60111"
+				],
+				"ActionId": "Assign",
+				"CreatedTimestamp": "2026-01-30T22:15:03.751",
+				"UpdatedTimestamp": "2026-01-30T22:15:43.770",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-01-30T22:15:03.749"
+			},
+			"TransactionNumber": "7698113037515211822",
+			"SequenceNumber": 1,
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "bc8b7362-68fa-43da-9820-adbc71f31901",
+	"TotalPages": 1
+}

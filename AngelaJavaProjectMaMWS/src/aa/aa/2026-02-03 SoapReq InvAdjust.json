@@ -1,0 +1,44 @@
+{
+	"receivedMessages": [
+		{
+			"ackId": "BhYsXUZIUTcZCGhRDk9eIz81IChFFgYHTwIoXXkwVDtBWn0APg0Zcn1hdGMIRlVQEwF2WFwRDGJcTkQHSf7KrIZXV0tbFAgKRld2W1MeDWhdVXICWSXsy7DuwsnYPhs-faCtgaAtLZymw9w2ZiI9XhJLLD5-LytFQV5AEkwkHkRJUytDCypYEU4EISE-MD5FU0RQ",
+			"message": {
+				"data": "eyJDb250ZXh0SW5mb3JtYXRpb24iOnsiTWVzc2FnZXMiOm51bGwsIk9yZ2FuaXphdGlvbiI6IktDIiwiVXNlcklkIjoic3lzdGVtLW1zZy11c2VyQEtDIiwiVXNlckxvY2FsZSI6IlVUQyIsIkxvY2F0aW9uIjoiS0MifSwiQ3VycmVudFBhZ2UiOjEsIkV4cG9ydERvY3VtZW50cyI6W3siTWVzc2FnZXMiOm51bGwsIlBJWFNwZWNpZmljYXRpb24iOiJJbnZlbnRvcnkgQWRqdXN0bWVudCIsIkRlc2NyaXB0aW9uIjoiU2luZ2xlIEludmVudG9yeSBBZGp1c3RtZW50IFBJWCBmb3IgSG9zdCBJbnZlbnRvcnkgY2hhbmdlcyIsIlNvdXJjZVRyYW5zYWN0aW9uVHlwZSI6IkNSRUFURV9JTFBOIiwiU291cmNlRXZlbnROYW1lIjoiSU5WRU5UT1JZX0FESlVTVE1FTlQiLCJJdGVtRGVmaW5pdGlvbiI6eyJDb21wYW55IjoiS0MiLCJTZWFzb24iOiIiLCJTZWFzb25ZZWFyIjoiIiwiU3R5bGUiOiIiLCJTdHlsZVN1ZmZpeCI6IiIsIkNvbG9yIjoiIiwiQ29sb3JTdWZmaXgiOiIiLCJTZWNvbmREaW1lbnNpb24iOiIiLCJTaXplQ29kZSI6IiIsIlNpemVEZXNjcmlwdGlvbiI6IiIsIkl0ZW1JZCI6IlQxMDEwMyIsIkRlc2NyaXB0aW9uIjoiVGVzdCBHMTAxMDMifSwiU3ViSXRlbUZpZWxkcyI6eyJJbnZlbnRvcnlUeXBlSWQiOiIiLCJQcm9kdWN0U3RhdHVzSWQiOiJBIiwiSXRlbUJhdGNoTnVtYmVySWQiOiIiLCJJbnZlbnRvcnlBdHRyaWJ1dGUxIjoiIiwiSW52ZW50b3J5QXR0cmlidXRlMiI6IiIsIkludmVudG9yeUF0dHJpYnV0ZTMiOiIiLCJJbnZlbnRvcnlBdHRyaWJ1dGU0IjoiIiwiSW52ZW50b3J5QXR0cmlidXRlNSI6IiIsIkNvdW50cnlPZk9yaWdpbiI6IiIsIkV4cGlyYXRpb25EYXRlIjoiMjAyNi0xMi0xOCIsIk1hbnVmYWN0dXJlRGF0ZSI6IiIsIlBhY2tVb21RdWFudGl0eSI6IiJ9LCJQSVhGaWVsZHMiOnsiQnVzaW5lc3NVbml0SWQiOiIiLCJFeHRlcm5hbE9yZ2FuaXphdGlvbklkIjoiIiwiQ3JlYXRlZEJ5Ijoid2FsbGFjZS5zcXVpYmJAYXdnaW5jLmNvbSIsIkZyb21JbnZlbnRvcnlCdWNrZXQiOiJBVkFJTEFCTEUiLCJUb0ludmVudG9yeUJ1Y2tldCI6IkFWQUlMQUJMRSIsIkludmVudG9yeUFkanVzdG1lbnRRdHkiOiI1IiwiUXVhbnRpdHkiOiI1IiwiQWRqdXN0ZWRXZWlnaHQiOiI3NS4wIiwiQXNuSWQiOiIiLCJBc25TdGF0dXMiOiIiLCJQdXJjaGFzZU9yZGVySWQiOiIiLCJJbHBuSWQiOiJMUE4wMDAwMDAwMDAyNjIiLCJMb2NhdGlvbklkIjoiIiwiUmVhc29uQ29kZUlkIjoiUiIsIlJlZmVyZW5jZVRleHQiOiJBU04wMDAwMDAwMDAwMDQiLCJTZWNvbmRhcnlSZWZlcmVuY2VUZXh0IjoiIiwiQ29uZGl0aW9uQ29kZUNoYW5nZSI6IiIsIkNvbmRpdGlvbkNvZGVzIjpbeyJUb0NvbmRpdGlvbkNvZGVzIjpbXX0seyJGcm9tQ29uZGl0aW9uQ29kZXMiOltdfV0sIkludmVudG9yeUFkanVzdG1lbnRUeXBlIjoiQUREIiwiQWRqdXN0ZWRUeXBlIjoiQUREIiwiQWRqdXN0ZWRXZWlnaHRUeXBlIjoiQUREIiwiQ3JlYXRlZFRpbWVzdGFtcCI6IjIwMjUtMTItMThUMTU6MDY6MTQuNDYxIiwiVXBkYXRlZFRpbWVzdGFtcCI6IjIwMjUtMTItMThUMTU6MDk6MzIuOTY4IiwiVXBkYXRlZEJ5Ijoic3lzdGVtLW1zZy11c2VyQEtDIiwiVHJhbnNhY3Rpb25EYXRlVGltZSI6IjIwMjUtMTItMThUMTU6MDM6NDIuNDk5In0sIlRyYW5zYWN0aW9uTnVtYmVyIjoiNzY2MDcwMzc0NDYxMzc1MTU4NSIsIlNlcXVlbmNlTnVtYmVyIjoxLCJUcmFuc2FjdGlvbkRhdGVUaW1lIjoiMjAyNS0xMi0xOFQxNTowMzo0Mi40OTkiLCJPcmdhbml6YXRpb24iOiJLQyIsIkZhY2lsaXR5IjoiS0MifV0sIlVuaXF1ZUpvYklkIjoiNTI4MTkyNDYtY2YxNC00ZDgwLWJmMmUtMWQyNGQ0N2MwOWU2IiwiVG90YWxQYWdlcyI6MX0=",
+				"attributes": {
+					"Organization": "AWG-L1",
+					"fromInboundQueueName": "awpf-payload-queue-xin",
+					"TRANSACTIONAL": "true",
+					"TenantId": "awgrssf11o",
+					"fromInboundMessageType": "awpf-payload",
+					"BROKER_TYPE": "googlepubsub",
+					"msg_submission_time": "2025-12-18T15:09:33.037",
+					"OUTBOUND_MSG_TYPE": "XNT_HST_InventoryAdjustment",
+					"IsRetransmitMsg": "true",
+					"SelectedOrganization": "KC",
+					"SPAN_ID": "affb3083de84c6e",
+					"msg_submission_time_utc": "2025-12-18T15:09:33.037Z",
+					"MSG_TYPE": "XNT_HST_InventoryAdjustment",
+					"ComponentName": "xint",
+					"fromExtensionPointMessageType": "PIX_XIN_InventoryAdjustment",
+					"APP_ID_TRACE": "com-manh-cp-xint-queue-proc-q-xint-59f5bd787-rnfhc",
+					"app-id": "com-manh-cp-xint-queue-proc-q-xint-59f5bd787-rnfhc",
+					"fromExtensionPointId": "Inventory_Adjustment",
+					"TRACE_ID": "650b06a48b72cca5",
+					"Location": "KC",
+					"MSG_ID_PK": "20260203testingInvAdjust123",
+					"SelectedLocation": "KC",
+					"QueueName": "XNT_HST_InventoryAdjustment_GCPQ",
+					"direction": "Outbound",
+					"fromInboundServiceId": "PayloadMsgProcessor",
+					"AllBusinessUnitsAccessible": "true",
+					"PrimaryOrganization": "AWG-L1",
+					"BROKER_ADDRESS": "",
+					"UserLocale": "en",
+					"User": "system-msg-user@KC"
+				},
+				"messageId": "17241879440145028",
+				"publishTime": "2025-12-18T21:52:00.986Z"
+			}
+		}
+	]
+}

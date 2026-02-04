@@ -1,0 +1,74 @@
+{
+	"OriginalPayload": {
+		"ContextInformation": {
+			"Messages": null,
+			"Organization": "KC",
+			"UserId": "system-msg-user@KC",
+			"UserLocale": "UTC",
+			"Location": "KC"
+		},
+		"CurrentPage": 2,
+		"ExportDocuments": [
+			{
+				"Messages": null,
+				"PIXSpecification": "InvSync_Summary_Avail",
+				"Description": "Inventory sync summary available to HOST",
+				"SourceTransactionType": "AVAILABLE",
+				"SourceEventName": "INVENTORY_SUMMARY",
+				"ItemDefinition": {
+					"ItemId": "T11000",
+					"Description": ""
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"PackUomQuantity": "",
+					"ItemBatchNumberId": "",
+					"ExpirationDate": "2026-01-21",
+					"ManufactureDate": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "system-msg-user@KC",
+					"FromInventoryBucket": "",
+					"ToInventoryBucket": "",
+					"InventoryAdjustmentQty": "9.0",
+					"Quantity": "9.0",
+					"InventoryAdjustmentType": "ADD",
+					"AdjustedType": "ADD",
+					"AdjustedWeight": "0",
+					"AdjustedWeightType": "ADD",
+					"SnapshotDateTime": "{nano=51319000, hour=2, minute=1, second=2, year=2026, month=JANUARY, dayOfMonth=28, dayOfWeek=WEDNESDAY, dayOfYear=28, monthValue=1, chronology={id=ISO, calendarType=iso8601}}",
+					"SerializedSnapshotDateTime": "2026-01-28T02:01:02.051319",
+					"LocationId": "",
+					"AsnId": "",
+					"PurchaseOrderId": "",
+					"IlpnId": "",
+					"ReasonCodeId": "",
+					"SyncBatchId": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-01-28 02:00:00",
+					"PixCount": "",
+					"TotalCount": "",
+					"ConditionCode": "",
+					"Disposition": "Available",
+					"CreatedTimestamp": "2026-01-28T02:04:03.344",
+					"UpdatedTimestamp": "2026-01-28T02:04:08.363",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionNumber": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-01-28 02:00:00",
+					"TransactionDateTime": "2026-01-28T02:01:02.051"
+				},
+				"TransactionNumber": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-01-28 02:00:00",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-01-28T02:01:02.051",
+				"Organization": "KC",
+				"Facility": "KC"
+			}
+		]
+		}
+}	

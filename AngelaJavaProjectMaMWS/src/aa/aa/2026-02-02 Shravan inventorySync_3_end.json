@@ -1,0 +1,56 @@
+{
+	"Description": "Inventory sync summary end to HOST",
+	"TransactionNumber": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-01-25 02:00:00",
+	"Organization": "KC",
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ItemDefinition": {
+		"ItemId": ""
+	},
+	"CreateDateTime": "2026-01-25T02:01:46.257",
+	"PIXSpecification": "InvSync_Summary_End",
+	"TransactionDateTime": "2026-01-25T02:01:45.888",
+	"TotalPages": 3,
+	"SourceTransactionType": "SYNC_END",
+	"SourceEventName": "INVENTORY_SUMMARY",
+	"TotalCount": 391,
+	"CurrentPage": 3,
+	"SubItemFields": {
+		"ProductStatusId": "",
+		"ExpirationDate": "",
+		"ItemBatchNumberId": "",
+		"PackUomQuantity": "",
+		"ManufactureDate": "",
+		"CountryOfOrigin": "",
+		"InventoryAttribute1": "",
+		"InventoryAttribute2": "",
+		"InventoryAttribute3": "",
+		"InventoryTypeId": "",
+		"InventoryAttribute4": "",
+		"InventoryAttribute5": ""
+	},
+	"SequenceNumber": 1,
+	"Facility": "KC",
+	"PIXFields": {
+		"ExternalOrganizationId": "",
+		"CreatedBy": "system-msg-user@KC",
+		"FromInventoryBucket": "",
+		"IlpnId": "",
+		"PixCount": "391",
+		"BusinessUnitId": "",
+		"LocationId": "",
+		"Quantity": "",
+		"SnapshotDateTime": "",
+		"ReasonCodeId": "",
+		"ToInventoryBucket": "",
+		"SyncBatchId": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-01-25 02:00:00",
+		"TotalCount": "391",
+		"PurchaseOrderId": "",
+		"AsnId": ""
+	}
+}

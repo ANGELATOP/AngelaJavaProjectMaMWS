@@ -1,0 +1,8 @@
+{
+	"Description": "Inventory sync summary start to HOST",
+	"TransactionNumber": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-01-27 02:00:00",
+	"Organization": "KC",
+	"PIXSpecification": "InvSync_Summary_Start",
+	"SourceTransactionType": "SYNC_START",
+	"SourceEventName": "INVENTORY_SUMMARY"
+}

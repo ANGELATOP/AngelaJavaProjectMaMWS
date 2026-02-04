@@ -1,0 +1,110 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "SupplierReceiptId",
+			"Description": "PIX for SupplierReceipt",
+			"SourceTransactionType": "RECEIVING",
+			"SourceEventName": "CREATE_ILPN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0015352",
+				"Description": "BNLS PORK SIRLOIN CH LB 12PC"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "001",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "2023-02-07",
+				"ManufactureDate": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "richard.melton@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "AVAILABLE",
+				"InventoryAdjustmentQty": "10",
+				"Quantity": "10.0",
+				"AdjustedWeight": "150.45",
+				"ReasonCodeId": "",
+				"IlpnId": "LPN000000000843",
+				"LocationId": "SL001S1",
+				"LpnType": "ILPN",
+				"AsnId": "00058532720260119100851",
+				"AlternateAsnId": "",
+				"AsnStatus": "3000",
+				"OriginalOrderId": "",
+				"OriginalOrderLineId": "",
+				"LpnDetailId": "e1028578-b701-448f-a78f-bb8261a1a1c9",
+				"ReceiptVariance": "N",
+				"ReceiptsCompleted": "Y",
+				"IlpnsShipped": "1",
+				"UnitsShipped": "24.0",
+				"IlpnsReceived": "1",
+				"AsnLineId": "001",
+				"AsnSequenceNumber": "001",
+				"UnitsReceived": "10.0",
+				"ReceiptComplete": "FALSE",
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeightType": "ADD",
+				"PurchaseOrderId": "",
+				"AlternatePurchaseOrderId": "",
+				"PurchaseOrderLineId": "",
+				"CreatedTimestamp": "2026-01-23T15:43:08.539",
+				"UpdatedTimestamp": "2026-01-23T15:44:27.933",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-01-23T15:43:08.160"
+			},
+			"ReceivingVariances": {
+				"IlpnsShipped": "1",
+				"UnitsShipped": "24.0",
+				"IlpnsReceived": "1",
+				"UnitsReceived": "10.0",
+				"AsnOriginTypeId": "P",
+				"ReceiptComplete": "FALSE"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "150.45",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "b6390e58-efde-42ec-b5d7-138138c9f0d0"
+				}
+			],
+			"TransactionNumber": "7691829885386954661",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-01-23T15:43:08.160",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "193150ee-c98a-4dc2-ab33-10f842a7ae37",
+	"TotalPages": 1
+}

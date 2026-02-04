@@ -1,0 +1,90 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "Inventory Adjustment",
+			"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+			"SourceTransactionType": "CREATE_ILPN",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "T10103",
+				"Description": "Test G10103"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "A",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "2026-12-18",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "wallace.squibb@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "AVAILABLE",
+				"InventoryAdjustmentQty": "5",
+				"Quantity": "5",
+				"AdjustedWeight": "75.0",
+				"AsnId": "",
+				"AsnStatus": "",
+				"PurchaseOrderId": "",
+				"IlpnId": "LPN000000000262",
+				"LocationId": "",
+				"ReasonCodeId": "R",
+				"ReferenceText": "ASN000000000004",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+						]
+					},
+					{
+						"FromConditionCodes": [
+						]
+					}
+				],
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeightType": "ADD",
+				"CreatedTimestamp": "2025-12-18T15:06:14.461",
+				"UpdatedTimestamp": "2025-12-18T15:09:32.968",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2025-12-18T15:03:42.499"
+			},
+			"TransactionNumber": "7660703744613751585",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2025-12-18T15:03:42.499",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "52819246-cf14-4d80-bf2e-1d24d47c09e6",
+	"TotalPages": 1
+}

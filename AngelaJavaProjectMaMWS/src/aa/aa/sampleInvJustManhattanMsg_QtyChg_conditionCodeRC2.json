@@ -11,8 +11,8 @@
 			"Messages": null,
 			"PIXSpecification": "InventoryAdjustment",
 			"Description": "SingleInventoryAdjustmentPIXforHostInventorychanges",
-			"SourceTransactionType": "REMOVED_CONDITION_CODE",
-			"SourceEventName": "CONDITION_CODE_CHANGES",
+			"SourceTransactionType": "ADJUST_UI",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
 			"ItemDefinition": {
 				"Company": "KC",
 				"Season": "",
@@ -24,8 +24,8 @@
 				"SecondDimension": "",
 				"SizeCode": "",
 				"SizeDescription": "",
-				"ItemId": "0011381",
-				"Description": "FAGETOTAL5PCTPLN16OZ"
+				"ItemId": "0010123",
+				"Description": "LOLHEAVYCREAM16OZ"
 			},
 			"SubItemFields": {
 				"InventoryTypeId": "",
@@ -37,7 +37,7 @@
 				"InventoryAttribute4": "",
 				"InventoryAttribute5": "",
 				"CountryOfOrigin": "",
-				"ExpirationDate": "2026-02-20",
+				"ExpirationDate": "2026-03-28",
 				"ManufactureDate": "",
 				"PackUomQuantity": ""
 			},
@@ -45,40 +45,36 @@
 				"BusinessUnitId": "",
 				"ExternalOrganizationId": "",
 				"CreatedBy": "wesley.morberg@awginc.com",
-				"FromInventoryBucket": "UNAVAILABLE",
+				"FromInventoryBucket": "AVAILABLE",
 				"ToInventoryBucket": "AVAILABLE",
-				"InventoryAdjustmentQty": "10.0",
-				"Quantity": "10.0",
-				"AdjustedWeight": "129.6",
-				"AsnId": "ASN000000000098",
-				"AsnStatus": "8000",
+				"InventoryAdjustmentQty": "39",
+				"Quantity": "39",
+				"AdjustedWeight": "537.966",
+				"AsnId": "00036785120260129141845",
+				"AsnStatus": "3000",
 				"PurchaseOrderId": "",
 				"AlternateAsnId": "",
 				"AlternatePurchaseOrderId": "",
-				"IlpnId": "LPN0000000000598",
-				"LocationId": "",
+				"IlpnId": "LPN000000001288",
+				"LocationId": "SL017S1",
 				"ReasonCodeId": "",
 				"ReferenceText": "",
 				"SecondaryReferenceText": "",
-				"ConditionCodeChange": "",
+				"ConditionCodeChange": "N",
 				"ConditionCodes": [
 					{
 						"ToConditionCodes": [
-						]
-					},
-					{
-						"FromConditionCodes": [
 							{
 								"Actions": {
 								},
 								"PK": null,
 								"CreatedBy": "gcoleman@awginc.com",
-								"CreatedTimestamp": "2025-12-04T19:24:15.875",
+								"CreatedTimestamp": "2025-12-04T19:24:16.086",
 								"UpdatedBy": "gcoleman@awginc.com",
-								"UpdatedTimestamp": "2025-12-04T19:24:15.875",
+								"UpdatedTimestamp": "2025-12-04T19:24:16.086",
 								"Messages": null,
-								"ConditionCodeId": "C",
-								"Description": "CriticalHold",
+								"ConditionCodeId": "RC",
+								"Description": "Expired Product",
 								"InventoryUnavailable": true,
 								"HostPriority": null,
 								"RemoveOnPutaway": false,
@@ -89,22 +85,26 @@
 								}
 							}
 						]
+					},
+					{
+						"FromConditionCodes": [
+						]
 					}
 				],
-				"InventoryAdjustmentType": "MOVE",
-				"AdjustedType": "MOVE",
-				"AdjustedWeightType": "MOVE",
-				"CreatedTimestamp": "2026-01-20T19:47:34.990",
-				"UpdatedTimestamp": "2026-01-20T19:49:55.261",
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeightType": "ADD",
+				"CreatedTimestamp": "2026-01-29T21:17:08.593",
+				"UpdatedTimestamp": "2026-01-29T21:19:43.469",
 				"UpdatedBy": "system-msg-user@KC",
-				"TransactionDateTime": "2026-01-20T19:47:34.894"
+				"TransactionDateTime": "2026-01-29T21:17:08.372"
 			},
-			"TransactionNumber": "7689384549892842188",
+			"TransactionNumber": "7697214283624828060",
 			"SequenceNumber": 1,
-			"TransactionDateTime": "2026-01-20T19:47:34.894",
+			"TransactionDateTime": "2026-01-29T21:17:08.372",
 			"Organization": "KC",
 			"Facility": "KC"
 		}
 	],
-	"UniqueJobId": "61880bb5-e718-4f3b-80bc-eab1c5e03e83"
+	"UniqueJobId": "02db6514-fddc-4b4d-ade8-88eeec3fd751"
 }

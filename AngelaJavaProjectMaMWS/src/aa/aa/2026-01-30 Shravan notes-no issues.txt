@@ -1,0 +1,9 @@
+Message came from Topic Name - XNT_HST_MAEX02LIAPIX_GCPQ
+
+There wasn't really an issue.  Shravan didn't realize that the Common Split would pass all
+information, includes the header info in each of the manhattan messages.  It's up to each of the ACE processes to
+use whatever data elements is needed, not the common split flow.
+
+He will add the header info to his process so it doesn't abend.
+
+

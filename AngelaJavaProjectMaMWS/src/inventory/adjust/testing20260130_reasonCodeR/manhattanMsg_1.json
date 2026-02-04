@@ -1,0 +1,90 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "InventoryAdjustment",
+			"Description": "SingleInventoryAdjustmentPIXforHostInventorychanges",
+			"SourceTransactionType": "ADJUST_UI",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0010123",
+				"Description": "LOLHEAVYCREAM16OZ"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "2026-03-28",
+				"ManufactureDate": "",
+				"PackUomQuantity": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "wesley.morberg@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "AVAILABLE",
+				"InventoryAdjustmentQty": "39",
+				"Quantity": "39",
+				"AdjustedWeight": "537.966",
+				"AsnId": "00036785120260129141845",
+				"AsnStatus": "3000",
+				"PurchaseOrderId": "",
+				"AlternateAsnId": "",
+				"AlternatePurchaseOrderId": "",
+				"IlpnId": "LPN000000001288",
+				"LocationId": "SL017S1",
+				"ReasonCodeId": "R",
+				"ReferenceText": "",
+				"SecondaryReferenceText": "",
+				"ConditionCodeChange": "N",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+						]
+					},
+					{
+						"FromConditionCodes": [
+						]
+					}
+				],
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeightType": "ADD",
+				"CreatedTimestamp": "2026-01-29T21:17:08.593",
+				"UpdatedTimestamp": "2026-01-29T21:19:43.469",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-01-29T21:17:08.372"
+			},
+			"TransactionNumber": "7697214283624828060",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-01-29T21:17:08.372",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "02db6514-fddc-4b4d-ade8-88eeec3fd751"
+}

@@ -1,0 +1,108 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "SupplierReceiptId",
+			"Description": "PIXforSupplierReceipt",
+			"SourceTransactionType": "RECEIVING",
+			"SourceEventName": "CREATE_ILPN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0010852",
+				"Description": "GFMB\/SCHKNBRST1.5LBAVG"
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "001",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"ExpirationDate": "2026-02-21",
+				"ManufactureDate": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "richard.melton@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "AVAILABLE",
+				"InventoryAdjustmentQty": "14",
+				"Quantity": "14.0",
+				"AdjustedWeight": "193.6494",
+				"ReasonCodeId": "",
+				"IlpnId": "LPN000000000751",
+				"LocationId": "SL014S1",
+				"LpnType": "ILPN",
+				"AsnId": "00058532620260119100757",
+				"AlternateAsnId": "",
+				"AsnStatus": "3000",
+				"OriginalOrderId": "",
+				"OriginalOrderLineId": "",
+				"LpnDetailId": "48d3fd58-8ed6-44da-bda7-7615371884b7",
+				"ReceiptVariance": "N",
+				"ReceiptsCompleted": "Y",
+				"IlpnsShipped": "1",
+				"UnitsShipped": "14.0",
+				"IlpnsReceived": "1",
+				"AsnLineId": "001",
+				"AsnSequenceNumber": "001",
+				"UnitsReceived": "14.0",
+				"ReceiptComplete": "FALSE",
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeightType": "ADD",
+				"PurchaseOrderId": "",
+				"AlternatePurchaseOrderId": "",
+				"PurchaseOrderLineId": "",
+				"CreatedTimestamp": "2026-01-21T16:04:06.170",
+				"UpdatedTimestamp": "2026-01-21T16:05:35.301",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-01-21T16:04:05.601"
+			},
+			"ReceivingVariances": {
+				"IlpnsShipped": "1",
+				"UnitsShipped": "14.0",
+				"IlpnsReceived": "1",
+				"UnitsReceived": "14.0",
+				"AsnOriginTypeId": "P",
+				"ReceiptComplete": "FALSE"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "193.65",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "cbd867ab-2424-462f-aebc-406e30375b17"
+				}
+			],
+			"TransactionNumber": "7690114461684535875",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-01-21T16:04:05.601",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "111a8aec-f415-4805-a34e-3af5fab9417b"
+}

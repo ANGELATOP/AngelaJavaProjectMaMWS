@@ -1,0 +1,38 @@
+{
+	"OriginalPayload": {
+		"ContextInformation": {
+			"Messages": null,
+			"Organization": "KC",
+			"UserId": "system-msg-user@KC",
+			"UserLocale": "UTC",
+			"Location": "KC"
+		},
+		"CurrentPage": 2,
+		"ExportDocuments": [
+			{
+				"Messages": null,
+				"PIXSpecification": "InvSync_Summary_Avail",
+				"Description": "Inventory sync summary available to HOST",
+				"SourceTransactionType": "AVAILABLE",
+				"SourceEventName": "INVENTORY_SUMMARY",
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"AdjustedWeightType": "ADD",
+
+					"TransactionDateTime": "2026-01-28T02:01:02.051"
+				},
+				"ItemDefinition": {
+					"ItemId": "T11000",
+					"Description": ""
+				},
+				"TransactionNumber": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-01-28 02:00:00",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-01-28T02:01:02.051",
+				"Organization": "KC",
+				"Facility": "KC"
+			}
+
+		]
+	}
+}
