@@ -1,0 +1,1600 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"Header": {
+			"type": "string"
+		},
+		"Message": {
+			"type": "object",
+			"properties": {
+				"ShipConfirm": {
+					"type": "object",
+					"properties": {
+						"ShipConfirmSummary": {
+							"type": "object",
+							"properties": {
+								"OrganizationName": {
+									"type": "string"
+								},
+								"OriginFacilityId": {
+									"type": "string"
+								},
+								"ShipConfirmHeaderInfo": {
+									"type": "object",
+									"properties": {
+										"Organization": {
+											"type": "string"
+										},
+										"BusinessUnitId": {
+											"type": "string"
+										},
+										"ShipConfirmBatchDetailId": {
+											"type": "string"
+										},
+										"ShipConfirmBatchId": {
+											"type": "string"
+										},
+										"NumberOfOrders": {
+											"type": "number"
+										},
+										"TotalWeight": {
+											"type": "number"
+										},
+										"UserId": {
+											"type": "string"
+										},
+										"CancelQuantity": {
+											"type": "number"
+										},
+										"NumberOfPallets": {
+											"type": "number"
+										},
+										"ShipConfirmDateTime": {
+											"type": "string"
+										},
+										"InitiatingUserId": {
+											"type": "string"
+										},
+										"Facility": {
+											"type": "string"
+										},
+										"NumberOfOlpns": {
+											"type": "number"
+										}
+									},
+									"required": [
+										"Organization",
+										"BusinessUnitId",
+										"ShipConfirmBatchDetailId",
+										"ShipConfirmBatchId",
+										"NumberOfOrders",
+										"TotalWeight",
+										"UserId",
+										"CancelQuantity",
+										"NumberOfPallets",
+										"ShipConfirmDateTime",
+										"InitiatingUserId",
+										"Facility",
+										"NumberOfOlpns"
+									]
+								}
+							},
+							"required": [
+								"OrganizationName",
+								"OriginFacilityId",
+								"ShipConfirmHeaderInfo"
+							]
+						},
+						"ShipConfirmDetails": {
+							"type": "object",
+							"properties": {
+								"Order": {
+									"type": "string"
+								},
+								"OriginalOrder": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"PartialShipConfirmStatus": {
+												"type": "string"
+											},
+											"Shipment": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"properties": {
+														"Actions": {
+															"type": "object",
+															"properties": {
+															},
+															"required": [
+															]
+														},
+														"PK": {
+															"type": "string"
+														},
+														"CreatedBy": {
+															"type": "string"
+														},
+														"CreatedTimestamp": {
+															"type": "string"
+														},
+														"UpdatedBy": {
+															"type": "string"
+														},
+														"UpdatedTimestamp": {
+															"type": "string"
+														},
+														"Messages": {
+															"type": "string"
+														},
+														"OrgId": {
+															"type": "string"
+														},
+														"BusinessUnitId": {
+															"type": "string"
+														},
+														"ShipmentId": {
+															"type": "string"
+														},
+														"DesignatedCarrierId": {
+															"type": "string"
+														},
+														"AssignedCarrierId": {
+															"type": "string"
+														},
+														"TotalShipmentCost": {
+															"type": "string"
+														},
+														"CurrencyCode": {
+															"type": "string"
+														},
+														"TrailerNumber": {
+															"type": "string"
+														},
+														"TractorNumber": {
+															"type": "string"
+														},
+														"ProNumber": {
+															"type": "string"
+														},
+														"ClimateControlId": {
+															"type": "string"
+														},
+														"BillingMethodId": {
+															"type": "string"
+														},
+														"AssignedModeId": {
+															"type": "string"
+														},
+														"AssignedEquipmentTypeId": {
+															"type": "string"
+														},
+														"AssignedServiceLevelId": {
+															"type": "string"
+														},
+														"AssignedShipViaId": {
+															"type": "string"
+														},
+														"DesignatedModeId": {
+															"type": "string"
+														},
+														"DesignatedEquipmentTypeId": {
+															"type": "string"
+														},
+														"DesignatedServiceLevelId": {
+															"type": "string"
+														},
+														"TotalAccessorialCost": {
+															"type": "string"
+														},
+														"RoutingLaneId": {
+															"type": "string"
+														},
+														"TotalWeight": {
+															"type": "number"
+														},
+														"TotalVolume": {
+															"type": "number"
+														},
+														"MonetaryValue": {
+															"type": "string"
+														},
+														"MonetaryValueCurrencyCode": {
+															"type": "string"
+														},
+														"RestrictedMustShipTogetherCode": {
+															"type": "string"
+														},
+														"IsParentShipment": {
+															"type": "boolean"
+														},
+														"ParentShipmentId": {
+															"type": "string"
+														},
+														"Stop": {
+															"type": "array",
+															"items": {
+																"type": "object",
+																"properties": {
+																	"Actions": {
+																		"type": "object",
+																		"properties": {
+																		},
+																		"required": [
+																		]
+																	},
+																	"PK": {
+																		"type": "string"
+																	},
+																	"CreatedBy": {
+																		"type": "string"
+																	},
+																	"CreatedTimestamp": {
+																		"type": "string"
+																	},
+																	"UpdatedBy": {
+																		"type": "string"
+																	},
+																	"UpdatedTimestamp": {
+																		"type": "string"
+																	},
+																	"Messages": {
+																		"type": "string"
+																	},
+																	"StopId": {
+																		"type": "string"
+																	},
+																	"StopSequence": {
+																		"type": "number"
+																	},
+																	"FacilityId": {
+																		"type": "string"
+																	},
+																	"AppointmentId": {
+																		"type": "string"
+																	},
+																	"AppointmentStartDateTime": {
+																		"type": "string"
+																	},
+																	"FacilityName": {
+																		"type": "string"
+																	},
+																	"FacilityAddress": {
+																		"type": "string"
+																	},
+																	"PlannedArrivalDateTime": {
+																		"type": "string"
+																	},
+																	"PlannedDepartureDateTime": {
+																		"type": "string"
+																	},
+																	"SlackDuration": {
+																		"type": "number"
+																	},
+																	"ActualArrivalDateTime": {
+																		"type": "string"
+																	},
+																	"ActualDepartureDateTime": {
+																		"type": "string"
+																	},
+																	"EstimatedArrivalDateTime": {
+																		"type": "string"
+																	},
+																	"EstimatedDepartureDateTime": {
+																		"type": "string"
+																	},
+																	"CalculatedArrivalDateTime": {
+																		"type": "string"
+																	},
+																	"CalculatedDepartureDateTime": {
+																		"type": "string"
+																	},
+																	"BillOfLadingNumber": {
+																		"type": "string"
+																	},
+																	"ProNumber": {
+																		"type": "string"
+																	},
+																	"StopActionId": {
+																		"type": "object",
+																		"properties": {
+																			"StopActionId": {
+																				"type": "string"
+																			}
+																		},
+																		"required": [
+																			"StopActionId"
+																		]
+																	},
+																	"Extended": {
+																		"type": "object",
+																		"properties": {
+																		},
+																		"required": [
+																		]
+																	}
+																},
+																"required": [
+																	"Actions",
+																	"PK",
+																	"CreatedBy",
+																	"CreatedTimestamp",
+																	"UpdatedBy",
+																	"UpdatedTimestamp",
+																	"Messages",
+																	"StopId",
+																	"StopSequence",
+																	"FacilityId",
+																	"AppointmentId",
+																	"AppointmentStartDateTime",
+																	"FacilityName",
+																	"FacilityAddress",
+																	"PlannedArrivalDateTime",
+																	"PlannedDepartureDateTime",
+																	"SlackDuration",
+																	"ActualArrivalDateTime",
+																	"ActualDepartureDateTime",
+																	"EstimatedArrivalDateTime",
+																	"EstimatedDepartureDateTime",
+																	"CalculatedArrivalDateTime",
+																	"CalculatedDepartureDateTime",
+																	"BillOfLadingNumber",
+																	"ProNumber",
+																	"StopActionId",
+																	"Extended"
+																]
+															}
+														},
+														"SealNumber": {
+															"type": "array",
+															"items": {
+															}
+														},
+														"ShipmentPickupDelivery": {
+															"type": "array",
+															"items": {
+																"type": "object",
+																"properties": {
+																	"Actions": {
+																		"type": "object",
+																		"properties": {
+																		},
+																		"required": [
+																		]
+																	},
+																	"PK": {
+																		"type": "string"
+																	},
+																	"CreatedBy": {
+																		"type": "string"
+																	},
+																	"CreatedTimestamp": {
+																		"type": "string"
+																	},
+																	"UpdatedBy": {
+																		"type": "string"
+																	},
+																	"UpdatedTimestamp": {
+																		"type": "string"
+																	},
+																	"Messages": {
+																		"type": "string"
+																	},
+																	"OrgId": {
+																		"type": "string"
+																	},
+																	"Shipment": {
+																		"type": "object",
+																		"properties": {
+																			"PK": {
+																				"type": "string"
+																			}
+																		},
+																		"required": [
+																			"PK"
+																		]
+																	},
+																	"PickupStopId": {
+																		"type": "string"
+																	},
+																	"DeliveryStopId": {
+																		"type": "string"
+																	},
+																	"BillOfLadingNumber": {
+																		"type": "string"
+																	},
+																	"PurgeDate": {
+																		"type": "string"
+																	},
+																	"Extended": {
+																		"type": "object",
+																		"properties": {
+																		},
+																		"required": [
+																		]
+																	}
+																},
+																"required": [
+																	"Actions",
+																	"PK",
+																	"CreatedBy",
+																	"CreatedTimestamp",
+																	"UpdatedBy",
+																	"UpdatedTimestamp",
+																	"Messages",
+																	"OrgId",
+																	"Shipment",
+																	"PickupStopId",
+																	"DeliveryStopId",
+																	"BillOfLadingNumber",
+																	"PurgeDate",
+																	"Extended"
+																]
+															}
+														},
+														"Extended": {
+															"type": "object",
+															"properties": {
+															},
+															"required": [
+															]
+														}
+													},
+													"required": [
+														"Actions",
+														"PK",
+														"CreatedBy",
+														"CreatedTimestamp",
+														"UpdatedBy",
+														"UpdatedTimestamp",
+														"Messages",
+														"OrgId",
+														"BusinessUnitId",
+														"ShipmentId",
+														"DesignatedCarrierId",
+														"AssignedCarrierId",
+														"TotalShipmentCost",
+														"CurrencyCode",
+														"TrailerNumber",
+														"TractorNumber",
+														"ProNumber",
+														"ClimateControlId",
+														"BillingMethodId",
+														"AssignedModeId",
+														"AssignedEquipmentTypeId",
+														"AssignedServiceLevelId",
+														"AssignedShipViaId",
+														"DesignatedModeId",
+														"DesignatedEquipmentTypeId",
+														"DesignatedServiceLevelId",
+														"TotalAccessorialCost",
+														"RoutingLaneId",
+														"TotalWeight",
+														"TotalVolume",
+														"MonetaryValue",
+														"MonetaryValueCurrencyCode",
+														"RestrictedMustShipTogetherCode",
+														"IsParentShipment",
+														"ParentShipmentId",
+														"Stop",
+														"SealNumber",
+														"ShipmentPickupDelivery",
+														"Extended"
+													]
+												}
+											},
+											"Olpn": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"properties": {
+														"Actions": {
+															"type": "object",
+															"properties": {
+															},
+															"required": [
+															]
+														},
+														"PK": {
+															"type": "string"
+														},
+														"CreatedBy": {
+															"type": "string"
+														},
+														"CreatedTimestamp": {
+															"type": "string"
+														},
+														"UpdatedBy": {
+															"type": "string"
+														},
+														"UpdatedTimestamp": {
+															"type": "string"
+														},
+														"Messages": {
+															"type": "string"
+														},
+														"BusinessUnitId": {
+															"type": "string"
+														},
+														"OlpnId": {
+															"type": "string"
+														},
+														"LpnType": {
+															"type": "string"
+														},
+														"OriginFacilityId": {
+															"type": "string"
+														},
+														"DestinationFacilityId": {
+															"type": "string"
+														},
+														"Status": {
+															"type": "string"
+														},
+														"OrderId": {
+															"type": "string"
+														},
+														"ShipmentId": {
+															"type": "string"
+														},
+														"ShipViaId": {
+															"type": "string"
+														},
+														"ShippedDateTime": {
+															"type": "string"
+														},
+														"ContainerTypeId": {
+															"type": "string"
+														},
+														"ContainerSizeId": {
+															"type": "string"
+														},
+														"BillingMethod": {
+															"type": "string"
+														},
+														"LpnLabelTypeId": {
+															"type": "string"
+														},
+														"EstimatedWeight": {
+															"type": "number"
+														},
+														"EstimatedVolume": {
+															"type": "number"
+														},
+														"PickLocationId": {
+															"type": "string"
+														},
+														"TotalLpnQty": {
+															"type": "number"
+														},
+														"PalletId": {
+															"type": "string"
+														},
+														"CrossReferenceLpnId": {
+															"type": "string"
+														},
+														"Length": {
+															"type": "number"
+														},
+														"Width": {
+															"type": "number"
+														},
+														"Height": {
+															"type": "number"
+														},
+														"IsSingleLine": {
+															"type": "boolean"
+														},
+														"Weight": {
+															"type": "number"
+														},
+														"Volume": {
+															"type": "string"
+														},
+														"StopId": {
+															"type": "string"
+														},
+														"ExternalPackageId": {
+															"type": "string"
+														},
+														"ExternalShipmentId": {
+															"type": "string"
+														},
+														"ExternalManifestId": {
+															"type": "string"
+														},
+														"ShippingCharge": {
+															"type": "string"
+														},
+														"AccessorialCharge": {
+															"type": "string"
+														},
+														"OtherCharge": {
+															"type": "string"
+														},
+														"TotalCharge": {
+															"type": "string"
+														},
+														"ChargeCurrency": {
+															"type": "string"
+														},
+														"TrackingNumber": {
+															"type": "string"
+														},
+														"LoadedDateTime": {
+															"type": "string"
+														},
+														"CarrierId": {
+															"type": "string"
+														},
+														"ServiceLevelId": {
+															"type": "string"
+														},
+														"BilledWeight": {
+															"type": "string"
+														},
+														"EstimatedDeliveryDate": {
+															"type": "string"
+														},
+														"StaticRouteId": {
+															"type": "string"
+														},
+														"PickerId": {
+															"type": "string"
+														},
+														"PackerId": {
+															"type": "string"
+														},
+														"DestinationAddress": {
+															"type": "object",
+															"properties": {
+																"FirstName": {
+																	"type": "string"
+																},
+																"LastName": {
+																	"type": "string"
+																},
+																"Address1": {
+																	"type": "string"
+																},
+																"Address2": {
+																	"type": "string"
+																},
+																"Address3": {
+																	"type": "string"
+																},
+																"City": {
+																	"type": "string"
+																},
+																"State": {
+																	"type": "string"
+																},
+																"PostalCode": {
+																	"type": "string"
+																},
+																"County": {
+																	"type": "string"
+																},
+																"Country": {
+																	"type": "string"
+																},
+																"Phone": {
+																	"type": "string"
+																},
+																"Email": {
+																	"type": "string"
+																}
+															},
+															"required": [
+																"FirstName",
+																"LastName",
+																"Address1",
+																"Address2",
+																"Address3",
+																"City",
+																"State",
+																"PostalCode",
+																"County",
+																"Country",
+																"Phone",
+																"Email"
+															]
+														},
+														"DimensionUomId": {
+															"type": "string"
+														},
+														"PrePackTypeId": {
+															"type": "string"
+														},
+														"ModeId": {
+															"type": "string"
+														},
+														"PlannedParentContainerId": {
+															"type": "string"
+														},
+														"ParentShipmentId": {
+															"type": "string"
+														},
+														"AssetItemId": {
+															"type": "string"
+														},
+														"TrailerPositionId": {
+															"type": "string"
+														},
+														"TrailerCompartmentId": {
+															"type": "string"
+														},
+														"TrailerRowId": {
+															"type": "string"
+														},
+														"AssetSerialNumber": {
+															"type": "string"
+														},
+														"EstimationGroupId": {
+															"type": "string"
+														},
+														"FinalDeliveryShipViaId": {
+															"type": "string"
+														},
+														"FinalDeliveryStandardShippingModeId": {
+															"type": "string"
+														},
+														"FinalDeliveryModeId": {
+															"type": "string"
+														},
+														"FinalDeliveryCarrierId": {
+															"type": "string"
+														},
+														"FinalDeliveryServiceLevelId": {
+															"type": "string"
+														},
+														"HubFacilityId": {
+															"type": "string"
+														},
+														"OlpnDetail": {
+															"type": "array",
+															"items": {
+																"type": "object",
+																"properties": {
+																	"Actions": {
+																		"type": "object",
+																		"properties": {
+																		},
+																		"required": [
+																		]
+																	},
+																	"PK": {
+																		"type": "string"
+																	},
+																	"CreatedBy": {
+																		"type": "string"
+																	},
+																	"CreatedTimestamp": {
+																		"type": "string"
+																	},
+																	"UpdatedBy": {
+																		"type": "string"
+																	},
+																	"UpdatedTimestamp": {
+																		"type": "string"
+																	},
+																	"Messages": {
+																		"type": "string"
+																	},
+																	"BusinessUnitId": {
+																		"type": "string"
+																	},
+																	"OlpnDetailId": {
+																		"type": "string"
+																	},
+																	"InitialQuantity": {
+																		"type": "number"
+																	},
+																	"PackedQuantity": {
+																		"type": "number"
+																	},
+																	"OrderId": {
+																		"type": "string"
+																	},
+																	"OrderLineId": {
+																		"type": "string"
+																	},
+																	"OriginalOrderId": {
+																		"type": "string"
+																	},
+																	"OriginalOrderLineId": {
+																		"type": "string"
+																	},
+																	"ItemId": {
+																		"type": "string"
+																	},
+																	"CountryOfOrigin": {
+																		"type": "string"
+																	},
+																	"BatchNumber": {
+																		"type": "string"
+																	},
+																	"ProductStatusId": {
+																		"type": "string"
+																	},
+																	"ItemAttribute1": {
+																		"type": "string"
+																	},
+																	"ItemAttribute2": {
+																		"type": "string"
+																	},
+																	"ItemAttribute3": {
+																		"type": "string"
+																	},
+																	"ItemAttribute4": {
+																		"type": "string"
+																	},
+																	"ItemAttribute5": {
+																		"type": "string"
+																	},
+																	"InventoryTypeId": {
+																		"type": "string"
+																	},
+																	"QuantityUomId": {
+																		"type": "string"
+																	},
+																	"ExpirationDate": {
+																		"type": "string"
+																	},
+																	"UnitWeight": {
+																		"type": "number"
+																	},
+																	"UnitVolume": {
+																		"type": "number"
+																	},
+																	"UnitWeightUomId": {
+																		"type": "string"
+																	},
+																	"UnitVolumeUomId": {
+																		"type": "string"
+																	},
+																	"RequiredPackQuantity": {
+																		"type": "number"
+																	},
+																	"RequiredSubPackQuantity": {
+																		"type": "number"
+																	},
+																	"RequiredLpnQuantity": {
+																		"type": "number"
+																	},
+																	"BillOfLadingNumber": {
+																		"type": "string"
+																	},
+																	"OlpnId": {
+																		"type": "string"
+																	},
+																	"AlternateOriginalOrderId": {
+																		"type": "string"
+																	},
+																	"OlpnDetailAttribute": {
+																		"type": "array",
+																		"items": {
+																		}
+																	},
+																	"EntityLabels": {
+																		"type": "string"
+																	},
+																	"Extended": {
+																		"type": "object",
+																		"properties": {
+																		},
+																		"required": [
+																		]
+																	}
+																},
+																"required": [
+																	"Actions",
+																	"PK",
+																	"CreatedBy",
+																	"CreatedTimestamp",
+																	"UpdatedBy",
+																	"UpdatedTimestamp",
+																	"Messages",
+																	"BusinessUnitId",
+																	"OlpnDetailId",
+																	"InitialQuantity",
+																	"PackedQuantity",
+																	"OrderId",
+																	"OrderLineId",
+																	"OriginalOrderId",
+																	"OriginalOrderLineId",
+																	"ItemId",
+																	"CountryOfOrigin",
+																	"BatchNumber",
+																	"ProductStatusId",
+																	"ItemAttribute1",
+																	"ItemAttribute2",
+																	"ItemAttribute3",
+																	"ItemAttribute4",
+																	"ItemAttribute5",
+																	"InventoryTypeId",
+																	"QuantityUomId",
+																	"ExpirationDate",
+																	"UnitWeight",
+																	"UnitVolume",
+																	"UnitWeightUomId",
+																	"UnitVolumeUomId",
+																	"RequiredPackQuantity",
+																	"RequiredSubPackQuantity",
+																	"RequiredLpnQuantity",
+																	"BillOfLadingNumber",
+																	"OlpnId",
+																	"AlternateOriginalOrderId",
+																	"OlpnDetailAttribute",
+																	"EntityLabels",
+																	"Extended"
+																]
+															}
+														},
+														"EntityLabels": {
+															"type": "string"
+														},
+														"Extended": {
+															"type": "object",
+															"properties": {
+															},
+															"required": [
+															]
+														}
+													},
+													"required": [
+														"Actions",
+														"PK",
+														"CreatedBy",
+														"CreatedTimestamp",
+														"UpdatedBy",
+														"UpdatedTimestamp",
+														"Messages",
+														"BusinessUnitId",
+														"OlpnId",
+														"LpnType",
+														"OriginFacilityId",
+														"DestinationFacilityId",
+														"Status",
+														"OrderId",
+														"ShipmentId",
+														"ShipViaId",
+														"ShippedDateTime",
+														"ContainerTypeId",
+														"ContainerSizeId",
+														"BillingMethod",
+														"LpnLabelTypeId",
+														"EstimatedWeight",
+														"EstimatedVolume",
+														"PickLocationId",
+														"TotalLpnQty",
+														"PalletId",
+														"CrossReferenceLpnId",
+														"Length",
+														"Width",
+														"Height",
+														"IsSingleLine",
+														"Weight",
+														"Volume",
+														"StopId",
+														"ExternalPackageId",
+														"ExternalShipmentId",
+														"ExternalManifestId",
+														"ShippingCharge",
+														"AccessorialCharge",
+														"OtherCharge",
+														"TotalCharge",
+														"ChargeCurrency",
+														"TrackingNumber",
+														"LoadedDateTime",
+														"CarrierId",
+														"ServiceLevelId",
+														"BilledWeight",
+														"EstimatedDeliveryDate",
+														"StaticRouteId",
+														"PickerId",
+														"PackerId",
+														"DestinationAddress",
+														"DimensionUomId",
+														"PrePackTypeId",
+														"ModeId",
+														"PlannedParentContainerId",
+														"ParentShipmentId",
+														"AssetItemId",
+														"TrailerPositionId",
+														"TrailerCompartmentId",
+														"TrailerRowId",
+														"AssetSerialNumber",
+														"EstimationGroupId",
+														"FinalDeliveryShipViaId",
+														"FinalDeliveryStandardShippingModeId",
+														"FinalDeliveryModeId",
+														"FinalDeliveryCarrierId",
+														"FinalDeliveryServiceLevelId",
+														"HubFacilityId",
+														"OlpnDetail",
+														"EntityLabels",
+														"Extended"
+													]
+												}
+											},
+											"Actions": {
+												"type": "object",
+												"properties": {
+												},
+												"required": [
+												]
+											},
+											"PK": {
+												"type": "string"
+											},
+											"CreatedBy": {
+												"type": "string"
+											},
+											"CreatedTimestamp": {
+												"type": "string"
+											},
+											"UpdatedBy": {
+												"type": "string"
+											},
+											"UpdatedTimestamp": {
+												"type": "string"
+											},
+											"Messages": {
+												"type": "string"
+											},
+											"BusinessUnitId": {
+												"type": "string"
+											},
+											"OriginalOrderId": {
+												"type": "string"
+											},
+											"Priority": {
+												"type": "string"
+											},
+											"PickupStartDateTime": {
+												"type": "string"
+											},
+											"PickupEndDateTime": {
+												"type": "string"
+											},
+											"OrderType": {
+												"type": "string"
+											},
+											"DesignatedShipViaId": {
+												"type": "string"
+											},
+											"DeliveryStartDateTime": {
+												"type": "string"
+											},
+											"DeliveryEndDateTime": {
+												"type": "string"
+											},
+											"OrderPlacedDateTime": {
+												"type": "string"
+											},
+											"BillingMethodId": {
+												"type": "string"
+											},
+											"BillingAccountNumber": {
+												"type": "string"
+											},
+											"OriginFacilityId": {
+												"type": "string"
+											},
+											"OriginAddress": {
+												"type": "string"
+											},
+											"DestinationFacilityId": {
+												"type": "string"
+											},
+											"DestinationAddress": {
+												"type": "object",
+												"properties": {
+													"FirstName": {
+														"type": "string"
+													},
+													"LastName": {
+														"type": "string"
+													},
+													"Address1": {
+														"type": "string"
+													},
+													"Address2": {
+														"type": "string"
+													},
+													"Address3": {
+														"type": "string"
+													},
+													"City": {
+														"type": "string"
+													},
+													"State": {
+														"type": "string"
+													},
+													"PostalCode": {
+														"type": "string"
+													},
+													"County": {
+														"type": "string"
+													},
+													"Country": {
+														"type": "string"
+													},
+													"Phone": {
+														"type": "string"
+													},
+													"Email": {
+														"type": "string"
+													}
+												},
+												"required": [
+													"FirstName",
+													"LastName",
+													"Address1",
+													"Address2",
+													"Address3",
+													"City",
+													"State",
+													"PostalCode",
+													"County",
+													"Country",
+													"Phone",
+													"Email"
+												]
+											},
+											"DesignatedStopSequenceNumber": {
+												"type": "number"
+											},
+											"BillToName": {
+												"type": "string"
+											},
+											"BillToTitle": {
+												"type": "string"
+											},
+											"BillToFacilityId": {
+												"type": "string"
+											},
+											"BillToAddress": {
+												"type": "string"
+											},
+											"MustShipTogetherCode": {
+												"type": "string"
+											},
+											"DesignatedStaticRouteId": {
+												"type": "string"
+											},
+											"DestinationDockId": {
+												"type": "string"
+											},
+											"OriginDockId": {
+												"type": "string"
+											},
+											"PrePackTypeId": {
+												"type": "string"
+											},
+											"MinimumStatus": {
+												"type": "string"
+											},
+											"MaximumStatus": {
+												"type": "string"
+											},
+											"PreShipConfirmRequired": {
+												"type": "boolean"
+											},
+											"PreShipConfirmed": {
+												"type": "boolean"
+											},
+											"ReservedFor": {
+												"type": "string"
+											},
+											"ExternalOrgId": {
+												"type": "string"
+											},
+											"OriginFacilityAliasId": {
+												"type": "string"
+											},
+											"DestinationFacilityAliasId": {
+												"type": "string"
+											},
+											"AlternateOriginalOrderId": {
+												"type": "string"
+											},
+											"DeliveryMethod": {
+												"type": "string"
+											},
+											"OriginalOrderLine": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"properties": {
+														"Actions": {
+															"type": "object",
+															"properties": {
+															},
+															"required": [
+															]
+														},
+														"PK": {
+															"type": "string"
+														},
+														"CreatedBy": {
+															"type": "string"
+														},
+														"CreatedTimestamp": {
+															"type": "string"
+														},
+														"UpdatedBy": {
+															"type": "string"
+														},
+														"UpdatedTimestamp": {
+															"type": "string"
+														},
+														"Messages": {
+															"type": "string"
+														},
+														"OriginalOrderLineId": {
+															"type": "string"
+														},
+														"ItemId": {
+															"type": "string"
+														},
+														"OrderedQuantity": {
+															"type": "number"
+														},
+														"CustomerItemNumber": {
+															"type": "string"
+														},
+														"InventoryTypeId": {
+															"type": "string"
+														},
+														"ProductStatusId": {
+															"type": "string"
+														},
+														"BatchNumber": {
+															"type": "string"
+														},
+														"CountryOfOriginId": {
+															"type": "string"
+														},
+														"RequiredShelfDays": {
+															"type": "string"
+														},
+														"UnitWeight": {
+															"type": "number"
+														},
+														"UnitVolume": {
+															"type": "number"
+														},
+														"Cancelled": {
+															"type": "boolean"
+														},
+														"PickupStartDateTime": {
+															"type": "string"
+														},
+														"PickupEndDateTime": {
+															"type": "string"
+														},
+														"DeliveryEndDateTime": {
+															"type": "string"
+														},
+														"MerchandizingDepartmentId": {
+															"type": "string"
+														},
+														"ReferenceOrder": {
+															"type": "string"
+														},
+														"ReferenceOrderLine": {
+															"type": "string"
+														},
+														"QuantityUomId": {
+															"type": "string"
+														},
+														"Weight": {
+															"type": "number"
+														},
+														"WeightUomId": {
+															"type": "string"
+														},
+														"Volume": {
+															"type": "number"
+														},
+														"VolumeUomId": {
+															"type": "string"
+														},
+														"NmfcFreightClassId": {
+															"type": "string"
+														},
+														"CommodityCodeId": {
+															"type": "string"
+														},
+														"ItemAttribute1": {
+															"type": "string"
+														},
+														"ItemAttribute2": {
+															"type": "string"
+														},
+														"ItemAttribute3": {
+															"type": "string"
+														},
+														"ItemAttribute4": {
+															"type": "string"
+														},
+														"ItemAttribute5": {
+															"type": "string"
+														},
+														"PrePackQuantity": {
+															"type": "string"
+														},
+														"PrePackGroupCode": {
+															"type": "string"
+														},
+														"AssignedShipViaId": {
+															"type": "string"
+														},
+														"UnitPrice": {
+															"type": "string"
+														},
+														"AlternateOriginalOrderId": {
+															"type": "string"
+														},
+														"ReasonCodeId": {
+															"type": "string"
+														},
+														"EntityLabels": {
+															"type": "string"
+														},
+														"CancelQuantity": {
+															"type": "number"
+														},
+														"OriginalOrderedQuantity": {
+															"type": "number"
+														},
+														"ShippedQuantity": {
+															"type": "number"
+														},
+														"OrderLineIds": {
+															"type": "array",
+															"items": {
+																"type": "string"
+															}
+														},
+														"Extended": {
+															"type": "object",
+															"properties": {
+																"StoreRequest": {
+																	"type": "string"
+																},
+																"RefOrderSubType": {
+																	"type": "string"
+																},
+																"RouteId": {
+																	"type": "string"
+																},
+																"RefItemSubChain2": {
+																	"type": "string"
+																},
+																"RefItemSubChain1": {
+																	"type": "string"
+																},
+																"RefItemSubCost3": {
+																	"type": "string"
+																},
+																"OutofStock": {
+																	"type": "string"
+																},
+																"RefItemSubCost2": {
+																	"type": "string"
+																},
+																"ItemSub": {
+																	"type": "string"
+																},
+																"RefItemSubCost1": {
+																	"type": "string"
+																},
+																"RefItemSubChain3": {
+																	"type": "string"
+																},
+																"OriginalDOlineQuantity": {
+																	"type": "number"
+																},
+																"RefItemSubRetail1": {
+																	"type": "string"
+																},
+																"OrderSource": {
+																	"type": "string"
+																},
+																"RefItemSubRetail2": {
+																	"type": "string"
+																},
+																"RefItemSubRetail3": {
+																	"type": "string"
+																},
+																"MarkOut": {
+																	"type": "string"
+																}
+															},
+															"required": [
+																"StoreRequest",
+																"RefOrderSubType",
+																"RouteId",
+																"RefItemSubChain2",
+																"RefItemSubChain1",
+																"RefItemSubCost3",
+																"OutofStock",
+																"RefItemSubCost2",
+																"ItemSub",
+																"RefItemSubCost1",
+																"RefItemSubChain3",
+																"OriginalDOlineQuantity",
+																"RefItemSubRetail1",
+																"OrderSource",
+																"RefItemSubRetail2",
+																"RefItemSubRetail3",
+																"MarkOut"
+															]
+														}
+													},
+													"required": [
+														"Actions",
+														"PK",
+														"CreatedBy",
+														"CreatedTimestamp",
+														"UpdatedBy",
+														"UpdatedTimestamp",
+														"Messages",
+														"OriginalOrderLineId",
+														"ItemId",
+														"OrderedQuantity",
+														"CustomerItemNumber",
+														"InventoryTypeId",
+														"ProductStatusId",
+														"BatchNumber",
+														"CountryOfOriginId",
+														"RequiredShelfDays",
+														"UnitWeight",
+														"UnitVolume",
+														"Cancelled",
+														"PickupStartDateTime",
+														"PickupEndDateTime",
+														"DeliveryEndDateTime",
+														"MerchandizingDepartmentId",
+														"ReferenceOrder",
+														"ReferenceOrderLine",
+														"QuantityUomId",
+														"Weight",
+														"WeightUomId",
+														"Volume",
+														"VolumeUomId",
+														"NmfcFreightClassId",
+														"CommodityCodeId",
+														"ItemAttribute1",
+														"ItemAttribute2",
+														"ItemAttribute3",
+														"ItemAttribute4",
+														"ItemAttribute5",
+														"PrePackQuantity",
+														"PrePackGroupCode",
+														"AssignedShipViaId",
+														"UnitPrice",
+														"AlternateOriginalOrderId",
+														"ReasonCodeId",
+														"EntityLabels",
+														"CancelQuantity",
+														"OriginalOrderedQuantity",
+														"ShippedQuantity",
+														"OrderLineIds",
+														"Extended"
+													]
+												}
+											},
+											"EntityLabels": {
+												"type": "string"
+											},
+											"CompleteOrder": {
+												"type": "boolean"
+											},
+											"AssignedShipmentId": {
+												"type": "string"
+											},
+											"TotalNumberOfPallets": {
+												"type": "number"
+											},
+											"TotalNumberOfUnits": {
+												"type": "number"
+											},
+											"TotalNumberOfOlpns": {
+												"type": "number"
+											},
+											"Extended": {
+												"type": "object",
+												"properties": {
+												},
+												"required": [
+												]
+											}
+										},
+										"required": [
+											"PartialShipConfirmStatus",
+											"Shipment",
+											"Olpn",
+											"Actions",
+											"PK",
+											"CreatedBy",
+											"CreatedTimestamp",
+											"UpdatedBy",
+											"UpdatedTimestamp",
+											"Messages",
+											"BusinessUnitId",
+											"OriginalOrderId",
+											"Priority",
+											"PickupStartDateTime",
+											"PickupEndDateTime",
+											"OrderType",
+											"DesignatedShipViaId",
+											"DeliveryStartDateTime",
+											"DeliveryEndDateTime",
+											"OrderPlacedDateTime",
+											"BillingMethodId",
+											"BillingAccountNumber",
+											"OriginFacilityId",
+											"OriginAddress",
+											"DestinationFacilityId",
+											"DestinationAddress",
+											"DesignatedStopSequenceNumber",
+											"BillToName",
+											"BillToTitle",
+											"BillToFacilityId",
+											"BillToAddress",
+											"MustShipTogetherCode",
+											"DesignatedStaticRouteId",
+											"DestinationDockId",
+											"OriginDockId",
+											"PrePackTypeId",
+											"MinimumStatus",
+											"MaximumStatus",
+											"PreShipConfirmRequired",
+											"PreShipConfirmed",
+											"ReservedFor",
+											"ExternalOrgId",
+											"OriginFacilityAliasId",
+											"DestinationFacilityAliasId",
+											"AlternateOriginalOrderId",
+											"DeliveryMethod",
+											"OriginalOrderLine",
+											"EntityLabels",
+											"CompleteOrder",
+											"AssignedShipmentId",
+											"TotalNumberOfPallets",
+											"TotalNumberOfUnits",
+											"TotalNumberOfOlpns",
+											"Extended"
+										]
+									}
+								}
+							},
+							"required": [
+								"Order",
+								"OriginalOrder"
+							]
+						}
+					},
+					"required": [
+						"ShipConfirmSummary",
+						"ShipConfirmDetails"
+					]
+				}
+			},
+			"required": [
+				"ShipConfirm"
+			]
+		}
+	},
+	"required": [
+		"Header",
+		"Message"
+	]
+}
