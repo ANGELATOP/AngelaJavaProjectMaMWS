@@ -1,0 +1,287 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"ContextInformation": {
+			"type": "object",
+			"properties": {
+				"Messages": {
+					"type": "object"
+				},
+				"Organization": {
+					"type": "string"
+				},
+				"UserId": {
+					"type": "string"
+				},
+				"UserLocale": {
+					"type": "string"
+				},
+				"Location": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"Messages",
+				"Organization",
+				"UserId",
+				"UserLocale",
+				"Location"
+			]
+		},
+		"CurrentPage": {
+			"type": "number"
+		},
+		"ExportDocuments": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"Messages": {
+						"type": "object"
+					},
+					"PIXSpecification": {
+						"type": "string"
+					},
+					"Description": {
+						"type": "string"
+					},
+					"SourceTransactionType": {
+						"type": "string"
+					},
+					"SourceEventName": {
+						"type": "string"
+					},
+					"ItemDefinition": {
+						"type": "object",
+						"properties": {
+							"ItemId": {
+								"type": "string"
+							},
+							"Description": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"ItemId",
+							"Description"
+						]
+					},
+					"SubItemFields": {
+						"type": "object",
+						"properties": {
+							"InventoryTypeId": {
+								"type": "string"
+							},
+							"ProductStatusId": {
+								"type": "string"
+							},
+							"InventoryAttribute1": {
+								"type": "string"
+							},
+							"InventoryAttribute2": {
+								"type": "string"
+							},
+							"InventoryAttribute3": {
+								"type": "string"
+							},
+							"InventoryAttribute4": {
+								"type": "string"
+							},
+							"InventoryAttribute5": {
+								"type": "string"
+							},
+							"CountryOfOrigin": {
+								"type": "string"
+							},
+							"PackUomQuantity": {
+								"type": "string"
+							},
+							"ItemBatchNumberId": {
+								"type": "string"
+							},
+							"ExpirationDate": {
+								"type": "string"
+							},
+							"ManufactureDate": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"InventoryTypeId",
+							"ProductStatusId",
+							"InventoryAttribute1",
+							"InventoryAttribute2",
+							"InventoryAttribute3",
+							"InventoryAttribute4",
+							"InventoryAttribute5",
+							"CountryOfOrigin",
+							"PackUomQuantity",
+							"ItemBatchNumberId",
+							"ExpirationDate",
+							"ManufactureDate"
+						]
+					},
+					"PIXFields": {
+						"type": "object",
+						"properties": {
+							"BusinessUnitId": {
+								"type": "string"
+							},
+							"ExternalOrganizationId": {
+								"type": "string"
+							},
+							"CreatedBy": {
+								"type": "string"
+							},
+							"FromInventoryBucket": {
+								"type": "string"
+							},
+							"ToInventoryBucket": {
+								"type": "string"
+							},
+							"InventoryAdjustmentQty": {
+								"type": "string"
+							},
+							"Quantity": {
+								"type": "string"
+							},
+							"InventoryAdjustmentType": {
+								"type": "string"
+							},
+							"AdjustedType": {
+								"type": "string"
+							},
+							"AdjustedWeight": {
+								"type": "string"
+							},
+							"AdjustedWeightType": {
+								"type": "string"
+							},
+							"SnapshotDateTime": {
+								"type": "string"
+							},
+							"SerializedSnapshotDateTime": {
+								"type": "string"
+							},
+							"LocationId": {
+								"type": "string"
+							},
+							"AsnId": {
+								"type": "string"
+							},
+							"PurchaseOrderId": {
+								"type": "string"
+							},
+							"IlpnId": {
+								"type": "string"
+							},
+							"ReasonCodeId": {
+								"type": "string"
+							},
+							"SyncBatchId": {
+								"type": "string"
+							},
+							"PixCount": {
+								"type": "string"
+							},
+							"TotalCount": {
+								"type": "string"
+							},
+							"ConditionCode": {
+								"type": "string"
+							},
+							"Disposition": {
+								"type": "string"
+							},
+							"CreatedTimestamp": {
+								"type": "string"
+							},
+							"UpdatedTimestamp": {
+								"type": "string"
+							},
+							"UpdatedBy": {
+								"type": "string"
+							},
+							"TransactionNumber": {
+								"type": "string"
+							},
+							"TransactionDateTime": {
+								"type": "string"
+							}
+						},
+						"required": [
+							"BusinessUnitId",
+							"ExternalOrganizationId",
+							"CreatedBy",
+							"FromInventoryBucket",
+							"ToInventoryBucket",
+							"InventoryAdjustmentQty",
+							"Quantity",
+							"InventoryAdjustmentType",
+							"AdjustedType",
+							"AdjustedWeight",
+							"AdjustedWeightType",
+							"SnapshotDateTime",
+							"SerializedSnapshotDateTime",
+							"LocationId",
+							"AsnId",
+							"PurchaseOrderId",
+							"IlpnId",
+							"ReasonCodeId",
+							"SyncBatchId",
+							"PixCount",
+							"TotalCount",
+							"ConditionCode",
+							"Disposition",
+							"CreatedTimestamp",
+							"UpdatedTimestamp",
+							"UpdatedBy",
+							"TransactionNumber",
+							"TransactionDateTime"
+						]
+					},
+					"TransactionNumber": {
+						"type": "string"
+					},
+					"SequenceNumber": {
+						"type": "number"
+					},
+					"TransactionDateTime": {
+						"type": "string"
+					},
+					"Organization": {
+						"type": "string"
+					},
+					"Facility": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"Messages",
+					"PIXSpecification",
+					"Description",
+					"SourceTransactionType",
+					"SourceEventName",
+					"ItemDefinition",
+					"SubItemFields",
+					"PIXFields",
+					"TransactionNumber",
+					"SequenceNumber",
+					"TransactionDateTime",
+					"Organization",
+					"Facility"
+				]
+			}
+		},
+		"TotalPages": {
+			"type": "number"
+		}
+	},
+	"required": [
+		"ContextInformation",
+		"CurrentPage",
+		"ExportDocuments",
+		"TotalPages"
+	]
+}
