@@ -6,105 +6,67 @@
 		"UserLocale": "UTC",
 		"Location": "KC"
 	},
+	"CurrentPage": 7,
 	"ExportDocuments": [
 		{
 			"Messages": null,
-			"PIXSpecification": "InventoryAdjustment",
-			"Description": "SingleInventoryAdjustmentPIXforHostInventorychanges",
-			"SourceTransactionType": "APPLIED_CONDITION_CODE",
-			"SourceEventName": "CONDITION_CODE_CHANGES",
+			"PIXSpecification": "InvSync_Summary_Avail",
+			"Description": "InventorysyncsummaryavailabletoHOST",
+			"SourceTransactionType": "AVAILABLE",
+			"SourceEventName": "INVENTORY_SUMMARY",
 			"ItemDefinition": {
-				"Company": "KC",
-				"Season": "",
-				"SeasonYear": "",
-				"Style": "",
-				"StyleSuffix": "",
-				"Color": "",
-				"ColorSuffix": "",
-				"SecondDimension": "",
-				"SizeCode": "",
-				"SizeDescription": "",
-				"ItemId": "0010353",
-				"Description": "MCKLSAUJUSGRAVY1OZ"
+				"ItemId": "0546069",
+				"Description": ""
 			},
 			"SubItemFields": {
 				"InventoryTypeId": "",
 				"ProductStatusId": "",
-				"ItemBatchNumberId": "",
 				"InventoryAttribute1": "",
 				"InventoryAttribute2": "",
 				"InventoryAttribute3": "",
 				"InventoryAttribute4": "",
 				"InventoryAttribute5": "",
 				"CountryOfOrigin": "",
-				"ExpirationDate": "2027-01-22",
-				"ManufactureDate": "",
-				"PackUomQuantity": ""
+				"PackUomQuantity": "",
+				"ItemBatchNumberId": "",
+				"ExpirationDate": "",
+				"ManufactureDate": ""
 			},
 			"PIXFields": {
 				"BusinessUnitId": "",
 				"ExternalOrganizationId": "",
-				"CreatedBy": "bart.cuffe@awginc.com",
-				"FromInventoryBucket": "AVAILABLE",
-				"ToInventoryBucket": "UNAVAILABLE",
-				"InventoryAdjustmentQty": "40.0",
-				"Quantity": "40.0",
-				"AdjustedWeight": "39.16",
+				"CreatedBy": "system-msg-user@KC",
+				"FromInventoryBucket": "",
+				"ToInventoryBucket": "",
+				"InventoryAdjustmentQty": "8.0",
+				"Quantity": "8.0",
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeight": "0",
+				"AdjustedWeightType": "ADD",
+				"SnapshotDateTime": "{nano=972753000,hour=2,minute=1,second=15,year=2026,month=FEBRUARY,dayOfMonth=1,dayOfWeek=SUNDAY,dayOfYear=32,monthValue=2,chronology={id=ISO,calendarType=iso8601}}",
+				"SerializedSnapshotDateTime": "2026-02-01T02:01:15.972753",
+				"LocationId": "",
 				"AsnId": "",
-				"AsnStatus": "",
 				"PurchaseOrderId": "",
-				"AlternateAsnId": "",
-				"AlternatePurchaseOrderId": "",
-				"IlpnId": "LPN000000000830",
-				"LocationId": "G67001H",
+				"IlpnId": "",
 				"ReasonCodeId": "",
-				"ReferenceText": "",
-				"SecondaryReferenceText": "",
-				"ConditionCodeChange": "",
-				"ConditionCodes": [
-					{
-						"ToConditionCodes": [
-							{
-								"Actions": {
-								},
-								"PK": null,
-								"CreatedBy": "gcoleman@awginc.com",
-								"CreatedTimestamp": "2025-12-04T19:24:16.35",
-								"UpdatedBy": "gcoleman@awginc.com",
-								"UpdatedTimestamp": "2025-12-04T19:24:16.35",
-								"Messages": null,
-								"ConditionCodeId": "L",
-								"Description": "LostInventory",
-								"InventoryUnavailable": true,
-								"HostPriority": null,
-								"RemoveOnPutaway": false,
-								"RemoveOnCount": false,
-								"LocalizedData": null,
-								"LocalizedDataKVStore": null,
-								"Extended": {
-								}
-							}
-						]
-					},
-					{
-						"FromConditionCodes": [
-						]
-					}
-				],
-				"InventoryAdjustmentType": "MOVE",
-				"AdjustedType": "MOVE",
-				"AdjustedWeightType": "MOVE",
-				"CreatedTimestamp": "2026-01-22T20:18:00.205",
-				"UpdatedTimestamp": "2026-01-22T20:18:27.756",
+				"SyncBatchId": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-02-0102:00:00",
+				"PixCount": "",
+				"TotalCount": "",
+				"ConditionCode": "",
+				"Disposition": "Available",
+				"CreatedTimestamp": "2026-02-01T02:02:54.439",
+				"UpdatedTimestamp": "2026-02-01T02:07:24.271",
 				"UpdatedBy": "system-msg-user@KC",
-				"TransactionDateTime": "2026-01-22T20:17:59.993"
+				"TransactionNumber": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-02-0102:00:00",
+				"TransactionDateTime": "2026-02-01T02:01:15.972"
 			},
-			"TransactionNumber": "7691130802038031629",
+			"TransactionNumber": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-02-0102:00:00",
 			"SequenceNumber": 1,
-			"TransactionDateTime": "2026-01-22T20:17:59.993",
+			"TransactionDateTime": "2026-02-01T02:01:15.972",
 			"Organization": "KC",
 			"Facility": "KC"
 		}
 	],
-	"UniqueJobId": "ce280a5b-e307-41e6-b0ec-2df80f3a0abf"
-}
+	"TotalPages": 

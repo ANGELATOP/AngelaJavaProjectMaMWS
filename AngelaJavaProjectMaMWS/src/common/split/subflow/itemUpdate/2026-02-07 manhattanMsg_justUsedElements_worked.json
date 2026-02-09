@@ -1,0 +1,30 @@
+{
+	"ProfileId": "KC",
+	"CreatedTimestamp": "2026-01-19T16:38:10.598",
+	"RetailPrice": "test",
+
+	"AttributeGroupId": "",
+	"ShelfDays": 30,
+	"OriginalAverageWeight": 14.0,
+	"TrackCountryOfOrigin": 2,
+	"ShortDescription": "0010689 SWP CC BTR PECN DNSH 16OZ",
+
+	"CurrencyCode": "test",
+	"ProducerOfGoodsId": "test",
+	"UpdatedBy": "sapintegrationadmin@awginc.com",
+	"OriginalWeight": 14.0,
+	"WeightOveragePercentage": 20.0,
+	"MaximumReceiveToExpireDays": 365,
+	"ExportLicenseNumber": "test",
+	"TiersPerPallet": 6,
+	"Hazmat": 2,
+	"Width": 10.3,
+	"UpdatedTimestamp": "2026-02-06T22:56:36.848",
+	"Length": 20.1,
+	"Process": "SaveBulkItemFacilities",
+	"ItemId": "0010689",
+	"LpnPerTier": 8,
+	"Height": 10.5,
+	"PK": "7688406905984381301",
+	"Unique_Identifier": "7688406905984381301__0010689"
+}

@@ -1,0 +1,793 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"ProfileId": {
+			"type": "string"
+		},
+		"CreatedTimestamp": {
+			"type": "string"
+		},
+		"RetailPrice": {
+			"type": "object"
+		},
+		"Extended": {
+			"type": "object",
+			"properties": {
+				"DepartmentCode": {
+					"type": "string"
+				},
+				"PartFamily": {
+					"type": "object"
+				},
+				"SubCommodityCode": {
+					"type": "object"
+				},
+				"HazMatCode": {
+					"type": "string"
+				},
+				"AWGTemperatureZone": {
+					"type": "string"
+				},
+				"ItemVelocity": {
+					"type": "object"
+				},
+				"CubiscanRequired": {
+					"type": "object"
+				},
+				"CatchWeightHardMaxTolerancePercentageValue": {
+					"type": "object"
+				},
+				"AWGDiscontinued": {
+					"type": "boolean"
+				},
+				"WarehouseCode": {
+					"type": "string"
+				},
+				"AWGQCInspectionFlag": {
+					"type": "boolean"
+				}
+			},
+			"required": [
+				"DepartmentCode",
+				"PartFamily",
+				"SubCommodityCode",
+				"HazMatCode",
+				"AWGTemperatureZone",
+				"ItemVelocity",
+				"CubiscanRequired",
+				"CatchWeightHardMaxTolerancePercentageValue",
+				"AWGDiscontinued",
+				"WarehouseCode",
+				"AWGQCInspectionFlag"
+			]
+		},
+		"AttributeGroupId": {
+			"type": "string"
+		},
+		"ShelfDays": {
+			"type": "number"
+		},
+		"OriginalAverageWeight": {
+			"type": "number"
+		},
+		"TrackCountryOfOrigin": {
+			"type": "number"
+		},
+		"ShortDescription": {
+			"type": "string"
+		},
+		"IncubationAttributeFacility": {
+			"type": "array",
+			"items": {
+			}
+		},
+		"CurrencyCode": {
+			"type": "object"
+		},
+		"ProducerOfGoodsId": {
+			"type": "object"
+		},
+		"UpdatedBy": {
+			"type": "string"
+		},
+		"OriginalWeight": {
+			"type": "number"
+		},
+		"WeightOveragePercentage": {
+			"type": "number"
+		},
+		"MaximumReceiveToExpireDays": {
+			"type": "number"
+		},
+		"ExportLicenseNumber": {
+			"type": "object"
+		},
+		"ItemPackageFacility": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"ProfileId": {
+						"type": "string"
+					},
+					"VolumeUomId": {
+						"type": "string"
+					},
+					"CreatedTimestamp": {
+						"type": "string"
+					},
+					"UnitsPerGrab": {
+						"type": "object"
+					},
+					"OriginalWeightUomId": {
+						"type": "string"
+					},
+					"VendorId": {
+						"type": "string"
+					},
+					"OriginalDimensionUomId": {
+						"type": "string"
+					},
+					"Standard": {
+						"type": "number"
+					},
+					"Process": {
+						"type": "string"
+					},
+					"OriginalAverageWeight": {
+						"type": "number"
+					},
+					"ItemId": {
+						"type": "object",
+						"properties": {
+							"PK": {
+								"type": "number"
+							}
+						},
+						"required": [
+							"PK"
+						]
+					},
+					"UomId": {
+						"type": "string"
+					},
+					"MaxStacking": {
+						"type": "object"
+					},
+					"UpdatedBy": {
+						"type": "string"
+					},
+					"OriginalWeight": {
+						"type": "number"
+					},
+					"SlottingRotation": {
+						"type": "object"
+					},
+					"Height": {
+						"type": "number"
+					},
+					"Width": {
+						"type": "number"
+					},
+					"OriginalVolume": {
+						"type": "number"
+					},
+					"ValidSlottingDemandUom": {
+						"type": "number"
+					},
+					"UpdatedTimestamp": {
+						"type": "string"
+					},
+					"OriginalVolumeUomId": {
+						"type": "string"
+					},
+					"CreatedBy": {
+						"type": "string"
+					},
+					"UseFluidSlotting": {
+						"type": "number"
+					},
+					"Quantity": {
+						"type": "number"
+					},
+					"EntityLabels": {
+						"type": "object"
+					},
+					"StandardQuantityUomId": {
+						"type": "string"
+					},
+					"Weight": {
+						"type": "number"
+					},
+					"WeightUomId": {
+						"type": "string"
+					},
+					"OriginalLength": {
+						"type": "number"
+					},
+					"OriginalWidth": {
+						"type": "number"
+					},
+					"HandlingAttribute": {
+						"type": "object"
+					},
+					"Volume": {
+						"type": "number"
+					},
+					"Length": {
+						"type": "number"
+					},
+					"ContextId": {
+						"type": "string"
+					},
+					"OriginalHeight": {
+						"type": "number"
+					},
+					"MaxLanes": {
+						"type": "object"
+					},
+					"PK": {
+						"type": "string"
+					},
+					"AverageWeight": {
+						"type": "number"
+					},
+					"IsPhysicalPallet": {
+						"type": "number"
+					},
+					"ValidSlottingStorageUom": {
+						"type": "number"
+					},
+					"Unique_Identifier": {
+						"type": "string"
+					},
+					"DimensionUomId": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"ProfileId",
+					"VolumeUomId",
+					"CreatedTimestamp",
+					"UnitsPerGrab",
+					"OriginalWeightUomId",
+					"VendorId",
+					"OriginalDimensionUomId",
+					"Standard",
+					"Process",
+					"OriginalAverageWeight",
+					"ItemId",
+					"UomId",
+					"MaxStacking",
+					"UpdatedBy",
+					"OriginalWeight",
+					"SlottingRotation",
+					"Height",
+					"Width",
+					"OriginalVolume",
+					"ValidSlottingDemandUom",
+					"UpdatedTimestamp",
+					"OriginalVolumeUomId",
+					"CreatedBy",
+					"UseFluidSlotting",
+					"Quantity",
+					"EntityLabels",
+					"StandardQuantityUomId",
+					"Weight",
+					"WeightUomId",
+					"OriginalLength",
+					"OriginalWidth",
+					"HandlingAttribute",
+					"Volume",
+					"Length",
+					"ContextId",
+					"OriginalHeight",
+					"MaxLanes",
+					"PK",
+					"AverageWeight",
+					"IsPhysicalPallet",
+					"ValidSlottingStorageUom",
+					"Unique_Identifier",
+					"DimensionUomId"
+				]
+			}
+		},
+		"EvaluateAssetDetermination": {
+			"type": "number"
+		},
+		"TypeOfChange": {
+			"type": "string"
+		},
+		"MonetaryValueCurrencyCode": {
+			"type": "object"
+		},
+		"ExportLicenseExpiryDate": {
+			"type": "object"
+		},
+		"MinimumReceiveToExpireDays": {
+			"type": "number"
+		},
+		"EntityStrategyId": {
+			"type": "string"
+		},
+		"ItemMaskComponentId": {
+			"type": "object"
+		},
+		"CreatedBy": {
+			"type": "string"
+		},
+		"PriceTicketAvailable": {
+			"type": "number"
+		},
+		"OriginalLength": {
+			"type": "number"
+		},
+		"DefaultBatchStatus": {
+			"type": "object"
+		},
+		"Volume": {
+			"type": "number"
+		},
+		"ContextId": {
+			"type": "string"
+		},
+		"BatchMasterValidation": {
+			"type": "string"
+		},
+		"DeriveExpiryDate": {
+			"type": "number"
+		},
+		"OriginalHeight": {
+			"type": "number"
+		},
+		"HazardousMaterialId": {
+			"type": "object"
+		},
+		"ValidateInventoryExpiryDate": {
+			"type": "number"
+		},
+		"CalculateNullDate": {
+			"type": "number"
+		},
+		"TrackShipByDate": {
+			"type": "number"
+		},
+		"TrackPackQuantity": {
+			"type": "number"
+		},
+		"TrackInventoryType": {
+			"type": "number"
+		},
+		"Description": {
+			"type": "string"
+		},
+		"ItemOrientationDimensionId": {
+			"type": "object"
+		},
+		"MerchandizingDepartmentId": {
+			"type": "string"
+		},
+		"VendorId": {
+			"type": "object"
+		},
+		"SecondDimension": {
+			"type": "object"
+		},
+		"RemainderUomId": {
+			"type": "object"
+		},
+		"TrackProductStatus": {
+			"type": "number"
+		},
+		"IncrementalWidth": {
+			"type": "object"
+		},
+		"TiersPerPallet": {
+			"type": "number"
+		},
+		"Hazmat": {
+			"type": "number"
+		},
+		"ProductLifeInDays": {
+			"type": "number"
+		},
+		"TrackBatchNumber": {
+			"type": "number"
+		},
+		"Incubate": {
+			"type": "number"
+		},
+		"CommodityCode": {
+			"type": "string"
+		},
+		"FifoRange": {
+			"type": "number"
+		},
+		"Style": {
+			"type": "object"
+		},
+		"SizeDescription": {
+			"type": "object"
+		},
+		"Season": {
+			"type": "object"
+		},
+		"ProductClass": {
+			"type": "object"
+		},
+		"Width": {
+			"type": "number"
+		},
+		"MaxLpnQuantity": {
+			"type": "object"
+		},
+		"UpdatedTimestamp": {
+			"type": "string"
+		},
+		"OriginalVolumeUomId": {
+			"type": "string"
+		},
+		"CubeMultipleQuantity": {
+			"type": "object"
+		},
+		"MonetaryValue": {
+			"type": "object"
+		},
+		"RooCriterionId": {
+			"type": "object"
+		},
+		"EntityLabels": {
+			"type": "object"
+		},
+		"IncrementalHeight": {
+			"type": "object"
+		},
+		"MonetaryValueSizeUomId": {
+			"type": "object"
+		},
+		"OriginalWidth": {
+			"type": "number"
+		},
+		"WeightUomId": {
+			"type": "string"
+		},
+		"CpdWindowIncrement": {
+			"type": "number"
+		},
+		"UnitPrice": {
+			"type": "object"
+		},
+		"ItemGroup": {
+			"type": "object"
+		},
+		"Length": {
+			"type": "number"
+		},
+		"ExportLicenseDescription": {
+			"type": "object"
+		},
+		"AverageWeight": {
+			"type": "number"
+		},
+		"DimensionUomId": {
+			"type": "string"
+		},
+		"IncrementalLength": {
+			"type": "object"
+		},
+		"CountryOfOrigin": {
+			"type": "object"
+		},
+		"OriginalDimensionUomId": {
+			"type": "string"
+		},
+		"ColorSuffix": {
+			"type": "object"
+		},
+		"Process": {
+			"type": "string"
+		},
+		"ItemId": {
+			"type": "string"
+		},
+		"DisplayUomId": {
+			"type": "object"
+		},
+		"BuyerDispositionCode": {
+			"type": "object"
+		},
+		"RvcCalculationMethodId": {
+			"type": "object"
+		},
+		"Conveyable": {
+			"type": "number"
+		},
+		"ClimateControlId": {
+			"type": "string"
+		},
+		"StyleSuffix": {
+			"type": "object"
+		},
+		"ItemGtin": {
+			"type": "object"
+		},
+		"LastExportedDateTime": {
+			"type": "object"
+		},
+		"LastCubiscanDateTime": {
+			"type": "object"
+		},
+		"Color": {
+			"type": "object"
+		},
+		"ImageUrl": {
+			"type": "object"
+		},
+		"CriticalDimension3": {
+			"type": "object"
+		},
+		"OriginalCriticalDimension3": {
+			"type": "object"
+		},
+		"OriginalCriticalDimension2": {
+			"type": "object"
+		},
+		"OriginalCriticalDimension1": {
+			"type": "object"
+		},
+		"Weight": {
+			"type": "number"
+		},
+		"CriticalDimension2": {
+			"type": "object"
+		},
+		"CriticalDimension1": {
+			"type": "object"
+		},
+		"DeriveCPDFromShelfdays": {
+			"type": "number"
+		},
+		"PrimaryBarCode": {
+			"type": "string"
+		},
+		"MaxNestingNumber": {
+			"type": "object"
+		},
+		"WeightUnderagePercentage": {
+			"type": "number"
+		},
+		"VolumeUomId": {
+			"type": "string"
+		},
+		"MarksNumbers": {
+			"type": "object"
+		},
+		"MerchandizingGroup": {
+			"type": "object"
+		},
+		"DeriveConsumptionPriorityDate": {
+			"type": "number"
+		},
+		"CatchWeightItem": {
+			"type": "number"
+		},
+		"FsmaBatchItem": {
+			"type": "number"
+		},
+		"OriginalWeightUomId": {
+			"type": "string"
+		},
+		"TrackManufacturingDate": {
+			"type": "number"
+		},
+		"LpnPerTier": {
+			"type": "number"
+		},
+		"AssetTypeId": {
+			"type": "object"
+		},
+		"SeasonYear": {
+			"type": "object"
+		},
+		"HeldStatusConditionCode": {
+			"type": "object"
+		},
+		"TrackExpiryDate": {
+			"type": "number"
+		},
+		"SerialNumberTrackType": {
+			"type": "object"
+		},
+		"Height": {
+			"type": "number"
+		},
+		"StoreDepartment": {
+			"type": "string"
+		},
+		"OriginalVolume": {
+			"type": "number"
+		},
+		"SizeCode": {
+			"type": "object"
+		},
+		"MerchandizingType": {
+			"type": "object"
+		},
+		"ExportLicenseSymbol": {
+			"type": "object"
+		},
+		"NmfcFreightClassId": {
+			"type": "object"
+		},
+		"EntityId": {
+			"type": "string"
+		},
+		"UnitCost": {
+			"type": "number"
+		},
+		"CpdWindowCode": {
+			"type": "string"
+		},
+		"TrackItemAttribute3": {
+			"type": "number"
+		},
+		"TrackItemAttribute2": {
+			"type": "number"
+		},
+		"TrackItemAttribute5": {
+			"type": "number"
+		},
+		"TrackItemAttribute4": {
+			"type": "number"
+		},
+		"PK": {
+			"type": "string"
+		},
+		"TrackItemAttribute1": {
+			"type": "number"
+		},
+		"Unique_Identifier": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"ProfileId",
+		"CreatedTimestamp",
+		"RetailPrice",
+		"Extended",
+		"AttributeGroupId",
+		"ShelfDays",
+		"OriginalAverageWeight",
+		"TrackCountryOfOrigin",
+		"ShortDescription",
+		"IncubationAttributeFacility",
+		"CurrencyCode",
+		"ProducerOfGoodsId",
+		"UpdatedBy",
+		"OriginalWeight",
+		"WeightOveragePercentage",
+		"MaximumReceiveToExpireDays",
+		"ExportLicenseNumber",
+		"ItemPackageFacility",
+		"EvaluateAssetDetermination",
+		"TypeOfChange",
+		"MonetaryValueCurrencyCode",
+		"ExportLicenseExpiryDate",
+		"MinimumReceiveToExpireDays",
+		"EntityStrategyId",
+		"ItemMaskComponentId",
+		"CreatedBy",
+		"PriceTicketAvailable",
+		"OriginalLength",
+		"DefaultBatchStatus",
+		"Volume",
+		"ContextId",
+		"BatchMasterValidation",
+		"DeriveExpiryDate",
+		"OriginalHeight",
+		"HazardousMaterialId",
+		"ValidateInventoryExpiryDate",
+		"CalculateNullDate",
+		"TrackShipByDate",
+		"TrackPackQuantity",
+		"TrackInventoryType",
+		"Description",
+		"ItemOrientationDimensionId",
+		"MerchandizingDepartmentId",
+		"VendorId",
+		"SecondDimension",
+		"RemainderUomId",
+		"TrackProductStatus",
+		"IncrementalWidth",
+		"TiersPerPallet",
+		"Hazmat",
+		"ProductLifeInDays",
+		"TrackBatchNumber",
+		"Incubate",
+		"CommodityCode",
+		"FifoRange",
+		"Style",
+		"SizeDescription",
+		"Season",
+		"ProductClass",
+		"Width",
+		"MaxLpnQuantity",
+		"UpdatedTimestamp",
+		"OriginalVolumeUomId",
+		"CubeMultipleQuantity",
+		"MonetaryValue",
+		"RooCriterionId",
+		"EntityLabels",
+		"IncrementalHeight",
+		"MonetaryValueSizeUomId",
+		"OriginalWidth",
+		"WeightUomId",
+		"CpdWindowIncrement",
+		"UnitPrice",
+		"ItemGroup",
+		"Length",
+		"ExportLicenseDescription",
+		"AverageWeight",
+		"DimensionUomId",
+		"IncrementalLength",
+		"CountryOfOrigin",
+		"OriginalDimensionUomId",
+		"ColorSuffix",
+		"Process",
+		"ItemId",
+		"DisplayUomId",
+		"BuyerDispositionCode",
+		"RvcCalculationMethodId",
+		"Conveyable",
+		"ClimateControlId",
+		"StyleSuffix",
+		"ItemGtin",
+		"LastExportedDateTime",
+		"LastCubiscanDateTime",
+		"Color",
+		"ImageUrl",
+		"CriticalDimension3",
+		"OriginalCriticalDimension3",
+		"OriginalCriticalDimension2",
+		"OriginalCriticalDimension1",
+		"Weight",
+		"CriticalDimension2",
+		"CriticalDimension1",
+		"DeriveCPDFromShelfdays",
+		"PrimaryBarCode",
+		"MaxNestingNumber",
+		"WeightUnderagePercentage",
+		"VolumeUomId",
+		"MarksNumbers",
+		"MerchandizingGroup",
+		"DeriveConsumptionPriorityDate",
+		"CatchWeightItem",
+		"FsmaBatchItem",
+		"OriginalWeightUomId",
+		"TrackManufacturingDate",
+		"LpnPerTier",
+		"AssetTypeId",
+		"SeasonYear",
+		"HeldStatusConditionCode",
+		"TrackExpiryDate",
+		"SerialNumberTrackType",
+		"Height",
+		"StoreDepartment",
+		"OriginalVolume",
+		"SizeCode",
+		"MerchandizingType",
+		"ExportLicenseSymbol",
+		"NmfcFreightClassId",
+		"EntityId",
+		"UnitCost",
+		"CpdWindowCode",
+		"TrackItemAttribute3",
+		"TrackItemAttribute2",
+		"TrackItemAttribute5",
+		"TrackItemAttribute4",
+		"PK",
+		"TrackItemAttribute1",
+		"Unique_Identifier"
+	]
+}

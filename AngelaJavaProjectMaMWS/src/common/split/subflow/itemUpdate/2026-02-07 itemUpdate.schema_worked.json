@@ -1,0 +1,112 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"ProfileId": {
+			"type": "string"
+		},
+		"CreatedTimestamp": {
+			"type": "string"
+		},
+		"RetailPrice": {
+			"type": "string"
+		},
+		"AttributeGroupId": {
+			"type": "string"
+		},
+		"ShelfDays": {
+			"type": "number"
+		},
+		"OriginalAverageWeight": {
+			"type": "number"
+		},
+		"TrackCountryOfOrigin": {
+			"type": "number"
+		},
+		"ShortDescription": {
+			"type": "string"
+		},
+		"CurrencyCode": {
+			"type": "string"
+		},
+		"ProducerOfGoodsId": {
+			"type": "string"
+		},
+		"UpdatedBy": {
+			"type": "string"
+		},
+		"OriginalWeight": {
+			"type": "number"
+		},
+		"WeightOveragePercentage": {
+			"type": "number"
+		},
+		"MaximumReceiveToExpireDays": {
+			"type": "number"
+		},
+		"ExportLicenseNumber": {
+			"type": "string"
+		},
+		"TiersPerPallet": {
+			"type": "number"
+		},
+		"Hazmat": {
+			"type": "number"
+		},
+		"Width": {
+			"type": "number"
+		},
+		"UpdatedTimestamp": {
+			"type": "string"
+		},
+		"Length": {
+			"type": "number"
+		},
+		"Process": {
+			"type": "string"
+		},
+		"ItemId": {
+			"type": "string"
+		},
+		"LpnPerTier": {
+			"type": "number"
+		},
+		"Height": {
+			"type": "number"
+		},
+		"PK": {
+			"type": "string"
+		},
+		"Unique_Identifier": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"ProfileId",
+		"CreatedTimestamp",
+		"RetailPrice",
+		"AttributeGroupId",
+		"ShelfDays",
+		"OriginalAverageWeight",
+		"TrackCountryOfOrigin",
+		"ShortDescription",
+		"CurrencyCode",
+		"ProducerOfGoodsId",
+		"UpdatedBy",
+		"OriginalWeight",
+		"WeightOveragePercentage",
+		"MaximumReceiveToExpireDays",
+		"ExportLicenseNumber",
+		"TiersPerPallet",
+		"Hazmat",
+		"Width",
+		"UpdatedTimestamp",
+		"Length",
+		"Process",
+		"ItemId",
+		"LpnPerTier",
+		"Height",
+		"PK",
+		"Unique_Identifier"
+	]
+}

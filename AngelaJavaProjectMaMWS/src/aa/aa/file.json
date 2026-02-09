@@ -6,105 +6,68 @@
 		"UserLocale": "UTC",
 		"Location": "KC"
 	},
+	"CurrentPage": 7,
 	"ExportDocuments": [
 		{
 			"Messages": null,
-			"PIXSpecification": "InventoryAdjustment",
-			"Description": "SingleInventoryAdjustmentPIXforHostInventorychanges",
-			"SourceTransactionType": "REMOVED_CONDITION_CODE",
-			"SourceEventName": "CONDITION_CODE_CHANGES",
+			"PIXSpecification": "InvSync_Summary_Avail",
+			"Description": "InventorysyncsummaryavailabletoHOST",
+			"SourceTransactionType": "AVAILABLE",
+			"SourceEventName": "INVENTORY_SUMMARY",
 			"ItemDefinition": {
-				"Company": "KC",
-				"Season": "",
-				"SeasonYear": "",
-				"Style": "",
-				"StyleSuffix": "",
-				"Color": "",
-				"ColorSuffix": "",
-				"SecondDimension": "",
-				"SizeCode": "",
-				"SizeDescription": "",
-				"ItemId": "0011381",
-				"Description": "FAGETOTAL5PCTPLN16OZ"
+				"ItemId": "0547833",
+				"Description": ""
 			},
 			"SubItemFields": {
 				"InventoryTypeId": "",
 				"ProductStatusId": "",
-				"ItemBatchNumberId": "",
 				"InventoryAttribute1": "",
 				"InventoryAttribute2": "",
 				"InventoryAttribute3": "",
 				"InventoryAttribute4": "",
 				"InventoryAttribute5": "",
 				"CountryOfOrigin": "",
-				"ExpirationDate": "2026-02-20",
-				"ManufactureDate": "",
-				"PackUomQuantity": ""
+				"PackUomQuantity": "",
+				"ItemBatchNumberId": "",
+				"ExpirationDate": "2026-12-04",
+				"ManufactureDate": ""
 			},
 			"PIXFields": {
 				"BusinessUnitId": "",
 				"ExternalOrganizationId": "",
-				"CreatedBy": "wesley.morberg@awginc.com",
-				"FromInventoryBucket": "UNAVAILABLE",
-				"ToInventoryBucket": "AVAILABLE",
-				"InventoryAdjustmentQty": "10.0",
-				"Quantity": "10.0",
-				"AdjustedWeight": "129.6",
-				"AsnId": "ASN000000000098",
-				"AsnStatus": "8000",
-				"PurchaseOrderId": "",
-				"AlternateAsnId": "",
-				"AlternatePurchaseOrderId": "",
-				"IlpnId": "LPN0000000000598",
+				"CreatedBy": "system-msg-user@KC",
+				"FromInventoryBucket": "",
+				"ToInventoryBucket": "",
+				"InventoryAdjustmentQty": "19.0",
+				"Quantity": "19.0",
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeight": "0",
+				"AdjustedWeightType": "ADD",
+				"SnapshotDateTime": "{nano=972753000,hour=2,minute=1,second=15,year=2026,month=FEBRUARY,dayOfMonth=1,dayOfWeek=SUNDAY,dayOfYear=32,monthValue=2,chronology={id=ISO,calendarType=iso8601}}",
+				"SerializedSnapshotDateTime": "2026-02-01T02:01:15.972753",
 				"LocationId": "",
+				"AsnId": "",
+				"PurchaseOrderId": "",
+				"IlpnId": "",
 				"ReasonCodeId": "",
-				"ReferenceText": "",
-				"SecondaryReferenceText": "",
-				"ConditionCodeChange": "",
-				"ConditionCodes": [
-					{
-						"ToConditionCodes": [
-						]
-					},
-					{
-						"FromConditionCodes": [
-							{
-								"Actions": {
-								},
-								"PK": null,
-								"CreatedBy": "gcoleman@awginc.com",
-								"CreatedTimestamp": "2025-12-04T19:24:15.875",
-								"UpdatedBy": "gcoleman@awginc.com",
-								"UpdatedTimestamp": "2025-12-04T19:24:15.875",
-								"Messages": null,
-								"ConditionCodeId": "C",
-								"Description": "CriticalHold",
-								"InventoryUnavailable": true,
-								"HostPriority": null,
-								"RemoveOnPutaway": false,
-								"RemoveOnCount": false,
-								"LocalizedData": null,
-								"LocalizedDataKVStore": null,
-								"Extended": {
-								}
-							}
-						]
-					}
-				],
-				"InventoryAdjustmentType": "MOVE",
-				"AdjustedType": "MOVE",
-				"AdjustedWeightType": "MOVE",
-				"CreatedTimestamp": "2026-01-20T19:47:34.990",
-				"UpdatedTimestamp": "2026-01-20T19:49:55.261",
+				"SyncBatchId": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-02-0102:00:00",
+				"PixCount": "",
+				"TotalCount": "",
+				"ConditionCode": "",
+				"Disposition": "Available",
+				"CreatedTimestamp": "2026-02-01T02:02:54.464",
+				"UpdatedTimestamp": "2026-02-01T02:07:24.349",
 				"UpdatedBy": "system-msg-user@KC",
-				"TransactionDateTime": "2026-01-20T19:47:34.894"
+				"TransactionNumber": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-02-0102:00:00",
+				"TransactionDateTime": "2026-02-01T02:01:15.972"
 			},
-			"TransactionNumber": "7689384549892842188",
+			"TransactionNumber": "KC::X::DCI_DCI_InventorySyncJobV2::inventorySyncScheduleV2::DCINVENTORY::26-02-0102:00:00",
 			"SequenceNumber": 1,
-			"TransactionDateTime": "2026-01-20T19:47:34.894",
+			"TransactionDateTime": "2026-02-01T02:01:15.972",
 			"Organization": "KC",
 			"Facility": "KC"
 		}
 	],
-	"UniqueJobId": "61880bb5-e718-4f3b-80bc-eab1c5e03e83"
+	"TotalPages": 26
 }

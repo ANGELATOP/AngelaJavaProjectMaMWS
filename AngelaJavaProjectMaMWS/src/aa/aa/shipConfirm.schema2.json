@@ -1,0 +1,212 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"Header": {
+			"type": "object"
+		},
+		"Message": {
+			"type": "object",
+			"properties": {
+				"ShipConfirm": {
+					"type": "object",
+					"properties": {
+						"ShipConfirmDetails": {
+							"type": "object",
+							"properties": {
+								"Order": {
+									"type": "object"
+								},
+								"OriginalOrder": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"OriginalOrderId": {
+												"type": "string"
+											},
+											"CompleteOrder": {
+												"type": "boolean"
+											},
+											"PartialShipConfirmStatus": {
+												"type": "string"
+											},
+											"DestinationFacilityId": {
+												"type": "string"
+											},
+											"BusinessUnitId": {
+												"type": "string"
+											},
+											"DestinationAddress": {
+												"type": "object",
+												"properties": {
+													"Address1": {
+														"type": "string"
+													},
+													"Address2": {
+														"type": "string"
+													},
+													"Address3": {
+														"type": "string"
+													},
+													"City": {
+														"type": "string"
+													},
+													"StateProv": {
+														"type": "string"
+													},
+													"PostalCode": {
+														"type": "string"
+													},
+													"County": {
+														"type": "string"
+													},
+													"CountryCode": {
+														"type": "string"
+													}
+												},
+												"required": [
+													"Address1",
+													"Address2",
+													"Address3",
+													"City",
+													"StateProv",
+													"PostalCode",
+													"County",
+													"CountryCode"
+												]
+											},
+											"Shipment": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"properties": {
+													},
+													"required": [
+													]
+												}
+											},
+											"OriginalOrderLine": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"properties": {
+														"OriginalOrderLineId": {
+															"type": "string"
+														},
+														"ItemId": {
+															"type": "string"
+														},
+														"OrderedQuantity": {
+															"type": "number"
+														},
+														"QuantityUomId": {
+															"type": "string"
+														},
+														"CancelQuantity": {
+															"type": "string"
+														},
+														"ShippedQuantity": {
+															"type": "object"
+														},
+														"BatchNumber": {
+															"type": "object"
+														},
+														"Weight": {
+															"type": "number"
+														}
+													},
+													"required": [
+														"OriginalOrderLineId",
+														"ItemId",
+														"OrderedQuantity",
+														"QuantityUomId",
+														"CancelQuantity",
+														"ShippedQuantity",
+														"BatchNumber",
+														"Weight"
+													]
+												}
+											},
+											"Olpn": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"properties": {
+													},
+													"required": [
+													]
+												}
+											}
+										},
+										"required": [
+											"OriginalOrderId",
+											"CompleteOrder",
+											"PartialShipConfirmStatus",
+											"DestinationFacilityId",
+											"BusinessUnitId",
+											"DestinationAddress",
+											"Shipment",
+											"OriginalOrderLine",
+											"Olpn"
+										]
+									}
+								}
+							},
+							"required": [
+								"Order",
+								"OriginalOrder"
+							]
+						},
+						"ShipConfirmSummary": {
+							"type": "object",
+							"properties": {
+								"OrganizationName": {
+									"type": "string"
+								},
+								"ShipConfirmHeaderInfo": {
+									"type": "object",
+									"properties": {
+										"ShipConfirmDateTime": {
+											"type": "string"
+										},
+										"ShipConfirmBatchDetailId": {
+											"type": "string"
+										},
+										"ShipConfirmBatchId": {
+											"type": "string"
+										}
+									},
+									"required": [
+										"ShipConfirmDateTime",
+										"ShipConfirmBatchDetailId",
+										"ShipConfirmBatchId"
+									]
+								},
+								"OriginFacilityId": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"OrganizationName",
+								"ShipConfirmHeaderInfo",
+								"OriginFacilityId"
+							]
+						}
+					},
+					"required": [
+						"ShipConfirmDetails",
+						"ShipConfirmSummary"
+					]
+				}
+			},
+			"required": [
+				"ShipConfirm"
+			]
+		}
+	},
+	"required": [
+		"Header",
+		"Message"
+	]
+}
