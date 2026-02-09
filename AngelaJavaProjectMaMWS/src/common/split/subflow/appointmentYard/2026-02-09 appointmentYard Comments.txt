@@ -1,0 +1,8 @@
+
+I decoded the message to manhattan message.  
+
+Looks like it follow the default message and parses out each message to the queue separately.  
+
+Archive header and detail tables look correct.
+
+No changes or additional formatting needed.
