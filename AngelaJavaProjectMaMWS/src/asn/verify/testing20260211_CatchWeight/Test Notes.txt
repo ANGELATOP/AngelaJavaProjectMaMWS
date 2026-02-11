@@ -1,0 +1,8 @@
+
+TestResults_1.xml
+Calculating the catchWeight.
+Removing the ESQL calc logic.
+
+TestResults_2.xml  (this is the final direction)
+Calculating the catchWeight.  No longer needed.  Manhattan will send the data correctly so we don't have to do the calc.
+Removing the ESQL calc logic.
