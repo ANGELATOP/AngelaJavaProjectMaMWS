@@ -1,0 +1,19 @@
+Per Erick Fauscette.
+
+The <CATCH_QTY>937.5</CATCH_QTY> needs to be populated from the "PIXFields.AdjusteWeight" element.
+
+Example:
+ "InventoryAdjustmentQty": "5",
+                    "Quantity": "5",
+                    "AdjustedWeight": "937.5",
+                    "AsnId": "00058726120260209081443",
+                    "AsnStatus": "8000",
+                    
+I just needed to pass this value from Manhattan message and not do all that complex logic for the
+"CATCH_WEIGHT" that I was doing in ASN Verify.
+
+The captured the manhattan message from the archive and tested my ACE changes.
+input:  "2026-02-11 manhattanMsg.json"
+output: "TestResults.xml"
+
+                    
