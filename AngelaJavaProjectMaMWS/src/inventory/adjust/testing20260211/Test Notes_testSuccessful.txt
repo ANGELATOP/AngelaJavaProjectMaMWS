@@ -16,4 +16,10 @@ The captured the manhattan message from the archive and tested my ACE changes.
 input:  "2026-02-11 manhattanMsg.json"
 output: "TestResults.xml"
 
+Test Successful
+This element contains the value from manhattan element.
+<CATCH_QTY>937.5</CATCH_QTY>
+
+
+
                     
