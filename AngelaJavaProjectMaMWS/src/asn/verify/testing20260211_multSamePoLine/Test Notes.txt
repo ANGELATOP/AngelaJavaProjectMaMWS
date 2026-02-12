@@ -1,0 +1,5 @@
+
+Manhattan could send multiple messages for the same poLine in the same message.
+
+I had saved the poQty in an arrayList and looping through it in java.
+I was able to just sum up the qty if same poLine.  Turned out to be an easier fix.  Thank goodness!
