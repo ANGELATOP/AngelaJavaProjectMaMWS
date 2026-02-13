@@ -11,9 +11,13 @@ public class AsnVerifyTester {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 
+		System.out.println(getIntValue("abc"));
+	}
+	public static void test1() throws Exception {
 		String[] manhattanPoLines = {"001","001"};
 
-		String[] xref = {"001|60","001|0"};
+		String[] xref = {"001|lb","001|lb"};
+//		String[] xref = {"001|60","001|0"};
 //		String[] xref = {"001|0","001|60"};
 
 		String poLineSeq = "001"; //real poLine value
@@ -25,6 +29,7 @@ public class AsnVerifyTester {
 		String test = getValue(manhattanPoLines, poLineSeq, poValue, manhattanValue, xref);
 		
 		System.out.println(test);
+		
 	}
 	
 	//logic from Convert.java in ACE application
@@ -40,8 +45,23 @@ public class AsnVerifyTester {
 		return poValue;
 	}
 	
+	public static int getIntValue(String inputValue) {
+		
+		int newValue = 0;
+		
+		try {
+		newValue = Integer.parseInt(inputValue);
+		
+		}catch(NumberFormatException e) {
+			System.out.println("here");
+			newValue=999999999;//means not numeric value
+		}
+		
+		return newValue;
+	}
+	
 	//logic from Convert.java in ACE application
-	private static String getNewValue(String[] xref, String poLineSeq, String poValue) throws Exception {
+	private static String getNewValue(String[] xref, String poLineSeq, String poValue) throws Exception  {
 		
 		HashMap<String,String> hash = new HashMap<String,String>();
 		
@@ -54,6 +74,7 @@ public class AsnVerifyTester {
 			hash.put(temp.get(0), temp.get(1));
 
 			if(temp.get(0).equals(poLineSeq)) {
+				
 				totalPoQty = totalPoQty + Integer.parseInt(temp.get(1));
 			}
 		}

@@ -6,3 +6,10 @@ Removing the ESQL calc logic.
 TestResults_2.xml  (this is the final direction)
 Calculating the catchWeight.  No longer needed.  Manhattan will send the data correctly so we don't have to do the calc.
 Removing the ESQL calc logic.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Manhattan Message
+"2026-02-12 manhattanMsg_fromErickF.json"
+
