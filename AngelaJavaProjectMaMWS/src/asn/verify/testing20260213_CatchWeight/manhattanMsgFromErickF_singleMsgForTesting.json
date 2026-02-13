@@ -1,0 +1,84 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0010852",
+				"Description": "GFM B/S CHKN BRST 1.5LB AVG"
+			},
+			"SubItemFields": {
+				"CountryOfOrigin": "",
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "001",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"ExpirationDate": "2026-02-25",
+				"ManufactureDate": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"PurchaseOrderId": "",
+				"AlternatePurchaseOrderId": "",
+				"PurchaseOrderLineId": "",
+				"AsnId": "00058727820260212161636",
+				"AlternateAsnId": "",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "2",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "66.0",
+				"CreatedTimestamp": "2026-02-12T22:35:23.601",
+				"UpdatedTimestamp": "2026-02-12T22:39:34.294",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-02-12T22:35:23.492"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "775.594285714",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "f9a2df34-5a1a-406c-a1b0-62ee342ba903"
+				}
+			],
+			"TransactionNumber": "7709357235052802760",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-02-12T22:35:23.492",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "b83f897e-88ff-47ce-aebf-ca46d6a9aa9f",
+	"TotalPages": 1
+}
