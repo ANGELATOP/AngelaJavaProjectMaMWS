@@ -1,0 +1,5 @@
+
+Fixed the catchWeight value.  Sometimes it comes from manhattan as a
+float value instead of integer value.  Added logic to convert to int and
+round up.
+
