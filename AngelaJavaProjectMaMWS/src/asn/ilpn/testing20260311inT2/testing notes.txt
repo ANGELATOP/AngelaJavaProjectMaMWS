@@ -1,0 +1,10 @@
+
+
+Added java logic to remove the decimal and any values after the decimal place.	
+It can handle a value that has a decimal or not.	
+
+
+Examples: "InventoryAdjustmentQty": "1"
+          "InventoryAdjustmentQty": "5.0" 
+          
+          

@@ -1,0 +1,95 @@
+<Error>
+	<RecoverableException>
+		<File>C:\ci\product-build\WMB\src\DataFlowEngine\MessageServices\ImbDataFlowNode.cpp
+		</File>
+		<Line>1640</Line>
+		<Function>ImbDataFlowNode::createExceptionList</Function>
+		<Type>ComIbmJavaComputeNode</Type>
+		<Name>ErrorHandlingLogicMsgflow#FCMComposite_1_11</Name>
+		<Label>ErrorHandlingLogicMsgflow.DummiedAPIcall</Label>
+		<Catalog>BIPmsgs</Catalog>
+		<Severity>3</Severity>
+		<Number>2230</Number>
+		<Text>Node throwing exception</Text>
+		<Insert>
+			<Type>14</Type>
+			<Text>ErrorHandlingLogicMsgflow.DummiedAPIcall</Text>
+		</Insert>
+		<UserException>
+			<File>C:\ci\product-build\WMB\src\DataFlowEngine\PluginInterface\jlinklib\com_ibm_broker_plugin_CMbService.cpp
+			</File>
+			<Line>1510</Line>
+			<Function>ImbJavaExceptionUtils::userMbExceptionToNativeException
+			</Function>
+			<Type></Type>
+			<Name></Name>
+			<Label></Label>
+			<Catalog>BIPmsgs</Catalog>
+			<Severity>3</Severity>
+			<Number>4367</Number>
+			<Text>Unhandled exception in plugin method</Text>
+			<Insert>
+				<Type>5</Type>
+				<Text>evaluate</Text>
+			</Insert>
+			<Insert>
+				<Type>5</Type>
+				<Text>DummiedAPIcall</Text>
+			</Insert>
+			<Insert>
+				<Type>5</Type>
+				<Text>&lt;com.ibm.broker.plugin.MbUserException
+					class:DummiedAPI_DummiedAPIcall method:evaluate() source: key:
+					message: Unable to resolve message: Source: Key: &gt;</Text>
+			</Insert>
+			<UserException>
+				<File>C:\ci\product-build\WMB\src\DataFlowEngine\PluginInterface\jlinklib\com_ibm_broker_plugin_CMbService.cpp
+				</File>
+				<Line>1510</Line>
+				<Function>ImbJavaExceptionUtils::userMbExceptionToNativeException
+				</Function>
+				<Type></Type>
+				<Name></Name>
+				<Label></Label>
+				<Catalog>BIPmsgs</Catalog>
+				<Severity>3</Severity>
+				<Number>4394</Number>
+				<Text>Unhandled exception in plugin method</Text>
+				<Insert>
+					<Type>5</Type>
+					<Text>com.ibm.broker.plugin.MbUserException</Text>
+				</Insert>
+				<Insert>
+					<Type>5</Type>
+					<Text>DummiedAPI_DummiedAPIcall</Text>
+				</Insert>
+				<Insert>
+					<Type>5</Type>
+					<Text>evaluate()</Text>
+				</Insert>
+				<Insert>
+					<Type>5</Type>
+					<Text>DummiedAPI_DummiedAPIcall.java</Text>
+				</Insert>
+				<Insert>
+					<Type>2</Type>
+					<Text>53</Text>
+				</Insert>
+				<Insert>
+					<Type>5</Type>
+					<Text>com.ibm.db2.jcc.am.SqlSyntaxErrorException: DB2 SQL Error:
+						SQLCODE=-204, SQLSTATE=42704, SQLERRMC=DB2PDBA.DUMMYTABLE,
+						DRIVER=4.31.10</Text>
+				</Insert>
+				<Insert>
+					<Type>5</Type>
+					<Text></Text>
+				</Insert>
+				<Insert>
+					<Type>5</Type>
+					<Text></Text>
+				</Insert>
+			</UserException>
+		</UserException>
+	</RecoverableException>
+</Error>

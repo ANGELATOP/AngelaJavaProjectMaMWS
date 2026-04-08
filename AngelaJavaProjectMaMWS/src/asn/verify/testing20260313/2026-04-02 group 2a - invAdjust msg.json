@@ -1,0 +1,208 @@
+{
+	"OriginalPayload": {
+		"ContextInformation": {
+			"Messages": null,
+			"Organization": "KC",
+			"UserId": "system-msg-user@KC",
+			"UserLocale": "UTC",
+			"Location": "KC"
+		},
+		"CurrentPage": 1,
+		"ExportDocuments": [
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "ADJUST_UI",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0520783",
+					"Description": "1/4 NECK/ON PRK BUTT 4/8 L"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "2026-09-05",
+					"ManufactureDate": "2026-03-09",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "richard.melton@awginc.com",
+					"FromInventoryBucket": "AVAILABLE",
+					"ToInventoryBucket": "AVAILABLE",
+					"InventoryAdjustmentQty": "1",
+					"Quantity": "1",
+					"AdjustedWeight": "86.2209",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "",
+					"LocationId": "M71106",
+					"ReasonCodeId": "Y",
+					"ReferenceText": "",
+					"SecondaryReferenceText": "",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+							]
+						},
+						{
+							"FromConditionCodes": [
+							]
+						}
+					],
+					"InventoryAdjustmentType": "ADD",
+					"AdjustedType": "ADD",
+					"AdjustedWeightType": "ADD",
+					"CreatedTimestamp": "2026-04-01T15:29:35.786",
+					"UpdatedTimestamp": "2026-04-01T15:32:55.289",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-04-01T15:29:35.480"
+				},
+				"TransactionNumber": "7750573754734684014",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-04-01T15:29:35.480",
+				"Organization": "KC",
+				"Facility": "KC"
+			},
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "ADJUST_UI",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0520783",
+					"Description": "1/4 NECK/ON PRK BUTT 4/8 L"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "2026-09-05",
+					"ManufactureDate": "2026-03-09",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "richard.melton@awginc.com",
+					"FromInventoryBucket": "AVAILABLE",
+					"ToInventoryBucket": "AVAILABLE",
+					"InventoryAdjustmentQty": "1",
+					"Quantity": "1",
+					"AdjustedWeight": "86.2209",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "",
+					"LocationId": "M71106",
+					"ReasonCodeId": "W",
+					"ReferenceText": "89291",
+					"SecondaryReferenceText": "700",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+							]
+						},
+						{
+							"FromConditionCodes": [
+							]
+						}
+					],
+					"InventoryAdjustmentType": "SUBTRACT",
+					"AdjustedType": "SUBTRACT",
+					"AdjustedWeightType": "SUBTRACT",
+					"CreatedTimestamp": "2026-04-01T15:30:54.372",
+					"UpdatedTimestamp": "2026-04-01T15:32:55.290",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-04-01T15:30:54.228"
+				},
+				"TransactionNumber": "7750574542224766093",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-04-01T15:30:54.228",
+				"Organization": "KC",
+				"Facility": "KC"
+			}
+		],
+		"UniqueJobId": "14ee78cd-f709-4310-b6da-c7059bf1ab47",
+		"TotalPages": 1
+	},
+	"OriginalHeaders": {
+		"SelectedLocation": "KC",
+		"User": "system-msg-user@KC",
+		"Organization": "KC",
+		"ENCRYPTED_OAUTH_TOKEN": "b76G0mDU982dNcyw5Cc8E+800n7olOV2fXjX3ujeYvtP3D/jlSF9t6adGIAPx9gavh15V1w53tyDJyasOEfaifiJefpF+s5f1hY/ubkc+DlTa0JzqV3AL7BZIPhXXl2EMtnZ8DoFOmiIuQhucuo6lNwqUbBmXt/bs2q579gVktzagataCVGx7Q1PUTtzmMrpyyyAAtFNcAdSb+FdlYjuBpkG0mSlct+4mmWP3xLDL+MLiXtt3jyRJkc9+qstHeL1YREnCr5Ux9G492N7chHCK8KjQerNn0jd67wNfW5zaMdmjwuQ9R+x4jcH++eTy72g8inUlhpVaG/5SXKIvvlaaRhktQ8d67MNc6Se+RYb56/tB+j0Vsnk9Kiv2UG2edqyS/k1d/SPRTZzIQILqwJ8zo06AG/JFp5t33L4bXsFykQNq89tQG/aXnRi1VxGDxviDGTC5Dh3kuNbF+QJBPgdYLOT3doX+5aDY45mjxA1EyB+ey31qA8FPpgLAnhU6w6IoQib6MNT48V2Z/OU+0P5U0HXahDREB6udCqZN/krf/hBKbbb7XZhfD7/OIWggORNuEz6X11mK2DzMPJh6SbcWpoum8x1/oNOslkDrQj4GiQMthHDAq/5UGWoaOH/MP6UynD8oZ1+aIQ9FjBV9fuz2UMO5vPO6ffv/Gpl0h7/c5fkQZd2grZ0Cz5c7AZyH48kabnCeRoxfXC3hN287vwtDTvDxOPnvEHhHifFeTAdiYOlifVeu6nRiL75ghjr20vKMO6s30AqqkBnRVxZrGwHXctkxPQd92jgGHRlNnr273OUasPpNVhriQ+jwG6W+s5KUnuxSzYqQ6NEu0QM1c2f0RZkVejWYLdXydFbArrcxR4LpUHhxHPKwxer3eMbmDxA3hH6YWGWKnZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93VLj1KEKGxBerPqLdNwPi7cPusRhar61ust2noCtcb2c4wa7UeIDiahe2tOg9GZp0zpkS3lB1Gdz+oXKkYw8aJtqEdfw65dsPPcrqHeMJ96ayp4n4Oh3F53PnBdtNKjkkv9QRpE0XAjd1adXhizBAIZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93WjDRhQiF8gVaU4IwlHQkA0jxNGIzZHyV1QJzj98nGMGywm+Mp8/uTtFSyXozgcV09wDlSP1UQsysBEMEh2F+iSLksYJO6eYJsSMNe1eqZVa82ooiNk+OI42MeY62Ep/zHGWjlkEy/ONI0hKawSB8aJJ+XD/aMj+ROTd+OKEoEpf4wdEHa/Ub4dgXNuAj1JAf3yRwWpIfM+vtfybHEyuj5DGbC80Kr4RPZwxJK6vLCLguiAcTe8lkHGh+tY5U/L8ofv2pjAb7kWbFJjmhMkliAFRYBuu+upYWw446/C0WJ+MyTXbunB+RhbCjiyakOLcV1p8QWRnO3zIFq/0tfCvK0zdmQYv/eSUPIp2Y+V2t/+oUhEb/1m4E3Qdwyhj+ROwos4/qutLQ9wVuQq8Cs+Xl8KU3Tu2KipkXZNf+lt81ioWEKJegXgxDsGUNM6QOiT2eIXjFPTk5mpGZbjY2BvocPAtfPhPb+ho7/O8WLoyeHXT8s8qQX0KQVHuP81OVAApriNL1L8ccVV3r26VfuebgjB5plTdeTtrVA==",
+		"msg_submission_time": "2026-04-01T15:32:55.342",
+		"SelectedBusinessUnit": null,
+		"Label": null,
+		"msg_submission_time_utc": "2026-04-01T15:32:55.342Z",
+		"SPAN_ID": "174a832527132369",
+		"APP_ID_TRACE": "com-manh-cp-pix-all-com-manh-cp-pix-54c84cf57b-mqb7d",
+		"fromExtensionPointId": "Inventory_Adjustment",
+		"PrimaryOrganization": "KC",
+		"PERSIST_TO_MSG_STORE": "true",
+		"ComponentName": "pix",
+		"SelectedOrganization": "KC",
+		"AllBusinessUnitsAccessible": "true",
+		"TRANSACTIONAL": "true",
+		"UserLocale": "en",
+		"QueueName": "PIX_XIN_InventoryAdjustment",
+		"PayloadQueueName": "awpf-payload-queue-pix",
+		"EXTENSION_POINT_ID": "Inventory_Adjustment",
+		"direction": "Internal",
+		"app-id": "com-manh-cp-pix-all-com-manh-cp-pix-54c84cf57b-mqb7d",
+		"TRACE_ID": "30eef9b70b47fea1",
+		"ADDITIONAL_ATTRIBUTES": "{\"ActivityTrackingNameSpace~ActivityDateTime\":\"2026-04-01T15:29:35.480\",\"APIFlowTracing~x-activitystream-url\":\"/api/dcinventory/inventory/adjustInventory/\",\"APIFlowTracing~rootOriginated\":\"/inventory/adjustInventory/\",\"activitystream~x-activitystream-clientrequestid\":\"Browser-richard.melton@awginc.com 1775057375143\",\"ActivityTrackingNameSpace~ReasonCodeId\":\"Y\",\"APIFlowTracing~x-activitystream-request-method\":\"POST\",\"ActivityTrackingNameSpace~AdjQtyAndReasonCodePopulatedInContext\":true,\"ActivityTrackingNameSpace~ComponentName\":\"Component_UI\",\"componentScopedOrganization~relevantOrganizationId\":\"3c047dc1db39bf585cc4a34bd7f7661fbf182656fc663a42e2d4db39c39c35ff\",\"com.manh.cp.core.platform.version.release.ReleaseMetadataService~RIPPLE_ID\":\"pilot\",\"ActivityTrackingNameSpace~AdjustedQuantity\":1,\"ActivityTrackingNameSpace~TransactionId\":\"UIInventoryAdjustment\",\"APIFlowTracing~PreviousComponentSequencePrefix\":\"1\",\"APIFlowTracing~url-pattern\":\"/api/dcinventory/inventory/adjustInventory/\",\"TXN_IDENTIFIERS~TXN_ID\":\"7750573752626784503\",\"activitystream~x-activity-stream-request-id\":\"e527d030ac8151647cc39c94b05672f3\",\"ActivityTrackingNameSpace~TransactionTypeId\":\"Adjust_Inventory\",\"APIFlowTracing~trimmed-url\":\"/inventory/adjustInventory/\",\"APIFlowTracing~root-url-pattern\":\"/api/dcinventory/inventory/adjustInventory/\"}",
+		"TenantId": "awgrssf11o",
+		"MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"MSG_ID_PK": "746102215705136841696041860735671352",
+		"OUTBOUND_CONDITION_EVALUATION": "true",
+		"ProvisioningProfile": null,
+		"OUTBOUND_MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"fromExtensionPointMessageType": "PIX_XIN_InventoryAdjustment",
+		"MessageCategory": null,
+		"Location": "KC"
+	}
+}

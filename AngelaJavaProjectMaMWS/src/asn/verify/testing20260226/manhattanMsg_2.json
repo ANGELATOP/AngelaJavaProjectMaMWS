@@ -1,0 +1,89 @@
+{
+	"googleMsgID": "301195499290510572933386079153517387",
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "LPN_Level",
+			"Description": "LPNLevelVariance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Season": "",
+				"SeasonYear": "",
+				"Style": "",
+				"StyleSuffix": "",
+				"Color": "",
+				"ColorSuffix": "",
+				"SecondDimension": "",
+				"SizeCode": "",
+				"SizeDescription": "",
+				"ItemId": "0504024",
+				"Description": "ESPKWTRMJLYBN10OZ"
+			},
+			"SubItemFields": {
+				"CountryOfOrigin": "",
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"ItemBatchNumberId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"ExpirationDate": "2028-02-26",
+				"ManufactureDate": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"RrnId": "",
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"OriginalOrderId": "",
+				"AsnLineId": "",
+				"PurchaseOrderId": "",
+				"AlternatePurchaseOrderId": "",
+				"PurchaseOrderLineId": "",
+				"LpnDetailId": "16629882-e39a-4ff2-8e77-158a76bada0f",
+				"AsnId": "00014199520260225143833",
+				"AlternateAsnId": "",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"IlpnId": "A0000000000987",
+				"ConditionCodes": [
+					{
+						"ConditionCodes": "[]"
+					}
+				],
+				"ConditionCodeList": [
+				],
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "0",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0.0",
+				"UnitsReceived": "11.0",
+				"CreatedTimestamp": "2026-02-26T15:22:44.578",
+				"UpdatedTimestamp": "2026-02-26T15:24:08.494",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-02-26T15:22:44.554"
+			},
+			"TransactionNumber": "7721193645777042136",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-02-26T15:22:44.554",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "f4e60e8d-fc91-413b-a97c-5efc457f5b43",
+	"TotalPages": 1
+}

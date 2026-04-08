@@ -1,0 +1,78 @@
+{
+    "OriginalPayload": {
+        "ContextInformation": {
+            "Messages": null,
+            "Organization": "KC",
+            "UserId": "system-msg-user@KC",
+            "UserLocale": "UTC",
+            "Location": "KC"
+        },
+        "CurrentPage": 1,
+        "ExportDocuments": [
+            {
+                "Messages": null,
+                "PIXSpecification": "CancelASN",
+                "Description": "Cancel ASN Update to HOST",
+                "SourceTransactionType": "RECEIVING",
+                "SourceEventName": "CANCEL_ASN",
+                "PIXFields": {
+                    "BusinessUnitId": "",
+                    "ExternalOrganizationId": "",
+                    "RrnId": "",
+                    "AsnLevelId": "ITEM",
+                    "CreatedBy": "richard.melton@awginc.com",
+                    "AsnId": "00059164620260303113865",
+                    "AlternateAsnId": "",
+                    "AsnOriginTypeId": "P",
+                    "CreatedTimestamp": "2026-03-23T18:01:35.050",
+                    "UpdatedTimestamp": "2026-03-23T18:03:49.031",
+                    "UpdatedBy": "system-msg-user@KC",
+                    "TransactionDateTime": "2026-03-23T18:01:34.995"
+                },
+                "TransactionNumber": "7742888950498861477",
+                "SequenceNumber": 1,
+                "TransactionDateTime": "2026-03-23T18:01:34.995",
+                "Organization": "KC",
+                "Facility": "KC"
+            }
+        ],
+        "UniqueJobId": "1945112e-5b80-45b6-8fe2-9b5526cf7113",
+        "TotalPages": 1
+    },
+    "OriginalHeaders": {
+        "SelectedLocation": "KC",
+        "User": "system-msg-user@KC",
+        "Organization": "AWG-L1",
+        "ENCRYPTED_OAUTH_TOKEN": "b76G0mDU982dNcyw5Cc8E+800n7olOV2fXjX3ujeYvtP3D/jlSF9t6adGIAPx9gavh15V1w53tyDJyasOEfaifiJefpF+s5f1hY/ubkc+DlTa0JzqV3AL7BZIPhXXl2EMtnZ8DoFOmiIuQhucuo6lNwqUbBmXt/bCBkWrlJc2NR0pf1dOBucvA1PUTtzmMrppQnO9RcJdhCzPAn+/rEgUpkG0mSlct+4EONWfDMp8hZ8e90QizxHTBR5jf6AnjIyNuNk2hWA14lO9yvhPEDW5jISHKeMBnhq67wNfW5zaMdmjwuQ9R+x4jcH++eTy72g8inUlhpVaG/5SXKIvvlaaRhktQ8d67MNc6Se+RYb56/tB+j0Vsnk9Kiv2UG2edqyS/k1d/SPRTZzIQILqwJ8zo06AG/JFp5t33L4bXsFykQNq89tQG/aXnRi1VxGDxviDGTC5Dh3kuNbF+QJBPgdYLOT3doX+5aDY45mjxA1EyB+ey31qA8FPpgLAnhU6w6IoQib6MNT48V2Z/OU+0P5U0HXahDREB6udCqZN/krf/hB6KlFMhackj0rgQaZqS3fBJinOUMQZoUK0v+GnecK+hyxxp6k4Lrau6QHnvuQ5OYMthHDAq/5UGWoaOH/MP6UynD8oZ1+aIQ9FjBV9fuz2UMO5vPO6ffv/Gpl0h7/c5fkQZd2grZ0Cz5c7AZyH48kabnCeRoxfXC3hN287vwtDb4UloB4UusF0+BiqiZ1z5YpPIdG065lt89X/80xr6ONZWP8+p9cD2y4RqgAywbmOYMmeOmKrcsJGHRlNnr273OUasPpNVhriQ+jwG6W+s5KUnuxSzYqQ6NEu0QM1c2f0RZkVejWYLdXydFbArrcxR4LpUHhxHPKwxer3eMbmDxA3hH6YWGWKnZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93VLj1KEKGxBerPqLdNwPi7cPusRhar61ust2noCtcb2c4wa7UeIDiahe2tOg9GZp0zpkS3lB1Gdz+oXKkYw8aJtqEdfw65dsPPcrqHeMJ96ayp4n4Oh3F53PnBdtNKjkkv9QRpE0XAjd1adXhizBAIZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93WjDRhQiF8gVaU4IwlHQkA0jxNGIzZHyV1QJzj98nGMGywm+Mp8/uTtFSyXozgcV09wDlSP1UQsyda/E7cIfZsZJJXD4Txxazccv83pR1MPsa1qSsA14YS3gZ77DyeLfMH2oR5ByOftH1Teey+J6ZXSiMqbEEBh+p6xgShpnA6wxcgAqu8ZaRioYZb0lqyvsZVfHFgmS6ztgC+rik51KfEnaouVqlhnLv6SaZH/gpMVulpte8UaKmXWgY67GXGfJVBCO/VmibnS1smul2o87Wbnniuu4AbWgJ+00lOHXZdyrJdVmJQ/Xlh3TGNkjEWNGWJ1G/fqxmZqGYC/BivehtCEURUBybreNZ3eNyFkGvAVNeohLtAdLKEc8g6y85OVsejLUNUbrJr4C0R3tqV2WpVVErv5+tAkxYhFO0a6mPOzWlN6ZLJaoOOjO950GlNPjZrgGedHIz0lHQEM38kRel7+k0C5D9CHrl2rbje0MPhr0JULy80ufL/ycQEsE10hZWDDp68XncjIjHmR6hiyC+B4gTXah9zW89Q==",
+        "msg_submission_time": "2026-03-23T18:03:49.142",
+        "SelectedBusinessUnit": null,
+        "Label": null,
+        "msg_submission_time_utc": "2026-03-23T18:03:49.143Z",
+        "SPAN_ID": "90b7f7f2f7cefeec",
+        "APP_ID_TRACE": "com-manh-cp-pix-awgrssf11o-l-pix-5679966786-vxbsh",
+        "fromExtensionPointId": "Receipt",
+        "PrimaryOrganization": "AWG-L1",
+        "PERSIST_TO_MSG_STORE": "true",
+        "ComponentName": "pix",
+        "SelectedOrganization": "KC",
+        "AllBusinessUnitsAccessible": "true",
+        "TRANSACTIONAL": "true",
+        "UserLocale": "en",
+        "QueueName": "PIX_XIN_Receipt",
+        "PayloadQueueName": "awpf-payload-queue-pix",
+        "EXTENSION_POINT_ID": "Receipt",
+        "direction": "Internal",
+        "app-id": "com-manh-cp-pix-awgrssf11o-l-pix-5679966786-vxbsh",
+        "TRACE_ID": "3ed4004cd0bdc788",
+        "ADDITIONAL_ATTRIBUTES": "{\"APIFlowTracing~x-activitystream-url\":\"/api/pix/retryPixExport\",\"APIFlowTracing~rootOriginated\":\"/view/action/com-manh-cp-pix/PixEntry/Resubmit\",\"activitystream~x-activitystream-clientrequestid\":\"Browser-jeremy.johnson@awginc.com 1774288830759\",\"APIFlowTracing~x-activitystream-request-method\":\"POST\",\"componentScopedOrganization~relevantOrganizationId\":\"0f6fb483cfe143a159d116250851d2088f3aeb2dc07de7910cbb562a163bea71\",\"com.manh.cp.core.platform.version.release.ReleaseMetadataService~RIPPLE_ID\":\"pilot\",\"APIFlowTracing~PreviousComponentSequencePrefix\":\"1\",\"APIFlowTracing~url-pattern\":\"/api/pix/retryPixExport\",\"TXN_IDENTIFIERS~TXN_ID\":\"7742888307810632872\",\"activitystream~x-activity-stream-request-id\":\"e450c255cc35d56d7fe2d48e596e8f1d\",\"APIFlowTracing~trimmed-url\":\"/retryPixExport\",\"APIFlowTracing~root-url-pattern\":\"/api/dmui-facade/view/action/{componentName}/{viewName}/{actionName}\"}",
+        "TenantId": "awgrssf11o",
+        "MSG_TYPE": "PIX_XIN_Receipt",
+        "MSG_ID_PK": "492271164968733777609966074634481",
+        "OUTBOUND_CONDITION_EVALUATION": "true",
+        "ProvisioningProfile": null,
+        "OUTBOUND_MSG_TYPE": "PIX_XIN_Receipt",
+        "fromExtensionPointMessageType": "PIX_XIN_Receipt",
+        "MessageCategory": null,
+        "Location": "KC"
+    }
+}

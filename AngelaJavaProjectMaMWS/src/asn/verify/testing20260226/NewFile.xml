@@ -1,0 +1,54 @@
+<root>
+
+
+	<TEST>
+		<URL>http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</URL>
+		<FINALQUEUE>AWG.MAWMS.FROM.MAWMS.PIX.ASNVRFY.TOPIC.T2</FINALQUEUE>
+		<FACILITYNBR>00</FACILITYNBR>
+	</TEST>
+
+
+	<TEST>
+		<URL>http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</URL>
+		<FINALQUEUE>AWG.MAWMS.FROM.MAWMS.PIX.ASNVRFY.TOPIC.T2</FINALQUEUE>
+		<FACILITYNBR>00</FACILITYNBR>
+	</TEST>
+
+	<TEST>
+		<URL>http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</URL>
+		<FINALQUEUE>AWG.MAWMS.FROM.MAWMS.PIX.ASNVRFY.TOPIC</FINALQUEUE>
+		<FACILITYNBR>00</FACILITYNBR>
+	</TEST>
+
+	<TEST>
+		<URL>http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</URL>
+		<FINALQUEUE>AWG.MAWMS.FROM.MAWMS.PIX.ASNVRFY.TOPIC</FINALQUEUE>
+		<FACILITYNBR>00</FACILITYNBR>
+	</TEST>
+
+	<TEST>
+		<URL>http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</URL>
+		<FINALQUEUE>AWG.MAWMS.FROM.MAWMS.PIX.ASNVRFY.TOPIC</FINALQUEUE>
+		<FACILITYNBR>00</FACILITYNBR>
+	</TEST>
+
+	<TEST>
+		<URL>http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</URL>
+		<FINALQUEUE>AWG.MAWMS.FROM.MAWMS.PIX.ASNVRFY.TOPIC.T2</FINALQUEUE>
+		<FACILITYNBR>00</FACILITYNBR>
+	</TEST>
+
+	<TEST>
+		<URL>http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</URL>
+		<FINALQUEUE>AWG.MAWMS.FROM.MAWMS.PIX.ASNVRFY.TOPIC.T2</FINALQUEUE>
+		<FACILITYNBR>00</FACILITYNBR>
+	</TEST>
+
+</root>

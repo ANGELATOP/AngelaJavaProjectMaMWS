@@ -1,0 +1,133 @@
+{
+		"ContextInformation": {
+			"Messages": null,
+			"Organization": "KC",
+			"UserId": "system-msg-user@KC",
+			"UserLocale": "UTC",
+			"Location": "KC"
+		},
+		"CurrentPage": 1,
+		"ExportDocuments": [
+			{
+				"Messages": null,
+				"PIXSpecification": "Remove from Lost Inventory",
+				"Description": "Remove Inventory from the Lost/Transitional bucket",
+				"SourceTransactionType": "REMOVE_LOST",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0520783",
+					"Description": "1/4 NECK/ON PRK BUTT 4/8 L"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "2026-01-20",
+					"ManufactureDate": "2026-01-20",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "richard.melton@awginc.com",
+					"FromInventoryBucket": "UNAVAILABLE",
+					"ToInventoryBucket": "UNAVAILABLE",
+					"InventoryAdjustmentQty": "4",
+					"Quantity": "4",
+					"AdjustedWeight": "352.938",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "",
+					"LocationId": "",
+					"ReasonCodeId": "P",
+					"ReferenceText": "",
+					"SecondaryReferenceText": "",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "gcoleman@awginc.com",
+									"CreatedTimestamp": "2025-12-04T19:24:16.35",
+									"UpdatedBy": "gcoleman@awginc.com",
+									"UpdatedTimestamp": "2025-12-04T19:24:16.35",
+									"Messages": null,
+									"ConditionCodeId": "L",
+									"Description": "Lost Unbillable Inventory",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						},
+						{
+							"FromConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "gcoleman@awginc.com",
+									"CreatedTimestamp": "2025-12-04T19:24:16.35",
+									"UpdatedBy": "gcoleman@awginc.com",
+									"UpdatedTimestamp": "2025-12-04T19:24:16.35",
+									"Messages": null,
+									"ConditionCodeId": "L",
+									"Description": "Lost Unbillable Inventory",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						}
+					],
+					"InventoryAdjustmentType": "SUBTRACT",
+					"AdjustedType": "SUBTRACT",
+					"AdjustedWeightType": "SUBTRACT",
+					"CreatedTimestamp": "2026-04-02T19:54:06.858",
+					"UpdatedTimestamp": "2026-04-02T19:57:17.533",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-04-02T19:54:06.731"
+				},
+				"TransactionNumber": "7751596468575172123",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-04-02T19:54:06.731",
+				"Organization": "KC",
+				"Facility": "KC"
+			}
+		],
+		"UniqueJobId": "1cae5b16-cf24-493b-8da0-c9bdd88b8775",
+		"TotalPages": 1
+	}
+

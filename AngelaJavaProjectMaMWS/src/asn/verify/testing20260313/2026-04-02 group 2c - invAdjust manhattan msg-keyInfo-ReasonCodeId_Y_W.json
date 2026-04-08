@@ -1,0 +1,111 @@
+{
+	"ContextInformation": {
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"PIXSpecification": "Inventory Adjustment",
+			"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+			"SourceTransactionType": "ADJUST_UI",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0520783",
+				"Description": "1/4 NECK/ON PRK BUTT 4/8 L"
+			},
+			"SubItemFields": {
+				"ExpirationDate": "2026-09-05",
+				"ManufactureDate": "2026-03-09"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "AVAILABLE",
+				"InventoryAdjustmentQty": "1",
+				"Quantity": "1",
+				"AdjustedWeight": "86.2209",
+				"LocationId": "M71106",
+				"ReasonCodeId": "Y",
+				"ConditionCodeChange": "N",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+						]
+					},
+					{
+						"FromConditionCodes": [
+						]
+					}
+				],
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeightType": "ADD",
+				"CreatedTimestamp": "2026-04-01T15:29:35.786",
+				"UpdatedTimestamp": "2026-04-01T15:32:55.289",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-01T15:29:35.480"
+			},
+			"TransactionNumber": "7750573754734684014",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-04-01T15:29:35.480",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "Inventory Adjustment",
+			"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+			"SourceTransactionType": "ADJUST_UI",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0520783",
+				"Description": "1/4 NECK/ON PRK BUTT 4/8 L"
+			},
+			"SubItemFields": {
+				"ExpirationDate": "2026-09-05",
+				"ManufactureDate": "2026-03-09"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "AVAILABLE",
+				"InventoryAdjustmentQty": "1",
+				"Quantity": "1",
+				"AdjustedWeight": "86.2209",
+				"LocationId": "M71106",
+				"ReasonCodeId": "W",
+				"ReferenceText": "89291",
+				"SecondaryReferenceText": "700",
+				"ConditionCodeChange": "N",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+						]
+					},
+					{
+						"FromConditionCodes": [
+						]
+					}
+				],
+				"InventoryAdjustmentType": "SUBTRACT",
+				"AdjustedType": "SUBTRACT",
+				"AdjustedWeightType": "SUBTRACT",
+				"CreatedTimestamp": "2026-04-01T15:30:54.372",
+				"UpdatedTimestamp": "2026-04-01T15:32:55.290",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-01T15:30:54.228"
+			},
+			"TransactionNumber": "7750574542224766093",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-04-01T15:30:54.228",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "14ee78cd-f709-4310-b6da-c7059bf1ab47",
+	"TotalPages": 1
+}

@@ -1,0 +1,12 @@
+
+---Example Manhattan messages.
+E:\Employer - AWG - 2026\Projects\WMS project ASN_verify\2026-04-08 2026-02-13 asn verify dupPoLineDupValue.json
+E:\Employer - AWG - 2026\Projects\WMS project ASN_verify\2026-04-08 2026-04-07 group 1a asn msg - from RichardM-correctQty.json
+E:\Employer - AWG - 2026\Projects\WMS project ASN_verify\2026-04-08 2026-04-07 group 2a asn msg - from RichardM-badQty.json
+
+---Details of the issues with manhattan messages.
+E:\Employer - AWG - 2026\Projects\WMS project ASN_verify\2026-04-08 asn verify-qty issue- examples sent to Manhattan on chat.xlsx
+
+
+
+

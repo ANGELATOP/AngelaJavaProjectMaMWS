@@ -1,0 +1,116 @@
+<Error>
+	<RecoverableException>
+		<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/MessageServices/ImbDataFlowNode.cpp</File>
+		<Line>1607</Line>
+		<Function>ImbDataFlowNode::createExceptionList</Function>
+		<Type>ComIbmComputeNode</Type>
+		<Name>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM#FCMComposite_1_2</Name>
+		<Label>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM.setForGooglePubSub</Label>
+		<Catalog>BIPmsgs</Catalog>
+		<Severity>3</Severity>
+		<Number>2230</Number>
+		<Text>Node throwing exception</Text>
+		<Insert>
+			<Type>14</Type>
+			<Text>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM.setForGooglePubSub</Text>
+		</Insert>
+		<RecoverableException>
+			<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/ImbRdl/ImbRdlStatementGroup.cpp</File>
+			<Line>785</Line>
+			<Function>SqlStatementGroup::execute</Function>
+			<Type>ComIbmComputeNode</Type>
+			<Name>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM#FCMComposite_1_2</Name>
+			<Label>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM.setForGooglePubSub</Label>
+			<Catalog>BIPmsgs</Catalog>
+			<Severity>3</Severity>
+			<Number>2488</Number>
+			<Text>Error detected, rethrowing</Text>
+			<Insert>
+				<Type>5</Type>
+				<Text>.MaWMS_OUTB_AWG_MstrData_GoogleToMAWM_Compute.Main</Text>
+			</Insert>
+			<Insert>
+				<Type>5</Type>
+				<Text>5.3</Text>
+			</Insert>
+			<Insert>
+				<Type>5</Type>
+				<Text>PROPAGATE TO TERMINAL &apos;out&apos; FINALIZE NONE DELETE
+					NONE;</Text>
+			</Insert>
+			<RecoverableException>
+				<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/SQLNodeLibrary/ImbComputeNode.cpp</File>
+				<Line>343</Line>
+				<Function>ImbComputeNode::evaluate</Function>
+				<Type>ComIbmComputeNode</Type>
+				<Name>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM#FCMComposite_1_11</Name>
+				<Label>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM.MAWMS_MSTRData_errorHandler</Label>
+				<Catalog>BIPmsgs</Catalog>
+				<Severity>3</Severity>
+				<Number>2230</Number>
+				<Text>Caught exception and rethrowing</Text>
+				<Insert>
+					<Type>14</Type>
+					<Text>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM.MAWMS_MSTRData_errorHandler</Text>
+				</Insert>
+				<RecoverableException>
+					<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/ImbRdl/ImbRdlStatementGroup.cpp</File>
+					<Line>785</Line>
+					<Function>SqlStatementGroup::execute</Function>
+					<Type>ComIbmComputeNode</Type>
+					<Name>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM#FCMComposite_1_11</Name>
+					<Label>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM.MAWMS_MSTRData_errorHandler</Label>
+					<Catalog>BIPmsgs</Catalog>
+					<Severity>3</Severity>
+					<Number>2488</Number>
+					<Text>Error detected, rethrowing</Text>
+					<Insert>
+						<Type>5</Type>
+						<Text>.MaWMS_OUTB_AWG_MstrData_test.Main</Text>
+					</Insert>
+					<Insert>
+						<Type>5</Type>
+						<Text>8.4</Text>
+					</Insert>
+					<Insert>
+						<Type>5</Type>
+						<Text>PROPAGATE TO TERMINAL &apos;out2&apos; FINALIZE DEFAULT
+							DELETE DEFAULT;</Text>
+					</Insert>
+					<RecoverableException>
+						<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/TemplateNodes/ImbOutputTemplateNode.cpp</File>
+						<Line>260</Line>
+						<Function>ImbOutputTemplateNode::processMessageAssemblyToFailure</Function>
+						<Type>ComIbmMQOutputNode</Type>
+						<Name>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM#FCMComposite_1_14</Name>
+						<Label>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM.SendToRetry</Label>
+						<Catalog>BIPmsgs</Catalog>
+						<Severity>3</Severity>
+						<Number>2230</Number>
+						<Text>Caught exception and rethrowing</Text>
+						<Insert>
+							<Type>14</Type>
+							<Text>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM.SendToRetry</Text>
+						</Insert>
+						<RecoverableException>
+							<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/Connectors/mqconnector/MQOutputInteraction.cpp</File>
+							<Line>966</Line>
+							<Function>MQOutputInteraction::openQueue</Function>
+							<Type></Type>
+							<Name></Name>
+							<Label></Label>
+							<Catalog>BIPmsgs</Catalog>
+							<Severity>3</Severity>
+							<Number>2691</Number>
+							<Text>Queue or Topic name must be supplied</Text>
+							<Insert>
+								<Type>5</Type>
+								<Text>MaWMS_OUTB_AWG_MstrData_GoogleToMAWM.SendToRetry</Text>
+							</Insert>
+						</RecoverableException>
+					</RecoverableException>
+				</RecoverableException>
+			</RecoverableException>
+		</RecoverableException>
+	</RecoverableException>
+</Error>

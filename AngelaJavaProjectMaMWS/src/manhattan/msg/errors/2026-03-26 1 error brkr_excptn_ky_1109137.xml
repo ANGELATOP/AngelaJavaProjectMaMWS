@@ -1,0 +1,138 @@
+<Error>
+	<RecoverableException>
+		<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/MessageServices/ImbDataFlowNode.cpp</File>
+		<Line>1607</Line>
+		<Function>ImbDataFlowNode::createExceptionList</Function>
+		<Type>ComIbmMSLMappingNode</Type>
+		<Name>PullAckAsnVerifyMsgTrigger#FCMComposite_1_2.MaWMS_CommonLIB.PullMessage#FCMComposite_1_11</Name>
+		<Label>PullAckAsnVerifyMsgTrigger.PullMessage.splitGoogleMessages</Label>
+		<Catalog>BIPmsgs</Catalog>
+		<Severity>3</Severity>
+		<Number>2230</Number>
+		<Text>Node throwing exception</Text>
+		<Insert>
+			<Type>14</Type>
+			<Text>PullAckAsnVerifyMsgTrigger.PullMessage.splitGoogleMessages</Text>
+		</Insert>
+		<RecoverableException>
+			<File>MbErrorHandler.java</File>
+			<Line>151</Line>
+			<Function>evaluate</Function>
+			<Type></Type>
+			<Name></Name>
+			<Label></Label>
+			<Catalog>BIPmsgs</Catalog>
+			<Severity>3</Severity>
+			<Number>3947</Number>
+			<Text>Caught BrokerXCIDynamicException</Text>
+			<Insert>
+				<Type>5</Type>
+				<Text>{default}:splitGoogleMessages</Text>
+			</Insert>
+			<Insert>
+				<Type>5</Type>
+				<Text>Java: EnvironTestFcltySession:getQueueName:
+					iib:getUserDefinedProperty(&apos;awgTempQueue&apos;)</Text>
+			</Insert>
+			<RecoverableException>
+				<File>MbErrorHandlerBase.java</File>
+				<Line>195</Line>
+				<Function>throwableToMbException</Function>
+				<Type></Type>
+				<Name></Name>
+				<Label></Label>
+				<Catalog>BIPmsgs</Catalog>
+				<Severity>3</Severity>
+				<Number>3949</Number>
+				<Text>Caught BrokerXCIDynamicException</Text>
+				<Insert>
+					<Type>5</Type>
+					<Text>java.lang.NullPointerException at
+						MaWMS_CommonLIB.EnvironTestFcltySession.getQueueName(EnvironTestFcltySession.java:59)
+						
+						at sun.reflect.GeneratedMethodAccessor44.invoke(Unknown Source) at
+						sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+						at java.lang.reflect.Method.invoke(Method.java:508) at
+						com.ibm.xltxe.rnm1.xtq.xslt.runtime.v2.BasisLibrary2.invokeJavaMemberF(BasisLibrary2.java:5216)
+						at
+						xmap_default__splitGoogleMessagesdaf6fb65fd7890fb_01__Common_Partition0.xmap_default__splitGoogleMessagesdaf6fb65fd7890fb_01_$24$$24$function$24$__xquery_result_fun__$2d$3(com_ibm_xmlns_prod_xltxe_j_linetable:12)
+						at
+						xmap_default__splitGoogleMessagesdaf6fb65fd7890fb_01_.evaluate(xmap_default__splitGoogleMessagesdaf6fb65fd7890fb_01_.java)
+						at
+						com.ibm.xltxe.rnm1.xtq.xquery.drivers.XQueryExecutable.execute(XQueryExecutable.java:220)
+						at
+						com.ibm.xltxe.rnm1.xtq.xquery.drivers.XQueryExecutable.execute(XQueryExecutable.java:97)
+						at
+						com.ibm.broker.map.MbMapExecutable.execute(MbMapExecutable.java:464)
+						at
+						com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:500)
+						at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138) at
+						com.ibm.broker.plugin.MbOutputTerminal._propagate(Native Method)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+						at
+						com.ibm.broker.ct.mapping.MappingNode.buildAndPropagate(MappingNode.java:1223)
+						at
+						com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:505)
+						at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138) at
+						com.ibm.broker.plugin.MbOutputTerminal._propagate(Native Method)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+						at com.ibm.broker.jdbcnodes.RouteNode.evaluate(RouteNode.java:322)
+						at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138) at
+						com.ibm.broker.plugin.MbOutputTerminal._propagate(Native Method)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+						at
+						com.ibm.broker.ct.mapping.MappingNode.buildAndPropagate(MappingNode.java:1223)
+						at
+						com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:505)
+						at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138) at
+						com.ibm.broker.plugin.MbOutputTerminal._propagate(Native Method)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+						at
+						com.ibm.broker.ct.mapping.MappingNode.buildAndPropagate(MappingNode.java:1223)
+						at
+						com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:505)
+						at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138) at
+						com.ibm.broker.plugin.MbOutputTerminal._propagate(Native Method)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+						at
+						com.ibm.broker.ct.mapping.MappingNode.buildAndPropagate(MappingNode.java:1223)
+						at
+						com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:505)
+						at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138) at
+						com.ibm.broker.plugin.MbOutputTerminal._propagate(Native Method)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+						at com.ibm.broker.jdbcnodes.RouteNode.evaluate(RouteNode.java:342)
+						at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138) at
+						com.ibm.broker.plugin.MbOutputTerminal._propagate(Native Method)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+						at
+						com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+						at
+						com.ibm.broker.ct.mapping.MappingNode.buildAndPropagate(MappingNode.java:1223)
+						at
+						com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:505)
+						at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138) </Text>
+				</Insert>
+			</RecoverableException>
+		</RecoverableException>
+	</RecoverableException>
+</Error>

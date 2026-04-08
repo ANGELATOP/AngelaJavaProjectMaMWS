@@ -1,0 +1,286 @@
+{
+	"ContextInformation": {
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0500611",
+				"Description": "SF A/N BLDLS LN 2PC 17-22 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "005",
+				"ExpirationDate": "2026-09-09",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "005",
+				"AsnLineId": "005",
+				"AsnId": "00059148220260302101829",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "2",
+				"iLPNsReceived": "2",
+				"UnitsShipped": "0",
+				"UnitsReceived": "56.0",
+				"CreatedTimestamp": "2026-04-07T16:38:29.926",
+				"UpdatedTimestamp": "2026-04-07T16:40:07.186",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T16:38:29.794"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "2326.000000000",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "cf6039d3-d784-4a2f-a470-52673f1571b9"
+				}
+			],
+			"TransactionNumber": "7755799098095421473",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-04-07T16:38:29.794",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0500611",
+				"Description": "SF A/N BLDLS LN 2PC 17-22 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "005"			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "005",
+				"AsnLineId": "005",
+				"AsnId": "00059148220260302101829",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "2",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "56.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T16:38:32.325",
+				"UpdatedTimestamp": "2026-04-07T16:40:07.187",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T16:38:29.794"
+			},
+			"TransactionNumber": "7755799098095421473",
+			"SequenceNumber": 4,
+			"TransactionDateTime": "2026-04-07T16:38:29.794",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0459800",
+				"Description": "B/IN  C/C PORK LOIN 10/11L"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "003",
+				"ExpirationDate": "2026-04-27",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "003",
+				"AsnLineId": "003",
+				"AsnId": "00059148220260302101829",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "2",
+				"iLPNsReceived": "2",
+				"UnitsShipped": "0",
+				"UnitsReceived": "25.0",
+				"CreatedTimestamp": "2026-04-07T16:38:32.339",
+				"UpdatedTimestamp": "2026-04-07T16:40:07.187",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T16:38:29.794"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "1415",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "7f9331fa-db9e-4a2b-9ecf-2fcf5cc95f8b"
+				}
+			],
+			"TransactionNumber": "7755799098095421473",
+			"SequenceNumber": 5,
+			"TransactionDateTime": "2026-04-07T16:38:29.794",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0459800",
+				"Description": "B/IN  C/C PORK LOIN 10/11L"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "003"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "003",
+				"AsnLineId": "003",
+				"AsnId": "00059148220260302101829",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "2",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "25.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T16:38:32.351",
+				"UpdatedTimestamp": "2026-04-07T16:40:07.187",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T16:38:29.794"
+			},
+			"TransactionNumber": "7755799098095421473",
+			"SequenceNumber": 6,
+			"TransactionDateTime": "2026-04-07T16:38:29.794",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0456467",
+				"Description": "B-IN 1/4 PORK LOIN 14/17L"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001",
+				"ExpirationDate": "2026-09-09",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00059148220260302101829",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "5",
+				"iLPNsReceived": "5",
+				"UnitsShipped": "0",
+				"UnitsReceived": "80.0",
+				"CreatedTimestamp": "2026-04-07T16:38:32.360",
+				"UpdatedTimestamp": "2026-04-07T16:40:07.187",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T16:38:29.794"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "7780",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "8787f445-75c7-42ec-bb03-5a9a42107d23"
+				}
+			],
+			"TransactionNumber": "7755799098095421473",
+			"SequenceNumber": 7,
+			"TransactionDateTime": "2026-04-07T16:38:29.794",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0456467",
+				"Description": "B-IN 1/4 PORK LOIN 14/17L"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00059148220260302101829",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "5",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "80.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T16:38:32.371",
+				"UpdatedTimestamp": "2026-04-07T16:40:07.187",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T16:38:29.794"
+			},
+			"TransactionNumber": "7755799098095421473",
+			"SequenceNumber": 8,
+			"TransactionDateTime": "2026-04-07T16:38:29.794",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ASN_Level",
+			"Description": "ASN Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"PIXFields": {
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnId": "00059148220260302101829",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "N",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "9",
+				"iLPNsReceived": "9",
+				"UnitsShipped": "161.0000",
+				"UnitsReceived": "161.0000",
+				"CreatedTimestamp": "2026-04-07T16:38:29.936",
+				"UpdatedTimestamp": "2026-04-07T16:40:07.186",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T16:38:29.794"
+			},
+			"TransactionNumber": "7755799098095421473",
+			"SequenceNumber": 4,
+			"TransactionDateTime": "2026-04-07T16:38:29.794",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "aef8dae2-ff56-4bc2-9b9f-6b573cee03b0",
+	"TotalPages": 1
+}

@@ -11,12 +11,18 @@ public class Tester {
 //		getFirstValue();
 //		
 //		System.out.println(convertStringToInt("123"));
+		removeDecimal("5.0");
+		removeDecimal("5.23");
+		removeDecimal("115.2345");
+		removeDecimal("6");
+		removeDecimal("0");
+		removeDecimal("000.00");
 //		
 //		System.out.println("testTruncate="+truncate("9111111110922222222033333333309444444440",20));
 
-		System.out.println(calcCatchWght("001","15000","4"));
+//		System.out.println(calcCatchWght("001","15000","4"));
 	}
-	
+
 	public static String calcCatchWght(String asnSeqNbr, String wght, String ilpnReceived) {
 		
 		
@@ -29,6 +35,29 @@ public class Tester {
 	public static String truncate(String value, int maxSize) {
 		
 		return value.substring(0,maxSize);
+	}
+	public static String removeDecimal(String value) {
+		
+		StringBuilder newValue = new StringBuilder();
+		
+		for (int i = 0; i < value.length(); i++) {
+            char ch = value.charAt(i);
+            //System.out.println("Index " + i + ": " + ch);
+
+            if(ch=='.') {
+            	break;
+            }else
+            {
+            	newValue.append(ch);
+            }
+            
+        }
+		
+		System.out.println("inputValue  "+value);
+		System.out.println("outputValue "+newValue.toString());
+		System.out.println("");
+		
+		return newValue.toString();
 	}
 	public static int convertStringToInt(String value) {
 		int num = Integer.parseInt(value);

@@ -1,0 +1,99 @@
+<Error>
+	<RecoverableException>
+		<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+		<Line>423</Line>
+		<Function>ImbJniNode::evaluate</Function>
+		<Type>ComIbmMSLMappingNode</Type>
+		<Name>ASN_ilpn_receipt#FCMComposite_1_4</Name>
+		<Label>ASN_ilpn_receipt.mapManhattanMsg</Label>
+		<Catalog>BIPmsgs</Catalog>
+		<Severity>3</Severity>
+		<Number>2230</Number>
+		<Text>Caught exception and rethrowing</Text>
+		<Insert>
+			<Type>14</Type>
+			<Text>ASN_ilpn_receipt.mapManhattanMsg</Text>
+		</Insert>
+		<RecoverableException>
+			<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+			<Line>423</Line>
+			<Function>ImbJniNode::evaluate</Function>
+			<Type>ComIbmMSLMappingNode</Type>
+			<Name>ASN_ilpn_receipt#FCMComposite_1_2</Name>
+			<Label>ASN_ilpn_receipt.mapCobolMsg</Label>
+			<Catalog>BIPmsgs</Catalog>
+			<Severity>3</Severity>
+			<Number>2230</Number>
+			<Text>Caught exception and rethrowing</Text>
+			<Insert>
+				<Type>14</Type>
+				<Text>ASN_ilpn_receipt.mapCobolMsg</Text>
+			</Insert>
+			<RecoverableException>
+				<File>MbErrorHandler.java</File>
+				<Line>151</Line>
+				<Function>evaluate</Function>
+				<Type></Type>
+				<Name></Name>
+				<Label></Label>
+				<Catalog>BIPmsgs</Catalog>
+				<Severity>3</Severity>
+				<Number>3947</Number>
+				<Text>Caught BrokerXCIDynamicException</Text>
+				<Insert>
+					<Type>5</Type>
+					<Text>{default}:mapCobolMsg</Text>
+				</Insert>
+				<Insert>
+					<Type>5</Type>
+					<Text>Select: element FSM300_PO_CD { data( ($poNbr)[1] ) },</Text>
+				</Insert>
+				<RecoverableException>
+					<File>MbErrorHandlerBase.java</File>
+					<Line>195</Line>
+					<Function>throwableToMbException</Function>
+					<Type></Type>
+					<Name></Name>
+					<Label></Label>
+					<Catalog>BIPmsgs</Catalog>
+					<Severity>3</Severity>
+					<Number>3949</Number>
+					<Text>Caught BrokerXCIDynamicException</Text>
+					<Insert>
+						<Type>5</Type>
+						<Text>java.lang.NullPointerException at
+							Conversion.removeDecimal(Conversion.java:30) at
+							Conversion.convertStringToInt(Conversion.java:8) at
+							sun.reflect.GeneratedMethodAccessor100.invoke(Unknown Source) at
+							sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+							at java.lang.reflect.Method.invoke(Method.java:508) at
+							com.ibm.xltxe.rnm1.xtq.xslt.runtime.v2.BasisLibrary2.invokeJavaMemberF(BasisLibrary2.java:5216)
+							at
+							xmap_default__mapCobolMsg9843951214b02392_77__Common_Partition0.xmap_default__mapCobolMsg9843951214b02392_77_$24$$24$function$24$__xquery_result_fun__$2d$3(com_ibm_xmlns_prod_xltxe_j_linetable:110)
+							at
+							xmap_default__mapCobolMsg9843951214b02392_77_.evaluate(xmap_default__mapCobolMsg9843951214b02392_77_.java)
+							at
+							com.ibm.xltxe.rnm1.xtq.xquery.drivers.XQueryExecutable.execute(XQueryExecutable.java:220)
+							at
+							com.ibm.xltxe.rnm1.xtq.xquery.drivers.XQueryExecutable.execute(XQueryExecutable.java:97)
+							at
+							com.ibm.broker.map.MbMapExecutable.execute(MbMapExecutable.java:464)
+							at
+							com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:500)
+							at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138) at
+							com.ibm.broker.plugin.MbOutputTerminal._propagate(Native Method)
+							at
+							com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+							at
+							com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+							at
+							com.ibm.broker.ct.mapping.MappingNode.buildAndPropagate(MappingNode.java:1223)
+							at
+							com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:505)
+							at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138) </Text>
+					</Insert>
+				</RecoverableException>
+			</RecoverableException>
+		</RecoverableException>
+	</RecoverableException>
+</Error>

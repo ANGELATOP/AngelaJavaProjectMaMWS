@@ -1,0 +1,1097 @@
+{
+	"ContextInformation": {
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0732694",
+				"Description": "BI PORK BUTT 1PC 1PC8BG"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "003",
+				"ExpirationDate": "2026-09-09",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "003",
+				"AsnLineId": "003",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "3",
+				"iLPNsReceived": "2",
+				"UnitsShipped": "0",
+				"UnitsReceived": "26.0",
+				"CreatedTimestamp": "2026-04-07T18:22:36.753",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.977",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "2566.2",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "ef6f4287-6f0d-43b4-989c-9c24f9ff0a85"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0500553",
+				"Description": "SF A/N BNLS SRLN 1/2-1 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "002"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "002",
+				"AsnLineId": "002",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "20.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.419",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.978",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 4,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0732694",
+				"Description": "BI PORK BUTT 1PC 1PC8BG"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "003"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "003",
+				"AsnLineId": "003",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "3",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "50.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.519",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 13,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0250217",
+				"Description": "STRAP ON BNLS LOINS 5/7 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "005",
+				"ExpirationDate": "2027-05-01",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "005",
+				"AsnLineId": "005",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "4",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "30.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.530",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "1887",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "da40b0bc-9790-4777-97e2-ba10644a4ca7"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 14,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0062544",
+				"Description": "1/4 B/I BLD/ON PK LN 17/22LB AVG"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "006"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "006",
+				"AsnLineId": "006",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "8.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.540",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 15,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0520783",
+				"Description": "1/4 NECK/ON PRK BUTT 4/8 L"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001",
+				"ExpirationDate": "2026-04-28",
+				"ManufactureDate": "2026-04-07"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "8",
+				"iLPNsReceived": "4",
+				"UnitsShipped": "0",
+				"UnitsReceived": "100.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.550",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "8579.00",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "dafa01eb-4c7f-42e4-94e0-356ca951ebeb"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 16,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0062544",
+				"Description": "1/4 B/I BLD/ON PK LN 17/22LB AVG"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "006",
+				"ExpirationDate": "2026-04-27",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "006",
+				"AsnLineId": "006",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "8.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.561",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "406",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "e0242b6e-a6f2-496c-b79b-b0a6159d191c"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 17,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0732694",
+				"Description": "BI PORK BUTT 1PC 1PC8BG"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "003",
+				"ExpirationDate": "2027-05-06",
+				"ManufactureDate": "2027-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "003",
+				"AsnLineId": "003",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "3",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "24.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.572",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "2368.8",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "ef6f4287-6f0d-43b4-989c-9c24f9ff0a85"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 18,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0500504",
+				"Description": "SF A/N BNLS CC LOIN 5-7 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "004",
+				"ExpirationDate": "2026-09-09",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "004",
+				"AsnLineId": "004",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "3",
+				"iLPNsReceived": "3",
+				"UnitsShipped": "0",
+				"UnitsReceived": "80.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.583",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "3936",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "e3c2a1f6-4613-4524-8169-e8b44051480f"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 19,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0500033",
+				"Description": "SF A/N B/I CC LOIN 10-11 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "010"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "010",
+				"AsnLineId": "010",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "10.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.596",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 20,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0250217",
+				"Description": "STRAP ON BNLS LOINS 5/7 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "005"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "005",
+				"AsnLineId": "005",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "4",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "120.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.608",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 21,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0500553",
+				"Description": "SF A/N BNLS SRLN 1/2-1 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "002",
+				"ExpirationDate": "2027-10-05",
+				"ManufactureDate": "2027-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "002",
+				"AsnLineId": "002",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "20.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.616",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "953",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "53f53b02-ae19-4266-a028-bb79170afdcb"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 22,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0459800",
+				"Description": "B/IN  C/C PORK LOIN 10/11L"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "008"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "008",
+				"AsnLineId": "008",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "10.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.432",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.978",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 5,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0866475",
+				"Description": "SF A/N PRK BTT 2PK 5-7LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "011"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "011",
+				"AsnLineId": "011",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "2",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "35.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.633",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 23,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0520783",
+				"Description": "1/4 NECK/ON PRK BUTT 4/8 L"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "8",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "200.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.643",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 24,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0520783",
+				"Description": "1/4 NECK/ON PRK BUTT 4/8 L"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001",
+				"ExpirationDate": "2026-04-27",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "8",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "25.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.657",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "2144.75",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "dafa01eb-4c7f-42e4-94e0-356ca951ebeb"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 25,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0520783",
+				"Description": "1/4 NECK/ON PRK BUTT 4/8 L"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001",
+				"ExpirationDate": "2027-04-27",
+				"ManufactureDate": "2027-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "8",
+				"iLPNsReceived": "3",
+				"UnitsShipped": "0",
+				"UnitsReceived": "75.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.667",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "6434.25",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "dafa01eb-4c7f-42e4-94e0-356ca951ebeb"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 26,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0250217",
+				"Description": "STRAP ON BNLS LOINS 5/7 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "005",
+				"ExpirationDate": "2026-05-01",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "005",
+				"AsnLineId": "005",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "4",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "30.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.677",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "1887",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "da40b0bc-9790-4777-97e2-ba10644a4ca7"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 27,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0500504",
+				"Description": "SF A/N BNLS CC LOIN 5-7 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "004"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "004",
+				"AsnLineId": "004",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "3",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "80.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.441",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 6,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0866475",
+				"Description": "SF A/N PRK BTT 2PK 5-7LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "011",
+				"ExpirationDate": "2026-09-09",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "011",
+				"AsnLineId": "011",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "2",
+				"iLPNsReceived": "2",
+				"UnitsShipped": "0",
+				"UnitsReceived": "35.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.453",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "2380",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "d977c418-770e-40cf-9f14-6f98d4acbf04"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 7,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0459800",
+				"Description": "B/IN  C/C PORK LOIN 10/11L"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "008",
+				"ExpirationDate": "2026-09-09",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "008",
+				"AsnLineId": "008",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "10.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.465",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "566",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "b12399ff-8556-43e7-b307-fcbcd446816b"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 8,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0500033",
+				"Description": "SF A/N B/I CC LOIN 10-11 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "010",
+				"ExpirationDate": "2026-09-09",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "010",
+				"AsnLineId": "010",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "10.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.479",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "611",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "5eaa1fb2-df10-431c-a0b2-1e8f6361f944"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 9,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0250217",
+				"Description": "STRAP ON BNLS LOINS 5/7 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "005",
+				"ExpirationDate": "2026-09-09",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "005",
+				"AsnLineId": "005",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "4",
+				"iLPNsReceived": "2",
+				"UnitsShipped": "0",
+				"UnitsReceived": "60.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.489",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "3774",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "da40b0bc-9790-4777-97e2-ba10644a4ca7"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 10,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0576603",
+				"Description": "FRMLND  B/IN SIRLOIN 31 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "009",
+				"ExpirationDate": "2026-04-27",
+				"ManufactureDate": "2026-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "009",
+				"AsnLineId": "009",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "10.0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.499",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "538",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "e0751028-0f1b-45d8-9450-a7aabc7e85d8"
+				}
+			],
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 11,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0576603",
+				"Description": "FRMLND  B/IN SIRLOIN 31 LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "009"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "009",
+				"AsnLineId": "009",
+				"AsnId": "00058928920260214083700",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "10.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-07T18:22:43.510",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.979",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 12,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ASN_Level",
+			"Description": "ASN Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"PIXFields": {
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnId": "00058928920260214083700",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "N",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "26",
+				"iLPNsReceived": "26",
+				"UnitsShipped": "592.0000",
+				"UnitsReceived": "592.0000",
+				"CreatedTimestamp": "2026-04-07T18:22:36.764",
+				"UpdatedTimestamp": "2026-04-07T18:23:59.977",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-07T18:22:36.434"
+			},
+			"TransactionNumber": "7755861564847724356",
+			"SequenceNumber": 4,
+			"TransactionDateTime": "2026-04-07T18:22:36.434",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "8542afd5-4500-48bd-a726-a749cfde1b7e",
+	"TotalPages": 1
+}

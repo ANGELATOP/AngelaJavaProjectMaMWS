@@ -1,0 +1,151 @@
+{
+	"OriginalPayload": {
+		"ContextInformation": {
+			"Messages": null,
+			"Organization": "KC",
+			"UserId": "system-msg-user@KC",
+			"UserLocale": "UTC",
+			"Location": "KC"
+		},
+		"CurrentPage": 1,
+		"ExportDocuments": [
+			{
+				"Messages": null,
+				"PIXSpecification": "Add Lost Inventory",
+				"Description": "Add inventory to the Lost/Transitional bucket",
+				"SourceTransactionType": "ADD_LOST",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "NA",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0107250",
+					"Description": "JIF PEANUT BTR CRMY 12 OZ"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "2028-04-06",
+					"ManufactureDate": "",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "jeremy.johnson@awginc.com",
+					"FromInventoryBucket": "AVAILABLE",
+					"ToInventoryBucket": "UNAVAILABLE",
+					"InventoryAdjustmentQty": "11",
+					"Quantity": "11",
+					"AdjustedWeight": "111.221",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "",
+					"LocationId": "G09148",
+					"ReasonCodeId": "Z",
+					"ReferenceText": "",
+					"SecondaryReferenceText": "",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+								{
+									"Actions": {
+									},
+									"PK": null,
+									"CreatedBy": "gcoleman@awginc.com",
+									"CreatedTimestamp": "2025-12-04T19:24:16.35",
+									"UpdatedBy": "gcoleman@awginc.com",
+									"UpdatedTimestamp": "2025-12-04T19:24:16.35",
+									"Messages": null,
+									"ConditionCodeId": "L",
+									"Description": "Lost Unbillable Inventory",
+									"InventoryUnavailable": true,
+									"HostPriority": null,
+									"RemoveOnPutaway": false,
+									"RemoveOnCount": false,
+									"LocalizedData": null,
+									"LocalizedDataKVStore": null,
+									"Extended": {
+									}
+								}
+							]
+						},
+						{
+							"FromConditionCodes": [
+							]
+						}
+					],
+					"InventoryAdjustmentType": "MOVE",
+					"AdjustedType": "MOVE",
+					"AdjustedWeightType": "MOVE",
+					"CreatedTimestamp": "2026-04-02T15:44:04.877",
+					"UpdatedTimestamp": "2026-04-02T15:46:14.492",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-04-02T15:44:04.666"
+				},
+				"TransactionNumber": "7751446448765497874",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-04-02T15:44:04.666",
+				"Organization": "KC",
+				"Facility": "KC"
+			}
+		],
+		"UniqueJobId": "117db477-4bb5-45da-9bf4-13c88dbcb011",
+		"TotalPages": 1
+	},
+	"OriginalHeaders": {
+		"SelectedLocation": "KC",
+		"User": "system-msg-user@KC",
+		"Organization": "AWG-L1",
+		"ENCRYPTED_OAUTH_TOKEN": "b76G0mDU982dNcyw5Cc8E+800n7olOV2fXjX3ujeYvtP3D/jlSF9t6adGIAPx9gavh15V1w53tyDJyasOEfaifiJefpF+s5f1hY/ubkc+DlTa0JzqV3AL7BZIPhXXl2EMtnZ8DoFOmiIuQhucuo6lNwqUbBmXt/boYBNkDiNCateJLn19tDHmQ1PUTtzmMrpyQNZNIGcikXCClECZ6hDF5kG0mSlct+44Hey/5Ik3l/lmQRjwIa+JWRgSh9xcdlYK/KC1fpX5avX0Q0o5lwiBt83FsFAzrcW67wNfW5zaMdmjwuQ9R+x4jcH++eTy72g8inUlhpVaG/5SXKIvvlaaRhktQ8d67MNc6Se+RYb56/tB+j0Vsnk9Kiv2UG2edqyS/k1d/SPRTZzIQILqwJ8zo06AG/JFp5t33L4bXsFykQNq89tQG/aXnRi1VxGDxviDGTC5Dh3kuNbF+QJBPgdYLOT3doX+5aDY45mjxA1EyB+ey31qA8FPpgLAnhU6w6IoQib6MNT48V2Z/OU+0P5U0HXahDREB6udCqZN/krf/ga9QVGVlghqvZkQVw2hlKMQwKdJ2ahfOZGF5l4lkC4F1OrXQu1P6Rwmi+qzs8yOWYMthHDAq/5UGWoaOH/MP6UynD8oZ1+aIQ9FjBV9fuz2UMO5vPO6ffv/Gpl0h7/c5fkQZd2grZ0Cz5c7AZyH48kabnCeRoxfXC3hN287vwtDdubT1dNTgOxkO5kAhznbHPKP3cXcG+SU1609/1XS8+racSLBl8p1cR4sFJSB1o5wWgqWvt3ZkKOGHRlNnr273OUasPpNVhriQ+jwG6W+s5KUnuxSzYqQ6NEu0QM1c2f0RZkVejWYLdXydFbArrcxR4LpUHhxHPKwxer3eMbmDxA3hH6YWGWKnZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93VLj1KEKGxBerPqLdNwPi7cPusRhar61ust2noCtcb2c4wa7UeIDiahe2tOg9GZp0zpkS3lB1Gdz+oXKkYw8aJtqEdfw65dsPPcrqHeMJ96ayp4n4Oh3F53PnBdtNKjkkv9QRpE0XAjd1adXhizBAIZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93WjDRhQiF8gVaU4IwlHQkA0jxNGIzZHyV1QJzj98nGMGywm+Mp8/uTtFSyXozgcV09wDlSP1UQsykv31CjsnLPmc6wPeWvPn7yyHpfb5jMEzwLniQmyPn60ESq1X2T7joFV+t6QhUCD/fn/FPNkysnqWKn8Oc7Q1MIXOelbZx3DtCGS6Aae3T5xysirGUBOyyTo5584QOWuXsU9LTf9tjgBmDlXQoGrY5tI77/j7rvhKoCBttdaYkrO8Bdn4JpfhunIHey7cDJ4l5QGWtRYiREZsnXYTVfIwyyS8MxjUjiC8uyJXAks5nLlO5J+6BW1VJ5G5AsIx+lSOJ08K0hK3YWmKqpi1Ut6WPD9qvFW8Cx7yWdLNEOgiabEmAZT7vlocV2eM6zo8VLiWBSyqCWN9JTmNTFtUBsqvodRmfwT4LQkJMzsOx5jd9ysBprx1KKe8BRDxFUYfpwFMshbnIl3MtKoRf0KWTulbfNaRm9EICIHs4bOMea2yvxxGq5eimu+VP0b5CaJhnGPSzj/KPYTUGvcj7HIID3x6zA==",
+		"msg_submission_time": "2026-04-02T15:46:14.671",
+		"SelectedBusinessUnit": null,
+		"Label": null,
+		"msg_submission_time_utc": "2026-04-02T15:46:14.671Z",
+		"SPAN_ID": "35a010db9769020e",
+		"APP_ID_TRACE": "com-manh-cp-pix-all-com-manh-cp-pix-54c84cf57b-t28fw",
+		"fromExtensionPointId": "Inventory_Adjustment",
+		"PrimaryOrganization": "AWG-L1",
+		"PERSIST_TO_MSG_STORE": "true",
+		"ComponentName": "pix",
+		"ValidatedErrorCodes": "{\"Messages\":null,\"Overrides\":[\"RCV::429\"]}",
+		"SelectedOrganization": "KC",
+		"AllBusinessUnitsAccessible": "true",
+		"TRANSACTIONAL": "true",
+		"UserLocale": "en",
+		"QueueName": "PIX_XIN_InventoryAdjustment",
+		"PayloadQueueName": "awpf-payload-queue-pix",
+		"EXTENSION_POINT_ID": "Inventory_Adjustment",
+		"direction": "Internal",
+		"app-id": "com-manh-cp-pix-all-com-manh-cp-pix-54c84cf57b-t28fw",
+		"TRACE_ID": "453e0af917f00dba",
+		"ADDITIONAL_ATTRIBUTES": "{\"ReceivingNamespace~DockDoorId\":\"DOOR097\",\"APIFlowTracing~x-activitystream-url\":\"/api/receiving/lpn/receive\",\"PickNameSpace~requestHeaderNamespace\":\"ui-app-wm\",\"APIFlowTracing~x-activitystream-request-method\":\"POST\",\"ActivityTrackingNameSpace~ComponentName\":\"com-manh-cp-receiving\",\"ActivityTrackingNameSpace~CriteriaId\":\"Cross Dock Receiving Criteria\",\"componentScopedOrganization~relevantOrganizationId\":\"ba1a14220f5ce80a1500994dc1c57ab5f6ce75b8e0e34988de3c4404a6aa1e47\",\"ActivityTrackingNameSpace~TransactionId\":\"AWG Cross Dock Receiving\",\"ScConfigIds_Component~ReceivingCriteria\":\"dmmobile-facade\",\"activitystream~activityStreamContext\":{\"properties\":{}},\"APIFlowTracing~PreviousComponentSequencePrefix\":\"2\",\"ActivityTrackingNameSpace~DockDoorId\":\"DOOR097\",\"ScTransaction~TransactionId\":\"AWG Cross Dock Receiving\",\"activitystream~x-extension-handler-elapsed-time\":79,\"ActivityTrackingNameSpace~TargetLocationId\":\"SL097S1\",\"APIFlowTracing~url-pattern\":\"/api/receiving/lpn/receive\",\"TXN_IDENTIFIERS~TXN_ID\":\"7751445755159977411\",\"ActivityTrackingNameSpace~AsnId\":\"142511260104S\",\"ScTransaction~TransactionTypeId\":\"Receive\",\"ActivityTrackingNameSpace~ActivityDateTime\":\"2026-04-02T15:42:55.820\",\"APIFlowTracing~rootOriginated\":\"/services/rest/workflow/execute/workflowScriptName\",\"activitystream~x-activitystream-clientrequestid\":\"Browser-dellison@awginc.com 1775144575486\",\"ScConfigIds_Component~ReceivingStrategy\":\"dmmobile-facade\",\"ActivityTrackingNameSpace~UserId\":\"dellison@awginc.com\",\"com.manh.cp.core.platform.version.release.ReleaseMetadataService~RIPPLE_ID\":\"pilot\",\"ScConfigIds~ReceivingCriteria\":\"Cross Dock Receiving Criteria\",\"ERROR_CODES_VALIDATION~ValidatedErrorCodes\":{\"Messages\":null,\"Overrides\":[\"RCV::429\"]},\"ActivityTrackingNameSpace~ContainerId\":\"S00009001480369238\",\"ActivityTrackingNameSpace~TaskId\":\"RECV551c455a-d2d5-41a3-896a-1ecfd834fe6f\",\"ActivityTrackingNameSpace~CreateDateTime\":\"2026-04-02T15:42:55.820\",\"activitystream~x-activity-stream-request-id\":\"a0e9979c865f1634eba69db3427afd21\",\"ScConfigIds~ReceivingStrategy\":\"AWG Cross Dock Receive Strategy\",\"ActivityTrackingNameSpace~TransactionTypeId\":\"Receive\",\"APIFlowTracing~trimmed-url\":\"/lpn/receive\",\"APIFlowTracing~root-url-pattern\":\"/api/receiving/lpn/receive\",\"ReceivingNamespace~ReceivingModeId\":\"LPN\"}",
+		"TenantId": "awgrssf11o",
+		"MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"MSG_ID_PK": "405131708048726915297265697991452670",
+		"OUTBOUND_CONDITION_EVALUATION": "true",
+		"ProvisioningProfile": null,
+		"OUTBOUND_MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"fromExtensionPointMessageType": "PIX_XIN_InventoryAdjustment",
+		"MessageCategory": null,
+		"Location": "KC"
+	}
+}

@@ -1,0 +1,209 @@
+{
+	"OriginalPayload": {
+		"ContextInformation": {
+			"Messages": null,
+			"Organization": "KC",
+			"UserId": "system-msg-user@KC",
+			"UserLocale": "UTC",
+			"Location": "KC"
+		},
+		"CurrentPage": 1,
+		"ExportDocuments": [
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "ADJUST_UI",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0604854",
+					"Description": "TIC TAC FRUIT ADVNTR 1.7 OZ"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "2027-04-02",
+					"ManufactureDate": "",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "tyler.yencho@awginc.com",
+					"FromInventoryBucket": "AVAILABLE",
+					"ToInventoryBucket": "AVAILABLE",
+					"InventoryAdjustmentQty": "10",
+					"Quantity": "10",
+					"AdjustedWeight": "30.0",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "",
+					"LocationId": "G86336",
+					"ReasonCodeId": "P",
+					"ReferenceText": "",
+					"SecondaryReferenceText": "",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+							]
+						},
+						{
+							"FromConditionCodes": [
+							]
+						}
+					],
+					"InventoryAdjustmentType": "ADD",
+					"AdjustedType": "ADD",
+					"AdjustedWeightType": "ADD",
+					"CreatedTimestamp": "2026-03-19T15:58:24.210",
+					"UpdatedTimestamp": "2026-03-19T15:59:09.740",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-03-19T15:58:23.488"
+				},
+				"TransactionNumber": "7739359034808774059",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-03-19T15:58:23.488",
+				"Organization": "KC",
+				"Facility": "KC"
+			},
+			{
+				"Messages": null,
+				"PIXSpecification": "Inventory Adjustment",
+				"Description": "Single Inventory Adjustment PIX for Host Inventory changes",
+				"SourceTransactionType": "ADJUST_UI",
+				"SourceEventName": "INVENTORY_ADJUSTMENT",
+				"ItemDefinition": {
+					"Company": "KC",
+					"Season": "",
+					"SeasonYear": "",
+					"Style": "",
+					"StyleSuffix": "",
+					"Color": "",
+					"ColorSuffix": "",
+					"SecondDimension": "",
+					"SizeCode": "",
+					"SizeDescription": "",
+					"ItemId": "0501254",
+					"Description": "HUB BUB TAPE ORIG 2 OZ"
+				},
+				"SubItemFields": {
+					"InventoryTypeId": "",
+					"ProductStatusId": "",
+					"ItemBatchNumberId": "",
+					"InventoryAttribute1": "",
+					"InventoryAttribute2": "",
+					"InventoryAttribute3": "",
+					"InventoryAttribute4": "",
+					"InventoryAttribute5": "",
+					"CountryOfOrigin": "",
+					"ExpirationDate": "2027-01-27",
+					"ManufactureDate": "",
+					"PackUomQuantity": ""
+				},
+				"PIXFields": {
+					"BusinessUnitId": "",
+					"ExternalOrganizationId": "",
+					"CreatedBy": "tyler.yencho@awginc.com",
+					"FromInventoryBucket": "AVAILABLE",
+					"ToInventoryBucket": "AVAILABLE",
+					"InventoryAdjustmentQty": "10",
+					"Quantity": "10",
+					"AdjustedWeight": "20.0",
+					"AsnId": "",
+					"AsnStatus": "",
+					"PurchaseOrderId": "",
+					"AlternateAsnId": "",
+					"AlternatePurchaseOrderId": "",
+					"IlpnId": "",
+					"LocationId": "G85516",
+					"ReasonCodeId": "P",
+					"ReferenceText": "",
+					"SecondaryReferenceText": "",
+					"ConditionCodeChange": "N",
+					"ConditionCodes": [
+						{
+							"ToConditionCodes": [
+							]
+						},
+						{
+							"FromConditionCodes": [
+							]
+						}
+					],
+					"InventoryAdjustmentType": "ADD",
+					"AdjustedType": "ADD",
+					"AdjustedWeightType": "ADD",
+					"CreatedTimestamp": "2026-03-19T15:58:47.019",
+					"UpdatedTimestamp": "2026-03-19T15:59:09.742",
+					"UpdatedBy": "system-msg-user@KC",
+					"TransactionDateTime": "2026-03-19T15:58:46.859"
+				},
+				"TransactionNumber": "7739359268518866279",
+				"SequenceNumber": 1,
+				"TransactionDateTime": "2026-03-19T15:58:46.859",
+				"Organization": "KC",
+				"Facility": "KC"
+			}
+		],
+		"UniqueJobId": "0445d1bb-a5b7-4e3b-894a-62cf16aae0f4",
+		"TotalPages": 1
+	},
+	"OriginalHeaders": {
+		"SelectedLocation": "KC",
+		"User": "system-msg-user@KC",
+		"Organization": "AWG",
+		"ENCRYPTED_OAUTH_TOKEN": "b76G0mDU982dNcyw5Cc8E+800n7olOV2fXjX3ujeYvtP3D/jlSF9t6adGIAPx9gavh15V1w53tyDJyasOEfaifiJefpF+s5f1hY/ubkc+DlTa0JzqV3AL7BZIPhXXl2EMtnZ8DoFOmiIuQhucuo6lNwqUbBmXt/bGHasT808fJ9Oq2As7izlfA1PUTtzmMrpawCJRdiA+bP0A2dRiXL9dZkG0mSlct+4dVYWZG6rGIhVIb+VFC1J046OZiRZCfLqguc/DzaWCXU/Xse2U3o06w5qlsFSdPm767wNfW5zaMdmjwuQ9R+x4jcH++eTy72g8inUlhpVaG/5SXKIvvlaaRhktQ8d67MNc6Se+RYb56/tB+j0Vsnk9Kiv2UG2edqyS/k1d/SPRTZzIQILqwJ8zo06AG/JFp5t33L4bXsFykQNq89tQG/aXnRi1VxGDxviDGTC5Dh3kuNbF+QJBPgdYLOT3doX+5aDY45mjxA1EyB+ey31qA8FPpgLAnhU6w6IoQib6MNT48V2Z/OU+0P5U0HXahDREB6udCqZN/krf/iCWiWatdck2qnoSpwKLV4XljoQedilMBNg5lu2gqndSS8uIB6gP7WVkSkMZA9pYWsMthHDAq/5UGWoaOH/MP6UynD8oZ1+aIQ9FjBV9fuz2UMO5vPO6ffv/Gpl0h7/c5fkQZd2grZ0Cz5c7AZyH48kabnCeRoxfXC3hN287vwtDSofmoxTqrx8fGGT+P+Th7N9ouW6A5OiuQnGWB2f6UZposxQFr+C1Sg8oVJQfgfteImbHg/BHqiGGHRlNnr273OUasPpNVhriQ+jwG6W+s5KUnuxSzYqQ6NEu0QM1c2f0RZkVejWYLdXydFbArrcxR4LpUHhxHPKwxer3eMbmDxA3hH6YWGWKnZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93VLj1KEKGxBerPqLdNwPi7cPusRhar61ust2noCtcb2c4wa7UeIDiahe2tOg9GZp0zpkS3lB1Gdz+oXKkYw8aJtqEdfw65dsPPcrqHeMJ96ayp4n4Oh3F53PnBdtNKjkkv9QRpE0XAjd1adXhizBAIZjLsKIRfyunuH4pcckiJJ066MBpStrztddl6fUTZm93WjDRhQiF8gVaU4IwlHQkA0jxNGIzZHyV1QJzj98nGMGywm+Mp8/uTtFSyXozgcV09wDlSP1UQsy6jTUK21FHBQi1dPGS6sfzQ5Oi8JTm99sfegXFfwzmDj4k/Lbbmc+nfv1JyhX5Kv00jSIvdMh7qMahd+P64cE0SFPTtx+8WD1/TLQ6LB/dCSjXcG33lcngF2/d6IdcWtuRDJKvW0NWTWqeJ4LElKRC5kqfE0DHKCAbZE8gC9o3DUmMAOAacwzExPePqb3rOcS8HciYqXTw2LTOWWBdikzZjxc7bQOaf+XJXsnkpjLdOA7Ku7SMOWQH6kE6yLbS+HW5l1OqxaF4wwAXfNb/5FbN6U4x8rIum+5UEZFEBlZwTmoonUDZA8bXkvBoWBtHG2k+aAzj2DdlL4YEBZ43EfgUVCq9n4OdUjQcxUf15655Ai1jutaxyDCb+zxz3fZcB8TBaDIbtaimqwJSb+VSS2JwJaKhNH4Qe4GsyvqswHj5g784eY1oNGT9/0wBKaE/0TQNWSbBy3imJZWj9HTLPal/Q==",
+		"msg_submission_time": "2026-03-19T15:59:09.803",
+		"SelectedBusinessUnit": null,
+		"Label": null,
+		"msg_submission_time_utc": "2026-03-19T15:59:09.803Z",
+		"SPAN_ID": "542193064386c3c",
+		"APP_ID_TRACE": "com-manh-cp-pix-all-com-manh-cp-pix-dbfc4bf8b-6hqqt",
+		"fromExtensionPointId": "Inventory_Adjustment",
+		"PrimaryOrganization": "AWG",
+		"PERSIST_TO_MSG_STORE": "true",
+		"ComponentName": "pix",
+		"ValidatedErrorCodes": "{\"Messages\":null,\"Overrides\":[\"RCV::178\"]}",
+		"SelectedOrganization": "KC",
+		"AllBusinessUnitsAccessible": "true",
+		"TRANSACTIONAL": "true",
+		"UserLocale": "en",
+		"QueueName": "PIX_XIN_InventoryAdjustment",
+		"PayloadQueueName": "awpf-payload-queue-pix",
+		"EXTENSION_POINT_ID": "Inventory_Adjustment",
+		"direction": "Internal",
+		"app-id": "com-manh-cp-pix-all-com-manh-cp-pix-dbfc4bf8b-6hqqt",
+		"TRACE_ID": "8f0c4c7e536fb649",
+		"ADDITIONAL_ATTRIBUTES": "{\"APIFlowTracing~x-activitystream-url\":\"/api/receiving/asn/bulkImport\",\"APIFlowTracing~rootOriginated\":\"/asn/bulkImport\",\"APIFlowTracing~x-activitystream-request-method\":\"POST\",\"componentScopedOrganization~relevantOrganizationId\":\"4f85fdb8f9743ff2346e91a5eca50c2a82d3d86650e8c2798e920cab8083b49c\",\"com.manh.cp.core.platform.version.release.ReleaseMetadataService~RIPPLE_ID\":\"pilot\",\"EXTENSION_HANDLER_ACCESSOR~CURRENT_EXTENSION_HANDLER\":{\"pointId\":null,\"handlerId\":\"InvokePIXCS_MAAWGREX01SuggestedDockDoorPix\",\"packId\":\"AWGR_EX01_ExtensionPack\",\"packVersion\":\"4.0\",\"manhattanOwned\":true,\"handlerIdHashCode\":-2077610196},\"APIFlowTracing~PreviousComponentSequencePrefix\":\"0\",\"ERROR_CODES_VALIDATION~ValidatedErrorCodes\":{\"Messages\":null,\"Overrides\":[\"RCV::178\"]},\"APIFlowTracing~url-pattern\":\"/api/receiving/asn/bulkImport\",\"TXN_IDENTIFIERS~TXN_ID\":\"7739355837532866510\",\"activitystream~x-activity-stream-request-id\":\"5aae1a8f2f26188eee538905b59247b7\",\"ReceivingNamespace~asnTriggeredHeaderUpdate\":true,\"MessageLog~MessageLogLevel\":\"UNCONDITIONAL\",\"APIFlowTracing~trimmed-url\":\"/asn/bulkImport\",\"APIFlowTracing~root-url-pattern\":\"/api/receiving/asn/bulkImport\"}",
+		"TenantId": "awgrssf11o",
+		"MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"MSG_ID_PK": "259126493215533172732602999269285362",
+		"OUTBOUND_CONDITION_EVALUATION": "true",
+		"ProvisioningProfile": null,
+		"OUTBOUND_MSG_TYPE": "PIX_XIN_InventoryAdjustment",
+		"fromExtensionPointMessageType": "PIX_XIN_InventoryAdjustment",
+		"MessageCategory": null,
+		"Location": "KC"
+	}
+}

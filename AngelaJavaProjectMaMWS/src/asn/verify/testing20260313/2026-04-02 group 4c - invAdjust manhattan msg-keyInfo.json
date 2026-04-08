@@ -1,0 +1,80 @@
+{
+	"ContextInformation": {
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"PIXSpecification": "Add Lost Inventory",
+			"Description": "Add inventory to the Lost/Transitional bucket",
+			"SourceTransactionType": "ADD_LOST",
+			"SourceEventName": "INVENTORY_ADJUSTMENT",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0107250",
+				"Description": "JIF PEANUT BTR CRMY 12 OZ"
+			},
+			"SubItemFields": {
+				"ExpirationDate": "2028-04-06"
+			},
+			"PIXFields": {
+				"CreatedBy": "jeremy.johnson@awginc.com",
+				"FromInventoryBucket": "AVAILABLE",
+				"ToInventoryBucket": "UNAVAILABLE",
+				"InventoryAdjustmentQty": "11",
+				"Quantity": "11",
+				"AdjustedWeight": "111.221",
+				"LocationId": "G09148",
+				"ReasonCodeId": "Z",
+				"ConditionCodeChange": "N",
+				"ConditionCodes": [
+					{
+						"ToConditionCodes": [
+							{
+								"Actions": {
+								},
+								"PK": null,
+								"CreatedBy": "gcoleman@awginc.com",
+								"CreatedTimestamp": "2025-12-04T19:24:16.35",
+								"UpdatedBy": "gcoleman@awginc.com",
+								"UpdatedTimestamp": "2025-12-04T19:24:16.35",
+								"ConditionCodeId": "L",
+								"Description": "Lost Unbillable Inventory",
+								"InventoryUnavailable": true,
+								"HostPriority": null,
+								"RemoveOnPutaway": false,
+								"RemoveOnCount": false,
+								"LocalizedData": null,
+								"LocalizedDataKVStore": null,
+								"Extended": {
+								}
+							}
+						]
+					},
+					{
+						"FromConditionCodes": [
+						]
+					}
+				],
+				"InventoryAdjustmentType": "MOVE",
+				"AdjustedType": "MOVE",
+				"AdjustedWeightType": "MOVE",
+				"CreatedTimestamp": "2026-04-02T15:44:04.877",
+				"UpdatedTimestamp": "2026-04-02T15:46:14.492",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-02T15:44:04.666"
+			},
+			"TransactionNumber": "7751446448765497874",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-04-02T15:44:04.666",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "117db477-4bb5-45da-9bf4-13c88dbcb011",
+	"TotalPages": 1
+}

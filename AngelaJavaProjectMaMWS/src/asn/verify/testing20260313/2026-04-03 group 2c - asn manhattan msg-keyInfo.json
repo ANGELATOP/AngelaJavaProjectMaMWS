@@ -1,0 +1,299 @@
+{
+	"ContextInformation": {
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0471680",
+				"Description": "BST CH SPIRAL HF HAM 9/11LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001",
+				"ExpirationDate": "2026-09-09"
+			},
+			"PIXFields": {
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00058582420260121150227",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "5",
+				"iLPNsReceived": "4",
+				"UnitsShipped": "0",
+				"UnitsReceived": "114.0",
+				"CreatedTimestamp": "2026-04-02T17:30:19.085",
+				"UpdatedTimestamp": "2026-04-02T17:30:24.450",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-02T17:30:18.961"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "4532.64",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "41be833e-dd92-4dc8-b118-0536ee9ef22a"
+				}
+			],
+			"TransactionNumber": "7751510189769493016",
+			"SequenceNumber": 2,
+			"TransactionDateTime": "2026-04-02T17:30:18.961",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0471680",
+				"Description": "BST CH SPIRAL HF HAM 9/11LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001",
+				"ExpirationDate": "2026-09-02"
+			},
+			"PIXFields": {
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00058582420260121150227",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "5",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "34.0",
+				"CreatedTimestamp": "2026-04-02T17:30:20.182",
+				"UpdatedTimestamp": "2026-04-02T17:30:24.450",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-02T17:30:18.961"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "1351.84",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "41be833e-dd92-4dc8-b118-0536ee9ef22a"
+				}
+			],
+			"TransactionNumber": "7751510189769493016",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-04-02T17:30:18.961",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0471680",
+				"Description": "BST CH SPIRAL HF HAM 9/11LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001"
+			},
+			"PIXFields": {
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00058582420260121150227",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "5",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "150.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-02T17:30:20.192",
+				"UpdatedTimestamp": "2026-04-02T17:30:24.450",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-02T17:30:18.961"
+			},
+			"TransactionNumber": "7751510189769493016",
+			"SequenceNumber": 4,
+			"TransactionDateTime": "2026-04-02T17:30:18.961",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0471680",
+				"Description": "BST CH SPIRAL HF HAM 9/11LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001",
+				"ExpirationDate": "2026-09-09"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00058582420260121150227",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "5",
+				"iLPNsReceived": "4",
+				"UnitsShipped": "0",
+				"UnitsReceived": "114.0",
+				"CreatedTimestamp": "2026-04-02T17:30:19.093",
+				"UpdatedTimestamp": "2026-04-02T17:30:24.450",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-02T17:30:18.961"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "4532.64",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "41be833e-dd92-4dc8-b118-0536ee9ef22a"
+				}
+			],
+			"TransactionNumber": "7751510189769493016",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-04-02T17:30:18.961",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0471680",
+				"Description": "BST CH SPIRAL HF HAM 9/11LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001",
+				"ExpirationDate": "2026-09-02"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00058582420260121150227",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "5",
+				"iLPNsReceived": "1",
+				"UnitsShipped": "0",
+				"UnitsReceived": "34.0",
+				"CreatedTimestamp": "2026-04-02T17:30:20.539",
+				"UpdatedTimestamp": "2026-04-02T17:30:24.450",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-02T17:30:18.961"
+			},
+			"InventoryAttributes": [
+				{
+					"AttributeName": "CATCH_WEIGHT",
+					"AttributeValue": "1351.84",
+					"AttributeUom": "lb",
+					"UnitAttributeId": "41be833e-dd92-4dc8-b118-0536ee9ef22a"
+				}
+			],
+			"TransactionNumber": "7751510189769493016",
+			"SequenceNumber": 4,
+			"TransactionDateTime": "2026-04-02T17:30:18.961",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "CatchWeight_ITEM_Level",
+			"Description": "Verify ASN for Catch Weight at Item Level",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"ItemId": "0471680",
+				"Description": "BST CH SPIRAL HF HAM 9/11LB"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001"
+			},
+			"PIXFields": {
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00058582420260121150227",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "5",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "150.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-02T17:30:20.550",
+				"UpdatedTimestamp": "2026-04-02T17:30:24.450",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-02T17:30:18.961"
+			},
+			"TransactionNumber": "7751510189769493016",
+			"SequenceNumber": 5,
+			"TransactionDateTime": "2026-04-02T17:30:18.961",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ASN_Level",
+			"Description": "ASN Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"PIXFields": {
+				"AsnLevelId": "ITEM",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnId": "00058582420260121150227",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "5",
+				"iLPNsReceived": "5",
+				"UnitsShipped": "150.0000",
+				"UnitsReceived": "148.0000",
+				"CreatedTimestamp": "2026-04-02T17:30:19.100",
+				"UpdatedTimestamp": "2026-04-02T17:30:24.450",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-02T17:30:18.961"
+			},
+			"TransactionNumber": "7751510189769493016",
+			"SequenceNumber": 4,
+			"TransactionDateTime": "2026-04-02T17:30:18.961",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "77978f89-8382-4a8d-80a9-bf139bbba378",
+	"TotalPages": 1
+}

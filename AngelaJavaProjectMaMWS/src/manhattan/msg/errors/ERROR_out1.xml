@@ -1,0 +1,11 @@
+<Logging_Message>
+	<Timestamp>2026-03-24.13.22.56.211</Timestamp>
+	<Level>ERROR</Level>
+	<Source>integration_server</Source>
+	<Service>ErrorHandlingLogicMsgflow</Service>
+	<Status>Failed</Status>
+	<Path_NM></Path_NM>
+	<File_NM></File_NM>
+	<Message>SplitMaWMSmessge.subflow fclty=KC
+		msgIdPk=8587772049163321444387133893270804</Message>
+</Logging_Message>

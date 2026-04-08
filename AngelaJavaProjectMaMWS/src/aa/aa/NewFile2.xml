@@ -1,21 +1,298 @@
-<INVENTORY_STATUS_CHANGE_IFD>
-	<INVENTORY_STATUS_CHANGE_IFD_SEG>
-		<SITCOD>06</SITCOD>
-		<TRNNUM>00000000001303356866</TRNNUM>
-		<PRTNUM>0444505</PRTNUM>
-		<PRT_CLIENT_ID>----</PRT_CLIENT_ID>
-		<ORGCOD>----</ORGCOD>
-		<REVLVL>----</REVLVL>
-		<LOTNUM>----</LOTNUM>
-		<TO_ACCT>U</TO_ACCT>
-		<FR_ACCT>AVAILABLE</FR_ACCT>
-		<CHGQTY>0000000006</CHGQTY>
-		<SUBNUM>S00036037725</SUBNUM>
-		<STKUOM>EA</STKUOM>
-		<FR_INVSTS>A</FR_INVSTS>
-		<TO_INVSTS>D</TO_INVSTS>
-		<REACOD></REACOD>
-		<WH_ID>WMD1</WH_ID>
-		<TRNDTE>20251230072436</TRNDTE>
-	</INVENTORY_STATUS_CHANGE_IFD_SEG>
-</INVENTORY_STATUS_CHANGE_IFD>
+<Error>
+	<RecoverableException>
+		<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp
+		</File>
+		<Line>423</Line>
+		<Function>ImbJniNode::evaluate</Function>
+		<Type>ComIbmMSLMappingNode</Type>
+		<Name>PullYardAppt_FromMAWM#FCMComposite_1_3.MaWMS_CommonLIB.PullMessage#FCMComposite_1_25
+		</Name>
+		<Label>PullYardAppt_FromMAWM.PullMessage.buildTokenRequest</Label>
+		<Catalog>BIPmsgs</Catalog>
+		<Severity>3</Severity>
+		<Number>2230</Number>
+		<Text>Caught exception and rethrowing</Text>
+		<Insert>
+			<Type>14</Type>
+			<Text>PullYardAppt_FromMAWM.PullMessage.buildTokenRequest</Text>
+		</Insert>
+		<RecoverableException>
+			<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp
+			</File>
+			<Line>423</Line>
+			<Function>ImbJniNode::evaluate</Function>
+			<Type>ComIbmRouteNode</Type>
+			<Name>PullYardAppt_FromMAWM#FCMComposite_1_3.MaWMS_CommonLIB.PullMessage#FCMComposite_1_14
+			</Name>
+			<Label>PullYardAppt_FromMAWM.PullMessage.Route</Label>
+			<Catalog>BIPmsgs</Catalog>
+			<Severity>3</Severity>
+			<Number>2230</Number>
+			<Text>Caught exception and rethrowing</Text>
+			<Insert>
+				<Type>14</Type>
+				<Text>PullYardAppt_FromMAWM.PullMessage.Route</Text>
+			</Insert>
+			<RecoverableException>
+				<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp
+				</File>
+				<Line>423</Line>
+				<Function>ImbJniNode::evaluate</Function>
+				<Type>ComIbmMSLMappingNode</Type>
+				<Name>PullYardAppt_FromMAWM#FCMComposite_1_3.MaWMS_CommonLIB.PullMessage#FCMComposite_1_18
+				</Name>
+				<Label>PullYardAppt_FromMAWM.PullMessage.TokenStillValid</Label>
+				<Catalog>BIPmsgs</Catalog>
+				<Severity>3</Severity>
+				<Number>2230</Number>
+				<Text>Caught exception and rethrowing</Text>
+				<Insert>
+					<Type>14</Type>
+					<Text>PullYardAppt_FromMAWM.PullMessage.TokenStillValid</Text>
+				</Insert>
+				<RecoverableException>
+					<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp
+					</File>
+					<Line>423</Line>
+					<Function>ImbJniNode::evaluate</Function>
+					<Type>ComIbmMSLMappingNode</Type>
+					<Name>PullYardAppt_FromMAWM#FCMComposite_1_3.MaWMS_CommonLIB.PullMessage#FCMComposite_1_3
+					</Name>
+					<Label>PullYardAppt_FromMAWM.PullMessage.buildMsgRequest</Label>
+					<Catalog>BIPmsgs</Catalog>
+					<Severity>3</Severity>
+					<Number>2230</Number>
+					<Text>Caught exception and rethrowing</Text>
+					<Insert>
+						<Type>14</Type>
+						<Text>PullYardAppt_FromMAWM.PullMessage.buildMsgRequest</Text>
+					</Insert>
+					<RecoverableException>
+						<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp
+						</File>
+						<Line>423</Line>
+						<Function>ImbJniNode::evaluate</Function>
+						<Type>ComIbmMSLMappingNode</Type>
+						<Name>PullYardAppt_FromMAWM#FCMComposite_1_3.MaWMS_CommonLIB.PullMessage#FCMComposite_1_6
+						</Name>
+						<Label>PullYardAppt_FromMAWM.PullMessage.anyMessages</Label>
+						<Catalog>BIPmsgs</Catalog>
+						<Severity>3</Severity>
+						<Number>2230</Number>
+						<Text>Caught exception and rethrowing</Text>
+						<Insert>
+							<Type>14</Type>
+							<Text>PullYardAppt_FromMAWM.PullMessage.anyMessages</Text>
+						</Insert>
+						<RecoverableException>
+							<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp
+							</File>
+							<Line>423</Line>
+							<Function>ImbJniNode::evaluate</Function>
+							<Type>ComIbmRouteNode</Type>
+							<Name>PullYardAppt_FromMAWM#FCMComposite_1_3.MaWMS_CommonLIB.PullMessage#FCMComposite_1_8
+							</Name>
+							<Label>PullYardAppt_FromMAWM.PullMessage.Route1</Label>
+							<Catalog>BIPmsgs</Catalog>
+							<Severity>3</Severity>
+							<Number>2230</Number>
+							<Text>Caught exception and rethrowing</Text>
+							<Insert>
+								<Type>14</Type>
+								<Text>PullYardAppt_FromMAWM.PullMessage.Route1</Text>
+							</Insert>
+							<RecoverableException>
+								<File>/build/jenkins_swg/slot0/product-build/WMB/src/WebServices/WSLibrary/ImbHTTPHeaderNode.cpp
+								</File>
+								<Line>561</Line>
+								<Function>ImbHTTPHeaderNode::evaluate</Function>
+								<Type>ComIbmHTTPHeaderNode</Type>
+								<Name>PullYardAppt_FromMAWM#FCMComposite_1_3.MaWMS_CommonLIB.PullMessage#FCMComposite_1_21
+								</Name>
+								<Label>PullYardAppt_FromMAWM.PullMessage.HTTP Header</Label>
+								<Catalog>BIPmsgs</Catalog>
+								<Severity>3</Severity>
+								<Number>2230</Number>
+								<Text>Caught exception and rethrowing</Text>
+								<Insert>
+									<Type>14</Type>
+									<Text>PullYardAppt_FromMAWM.PullMessage.HTTP Header</Text>
+								</Insert>
+								<RecoverableException>
+									<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp
+									</File>
+									<Line>423</Line>
+									<Function>ImbJniNode::evaluate</Function>
+									<Type>ComIbmMSLMappingNode</Type>
+									<Name>PullYardAppt_FromMAWM#FCMComposite_1_3.MaWMS_CommonLIB.PullMessage#FCMComposite_1_16
+									</Name>
+									<Label>PullYardAppt_FromMAWM.PullMessage.getTotalMsgCount
+									</Label>
+									<Catalog>BIPmsgs</Catalog>
+									<Severity>3</Severity>
+									<Number>2230</Number>
+									<Text>Caught exception and rethrowing</Text>
+									<Insert>
+										<Type>14</Type>
+										<Text>PullYardAppt_FromMAWM.PullMessage.getTotalMsgCount
+										</Text>
+									</Insert>
+									<RecoverableException>
+										<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp
+										</File>
+										<Line>423</Line>
+										<Function>ImbJniNode::evaluate</Function>
+										<Type>ComIbmMSLMappingNode</Type>
+										<Name>PullYardAppt_FromMAWM#FCMComposite_1_3.MaWMS_CommonLIB.PullMessage#FCMComposite_1_11
+										</Name>
+										<Label>PullYardAppt_FromMAWM.PullMessage.splitGoogleMessages
+										</Label>
+										<Catalog>BIPmsgs</Catalog>
+										<Severity>3</Severity>
+										<Number>2230</Number>
+										<Text>Caught exception and rethrowing</Text>
+										<Insert>
+											<Type>14</Type>
+											<Text>PullYardAppt_FromMAWM.PullMessage.splitGoogleMessages
+											</Text>
+										</Insert>
+										<RecoverableException>
+											<File>MbErrorHandler.java</File>
+											<Line>151</Line>
+											<Function>evaluate</Function>
+											<Type></Type>
+											<Name></Name>
+											<Label></Label>
+											<Catalog>BIPmsgs</Catalog>
+											<Severity>3</Severity>
+											<Number>3947</Number>
+											<Text>Caught BrokerXCIDynamicException</Text>
+											<Insert>
+												<Type>5</Type>
+												<Text>{default}:splitGoogleMessages</Text>
+											</Insert>
+											<Insert>
+												<Type>5</Type>
+												<Text>Java: EnvironTestFcltySession:getQueueName:
+													iib:getUserDefinedProperty(&apos;awgTempQueue&apos;)</Text>
+											</Insert>
+											<RecoverableException>
+												<File>MbErrorHandlerBase.java</File>
+												<Line>195</Line>
+												<Function>throwableToMbException</Function>
+												<Type></Type>
+												<Name></Name>
+												<Label></Label>
+												<Catalog>BIPmsgs</Catalog>
+												<Severity>3</Severity>
+												<Number>3949</Number>
+												<Text>Caught BrokerXCIDynamicException</Text>
+												<Insert>
+													<Type>5</Type>
+													<Text>java.lang.NullPointerException at
+														MaWMS_CommonLIB.EnvironTestFcltySession.getQueueName(EnvironTestFcltySession.java:59)
+														at sun.reflect.GeneratedMethodAccessor91.invoke(Unknown
+														Source) at
+														sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+														at java.lang.reflect.Method.invoke(Method.java:508) at
+														com.ibm.xltxe.rnm1.xtq.xslt.runtime.v2.BasisLibrary2.invokeJavaMemberF(BasisLibrary2.java:5216)
+														at
+														xmap_default__splitGoogleMessages6cf54e2aa4a2b996_18__Common_Partition0.xmap_default__splitGoogleMessages6cf54e2aa4a2b996_18_$24$$24$function$24$__xquery_result_fun__$2d$3(com_ibm_xmlns_prod_xltxe_j_linetable:12)
+														at
+														xmap_default__splitGoogleMessages6cf54e2aa4a2b996_18_.evaluate(xmap_default__splitGoogleMessages6cf54e2aa4a2b996_18_.java)
+														at
+														com.ibm.xltxe.rnm1.xtq.xquery.drivers.XQueryExecutable.execute(XQueryExecutable.java:220)
+														at
+														com.ibm.xltxe.rnm1.xtq.xquery.drivers.XQueryExecutable.execute(XQueryExecutable.java:97)
+														at
+														com.ibm.broker.map.MbMapExecutable.execute(MbMapExecutable.java:464)
+														at
+														com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:500)
+														at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal._propagate(Native
+														Method) at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+														at
+														com.ibm.broker.ct.mapping.MappingNode.buildAndPropagate(MappingNode.java:1223)
+														at
+														com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:505)
+														at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal._propagate(Native
+														Method) at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+														at
+														com.ibm.broker.jdbcnodes.RouteNode.evaluate(RouteNode.java:322)
+														at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal._propagate(Native
+														Method) at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+														at
+														com.ibm.broker.ct.mapping.MappingNode.buildAndPropagate(MappingNode.java:1223)
+														at
+														com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:505)
+														at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal._propagate(Native
+														Method) at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+														at
+														com.ibm.broker.ct.mapping.MappingNode.buildAndPropagate(MappingNode.java:1223)
+														at
+														com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:505)
+														at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal._propagate(Native
+														Method) at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+														at
+														com.ibm.broker.ct.mapping.MappingNode.buildAndPropagate(MappingNode.java:1223)
+														at
+														com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:505)
+														at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal._propagate(Native
+														Method) at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+														at
+														com.ibm.broker.jdbcnodes.RouteNode.evaluate(RouteNode.java:342)
+														at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal._propagate(Native
+														Method) at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:133)
+														at
+														com.ibm.broker.plugin.MbOutputTerminal.propagate(MbOutputTerminal.java:88)
+														at
+														com.ibm.broker.ct.mapping.MappingNode.buildAndPropagate(MappingNode.java:1223)
+														at
+														com.ibm.broker.ct.mapping.MappingNode.evaluate(MappingNode.java:505)
+														at com.ibm.broker.plugin.MbNode.evaluate(MbNode.java:2138)
+													</Text>
+												</Insert>
+											</RecoverableException>
+										</RecoverableException>
+									</RecoverableException>
+								</RecoverableException>
+							</RecoverableException>
+						</RecoverableException>
+					</RecoverableException>
+				</RecoverableException>
+			</RecoverableException>
+		</RecoverableException>
+	</RecoverableException>
+</Error>
