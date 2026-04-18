@@ -1,0 +1,70 @@
+<test>
+
+
+	<Logging_Message>
+		<Timestamp>2026-04-17.18.51.59.934</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT1</Source>
+		<Service>TestPullTrigger2</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-17
+			18:51:59.0928new token: expiration date is 2026-04-17 19:49:58.0925
+		</Message>
+	</Logging_Message>
+
+	<Logging_Message>
+		<Timestamp>2026-04-17.18.51.59.932</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT1</Source>
+		<Service>TestPullTrigger3</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-17
+			18:51:59.0930new token: expiration date is 2026-04-17 19:49:58.0929
+		</Message>
+	</Logging_Message>
+
+	<Logging_Message>
+		<Timestamp>2026-04-17.18.51.59.931</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT1</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-17
+			18:51:59.0929new token: expiration date is 2026-04-17 19:49:58.0928
+		</Message>
+	</Logging_Message>
+
+
+	<Logging_Message>
+		<Timestamp>2026-04-17.19.09.50.497</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT1</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-17
+			19:09:50.0494new token: expiration date is 2026-04-17 20:07:49.0492
+		</Message>
+	</Logging_Message>
+
+	<Logging_Message>
+		<Timestamp>2026-04-17.20.09.49.934</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT1</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-17
+			20:09:49.0933new token: expiration date is 2026-04-17 21:07:48.0932
+		</Message>
+	</Logging_Message>
+
+</test>

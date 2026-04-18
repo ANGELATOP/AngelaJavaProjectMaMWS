@@ -1,0 +1,64 @@
+<test>
+
+	<Logging_Message>
+		<Timestamp>2026-04-17.22.34.43.931</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT1</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-17 22:34:43.0930
+			new token: token will expire in 2026-04-17 23:02:43.0929</Message>
+	</Logging_Message>
+	<Logging_Message>
+		<Timestamp>2026-04-17.22.36.34.474</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT1</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow: 401 Unauthorized error - will get
+			token again and call Google API again
+			URL:http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</Message>
+	</Logging_Message>
+	<Logging_Message>
+		<Timestamp>2026-04-17.22.37.00.495</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT1</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-17 22:36:43.0951
+			new token: token will expire in 2026-04-17 23:04:43.0950</Message>
+	</Logging_Message>
+	<Logging_Message>
+		<Timestamp>2026-04-17.22.40.14.052</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT1</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow: 401 Unauthorized error - will get
+			token again and call Google API again
+			URL:http://dpdev01-api-dev.awg.local:8028/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</Message>
+	</Logging_Message>
+
+	<Logging_Message>
+		<Timestamp>2026-04-17.22.40.34.857</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT1</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-17 22:40:21.0557
+			new token: token will expire in 2026-04-17 23:08:21.0556</Message>
+	</Logging_Message>
+
+</test>

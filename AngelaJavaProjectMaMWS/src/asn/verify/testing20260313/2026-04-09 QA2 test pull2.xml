@@ -1,0 +1,86 @@
+<test>
+	
+	<TestPullInput>
+		<recs>
+			<TestPull
+				apiUrl="http://dpowerapp-qa.awg.local:8032/v1/projects/awgr-masc-prd-01-ops/subscriptions/XNT_HST_ExportItem_GCPQ:pull"
+				bearToken="Bearer ya29.c.c0AZ4bNpZsHep63QS2G1pJzeNRxGuigq45uWO3nlqP-cR4gY1STgrImnDWew_eL37PU6K6E0AV3mHFM64vDgTScwGMdfsLcat8niw7QLbZJX-KxyyedvoVGlHXXqWRmgH-dyKcDBASu6qaQN5begzKy85ZYy1X9S65puLvKvqTsHhOdEvnzDVPjooWmcmJs-n2fntQ8mP2j5dzYVyaEuCxga1lCp-P5xz7FzhRq955mb-aqG4m2U1fqQN6DMmpvdcC0Cr6B48YnXr99DoDjIDzDmZYcWBKHouKXJloupsfN9ykI8mBAsosk49RZdhKlObjzbuL69qKL9Ck2wJhhVFZ97hg9ipKIVjZM2ijfPIDMnRgopxijVt-y7XD5wN387Cix9UrjRFs3oz4-fYcmfeR7Qv3uJIzBzk9h9U6i4fXm4mQk6B-atkSxSuwRWQ1whjusgUIUgJWoxptRvqdOm0vVWX2vuRIsRtRUeQI1268ns4VoWM-7mloYS5lIxfBFZ4qhW7vdewIwicgYe_vmIiroMdY1JJaiz6wBn0QBQeyIpS7e6i1u3Ouk19twnbmppu3RotXbWBsoRtoU0njhMXnpyY0Yl-UBuYXQnXoVFgRalQVZx3dv8wxJb0r7wyIcWiZae9XdF2S0ldgrXQte_cQ18_1M3khdO-6OIBFzY-RpRSka1xiq4zhl7z3e90Q9rut9IQ60xeR_nBjUlg5gRJRww4J6xmla3Fqn9coqybJFhZig5s8vx0BWbsbXRQMtgkoF35dnj14w9fcu1vs2yFZdbBJgt-wkq5k_kI1kYMaWhvrsd37-uOxFBSO2plxe3pXXQt2ZFbugdSO4pyFdYFfOsOrz__-cexJfZR2tJVYlsdOt2tdafOXyhO4u3pSUfRzVdl5VJ1ZyQsmijswgWSZt8j87dtpQ1WJxqRsmv7MR6oah4YoBlBJk1xY7hBOdWht489vUIlxJ7mxkcFlWUgz7moUYBhkj1Mz15y72UVcsulc72ZSJ1YXmkV"
+				brokerNm="IIBQ" comment="Successful_Pull"
+				googleTopic="XNT_HST_ExportItem_GCPQ"
+				tokenUrl="http://dpowerapp-qa.awg.local:8031"
+				X-Original-HTTP-Status-Line="HTTP/1.1 200 OK" />
+		</recs>
+	</TestPullInput>
+	<TestPullInput>
+		<recs>
+			<TestPull
+				apiUrl="http://dpowerapp-qa.awg.local:8032/v1/projects/awgr-masc-prd-01-ops/subscriptions/XNT_HST_MAEX02LIAPIX_GCPQ:pull"
+				brokerNm="IIBQ" comment="Failed_Pull"
+				googleTopic="XNT_HST_MAEX02LIAPIX_GCPQ"
+				tokenUrl="http://dpowerapp-qa.awg.local:8031"
+				X-Original-HTTP-Status-Line="HTTP/1.1 404 Not Found" />
+		</recs>
+	</TestPullInput>
+	<TestPullInput>
+		<recs>
+			<TestPull
+				apiUrl="http://dpowerapp-qa.awg.local:8032/v1/projects/awgr-masc-prd-01-ops/subscriptions/XNT_HST_Receipt_GCPQ:pull"
+				brokerNm="IIBQ" comment="Failed_Pull"
+				googleTopic="XNT_HST_Receipt_GCPQ"
+				tokenUrl="http://dpowerapp-qa.awg.local:8031"
+				X-Original-HTTP-Status-Line="HTTP/1.1 404 Not Found" />
+		</recs>
+	</TestPullInput>
+	<TestPullInput>
+		<recs>
+			<TestPull
+				apiUrl="http://dpowerapp-qa.awg.local:8032/v1/projects/awgr-masc-prd-01-ops/subscriptions/XNT_HST_Receipt_GCPQ:pull"
+				brokerNm="IIBQ" comment="Failed_Pull"
+				googleTopic="XNT_HST_Receipt_GCPQ"
+				tokenUrl="http://dpowerapp-qa.awg.local:8031"
+				X-Original-HTTP-Status-Line="HTTP/1.1 404 Not Found" />
+		</recs>
+	</TestPullInput>
+	<TestPullInput>
+		<recs>
+			<TestPull
+				apiUrl="http://dpowerapp-qa.awg.local:8032/v1/projects/awgr-masc-prd-01-ops/subscriptions/XNT_HST_InventoryAdjustment_GCPQ:pull"
+				brokerNm="IIBQ" comment="Failed_Pull"
+				googleTopic="XNT_HST_InventoryAdjustment_GCPQ"
+				tokenUrl="http://dpowerapp-qa.awg.local:8031"
+				X-Original-HTTP-Status-Line="HTTP/1.1 404 Not Found" />
+		</recs>
+	</TestPullInput>
+	<TestPullInput>
+		<recs>
+			<TestPull
+				apiUrl="http://dpowerapp-qa.awg.local:8032/v1/projects/awgr-masc-prd-01-ops/subscriptions/XNT_HST_InventorySyncSummary_GCPQ:pull"
+				brokerNm="IIBQ" comment="Failed_Pull"
+				googleTopic="XNT_HST_InventorySyncSummary_GCPQ"
+				tokenUrl="http://dpowerapp-qa.awg.local:8031"
+				X-Original-HTTP-Status-Line="HTTP/1.1 404 Not Found" />
+		</recs>
+	</TestPullInput>
+	<TestPullInput>
+		<recs>
+			<TestPull
+				apiUrl="http://dpowerapp-qa.awg.local:8032/v1/projects/awgr-masc-prd-01-ops/subscriptions/XNT_HST_AppointmentYard_GCPQ:pull"
+				brokerNm="IIBQ" comment="Failed_Pull"
+				googleTopic="XNT_HST_AppointmentYard_GCPQ"
+				tokenUrl="http://dpowerapp-qa.awg.local:8031"
+				X-Original-HTTP-Status-Line="HTTP/1.1 404 Not Found" />
+		</recs>
+	</TestPullInput>
+	<TestPullInput>
+		<recs>
+			<TestPull
+				apiUrl="http://dpowerapp-qa.awg.local:8032/v1/projects/awgr-masc-prd-01-ops/subscriptions/XNT_HST_ShipConfirm_GCPQ:pull"
+				brokerNm="IIBQ" comment="Failed_Pull"
+				googleTopic="XNT_HST_ShipConfirm_GCPQ"
+				tokenUrl="http://dpowerapp-qa.awg.local:8031"
+				X-Original-HTTP-Status-Line="HTTP/1.1 404 Not Found" />
+		</recs>
+	</TestPullInput>
+
+
+</test>

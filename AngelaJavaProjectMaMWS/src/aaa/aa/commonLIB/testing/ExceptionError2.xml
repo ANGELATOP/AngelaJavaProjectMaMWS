@@ -1,0 +1,126 @@
+<Error>
+	<RecoverableException>
+		<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+		<Line>423</Line>
+		<Function>ImbJniNode::evaluate</Function>
+		<Type>ComIbmMSLMappingNode</Type>
+		<Name>TestPullTrigger#FCMComposite_1_1.MaWMS_CommonLIB.PullMessageTester#FCMComposite_1_25</Name>
+		<Label>TestPullTrigger.PullMessageTester.buildTokenRequest</Label>
+		<Catalog>BIPmsgs</Catalog>
+		<Severity>3</Severity>
+		<Number>2230</Number>
+		<Text>Caught exception and rethrowing</Text>
+		<Insert>
+			<Type>14</Type>
+			<Text>TestPullTrigger.PullMessageTester.buildTokenRequest</Text>
+		</Insert>
+		<RecoverableException>
+			<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+			<Line>423</Line>
+			<Function>ImbJniNode::evaluate</Function>
+			<Type>ComIbmRouteNode</Type>
+			<Name>TestPullTrigger#FCMComposite_1_1.MaWMS_CommonLIB.PullMessageTester#FCMComposite_1_14</Name>
+			<Label>TestPullTrigger.PullMessageTester.Route</Label>
+			<Catalog>BIPmsgs</Catalog>
+			<Severity>3</Severity>
+			<Number>2230</Number>
+			<Text>Caught exception and rethrowing</Text>
+			<Insert>
+				<Type>14</Type>
+				<Text>TestPullTrigger.PullMessageTester.Route</Text>
+			</Insert>
+			<RecoverableException>
+				<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+				<Line>423</Line>
+				<Function>ImbJniNode::evaluate</Function>
+				<Type>ComIbmMSLMappingNode</Type>
+				<Name>TestPullTrigger#FCMComposite_1_1.MaWMS_CommonLIB.PullMessageTester#FCMComposite_1_18</Name>
+				<Label>TestPullTrigger.PullMessageTester.TokenStillValid</Label>
+				<Catalog>BIPmsgs</Catalog>
+				<Severity>3</Severity>
+				<Number>2230</Number>
+				<Text>Caught exception and rethrowing</Text>
+				<Insert>
+					<Type>14</Type>
+					<Text>TestPullTrigger.PullMessageTester.TokenStillValid</Text>
+				</Insert>
+				<RecoverableException>
+					<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+					<Line>423</Line>
+					<Function>ImbJniNode::evaluate</Function>
+					<Type>ComIbmMSLMappingNode</Type>
+					<Name>TestPullTrigger#FCMComposite_1_1.MaWMS_CommonLIB.PullMessageTester#FCMComposite_1_3</Name>
+					<Label>TestPullTrigger.PullMessageTester.buildMsgRequest</Label>
+					<Catalog>BIPmsgs</Catalog>
+					<Severity>3</Severity>
+					<Number>2230</Number>
+					<Text>Caught exception and rethrowing</Text>
+					<Insert>
+						<Type>14</Type>
+						<Text>TestPullTrigger.PullMessageTester.buildMsgRequest</Text>
+					</Insert>
+					<RecoverableException>
+						<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/PluginInterface/jlinklib/ImbJniNode.cpp</File>
+						<Line>423</Line>
+						<Function>ImbJniNode::evaluate</Function>
+						<Type>ComIbmMSLMappingNode</Type>
+						<Name>TestPullTrigger#FCMComposite_1_1.MaWMS_CommonLIB.PullMessageTester#FCMComposite_1_38.MaWMS_CommonLIB.TokenRetry#FCMComposite_1_3</Name>
+						<Label>TestPullTrigger.PullMessageTester.TokenRetry.isUnauthError</Label>
+						<Catalog>BIPmsgs</Catalog>
+						<Severity>3</Severity>
+						<Number>2230</Number>
+						<Text>Caught exception and rethrowing</Text>
+						<Insert>
+							<Type>14</Type>
+							<Text>TestPullTrigger.PullMessageTester.TokenRetry.isUnauthError</Text>
+						</Insert>
+						<RecoverableException>
+							<File>MbErrorHandler.java</File>
+							<Line>151</Line>
+							<Function>evaluate</Function>
+							<Type></Type>
+							<Name></Name>
+							<Label></Label>
+							<Catalog>BIPmsgs</Catalog>
+							<Severity>3</Severity>
+							<Number>3947</Number>
+							<Text>Caught BrokerXCIDynamicException</Text>
+							<Insert>
+								<Type>5</Type>
+								<Text>{MaWMS_CommonLIB}:PullMessageTester_isUnauthError</Text>
+							</Insert>
+							<Insert>
+								<Type>5</Type>
+								<Text>RDBInsert: let $dbinsert := jdbc:insert(&apos;scm&apos;,
+									&apos;insert into DB2PDBA.ATOPPINS_TEST &apos;,
+									$dbinsert_var_params,
+									xs:int(&apos;0&apos;),false(),&apos;&apos;,
+									xs:int(&apos;2&apos;) )</Text>
+							</Insert>
+							<RecoverableException>
+								<File>MbErrorHandlerBase.java</File>
+								<Line>174</Line>
+								<Function>throwableToMbException</Function>
+								<Type></Type>
+								<Name></Name>
+								<Label></Label>
+								<Catalog>BIPmsgs</Catalog>
+								<Severity>3</Severity>
+								<Number>3949</Number>
+								<Text>Caught BrokerXCIDynamicException</Text>
+								<Insert>
+									<Type>5</Type>
+									<Text>com.ibm.db2.jcc.am.SqlDataException: DB2 SQL Error:
+										SQLCODE=-302, SQLSTATE=22001, SQLERRMC=null, DRIVER=4.33.31
+										DB2 SQL Error: SQLCODE=-302, SQLSTATE=22001, SQLERRMC=null,
+										DRIVER=4.33.31
+									</Text>
+								</Insert>
+							</RecoverableException>
+						</RecoverableException>
+					</RecoverableException>
+				</RecoverableException>
+			</RecoverableException>
+		</RecoverableException>
+	</RecoverableException>
+</Error>

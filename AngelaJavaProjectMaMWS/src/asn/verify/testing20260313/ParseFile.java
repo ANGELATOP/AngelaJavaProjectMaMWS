@@ -21,6 +21,7 @@ public class ParseFile {
 		// TODO Auto-generated method stub
 
 //		process("manhattanMsg.json");
+//		process("2026-04-15 1b - asnVerify manhattan msg-soapUI.json");
 		
 //		process("2026-04-02 2 asn verify manhattan msg issue T2.json");
 //		process("2026-04-03 group 1b - asn manhattan msg - from RichardM.json");
@@ -34,14 +35,19 @@ public class ParseFile {
 //		getKeyInfoAsnVerify("2026-04-03 group 2b - asn manhattan msg - from RichardM.json");
 //		getKeyInfoAsnVerify("2026-04-07 group 1b asn manhattan msg-soapUI.json");
 //		getKeyInfoAsnVerify("2026-04-07 group 2b asn manhattan msg-soapUI.json");
+//		getKeyInfoAsnVerify("2026-04-15 1b - asnVerify manhattan msg-soapUI.json");
 
 //		getKeyInfoAsnVerifySpecificMessages("2026-04-07 group 2b asn manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"001\"");
 //		getKeyInfoAsnVerifySpecificMessages("2026-04-07 group 2b asn manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"003\"");
 //		getKeyInfoAsnVerifySpecificMessages("2026-04-07 group 2b asn manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"005\"");
 //		getKeyInfoAsnVerifySpecificMessages("2026-04-07 group 2b asn manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"004\"");
 //		getKeyInfoAsnVerifySpecificMessages("2026-02-13 asn verify dupPoLineDupValue.json","\"AsnSequenceNumber\": \"007\"");
-		getKeyInfoAsnVerifySpecificMessages("2026-04-08 group-1b ASN Verify msg-soapUI.json","\"AsnSequenceNumber\": \"001\"");
+//		getKeyInfoAsnVerifySpecificMessages("2026-04-08 group-1b ASN Verify msg-soapUI.json","\"AsnSequenceNumber\": \"001\"");
+//		getKeyInfoAsnVerifySpecificMessages("2026-04-15 1b - asnVerify manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"001\"");
+		getKeyInfoAsnVerifySpecificMessages("2026-04-15 1b - asnVerify manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"015\"");
 
+		
+		
 //		getKeyInfoInvAdjust("2026-04-02 group 1b - invAdjust manhattan msg.json");	
 //		getKeyInfoInvAdjust("2026-04-02 group 2b - invAdjust manhattan msg.json");	
 //		getKeyInfoInvAdjust("2026-04-02 group 3b - invAdjust manhattan msg.json");	

@@ -1,0 +1,90 @@
+<TEST>
+
+	<Logging_Message>
+		<Timestamp>2026-04-18.13.53.20.849</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT2</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-18 13:53:20.0848
+			new token: token will expire in 2026-04-18 14:21:20.0848
+		</Message>
+	</Logging_Message>
+
+	<Logging_Message>
+		<Timestamp>2026-04-18.13.56.08.313</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT2</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow: 401 Unauthorized error - will get
+			token again and call Google API again
+			URL:http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</Message>
+	</Logging_Message>
+
+	<Logging_Message>
+		<Timestamp>2026-04-18.13.56.08.413</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT2</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-18 13:56:08.0413
+			new token: token will expire in 2026-04-18 14:24:08.0413
+		</Message>
+	</Logging_Message>
+
+
+	<Logging_Message
+		COMMENTS="TEST 2 PUT GOOGLE MSG ON TOPIC - pull msg">
+		<Timestamp>2026-04-18.14.00.15.108</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT2</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow: 401 Unauthorized error - will get
+			token again and call Google API again
+			URL:http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</Message>
+	</Logging_Message>
+
+	<Logging_Message
+		COMMENTS="TEST 2 PUT GOOGLE MSG ON TOPIC - pull msg">
+		<Timestamp>2026-04-18.14.00.15.198</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT2</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-18 14:00:15.0198
+			new token: token will expire in 2026-04-18 14:28:15.0197
+		</Message>
+	</Logging_Message>
+
+	<Logging_Message
+		COMMENTS="TEST 2 PUT GOOGLE MSG ON TOPIC - acknowledgement">
+		<Timestamp>2026-04-18.14.00.17.093</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT2</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow: 401 Unauthorized error - will get
+			token again and call Google API again
+			URL:http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:acknowledge
+		</Message>
+	</Logging_Message>
+
+
+
+</TEST>

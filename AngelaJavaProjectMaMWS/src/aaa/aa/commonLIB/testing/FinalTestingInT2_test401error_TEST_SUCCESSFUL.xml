@@ -1,0 +1,111 @@
+<test>
+
+	<Logging_Message processTime="2:09:35pm"
+		testing="expire date will be 3:24pm"
+		comments="deploy commonLib to T2, intentionally set expired date to be 75 minutes from current time to test 401 unauth error">
+		<Timestamp>2026-04-18.14.09.35.859</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT2</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-18 14:09:35.0858
+			new token: token will expire in 2026-04-18 15:24:34.0856
+		</Message>
+	</Logging_Message>
+	<blank>----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	</blank>
+	<Logging_Message
+		comments="1 google msg on destination queue ATOPPIN.TEMP.ASN.VERIFY">
+		<process time="2:14:37pm" total=" 1 messages" />
+	</Logging_Message>
+	<Logging_Message
+		comments="1 google msg on destination queue ATOPPIN.TEMP.ASN.VERIFY">
+		<process time="2:18:37pm" total=" 1 messages" />
+	</Logging_Message>
+	<Logging_Message
+		comments="5 google msg on destination queue ATOPPIN.TEMP.ASN.VERIFY">
+		<process time="2:19:37pm" total=" 5 messages" />
+	</Logging_Message>
+	<Logging_Message
+		comments="30 google msg on destination queue ATOPPIN.TEMP.ASN.VERIFY">
+		<process time="2:23:05pm" total=" 1 messages" />
+		<process time="2:23:37pm" total=" 6 messages" />
+		<process time="2:24:07pm" total=" 1 messages" />
+		<process time="2:24:37pm" total=" 2 messages" />
+		<process time="2:25:06pm" total=" 1 messages" />
+		<process time="2:25:38pm" total="17 messages" />
+		<process time="2:26:07pm" total=" 2 messages" />
+	</Logging_Message>
+	<Logging_Message
+		comments="100 google msg on destination queue ATOPPIN.TEMP.ASN.VERIFY">
+		<process time="2:38:07pm" total="9 messages" />
+		<process time="2:38:37pm" total="11 messages" />
+		<process time="2:39:07pm" total="50 messages" />
+		<process time="2:39:36pm" error="http 500 error"
+			comments="looks like a socket connection error, exited the flow and trigger 30secs later." />
+		<process time="2:40:06pm" total=" 7 messages" />
+		<process time="2:40:37pm" total="11 messages" />
+		<process time="2:41:06pm" total="12 messages" />
+	</Logging_Message>
+	<blank>----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	</blank>
+	<Logging_Message processTime="2:39:36pm"
+		error="http 500 error">
+		<Timestamp>2026-04-18.14.39.36.174</Timestamp>
+		<Level>ERROR</Level>
+		<Source>IIBT2</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>Failed</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>GoogleAPI Error:HTTP/1.1 500 Error
+			URL:http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</Message>
+	</Logging_Message>
+	<blank>----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	</blank>
+
+	<Logging_Message processTime="3:09:35pm" testResults="Successful test: log the 401 error">
+		<Timestamp>2026-04-18.15.09.35.885</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT2</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow: 401 Unauthorized error - will get
+			token again and call Google API again
+			URL:http://dpdev01-api-dev.awg.local:8021/v1/projects/awgr-masc-stg-01-ops/subscriptions/XNT_HST_VerifyASN_GCPQ:pull
+		</Message>
+	</Logging_Message>
+
+	<Logging_Message processTime="3:09:35pm" testResults="Successful test: get new token and call api again">
+		<Timestamp>2026-04-18.15.09.35.994</Timestamp>
+		<Level>INFO</Level>
+		<Source>IIBT2</Source>
+		<Service>TestPullTrigger</Service>
+		<Status>INFO</Status>
+		<Path_NM></Path_NM>
+		<File_NM></File_NM>
+		<Message>CommonLIB Pull SubFlow:system date: 2026-04-18 15:09:35.0993
+			new token: token will expire in 2026-04-18 16:24:34.0993
+		</Message>
+	</Logging_Message>
+	<blank>----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	</blank>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</test>
