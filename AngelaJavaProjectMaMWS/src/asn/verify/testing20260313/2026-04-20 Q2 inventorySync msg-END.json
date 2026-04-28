@@ -1,5 +1,5 @@
 {
-	"Description": "InventorysyncsummarystarttoHOST",
+	"Description": "InventorysyncsummaryendtoHOST",
 	"TransactionNumber": "1d2d14be5432febf81ee9ee5536470b781919cf0ba154e6a5ca0fd56c8aced37",
 	"Organization": "KC",
 	"ContextInformation": {
@@ -12,14 +12,14 @@
 	"ItemDefinition": {
 		"ItemId": ""
 	},
-	"CreateDateTime": "2026-04-20T22:14:36.688",
-	"PIXSpecification": "InvSync_Summary_Start",
+	"CreateDateTime": "2026-04-20T22:17:51.522",
+	"PIXSpecification": "InvSync_Summary_End",
 	"TransactionDateTime": "2026-04-20T22:14:34.567",
 	"TotalPages": 23,
-	"SourceTransactionType": "SYNC_START",
+	"SourceTransactionType": "SYNC_END",
 	"SourceEventName": "INVENTORY_SUMMARY",
 	"TotalCount": 20846,
-	"CurrentPage": 1,
+	"CurrentPage": 23,
 	"SubItemFields": {
 		"ProductStatusId": "",
 		"ExpirationDate": "",
@@ -41,7 +41,7 @@
 		"CreatedBy": "wallace.squibb@awginc.com",
 		"FromInventoryBucket": "",
 		"IlpnId": "",
-		"PixCount": "",
+		"PixCount": "20846",
 		"BusinessUnitId": "",
 		"LocationId": "",
 		"Quantity": "",
@@ -49,7 +49,7 @@
 		"ReasonCodeId": "",
 		"ToInventoryBucket": "",
 		"SyncBatchId": "1d2d14be5432febf81ee9ee5536470b781919cf0ba154e6a5ca0fd56c8aced37",
-		"TotalCount": "",
+		"TotalCount": "20846",
 		"PurchaseOrderId": "",
 		"AsnId": ""
 	}

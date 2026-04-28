@@ -1,0 +1,470 @@
+{
+	"ContextInformation": {
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 1,
+	"ExportDocuments": [
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0200734",
+				"Description": "FSHR STHN HNT MIX 23 OZ"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "015"
+			},
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "015",
+				"AsnLineId": "015",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "34.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-20T15:16:07.765",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.854",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 2,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0103027",
+				"Description": "FSHR SLICED ALMONDS 10 OZ"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "007"
+			},
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "007",
+				"AsnLineId": "007",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "30.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-20T15:16:08.813",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.856",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0207331",
+				"Description": "FSHR STHN GOURMET 23 OZ"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "017"
+			},
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "017",
+				"AsnLineId": "017",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "68.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-20T15:16:08.896",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.856",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 12,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0227067",
+				"Description": "FSHR DRY RSTD PNUTS 36 OZ"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "019"
+			},
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "019",
+				"AsnLineId": "019",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "33.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-20T15:16:08.823",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.856",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 4,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0200188",
+				"Description": "FSHR DRY HNY RST PNT 14 OZ"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "013"
+			},
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "013",
+				"AsnLineId": "013",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "15.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-20T15:16:08.833",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.856",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 5,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0103030",
+				"Description": "FSHR CHOPPED WALNUTS 10 OZ"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "011"
+			},
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "011",
+				"AsnLineId": "011",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "30.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-20T15:16:08.842",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.856",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 6,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0227068",
+				"Description": "FSHR HNY RSTD PNUTS 36 OZ"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "021"
+			},
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "021",
+				"AsnLineId": "021",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "22.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-20T15:16:08.851",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.856",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 7,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0051911",
+				"Description": "OVH PB CHOCOLATE 6 OZ"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "003"
+			},
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "003",
+				"AsnLineId": "003",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "43.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-20T15:16:08.860",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.856",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 8,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0103029",
+				"Description": "FSHR WALNUT HALVES 10 OZ"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "009"
+			},
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "009",
+				"AsnLineId": "009",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "30.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-20T15:16:08.869",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.856",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 9,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0012075",
+				"Description": "OVH DIPPED ALMOND 5 OZ"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "001"
+			},
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "001",
+				"AsnLineId": "001",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "43.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-20T15:16:08.878",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.856",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 10,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ITEM_Level",
+			"Description": "Item Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"ItemDefinition": {
+				"Company": "KC",
+				"Color": "NA",
+				"ItemId": "0051970",
+				"Description": "FSHR ROAD TRIP MIX 19 OZ"
+			},
+			"SubItemFields": {
+				"ItemBatchNumberId": "005"
+			},
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnSequenceNumber": "005",
+				"AsnLineId": "005",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "Y",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "1",
+				"iLPNsReceived": "0",
+				"UnitsShipped": "11.0",
+				"UnitsReceived": "0",
+				"CreatedTimestamp": "2026-04-20T15:16:08.887",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.856",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 11,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		},
+		{
+			"PIXSpecification": "ASN_Level",
+			"Description": "ASN Level Variance",
+			"SourceTransactionType": "Receiving",
+			"SourceEventName": "Verify_ASN",
+			"PIXFields": {
+				"AsnLevelId": "LPN",
+				"CreatedBy": "richard.melton@awginc.com",
+				"AsnId": "00014217320260417150601",
+				"AsnStatus": "8000",
+				"AsnOriginTypeId": "P",
+				"ReceiptVariance": "N",
+				"ReceiptsCompleted": "Y",
+				"iLPNsShipped": "3",
+				"iLPNsReceived": "3",
+				"UnitsShipped": "21.0000",
+				"UnitsReceived": "21.0000",
+				"CreatedTimestamp": "2026-04-20T15:16:07.773",
+				"UpdatedTimestamp": "2026-04-20T15:19:25.855",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionDateTime": "2026-04-20T15:16:07.545"
+			},
+			"TransactionNumber": "7766981676006518462",
+			"SequenceNumber": 3,
+			"TransactionDateTime": "2026-04-20T15:16:07.545",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"UniqueJobId": "a946ecf0-f7bb-45bf-8aff-46dd805b9608",
+	"TotalPages": 1
+}

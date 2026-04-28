@@ -1,0 +1,74 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 2,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "InvSync_Summary_CC_Avail",
+			"Description": "InventorysyncsummarybyconditioncodeavailabletoHOST",
+			"SourceTransactionType": "AVAILABLE",
+			"SourceEventName": "INVENTORY_SUMMARY_BY_CONDITION_CODE",
+			"ItemDefinition": {
+				"ItemId": "0014434",
+				"Description": ""
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"PackUomQuantity": "",
+				"ItemBatchNumberId": "",
+				"ExpirationDate": "",
+				"ManufactureDate": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "wallace.squibb@awginc.com",
+				"FromInventoryBucket": "",
+				"ToInventoryBucket": "",
+				"InventoryAdjustmentQty": "26.0",
+				"Quantity": "26.0",
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeight": "0",
+				"AttributeWeight": "0",
+				"AdjustedWeightType": "ADD",
+				"SnapshotDateTime": "{nano=322763000,hour=22,minute=14,second=36,year=2026,month=APRIL,dayOfMonth=20,dayOfWeek=MONDAY,dayOfYear=110,monthValue=4,chronology={id=ISO,calendarType=iso8601}}",
+				"SerializedSnapshotDateTime": "2026-04-20T22:14:36.322763",
+				"LocationId": "",
+				"AsnId": "",
+				"PurchaseOrderId": "",
+				"IlpnId": "",
+				"ReasonCodeId": "",
+				"SyncBatchId": "1d2d14be5432febf81ee9ee5536470b781919cf0ba154e6a5ca0fd56c8aced37",
+				"PixCount": "",
+				"TotalCount": "",
+				"ConditionCode": "",
+				"Disposition": "Available",
+				"CreatedTimestamp": "2026-04-20T22:14:37.812",
+				"UpdatedTimestamp": "2026-04-20T22:14:48.503",
+				"UpdatedBy": "wallace.squibb@awginc.com",
+				"TransactionNumber": "1d2d14be5432febf81ee9ee5536470b781919cf0ba154e6a5ca0fd56c8aced37",
+				"TransactionDateTime": "2026-04-20T22:14:36.322"
+			},
+			"TransactionNumber": "1d2d14be5432febf81ee9ee5536470b781919cf0ba154e6a5ca0fd56c8aced37",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-04-20T22:14:36.322",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"TotalPages": 23
+}

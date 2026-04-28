@@ -1,0 +1,58 @@
+{
+	"Description": null,
+	"TransactionNumber": null,
+	"Organization": null,
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"ItemDefinition": {
+		"ItemId": null
+	},
+	"CreateDateTime": null,
+	"PIXSpecification": null,
+	"TransactionDateTime": null,
+	"TotalPages": 23,
+	"SourceTransactionType": null,
+	"SourceEventName": null,
+	"TotalCount": {
+	},
+	"CurrentPage": 6,
+	"SubItemFields": {
+		"ProductStatusId": null,
+		"ExpirationDate": null,
+		"ItemBatchNumberId": null,
+		"PackUomQuantity": null,
+		"ManufactureDate": null,
+		"CountryOfOrigin": null,
+		"InventoryAttribute1": null,
+		"InventoryAttribute2": null,
+		"InventoryAttribute3": null,
+		"InventoryTypeId": null,
+		"InventoryAttribute4": null,
+		"InventoryAttribute5": null
+	},
+	"SequenceNumber": {
+	},
+	"Facility": null,
+	"PIXFields": {
+		"ExternalOrganizationId": null,
+		"CreatedBy": null,
+		"FromInventoryBucket": null,
+		"IlpnId": null,
+		"PixCount": null,
+		"BusinessUnitId": null,
+		"LocationId": null,
+		"Quantity": null,
+		"SnapshotDateTime": null,
+		"ReasonCodeId": null,
+		"ToInventoryBucket": null,
+		"SyncBatchId": null,
+		"TotalCount": null,
+		"PurchaseOrderId": null,
+		"AsnId": null
+	}
+}

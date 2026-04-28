@@ -30,12 +30,14 @@ public class ParseFile {
 //		process("2026-04-07 group 2b asn manhattan msg-soapUI.json");
 //		process("2026-02-13 asn verify dupPoLineDupValue.json");
 //		process("2026-04-08 group-1b ASN Verify msg-soapUI.json");
+//		process("2026-04-20 ASN Verify msg2_soapUI.json");
 		
 //		getKeyInfoAsnVerify("2026-04-03 group 1b - asn manhattan msg - from RichardM.json");
 //		getKeyInfoAsnVerify("2026-04-03 group 2b - asn manhattan msg - from RichardM.json");
 //		getKeyInfoAsnVerify("2026-04-07 group 1b asn manhattan msg-soapUI.json");
 //		getKeyInfoAsnVerify("2026-04-07 group 2b asn manhattan msg-soapUI.json");
 //		getKeyInfoAsnVerify("2026-04-15 1b - asnVerify manhattan msg-soapUI.json");
+		getKeyInfoAsnVerify("2026-04-20 ASN Verify msg2_soapUI.json");
 
 //		getKeyInfoAsnVerifySpecificMessages("2026-04-07 group 2b asn manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"001\"");
 //		getKeyInfoAsnVerifySpecificMessages("2026-04-07 group 2b asn manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"003\"");
@@ -44,7 +46,7 @@ public class ParseFile {
 //		getKeyInfoAsnVerifySpecificMessages("2026-02-13 asn verify dupPoLineDupValue.json","\"AsnSequenceNumber\": \"007\"");
 //		getKeyInfoAsnVerifySpecificMessages("2026-04-08 group-1b ASN Verify msg-soapUI.json","\"AsnSequenceNumber\": \"001\"");
 //		getKeyInfoAsnVerifySpecificMessages("2026-04-15 1b - asnVerify manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"001\"");
-		getKeyInfoAsnVerifySpecificMessages("2026-04-15 1b - asnVerify manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"015\"");
+//		getKeyInfoAsnVerifySpecificMessages("2026-04-15 1b - asnVerify manhattan msg-soapUI.json","\"AsnSequenceNumber\": \"015\"");
 
 		
 		

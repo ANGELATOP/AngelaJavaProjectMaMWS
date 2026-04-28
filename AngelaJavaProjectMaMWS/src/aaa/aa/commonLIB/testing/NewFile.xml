@@ -1,0 +1,97 @@
+<Error>
+	<RecoverableException>
+		<File>/build/jenkins_swg/slot0/product-build/WMB/src/DataFlowEngine/MessageServices/ImbDataFlowNode.cpp
+		</File>
+		<Line>1607</Line>
+		<Function>ImbDataFlowNode::createExceptionList</Function>
+		<Type>ComIbmRESTRequestNode</Type>
+		<Name>SFStorePush#FCMComposite_1_9</Name>
+		<Label>SFStorePush.updateStore</Label>
+		<Catalog>BIPmsgs</Catalog>
+		<Severity>3</Severity>
+		<Number>2230</Number>
+		<Text>Node throwing exception</Text>
+		<Insert>
+			<Type>14</Type>
+			<Text>SFStorePush.updateStore</Text>
+		</Insert>
+		<RecoverableException>
+			<File>/build/jenkins_swg/slot0/product-build/WMB/src/WebServices/REST/ImbRestRequestNode.cpp
+			</File>
+			<Line>306</Line>
+			<Function>ImbRestRequestNode::requestData</Function>
+			<Type></Type>
+			<Name></Name>
+			<Label></Label>
+			<Catalog>BIPmsgs</Catalog>
+			<Severity>3</Severity>
+			<Number>6375</Number>
+			<Text>Caught exception and rethrowing</Text>
+			<Insert>
+				<Type>5</Type>
+				<Text>SFStorePush.updateStore</Text>
+			</Insert>
+			<Insert>
+				<Type>5</Type>
+				<Text>updateStore</Text>
+			</Insert>
+			<RecoverableException>
+				<File>/build/jenkins_swg/slot0/product-build/WMB/src/WebServices/WSBase/ImbWSRequest.cpp
+				</File>
+				<Line>726</Line>
+				<Function>Imb::WSRequest::makeWSRequest</Function>
+				<Type></Type>
+				<Name></Name>
+				<Label></Label>
+				<Catalog>BIPmsgs</Catalog>
+				<Severity>3</Severity>
+				<Number>3152</Number>
+				<Text>A Web Service request has detected a SOCKET error whilst
+					invoking a web service located at host &amp;1, on port &amp;2, on
+					path &amp;3.</Text>
+				<Insert>
+					<Type>5</Type>
+					<Text>10.1.200.65</Text>
+				</Insert>
+				<Insert>
+					<Type>2</Type>
+					<Text>5259</Text>
+				</Insert>
+				<Insert>
+					<Type>5</Type>
+					<Text>/o/awg/api/stores/5730</Text>
+				</Insert>
+				<SocketTimeoutException>
+					<File>/build/jenkins_swg/slot0/product-build/WMB/src/CommonServices/ImbBasicSocket.cpp
+					</File>
+					<Line>1233</Line>
+					<Function>ImbBasicSocket::recvTimeout</Function>
+					<Type></Type>
+					<Name></Name>
+					<Label></Label>
+					<Catalog>BIPmsgs</Catalog>
+					<Severity>3</Severity>
+					<Number>3151</Number>
+					<Text>A timeout occurred whilst performing a socket operation
+					</Text>
+					<Insert>
+						<Type>5</Type>
+						<Text>::poll()</Text>
+					</Insert>
+					<Insert>
+						<Type>2</Type>
+						<Text>0</Text>
+					</Insert>
+					<Insert>
+						<Type>5</Type>
+						<Text>Success</Text>
+					</Insert>
+					<Insert>
+						<Type>2</Type>
+						<Text>120000</Text>
+					</Insert>
+				</SocketTimeoutException>
+			</RecoverableException>
+		</RecoverableException>
+	</RecoverableException>
+</Error>

@@ -1,0 +1,74 @@
+{
+	"ContextInformation": {
+		"Messages": null,
+		"Organization": "KC",
+		"UserId": "system-msg-user@KC",
+		"UserLocale": "UTC",
+		"Location": "KC"
+	},
+	"CurrentPage": 8,
+	"ExportDocuments": [
+		{
+			"Messages": null,
+			"PIXSpecification": "InvSync_Summary_CC_Avail",
+			"Description": "InventorysyncsummarybyconditioncodeavailabletoHOST",
+			"SourceTransactionType": "AVAILABLE",
+			"SourceEventName": "INVENTORY_SUMMARY_BY_CONDITION_CODE",
+			"ItemDefinition": {
+				"ItemId": "0331444",
+				"Description": ""
+			},
+			"SubItemFields": {
+				"InventoryTypeId": "",
+				"ProductStatusId": "",
+				"InventoryAttribute1": "",
+				"InventoryAttribute2": "",
+				"InventoryAttribute3": "",
+				"InventoryAttribute4": "",
+				"InventoryAttribute5": "",
+				"CountryOfOrigin": "",
+				"PackUomQuantity": "",
+				"ItemBatchNumberId": "",
+				"ExpirationDate": "",
+				"ManufactureDate": ""
+			},
+			"PIXFields": {
+				"BusinessUnitId": "",
+				"ExternalOrganizationId": "",
+				"CreatedBy": "system-msg-user@KC",
+				"FromInventoryBucket": "",
+				"ToInventoryBucket": "",
+				"InventoryAdjustmentQty": "99.0",
+				"Quantity": "99.0",
+				"InventoryAdjustmentType": "ADD",
+				"AdjustedType": "ADD",
+				"AdjustedWeight": "0",
+				"AttributeWeight": "0",
+				"AdjustedWeightType": "ADD",
+				"SnapshotDateTime": "{nano=514763000,hour=7,minute=2,second=55,year=2026,month=APRIL,dayOfMonth=23,dayOfWeek=THURSDAY,dayOfYear=113,monthValue=4,chronology={id=ISO,calendarType=iso8601}}",
+				"SerializedSnapshotDateTime": "2026-04-23T07:02:55.514763",
+				"LocationId": "",
+				"AsnId": "",
+				"PurchaseOrderId": "",
+				"IlpnId": "",
+				"ReasonCodeId": "",
+				"SyncBatchId": "aecb64057996c8c4a4992a83dff2651db29c2a9df95143f114bf228198f3ac24",
+				"PixCount": "",
+				"TotalCount": "",
+				"ConditionCode": "",
+				"Disposition": "Available",
+				"CreatedTimestamp": "2026-04-23T07:07:03.502",
+				"UpdatedTimestamp": "2026-04-23T07:19:40.813",
+				"UpdatedBy": "system-msg-user@KC",
+				"TransactionNumber": "aecb64057996c8c4a4992a83dff2651db29c2a9df95143f114bf228198f3ac24",
+				"TransactionDateTime": "2026-04-23T07:02:55.514"
+			},
+			"TransactionNumber": "aecb64057996c8c4a4992a83dff2651db29c2a9df95143f114bf228198f3ac24",
+			"SequenceNumber": 1,
+			"TransactionDateTime": "2026-04-23T07:02:55.514",
+			"Organization": "KC",
+			"Facility": "KC"
+		}
+	],
+	"TotalPages": 25
+}
